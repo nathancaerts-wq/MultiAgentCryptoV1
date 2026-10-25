@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Lokale onderzoeksdatabase
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
