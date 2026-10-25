@@ -34,11 +34,17 @@ def create_app(store=None):
     def audit():
         return store.audits()
 
+    @app.get('/scanner')
+    def scanner():
+        from .models import Message
+        return [dict(record, usable=Message.model_validate({k:v for k,v in record.items() if k != 'id'}).usable())
+                for record in store.list('scan_runs')]
+
     def reader(table):
         def read():
             return store.list(table)
         return read
 
-    for route, table in {'coins': 'pairs', 'market': 'regimes', 'signals': 'results', 'research': 'research_results', 'errors': 'errors'}.items():
+    for route, table in {'coins': 'pairs', 'market': 'regimes', 'signals': 'results', 'research': 'research_results', 'errors': 'errors', 'candles': 'candles', 'data-quality': 'data_rejections'}.items():
         app.add_api_route('/'+route, reader(table), methods=['GET'])
     return app

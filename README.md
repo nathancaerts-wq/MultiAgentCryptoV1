@@ -40,3 +40,21 @@ opnieuw worden gecontroleerd wanneer netwerktoegang beschikbaar is.
 
 Zie [ARCHITECTURE.md](ARCHITECTURE.md), [PROGRESS.md](PROGRESS.md) en
 [NEXT_STEPS.md](NEXT_STEPS.md). De tests gebruiken uitsluitend lokale testdata.
+
+## Fase 2: marktdata en Coin Scanner
+
+Reproduceerbare lokale workflow (gebruik op Windows het Python-pad hierboven):
+
+```bash
+.venv/bin/python -m crypto.scan --fixture tests/fixtures/ohlcv.json --as-of 2026-01-02T00:00:00Z --watchlist BTCEUR ETHEUR SOLEUR
+.venv/bin/python -m crypto --db crypto.sqlite3
+```
+
+Deze fixture is **synthetisch**, geen historische Binance-opname. De scan wordt
+als historisch onderzoek opgeslagen. Een historische scan levert geen vers signaal
+op. De API toont `/scanner` met `usable`, `/candles` en `/data-quality`.
+`/signals` blijft de door de orchestrator geaccepteerde berichten tonen.
+
+De watchlist is configureerbaar; de standaardvoorbeelden zijn geen bewijs van
+actuele verhandelbaarheid. Zie [PHASE2_REPORT.md](PHASE2_REPORT.md) voor methode,
+netwerkbeperkingen en grenzen van de implementatie.

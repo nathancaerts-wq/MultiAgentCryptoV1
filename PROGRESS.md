@@ -40,3 +40,13 @@ De echte HTTP-server is gestart; /health en /portfolio geven de verwachte waarde
 
 Fase 1 vormt een testbare basis voor fase 2. De genoemde integratiebeperkingen
 moeten daar expliciet worden afgehandeld. Alleen virtuele voorstellen; geen transacties.
+
+## Fase 2
+
+Marktdata-engine, UTC-OHLCV-validatie, onveranderlijke importcache, volledige
+4h-aggregatie, deterministische multi-coin ranking, lokale CLI en alleen-lezen
+scanner/data-quality API toegevoegd. Alle 67 tests slagen (44 bestaande + 23 nieuwe).
+Geen risico- of handelscode aangepast. Netwerk: api.binance.com geeft HTTP 451;
+beide vision-hosts staan niet in de beschikbare allowlist en zijn niet getest.
+Actuele EUR-instrumenten en echte historische datasets blijven onbevestigd.
+Zie PHASE2_REPORT.md voor volledige oplevering en beperkingen.

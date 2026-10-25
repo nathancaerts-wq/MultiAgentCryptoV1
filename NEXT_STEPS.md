@@ -1,17 +1,18 @@
-# Concrete instructies voor fase 2
+# Vervolg na fase 2
 
-1. Lees ARCHITECTURE.md en voer de bestaande tests uit voordat je uitbreidt.
-2. Laat publieke HTTPS-toegang tot api.binance.com toe en herhaal exchangeInfo.
-   De eerste poging in de cloud gaf een proxy-403; gebruik geen verzonnen actuele paren.
-3. Sla EUR spot-symbolen en alle toepasselijke Binance-filters inclusief versie,
-   bron en ophaaltijd op. Breid filterondersteuning uit vóór enige simulatie van fills.
-4. Bouw een uitsluitend lezende downloader voor candles, orderboek en 24u-volume,
-   met rate limiting, retries, caching en expliciete datakwaliteitsstatus.
-5. Maak canonieke dataset-IDs/hashes, UTC-validatie en checks voor ontbrekende,
-   dubbele en toekomstige candles. Documenteer halfopen tijdsintervallen.
-6. Integreer scannerselectie met opgeslagen metadata en verse marktmetingen.
-7. Test met opgenomen kleine fixtures; behandel een echte publieke GET als aparte
-   optionele integratietest. Gebruik geen account, API-sleutel of orderendpoint.
-8. Voer Linux-tests én Windows 11-installatie/starttests uit. Werk voortgang bij.
+Fase 2 is afgerond met lokale fixtures. Begin fase 3 alleen na expliciet verzoek.
 
-Bouw in fase 2 geen strategieactivatie, live-tradingpad of grafisch dashboard.
+1. Laat, indien gewenst, data-api.binance.vision en data.binance.vision expliciet
+   toe in de omgeving. Test officiële publieke endpoints zonder locatiebeperkingen
+   te omzeilen; accepteer 451/403 als blokkade, gebruik geen proxy-omweg.
+2. Verifieer EUR-instrumenten met officiële metadata en documenteer welke
+   historische perioden werkelijk beschikbaar zijn. Bouw een canoniek register.
+3. Valideer een kleine echte dataset tegen het bestaande Candle-schema. Een
+   archiefadapter vereist checksumverificatie en expliciete timestamp-eenheden.
+4. Fase 3: breid de onderzoekscontracten uit voor regime, indicatoren en meerdere
+   tijdsframes. Gebruik uitsluitend gegevens beschikbaar op het evaluatietijdstip.
+5. Behoud 67 tests en voeg nieuwe controles voor concrete datasets toe. Voer ook
+   Windows 11-installatie/starttests uit; dit is nog niet geverifieerd.
+
+Geen strategieactivatie, orderuitvoering, portefeuilletransacties of dashboard
+zonder aparte faseopdracht. Harde risicogrenzen blijven behouden.
