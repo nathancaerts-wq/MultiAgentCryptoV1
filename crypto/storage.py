@@ -6,7 +6,7 @@ from .models import now
 
 TABLES = ('coins', 'pairs', 'candles', 'agents', 'results', 'regimes', 'hypotheses',
           'strategies', 'proposals', 'risk_decisions', 'orders', 'positions',
-          'portfolio_history', 'research_results', 'errors', 'periods', 'datasets', 'data_rejections', 'scan_runs')
+          'portfolio_history', 'research_results', 'errors', 'periods', 'datasets', 'data_rejections', 'scan_runs', 'analyses')
 
 
 class Storage(Protocol):

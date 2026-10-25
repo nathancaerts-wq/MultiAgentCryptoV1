@@ -40,6 +40,12 @@ def create_app(store=None):
         return [dict(record, usable=Message.model_validate({k:v for k,v in record.items() if k != 'id'}).usable())
                 for record in store.list('scan_runs')]
 
+    @app.get('/analyses')
+    def analyses():
+        from .models import Message
+        return [dict(record, usable=Message.model_validate({k:v for k,v in record.items() if k != 'id'}).usable())
+                for record in store.list('analyses')]
+
     def reader(table):
         def read():
             return store.list(table)

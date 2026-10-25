@@ -64,3 +64,20 @@ BTCEUR en ETHEUR 1h/4h komen exact overeen. Geen orders aangemaakt.
 Beperkingen: uitsluitend dagelijkse expliciete batches van maximaal zeven archieven,
 geen automatische verversing van gewijzigde bronbestanden; Windows niet uitgevoerd.
 Zie PHASE2B_REPORT.md. Fase 3 niet gestart.
+
+## Fase 3
+
+Vier gespecialiseerde onderzoeksagenten toegevoegd: market regime, technical
+analysis, multi-timeframe en news/sentiment. Geïntegreerd met scanner, DAG,
+Message-validatie, audit, SQLite en alleen-lezen API. Deterministische EMA/RSI/ATR,
+momentum en prijsstructuur; parameters en candleprovenance worden vastgelegd.
+Geen betrouwbare nieuwsfeed: expliciet unknown, geen verzonnen sentiment.
+Historische replay ververst geen signaal; ontbrekende data/conflicten blijven zichtbaar.
+
+124 tests geslaagd, 0 mislukt (96 bestaande + 28 nieuwe). Zes echte publieke GETs
+HTTP 200, 192 candles, twee historische coinrapporten; alle indicatorframes compleet,
+regime uncertain, timeframes conflict, rapporten incomplete door ontbrekend nieuws.
+Lokale CLI en API eveneens getest. Eén bestaande dependencywaarschuwing.
+Beperkingen: geen point-in-time bronversies/publicatielatentie of betrouwbare nieuwsfeed,
+Windows niet uitgevoerd, single-process SQLite. Zie PHASE3_REPORT.md.
+Geen transacties of parameteroptimalisatie. Fase 4 niet gestart.

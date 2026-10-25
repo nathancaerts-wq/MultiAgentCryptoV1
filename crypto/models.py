@@ -34,8 +34,8 @@ class Message(Model):
             raise ValueError("UTC vereist")
         return self
 
-    def usable(self):
-        age = (now() - self.timestamp).total_seconds()
+    def usable(self, at=None):
+        age = ((at or now()) - self.timestamp).total_seconds()
         return self.status == "ok" and 0 <= age < self.ttl_seconds
 
 

@@ -79,3 +79,14 @@ als onafhankelijk bewijs dienen. Dataset-IDs moeten canoniek blijven; later is e
 globaal datasetregister met hashes nodig. Goedkeuring vereist reviewer en bewijs,
 maar blijft een inactieve kandidaat. Fase 1 bevat geen authenticatie, automatische
 bewijsbeoordeling, strategieactivatie of echte backtestberekening.
+
+## Fase-3-onderzoeksworkflow
+
+De vier concrete agents in crypto.analysis gebruiken een gedeelde gevalideerde
+AnalysisContext per coin met 15m/1h/4h snapshots. De werkelijke onderzoeks-DAG is:
+scanner → technical → regime/multi_timeframe; scanner → sentiment;
+scanner + vier agents → CombinedResearchAgent. Dit pad eindigt bij onderzoek,
+zonder entry/exit/decision/risk/execution aan te roepen. run_research verzorgt
+opslag, eventhergebruik en expliciete historische evaluatietijd. De bestaande
+orchestratorstandaard voor actuele berichtvalidatie blijft behouden.
+Details en beperkingen staan in PHASE3_REPORT.md.

@@ -1,18 +1,18 @@
-# Vervolg na fase 2B
+# Vervolg na fase 3
 
-Fase 2B is afgerond. Begin fase 3 uitsluitend na expliciet verzoek.
+Fase 3 is afgerond. Begin fase 4 alleen na expliciet verzoek.
 
-1. Behoud de 96 tests en de kleine officiële archieffixtures met checksum-bestanden.
-2. Gebruik ArchiveDataAdapter voor expliciete dagelijkse historische imports;
-   roep verify_4h aan voor controles van officiële 4h-data tegenover 1h-data.
-3. Leg bij verdere dataontwikkeling een expliciet broncorrectie/cacheverversingsbeleid
-   vast. Bestaande imports zijn onveranderlijke momentopnamen, geen actuele bronspiegel.
-4. Verifieer instrumentbeschikbaarheid apart met officiële metadata voordat ooit
-   simulaties met actuele handelsregels worden gebouwd. Historische data bewijzen
-   geen actuele verhandelbaarheid. Archiveer metadata met bron en tijdstip.
-5. Fase 3 kan de bestaande onderzoekscontracten voor regime, indicatoren en meerdere
-   tijdsframes uitwerken. Gebruik uitsluitend data beschikbaar op het evaluatietijdstip.
-6. Voer Windows 11-installatie- en starttests uit; de huidige validatie is op Linux.
+1. Behoud alle 124 tests en de officiële checksum-fixtures. Lees PHASE3_REPORT.md.
+2. Voor eventueel later backtesting: definieer point-in-time datasetversies,
+   candlepublicatielatentie, indicator-warm-up, kosten en onafhankelijke evaluatie.
+   Historische onderzoeksrapporten zijn nog geen backtests of handelsadviezen.
+3. Stel pas na broncontrole een betrouwbare NewsAdapter beschikbaar. Publicatie,
+   werkelijke beschikbaarheid en verval zijn verplicht; unknown blijft het veilige
+   resultaat zonder bruikbare bron. Gebruik geen betaalde API zonder toestemming.
+4. Onderzoek procesisolatie voor blokkerende workloads en een expliciet
+   archiefcorrectie/cacheverversingsbeleid. Voer Windows 11-installatie/starttests uit.
+5. Bewaak dat incomplete data, conflicten en historische timestamps ook in latere
+   consumenten zichtbaar blijven. usable is berichtgeldigheid, geen handelsautorisatie.
 
-Geen strategieactivatie, orders, parameteroptimalisatie of dashboard zonder aparte
-opdracht. Harde risicogrenzen en bestaande tradinginstellingen blijven behouden.
+Geen automatische strategieactivatie, optimalisatie, transacties of dashboard.
+Bestaande risicogrenzen en overige tradingbots blijven behouden.

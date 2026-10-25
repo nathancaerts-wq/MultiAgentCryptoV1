@@ -12,7 +12,7 @@ class Component:
 
 COMPONENTS = (
     Component('scanner', 'deterministic', 'Selecteer liquide EUR spotparen', ()),
-    Component('regime', 'research', 'Classificeer marktregime', ('scanner',)),
+    Component('regime', 'research', 'Classificeer marktregime', ('technical',)),
     Component('technical', 'deterministic', 'Bereken indicatoren', ('scanner',)),
     Component('multi_timeframe', 'deterministic', 'Vergelijk tijdsframes', ('technical',)),
     Component('sentiment', 'research', 'Onderzoek nieuws en sentiment', ('scanner',)),

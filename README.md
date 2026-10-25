@@ -81,3 +81,18 @@ store.close()
 Dit importeert alleen een expliciet opgegeven historische dag. Maximaal zeven
 dagarchieven per aanvraag. Officiële checksums worden vóór verwerking gecontroleerd.
 Zie [PHASE2B_REPORT.md](PHASE2B_REPORT.md) voor validatie, caching en testresultaten.
+
+## Fase 3: gespecialiseerde analyses
+
+Expliciete historische onderzoeksworkflow met kleine publieke datasets:
+
+```bash
+.venv/bin/python -m crypto.research_run --source public --as-of 2025-01-11T00:00:00Z --coins BTCEUR ETHEUR --db crypto.sqlite3
+```
+
+Ook `--source archive` en `--source fixture --fixture bestand.json` zijn beschikbaar.
+Gebruik `--lookback` voor het onderzoeksvenster (default 32) en eventueel `--config`
+met een JSON IndicatorConfig. Dit is handmatige configuratie, geen optimalisatie.
+Rapporten staan in de alleen-lezen API `/analyses`; regimes ook in `/market`.
+Onvolledige gegevens en conflicten blijven zichtbaar, nieuws is standaard unknown.
+Zie [PHASE3_REPORT.md](PHASE3_REPORT.md) voor indicatorformules en tijdsbeperkingen.

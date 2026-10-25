@@ -16,9 +16,14 @@ class Task:
 
 
 class Orchestrator:
-    def __init__(self, store, timeout=5):
+    def __init__(self, store, timeout=5, evaluation_time=None, reuse_results=False):
         if timeout <= 0:
             raise ValueError('Positieve timeout vereist')
+        if evaluation_time is not None:
+            from .data import utc
+            utc(evaluation_time)
+        self.reuse_results = reuse_results
+        self.evaluation_time = evaluation_time
         self.store, self.timeout = store, timeout
         self.agents, self.paused = {}, set()
 
@@ -69,13 +74,24 @@ class Orchestrator:
                     if task.agent in self.paused or set(task.dependencies) & failed:
                         raise ValueError('Agent gepauzeerd of afhankelijkheid mislukt')
                     inputs = tuple(results[d].model_copy(deep=True) for d in task.dependencies)
-                    if any(not m.usable() for m in inputs):
+                    if any(not m.usable(self.evaluation_time) for m in inputs):
                         raise ValueError('Verlopen afhankelijkheid')
                     self.store.audit('scheduled', key)
                     raw = await asyncio.wait_for(self.agents[task.agent].run(inputs), self.timeout)
                     message = Message.model_validate(raw.model_dump() if isinstance(raw, Message) else raw)
-                    if message.agent_id != task.agent or not message.usable():
+                    if message.agent_id != task.agent or not message.usable(self.evaluation_time):
                         raise ValueError('Ongeldig, verlopen of verkeerd toegeschreven resultaat')
+                    if self.reuse_results:
+                        from .models import Message as ResultMessage
+                        import json
+                        existing = self.store.db.execute('SELECT payload FROM results WHERE id=?', (str(message.event_id),)).fetchone()
+                        if existing:
+                            previous = ResultMessage.model_validate(json.loads(existing[0]))
+                            if previous.model_dump(mode='json') != message.model_dump(mode='json'):
+                                raise ValueError('Event-ID inhoudsconflict')
+                            results[key] = previous
+                            self.store.audit('reused', str(message.event_id))
+                            continue
                     with self.store.transaction():
                         self.store.put('results', message.event_id, message.model_dump(mode='json'))
                         self.store.audit('accepted', str(message.event_id))
