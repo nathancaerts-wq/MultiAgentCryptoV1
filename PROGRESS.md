@@ -81,3 +81,16 @@ Lokale CLI en API eveneens getest. Eén bestaande dependencywaarschuwing.
 Beperkingen: geen point-in-time bronversies/publicatielatentie of betrouwbare nieuwsfeed,
 Windows niet uitgevoerd, single-process SQLite. Zie PHASE3_REPORT.md.
 Geen transacties of parameteroptimalisatie. Fase 4 niet gestart.
+
+## Fase 4
+
+QuantResearcher, ResearchPlan en OfflineResearchOptimizer toegevoegd met vaste
+hypotheses, preregistratie, chronologische splits/embargo, walk-forward-planning,
+bundelhashcontrole en duurzame registratie van bekeken testperioden.
+Kosten- en risicorekeninterfaces: €200 en maximaal 0,5% gepland risico per trade.
+Bestaande productiestrategieën, agents en harde grenzen worden niet gewijzigd.
+
+154 tests geslaagd, 0 mislukt (124 bestaande + 30 nieuwe). Geen gevalideerde
+fillsimulator aanwezig: prestaties, benchmarks en gevoeligheidsuitkomsten blijven
+expliciet niet berekend, met onvoldoende bewijs. Geen winstclaims of transacties.
+Zie RESEARCH_PROTOCOL.md en PHASE4_REPORT.md. Fase 5 is niet gestart.

@@ -96,3 +96,17 @@ met een JSON IndicatorConfig. Dit is handmatige configuratie, geen optimalisatie
 Rapporten staan in de alleen-lezen API `/analyses`; regimes ook in `/market`.
 Onvolledige gegevens en conflicten blijven zichtbaar, nieuws is standaard unknown.
 Zie [PHASE3_REPORT.md](PHASE3_REPORT.md) voor indicatorformules en tijdsbeperkingen.
+
+## Fase 4: begrensd offline onderzoek
+
+`crypto.protocol.ResearchPlan` legt hypotheses, parameters, chronologische perioden,
+data- en rapporthashes vast. Registreer dit via
+`crypto.offline_optimizer.OfflineResearchOptimizer.register(plan)` vóór inzage.
+`inspect(plan_id, stage, reports, dataset_sha256)` valideert bestaande fase-3-
+berichten en bewaart onderzoeksselecties en expliciet onbekende prestaties.
+Stages: development, validation, independent_test. Gebruik `report_digest` voor
+de vooraf vastgelegde bundelhash per stage. Er is geen optimizer-zoeklus of promotie.
+
+Lees [RESEARCH_PROTOCOL.md](RESEARCH_PROTOCOL.md) en
+[PHASE4_REPORT.md](PHASE4_REPORT.md): betrouwbare backtests wachten op een
+gevalideerde fillsimulator en ledger. Huidige prestatievelden zijn bewust null.

@@ -90,3 +90,15 @@ zonder entry/exit/decision/risk/execution aan te roepen. run_research verzorgt
 opslag, eventhergebruik en expliciete historische evaluatietijd. De bestaande
 orchestratorstandaard voor actuele berichtvalidatie blijft behouden.
 Details en beperkingen staan in PHASE3_REPORT.md.
+
+## Fase-4-onderzoeksinterfaces
+
+QuantResearcher leest bestaande gevalideerde analyseberichten en toetst drie vaste
+combinaties. ResearchPlan bindt hypotheses, indicatorparameters, periodes,
+kosten/risico en rapportbundels met een SHA-256-ID. OfflineResearchOptimizer
+registreert dat plan en inzage in deelperioden via research_plans en
+research_exposures; selecties en onbekende prestatievelden gaan naar bestaande
+research_results. Er is geen verbinding naar productieconfiguraties of execution.
+De oudere ResearchOptimizer-interface blijft bestaan. Zie RESEARCH_PROTOCOL.md
+voor de vooraf vastgelegde hypotheses en PHASE4_REPORT.md voor de beperking tot
+onderzoeksinterfaces zolang een gevalideerde fillsimulator ontbreekt.
