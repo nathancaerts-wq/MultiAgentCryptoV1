@@ -50,3 +50,17 @@ Geen risico- of handelscode aangepast. Netwerk: api.binance.com geeft HTTP 451;
 beide vision-hosts staan niet in de beschikbare allowlist en zijn niet getest.
 Actuele EUR-instrumenten en echte historische datasets blijven onbevestigd.
 Zie PHASE2_REPORT.md voor volledige oplevering en beperkingen.
+
+## Fase 2B
+
+Officiële dagelijkse Binance Spot ZIP/CSV-adapter toegevoegd met verplichte SHA-256,
+exacte ms/us-conversie volgens het gedocumenteerde datumformaat, volledige dagvalidatie
+en expliciete officiële 1h/4h-vergelijking. Integreert met Candle en bestaande caching;
+datasetrecords bewaren archiefprovenance, checksum en validatiestatus.
+
+96 tests slagen: alle 67 bestaande plus 29 nieuwe archieftests. Echte integratie:
+7 kleine archieven via HTTP 200, 276 geldige candles, alle checksums gelijk;
+BTCEUR en ETHEUR 1h/4h komen exact overeen. Geen orders aangemaakt.
+Beperkingen: uitsluitend dagelijkse expliciete batches van maximaal zeven archieven,
+geen automatische verversing van gewijzigde bronbestanden; Windows niet uitgevoerd.
+Zie PHASE2B_REPORT.md. Fase 3 niet gestart.

@@ -58,3 +58,26 @@ op. De API toont `/scanner` met `usable`, `/candles` en `/data-quality`.
 De watchlist is configureerbaar; de standaardvoorbeelden zijn geen bewijs van
 actuele verhandelbaarheid. Zie [PHASE2_REPORT.md](PHASE2_REPORT.md) voor methode,
 netwerkbeperkingen en grenzen van de implementatie.
+
+## Fase 2B: officiële dagarchieven
+
+Gebruik de nieuwe adapter rechtstreeks met dezelfde Data Engine:
+
+```python
+from datetime import datetime, timezone, timedelta
+from crypto.archive import ArchiveDataAdapter, verify_4h
+from crypto.data import DataEngine
+from crypto.storage import SQLiteStore
+
+start = datetime(2025, 1, 10, tzinfo=timezone.utc)
+end = start + timedelta(days=1)
+store = SQLiteStore('crypto.sqlite3')
+engine = DataEngine(store, ArchiveDataAdapter())
+candles = engine.load('BTCEUR', '1h', start, end, end)
+comparison = verify_4h(engine, 'BTCEUR', start, end, end)
+store.close()
+```
+
+Dit importeert alleen een expliciet opgegeven historische dag. Maximaal zeven
+dagarchieven per aanvraag. Officiële checksums worden vóór verwerking gecontroleerd.
+Zie [PHASE2B_REPORT.md](PHASE2B_REPORT.md) voor validatie, caching en testresultaten.

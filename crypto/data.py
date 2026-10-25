@@ -129,7 +129,7 @@ class DataEngine:
                 payload=[r.model_dump(mode='json') for r in rows]
                 digest=hashlib.sha256(json.dumps(payload,sort_keys=True).encode()).hexdigest()
                 with self.store.transaction():
-                    self.store.put('datasets',key,{'rows':payload,'sha256':digest,'imported_at':datetime.now(timezone.utc).isoformat()})
+                    self.store.put('datasets',key,{'rows':payload,'sha256':digest,'imported_at':datetime.now(timezone.utc).isoformat(), 'archive_manifest':getattr(self.adapter, 'last_manifest', [])})
                     for r in rows:
                         cid=hashlib.sha256(json.dumps(r.model_dump(mode='json'),sort_keys=True).encode()).hexdigest()
                         if not self.store.db.execute('SELECT 1 FROM candles WHERE id=?',(cid,)).fetchone():

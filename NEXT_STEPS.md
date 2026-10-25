@@ -1,18 +1,18 @@
-# Vervolg na fase 2
+# Vervolg na fase 2B
 
-Fase 2 is afgerond met lokale fixtures. Begin fase 3 alleen na expliciet verzoek.
+Fase 2B is afgerond. Begin fase 3 uitsluitend na expliciet verzoek.
 
-1. Laat, indien gewenst, data-api.binance.vision en data.binance.vision expliciet
-   toe in de omgeving. Test officiële publieke endpoints zonder locatiebeperkingen
-   te omzeilen; accepteer 451/403 als blokkade, gebruik geen proxy-omweg.
-2. Verifieer EUR-instrumenten met officiële metadata en documenteer welke
-   historische perioden werkelijk beschikbaar zijn. Bouw een canoniek register.
-3. Valideer een kleine echte dataset tegen het bestaande Candle-schema. Een
-   archiefadapter vereist checksumverificatie en expliciete timestamp-eenheden.
-4. Fase 3: breid de onderzoekscontracten uit voor regime, indicatoren en meerdere
-   tijdsframes. Gebruik uitsluitend gegevens beschikbaar op het evaluatietijdstip.
-5. Behoud 67 tests en voeg nieuwe controles voor concrete datasets toe. Voer ook
-   Windows 11-installatie/starttests uit; dit is nog niet geverifieerd.
+1. Behoud de 96 tests en de kleine officiële archieffixtures met checksum-bestanden.
+2. Gebruik ArchiveDataAdapter voor expliciete dagelijkse historische imports;
+   roep verify_4h aan voor controles van officiële 4h-data tegenover 1h-data.
+3. Leg bij verdere dataontwikkeling een expliciet broncorrectie/cacheverversingsbeleid
+   vast. Bestaande imports zijn onveranderlijke momentopnamen, geen actuele bronspiegel.
+4. Verifieer instrumentbeschikbaarheid apart met officiële metadata voordat ooit
+   simulaties met actuele handelsregels worden gebouwd. Historische data bewijzen
+   geen actuele verhandelbaarheid. Archiveer metadata met bron en tijdstip.
+5. Fase 3 kan de bestaande onderzoekscontracten voor regime, indicatoren en meerdere
+   tijdsframes uitwerken. Gebruik uitsluitend data beschikbaar op het evaluatietijdstip.
+6. Voer Windows 11-installatie- en starttests uit; de huidige validatie is op Linux.
 
-Geen strategieactivatie, orderuitvoering, portefeuilletransacties of dashboard
-zonder aparte faseopdracht. Harde risicogrenzen blijven behouden.
+Geen strategieactivatie, orders, parameteroptimalisatie of dashboard zonder aparte
+opdracht. Harde risicogrenzen en bestaande tradinginstellingen blijven behouden.
