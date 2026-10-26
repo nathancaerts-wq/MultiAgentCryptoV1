@@ -120,3 +120,17 @@ uitvoeringscandles per coin. Validatie en onafhankelijke test zijn niet beschikb
 in deze interface. Het toetsen van striktere veiligheidsvoorwaarden is geen nieuwe
 statistische validatie van de oorspronkelijke hypotheses. Er is geen zoeklus,
 strategiepromotie of claim van positieve verwachtingswaarde.
+
+## Aanvulling fase 6A — gezamenlijke technische ontwikkeltests
+
+JointPolicy phase6a-v1 bindt de volledige watchlist aan één €200-ledger en één
+positieplaats. De bestaande hypothesevoorwaarden blijven gelijk. Cash en risico
+worden centraal gereserveerd; kandidaatprioriteit is vooraf vastgelegd als
+scannerscore dalend en een UTC-kwartierrotatie bij gelijke scores. De prioriteitsregel
+is geen geoptimaliseerde strategie en wordt niet aangepast op grond van resultaten.
+
+Het gezamenlijke plan bindt alle rapporten, filters en uitvoeringscandles vóór
+selectie. Alleen kleine ontwikkeltests zijn toegankelijk; onafhankelijke test en
+formele validatie blijven gesloten. Verliezen, kosten en pauzes worden tussen coins
+gedeeld. Geïsoleerde fase-4B/5-resultaten worden niet opgeteld tot een gezamenlijke
+portefeuille en niet achteraf herschreven. Zie PHASE6A_REPORT.md.

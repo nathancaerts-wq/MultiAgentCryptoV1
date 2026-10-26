@@ -142,3 +142,26 @@ PYTHONPATH=. .venv/bin/python scripts/phase5_smoke.py
 
 Resultaten: alleen-lezen `/decisions`, `/research-trade-reviews` en `/research-fills`.
 Stop na fase 5; geen automatische activatie of volgende fase.
+
+## Fase 6A: één gezamenlijke offline portefeuille
+
+`crypto.joint_portfolio.JointPortfolio` deelt één €200-ledger over meerdere EUR-paren.
+Gebruik deze expliciete mode voor gezamenlijk onderzoek; de oudere coin-experimenten
+blijven afzonderlijke interfaces. JointPolicy staat maximaal één gelijktijdige
+positie toe en legt de kandidaatprioriteit vooraf vast.
+
+```python
+from crypto.joint_portfolio import JointPortfolio, JointPolicy
+
+joint = JointPortfolio(store, plan, JointPolicy(), filters, reports, bars)
+batch = await joint.evaluate(as_of)  # Beoordelen en reserveren, geen fill.
+view = joint.snapshot()             # Eén cashbalans, vrij/reserve, bezit en P&L.
+# Alleen expliciet, indien batch['reservation'] is toegekend:
+# outcome = joint.execute(batch['id'])
+```
+
+`filters` en `bars` zijn mappings per symbool; reports moet de vooraf geregistreerde
+ontwikkelbundel zijn. Lees PHASE6A_REPORT.md voor volledige voorwaarden en beperkingen.
+De centrale historische weergave staat op `/joint-portfolios`; kandidaten en
+uitkomsten op `/joint-candidates` en `/joint-settlements`. Alle routes zijn alleen-lezen.
+Geen automatische paper-orders, live trading of vrijgave van de onafhankelijke test.

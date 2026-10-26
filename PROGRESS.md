@@ -124,3 +124,17 @@ met zes officiële Binance-archieven en 252 candles; alle checksums geldig. BTC/
 met synthetische fixtures getest. Onafhankelijke test blijft gesloten; geen nieuwe
 uitgebreide backtests. Zie PHASE5_REPORT.md en experiments/phase5_smoke.json.
 Fase 5 afgerond; geen volgende fase gestart.
+
+## Fase 6A
+
+Nieuwe gezamenlijke portefeuillemode met één €200-balans voor de hele EUR-watchlist.
+Cash, bezit, fees, P&L en verliespauzes blijven gedeeld bij muntwissels. Centrale
+Risk Engine, één positieplaats, atomische reserveringen, reproduceerbare ranking
+met zichtbare UTC-rotatie bij ties, expliciete offline fills en duurzame deduplicatie.
+Bestaande simulator, bots en risicoconfiguraties zijn behouden.
+
+287 tests geslaagd, 0 mislukt: alle 251 bestaande plus 36 nieuwe. Twee verbindingen,
+rollback, muntwissels, heropening, gedeelde verliesbescherming en de volledige
+portefeuille-reproduceerbaarheid zijn getest met kleine fixtures. Geen nieuwe
+historische downloads, parameteroptimalisatie of onafhankelijke testinzage.
+Zie PHASE6A_REPORT.md. Fase 6A afgerond; geen volgende fase gestart.

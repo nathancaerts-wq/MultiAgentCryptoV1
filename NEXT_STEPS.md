@@ -1,22 +1,24 @@
-# Vervolg na fase 5
+# Vervolg na fase 6A
 
-Fase 5 is afgerond. Stop hier; start een volgende fase alleen na expliciet verzoek.
-Behoud alle 251 tests en lees PHASE5_REPORT.md vóór vervolgwerk.
+Fase 6A is afgerond. Stop hier; start een volgende fase alleen na expliciet verzoek.
+Behoud alle 287 tests en lees PHASE6A_REPORT.md vóór vervolgwerk.
 
-1. Behoud de gesloten onafhankelijke test. Fase 5 heeft alleen een ontwikkelpad;
-   toekomstige evaluatie vereist vooraf een expliciet onderzoeksprotocol.
-2. Behoud het bevroren beslisbeleid en de drie oorspronkelijke hypotheses. Geen
-   automatische promotie, parameteroptimalisatie of winstclaim op basis van fixtures.
-3. Valideer historische metadata, publicatielatentie, liquiditeit, kosten en
-   intrabar-aannames vóór eventuele grotere studies. Een enkele archiefdag bevat
-   onvoldoende indicatorhistorie en geeft daarom HOLD.
-4. Ontwerp alleen na nieuwe opdracht een gezamenlijke multi-coinportefeuille of
-   operationele planner. De huidige EUR 200-ledgers zijn afzonderlijke experimenten.
-   Behoud maximaal 0,5% gepland risico, 50% exposure en alle verliespauzes.
-5. Houd toekomstige live- of paperuitvoering gescheiden van deze onderzoeksinterfaces;
-   geen automatische uitvoering via de alleen-lezen API. Regel eerst benodigde
-   monitoring, autorisatie en aanvullende verificatie als de scope ooit verandert.
-6. Voer Windows-validatie en dependencyonderhoud uit in een afzonderlijke wijziging.
+1. Houd de onafhankelijke historische test gesloten. Alleen ontwikkeling is
+   beschikbaar in de gezamenlijke mode; een andere evaluatie vereist vooraf
+   een expliciet onderzoeksprotocol en toestemming.
+2. Behoud één gedeelde €200-balans en maximaal één open positie. Verruim dit niet
+   zonder een afzonderlijke opdracht voor gezamenlijke exposure/correlatie,
+   risicoreserveringen en aanvullende tests.
+3. Behoud de vaste prioriteitsregels, beslisvoorwaarden, maximaal 0,5% gepland
+   risico en alle verliespauzes. Geen automatische parameteroptimalisatie of promotie.
+4. Valideer metadata, kosten, liquiditeit en intrabar-aannames vóór grotere studies.
+   De kleine technische fixturetests vormen geen winstbewijs.
+5. Houd `/joint-portfolios` gescheiden van de bestaande paper-portefeuille. Combineer
+   afzonderlijke onderzoeksplannen niet als één doorlopend portefeuille-resultaat.
+6. Onderzoek alleen na nieuwe opdracht verdere operationele monitoring, planners
+   of uitgebreidere portefeuillefunctionaliteit. Deze fase bevat geen automatische
+   paperbot, schrijf-API, echte orders of beursverbinding.
+7. Voer Windows-validatie en dependencyonderhoud uit in een afzonderlijke wijziging.
 
-Geen echte transacties, API-sleutels, verhoging van risicogrenzen of wijzigingen
- aan andere tradingbots.
+Geen API-sleutels, live trading, verhoging van risicogrenzen of wijzigingen aan
+andere tradingbots.

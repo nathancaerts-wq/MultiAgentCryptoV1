@@ -46,11 +46,21 @@ def create_app(store=None):
         return [dict(record, usable=Message.model_validate({k:v for k,v in record.items() if k != 'id'}).usable())
                 for record in store.list('analyses')]
 
+    @app.get('/joint-portfolios')
+    def joint_portfolios():
+        # Laatst opgeslagen historische waardering; geen live koersclaim.
+        latest = {}
+        for (payload,) in store.db.execute('SELECT payload FROM joint_states ORDER BY rowid'):
+            import json
+            record = json.loads(payload)
+            latest[record['portfolio']] = record['valuation']
+        return [latest[key] for key in sorted(latest)]
+
     def reader(table):
         def read():
             return store.list(table)
         return read
 
-    for route, table in {'coins': 'pairs', 'market': 'regimes', 'signals': 'results', 'research': 'research_results', 'errors': 'errors', 'candles': 'candles', 'data-quality': 'data_rejections', 'backtests': 'backtest_runs', 'simulation-protocols': 'simulation_protocols', 'decisions': 'trade_decisions', 'research-trade-reviews': 'research_trade_reviews', 'research-fills': 'research_fills'}.items():
+    for route, table in {'coins': 'pairs', 'market': 'regimes', 'signals': 'results', 'research': 'research_results', 'errors': 'errors', 'candles': 'candles', 'data-quality': 'data_rejections', 'backtests': 'backtest_runs', 'simulation-protocols': 'simulation_protocols', 'decisions': 'trade_decisions', 'research-trade-reviews': 'research_trade_reviews', 'research-fills': 'research_fills', 'joint-protocols': 'joint_protocols', 'joint-states': 'joint_states', 'joint-candidates': 'joint_batches', 'joint-settlements': 'joint_settlements'}.items():
         app.add_api_route('/'+route, reader(table), methods=['GET'])
     return app

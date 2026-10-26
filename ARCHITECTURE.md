@@ -147,3 +147,38 @@ research_fills en research_ledger_states zijn gescheiden van papertrading. De la
 bewaart ook HOLD-waarderingen en herstartbare ledgerstaat. De API heeft uitsluitend
 leesroutes voor beslissingen, beoordelingen en onderzoeksfills. Zie PHASE5_REPORT.md
 voor de regels, exitprioriteit, onbekende nieuwsdata en modelbeperkingen.
+
+## Fase-6A-gezamenlijke portefeuillemode
+
+`JointPortfolio` in crypto.joint_portfolio is een expliciete nieuwe mode. Eén
+OfflineLedger met eenmaal €200 wordt gedeeld door de volledige ResearchPlan-watchlist;
+er worden geen coin-sessies met afzonderlijk startkapitaal gemaakt. Decision/Entry
+krijgen kopieën van die balans. De bestaande centrale RiskEngine en fase-5-controles
+beoordelen voorstellen vóór reservering en opnieuw vóór expliciete uitvoering.
+De bestaande fillsimulator en andere portefeuillemodes blijven ongewijzigd.
+
+```mermaid
+flowchart TD
+  A[Vooraf gebonden multi-coinanalyses] --> D[Decision en Entry per coin]
+  D --> C[Centrale rangschikking en Risk Engine]
+  C --> R[Eén cash- en positieplaatsreservering]
+  R --> X[Expliciete offline execute]
+  X --> L[Eén gedeelde EUR-ledger]
+  L --> E[Exitbewaking en centrale verliespauzes]
+  E --> X
+  L --> DB[(joint_states / batches / settlements)]
+  DB --> API[Alleen-lezen gezamenlijke snapshots]
+```
+
+JointPolicy staat uitsluitend één open positie toe. Prioriteit is scannerscore
+dalend, daarna een vastgelegde UTC-rotatie bij gelijke scores. Invoer- en aankomstvolgorde
+bepalen niet de selectie. Alle afwijzingen en hun onderbouwing worden bewaard.
+BEGIN IMMEDIATE, state-revisies en unieke batch-/settlement-ID's beschermen tegen
+dubbele reserveringen, dubbele fills en verloren wijzigingen tussen verbindingen.
+
+joint_protocols bindt plan, beleid, filters en datahashes. joint_states bewaart de
+volledige ledger, reservering en historische waardering. joint_batches bewaart
+alle kandidaten; joint_settlements bewaart fills, afwijzingen en vervallen reserveringen.
+De nieuwe `/joint-portfolios`-route staat los van de oude `/portfolio`-interface.
+Alleen kleine ontwikkeltests zijn toegestaan; de onafhankelijke test blijft gesloten.
+Zie PHASE6A_REPORT.md voor prioriteit, uitvoeringsaannames en resterende beperkingen.
