@@ -1,0 +1,652 @@
+{
+  "artifacts": [
+    {
+      "archive_metadata": [
+        {
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-10.zip.CHECKSUM",
+          "end": "2025-01-11T00:00:00+00:00",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "sha256": "a034d2f10ece1ffa26d185d837fed7297d36249f77c5e3a42d377872a9f287b6",
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-10.zip",
+          "start": "2025-01-10T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "execution_metadata": {
+        "benchmarks": [
+          "ema_trend"
+        ],
+        "candle_hashes": [
+          "f34c68920204a10198c3162ce54c2ce9da46c53ce62a059c74cf331c26e42416",
+          "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+        ],
+        "costs": {
+          "fee": "0.001",
+          "slippage": "0.001",
+          "spread": "0.001"
+        },
+        "data_kind": "binance_spot",
+        "filters": [
+          {
+            "avg_price_mins": 0,
+            "known_at": null,
+            "market_max_qty": null,
+            "market_min_qty": "0",
+            "market_step": "0",
+            "max_price": null,
+            "max_qty": "100",
+            "min_notional": "5",
+            "min_notional_market": true,
+            "min_price": "0",
+            "min_qty": "0.00001",
+            "note": "Alleen simulatie: historische Binance filters niet vastgesteld; tick 0.01 EUR, step 0.00001 BTC, minimum 5 EUR zijn aannames.",
+            "notional_apply_max_market": true,
+            "notional_apply_min_market": true,
+            "notional_max": null,
+            "notional_min": "0",
+            "source": "assumption:historical-filters-unavailable",
+            "status": "assumed",
+            "step": "0.00001",
+            "symbol": "BTCEUR",
+            "tick": "0.01",
+            "valid_from": null,
+            "valid_until": null
+          }
+        ],
+        "independent_test_authorization": null,
+        "interval": "1h",
+        "version": "conservative-ohlcv-v1"
+      },
+      "file": "experiments/phase4b_smoke.json",
+      "file_sha256": "6f53eeaa50abee0242d885eaa006cfffc67827fa1c490ebcc5ea1ff2f3fb457a",
+      "independent_test_opened_reported": false,
+      "plan": {
+        "assumptions": [
+          "next_bar_execution_required",
+          "no_short_no_leverage",
+          "historical_revisions_not_reconstructed",
+          "no_validated_fill_simulator"
+        ],
+        "coins": [
+          "BTCEUR"
+        ],
+        "dataset_sha256": "f34c68920204a10198c3162ce54c2ce9da46c53ce62a059c74cf331c26e42416",
+        "development": {
+          "end": "2025-01-11T00:00:00Z",
+          "start": "2025-01-10T00:00:00Z"
+        },
+        "family_alpha": "0.05",
+        "fee": "0.001",
+        "horizon_hours": 4,
+        "hypotheses": [
+          "regime_momentum",
+          "aligned_trend",
+          "sideways_recovery"
+        ],
+        "independent_test": {
+          "end": "2025-01-16T00:00:00Z",
+          "start": "2025-01-15T00:00:00Z"
+        },
+        "indicators": {
+          "atr": 14,
+          "fast": 9,
+          "momentum": 10,
+          "rsi": 14,
+          "sideways": "0.002",
+          "slow": 21,
+          "structure": 5
+        },
+        "minimum_trades": 30,
+        "planned_risk": "0.005",
+        "report_hashes": [
+          "fb0858c212d5aa128f066ebe6a962dd9852685ccb477b58afdd5d8ac4977be7c",
+          "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        ],
+        "selection": "net_expectancy_after_costs_then_lower_drawdown",
+        "slippage": "0.001",
+        "source": "Binance Spot, vooraf gekozen BTC/EUR ontwikkelingstest 2025-01-10",
+        "starting_cash": "200",
+        "stop_atr": 2,
+        "validation": {
+          "end": "2025-01-13T00:00:00Z",
+          "start": "2025-01-12T00:00:00Z"
+        },
+        "version": "phase4-v1",
+        "walk_train_days": 7,
+        "walk_validation_days": 2
+      },
+      "plan_fingerprint": "abcdf19dac30fe1423b7aacd1de11313a495373af460923a78cf96e3c28695d4"
+    },
+    {
+      "archive_metadata": [
+        {
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-10.zip.CHECKSUM",
+          "end": "2025-01-11T00:00:00+00:00",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "sha256": "309ac30484e9d714a6986f26e3a14d16db4b6a0058a2d3bb38a279955477fe09",
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-10.zip",
+          "start": "2025-01-10T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-10.zip.CHECKSUM",
+          "end": "2025-01-11T00:00:00+00:00",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "sha256": "a034d2f10ece1ffa26d185d837fed7297d36249f77c5e3a42d377872a9f287b6",
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-10.zip",
+          "start": "2025-01-10T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-10.zip.CHECKSUM",
+          "end": "2025-01-11T00:00:00+00:00",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "sha256": "8a84ee1bb5e76b7957c63010f8d36f216696b99a01a7caf189078e761ce487b5",
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-10.zip",
+          "start": "2025-01-10T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/15m/ETHEUR-15m-2025-01-10.zip.CHECKSUM",
+          "end": "2025-01-11T00:00:00+00:00",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "sha256": "8ae674fcc852499940d38c374cadffba184c2189b104ead119050c62dae0b163",
+          "source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/15m/ETHEUR-15m-2025-01-10.zip",
+          "start": "2025-01-10T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/1h/ETHEUR-1h-2025-01-10.zip.CHECKSUM",
+          "end": "2025-01-11T00:00:00+00:00",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "sha256": "82c6627d52f57ee58c9bcf2b14eadf1c77282a5068eab7fc14ccf993fca7948a",
+          "source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/1h/ETHEUR-1h-2025-01-10.zip",
+          "start": "2025-01-10T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/4h/ETHEUR-4h-2025-01-10.zip.CHECKSUM",
+          "end": "2025-01-11T00:00:00+00:00",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "sha256": "1922228085060505afc5b37cc66fb1b513e89ec7342f59330df7d72bb6bc81a1",
+          "source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/4h/ETHEUR-4h-2025-01-10.zip",
+          "start": "2025-01-10T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "execution_metadata": {
+        "costs": {
+          "fee": "0.001",
+          "slippage": "0.001",
+          "spread": "0.001"
+        },
+        "horizon_hours": 4,
+        "hypothesis": "aligned_trend",
+        "max_consecutive_losses": 3,
+        "planned_risk": "0.005",
+        "stop_atr": 2,
+        "target": null,
+        "unknown_sentiment": "neutral_unknown",
+        "version": "phase5-v1"
+      },
+      "file": "experiments/phase5_smoke.json",
+      "file_sha256": "63acd2d30f658442eb4cb86104c445bd117458504f3c06f1d4cbd93ea0685a7d",
+      "independent_test_opened_reported": false,
+      "plan": {
+        "assumptions": [
+          "next_bar_execution_required",
+          "no_short_no_leverage",
+          "historical_revisions_not_reconstructed",
+          "no_validated_fill_simulator"
+        ],
+        "coins": [
+          "BTCEUR",
+          "ETHEUR"
+        ],
+        "dataset_sha256": "18a11758c3d585a9660efc10ab2a42900d624ca0303b726e07d2ace0e9f60d6e",
+        "development": {
+          "end": "2025-01-12T00:00:00Z",
+          "start": "2025-01-10T00:00:00Z"
+        },
+        "family_alpha": "0.05",
+        "fee": "0.001",
+        "horizon_hours": 4,
+        "hypotheses": [
+          "regime_momentum",
+          "aligned_trend",
+          "sideways_recovery"
+        ],
+        "independent_test": {
+          "end": "2025-01-16T00:00:00Z",
+          "start": "2025-01-15T00:00:00Z"
+        },
+        "indicators": {
+          "atr": 14,
+          "fast": 9,
+          "momentum": 10,
+          "rsi": 14,
+          "sideways": "0.002",
+          "slow": 21,
+          "structure": 5
+        },
+        "minimum_trades": 30,
+        "planned_risk": "0.005",
+        "report_hashes": [
+          "c7437d6315ce4e4f4007549b0ad6a3356da3d23b37500ef45fb682799dd4d9a7",
+          "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        ],
+        "selection": "net_expectancy_after_costs_then_lower_drawdown",
+        "slippage": "0.001",
+        "source": "Bestaande officiële Binance Spot-archiefbestanden",
+        "starting_cash": "200",
+        "stop_atr": 2,
+        "validation": {
+          "end": "2025-01-14T00:00:00Z",
+          "start": "2025-01-13T00:00:00Z"
+        },
+        "version": "phase4-v1",
+        "walk_train_days": 7,
+        "walk_validation_days": 2
+      },
+      "plan_fingerprint": "af69653d7015072bec3b75c5b4e19a0328d382f48490d1aa7cc81b22177d5a86"
+    }
+  ],
+  "base_commit": "b1c6049ff36e34b3c1fd6adec4cf5f490a6dd289",
+  "databases": [
+    {
+      "dataset_metadata": [
+        {
+          "archive_manifest": [
+            {
+              "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/15m/ETHEUR-15m-2025-01-10.zip.CHECKSUM",
+              "end": "2025-01-11T00:00:00+00:00",
+              "format_reference": "https://github.com/binance/binance-public-data#spot",
+              "sha256": "8ae674fcc852499940d38c374cadffba184c2189b104ead119050c62dae0b163",
+              "source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/15m/ETHEUR-15m-2025-01-10.zip",
+              "start": "2025-01-10T00:00:00+00:00",
+              "timestamp_unit": "us",
+              "validation_status": "checksum_and_full_day_validated"
+            }
+          ],
+          "count": 96,
+          "end": "2025-01-11T00:00:00Z",
+          "id": "135e23f9ba891b96ee8a225d55638716fbf5ad7a1f483bd21c88ab1d1a5f21dd",
+          "imported_at": "2026-10-25T23:09:34.510613+00:00",
+          "interval": "15m",
+          "sha256": "8e51767aa822dbfe68728849658b95b4818cf46d365806dd5e49e25aa46ee67a",
+          "source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/15m/ETHEUR-15m-2025-01-10.zip",
+          "start": "2025-01-10T00:00:00Z",
+          "symbol": "ETHEUR"
+        },
+        {
+          "archive_manifest": [
+            {
+              "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/1h/ETHEUR-1h-2025-01-10.zip.CHECKSUM",
+              "end": "2025-01-11T00:00:00+00:00",
+              "format_reference": "https://github.com/binance/binance-public-data#spot",
+              "sha256": "82c6627d52f57ee58c9bcf2b14eadf1c77282a5068eab7fc14ccf993fca7948a",
+              "source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/1h/ETHEUR-1h-2025-01-10.zip",
+              "start": "2025-01-10T00:00:00+00:00",
+              "timestamp_unit": "us",
+              "validation_status": "checksum_and_full_day_validated"
+            }
+          ],
+          "count": 24,
+          "end": "2025-01-11T00:00:00Z",
+          "id": "244648b8837a1c7b3d8c6f0ddeec04c309a81d6545eef7decda893b405a80329",
+          "imported_at": "2026-10-25T23:09:35.271487+00:00",
+          "interval": "1h",
+          "sha256": "273bbc3b7500a365e7846dac684743d4dd39511c8666cd9ffb163c4cb0ce31ea",
+          "source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/1h/ETHEUR-1h-2025-01-10.zip",
+          "start": "2025-01-10T00:00:00Z",
+          "symbol": "ETHEUR"
+        },
+        {
+          "archive_manifest": [
+            {
+              "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2024-12-31.zip.CHECKSUM",
+              "end": "2025-01-01T00:00:00+00:00",
+              "format_reference": "https://github.com/binance/binance-public-data#spot",
+              "sha256": "fa469bcd27549f0e127e8b303d8046a921d9e0df63c54570f79344e8b67ae698",
+              "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2024-12-31.zip",
+              "start": "2024-12-31T00:00:00+00:00",
+              "timestamp_unit": "ms",
+              "validation_status": "checksum_and_full_day_validated"
+            }
+          ],
+          "count": 24,
+          "end": "2025-01-01T00:00:00Z",
+          "id": "83c5ed9e5d52572710f076147d494145aa3fd0e750370212ed4b012db6ff8c50",
+          "imported_at": "2026-10-25T23:09:36.282796+00:00",
+          "interval": "1h",
+          "sha256": "3636a45b1b23e4b9d92b1f2984e222e2c46ab1826c2c6b7ee71e9a8abf9199bd",
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2024-12-31.zip",
+          "start": "2024-12-31T00:00:00Z",
+          "symbol": "BTCEUR"
+        },
+        {
+          "archive_manifest": [
+            {
+              "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-10.zip.CHECKSUM",
+              "end": "2025-01-11T00:00:00+00:00",
+              "format_reference": "https://github.com/binance/binance-public-data#spot",
+              "sha256": "8a84ee1bb5e76b7957c63010f8d36f216696b99a01a7caf189078e761ce487b5",
+              "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-10.zip",
+              "start": "2025-01-10T00:00:00+00:00",
+              "timestamp_unit": "us",
+              "validation_status": "checksum_and_full_day_validated"
+            }
+          ],
+          "count": 6,
+          "end": "2025-01-11T00:00:00Z",
+          "id": "9c1bb0f763deebf5405026836673b967f262abc609cae95c26f14107b6808dc8",
+          "imported_at": "2026-10-25T23:09:33.822256+00:00",
+          "interval": "4h",
+          "sha256": "cef99e655870a12db0fc2ebb533ce2e39708c5046c8b862389aef86e76dbf646",
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-10.zip",
+          "start": "2025-01-10T00:00:00Z",
+          "symbol": "BTCEUR"
+        },
+        {
+          "archive_manifest": [
+            {
+              "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-10.zip.CHECKSUM",
+              "end": "2025-01-11T00:00:00+00:00",
+              "format_reference": "https://github.com/binance/binance-public-data#spot",
+              "sha256": "309ac30484e9d714a6986f26e3a14d16db4b6a0058a2d3bb38a279955477fe09",
+              "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-10.zip",
+              "start": "2025-01-10T00:00:00+00:00",
+              "timestamp_unit": "us",
+              "validation_status": "checksum_and_full_day_validated"
+            }
+          ],
+          "count": 96,
+          "end": "2025-01-11T00:00:00Z",
+          "id": "d8a557d67b68bfc9f08aa91ffee18f96f5ba3ce080adcd9dad7e86b05e58d853",
+          "imported_at": "2026-10-25T23:09:32.480078+00:00",
+          "interval": "15m",
+          "sha256": "02bb632a0ace805ba364c25e7cc5cb840c962138de06d4611a480e0be7034ac3",
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-10.zip",
+          "start": "2025-01-10T00:00:00Z",
+          "symbol": "BTCEUR"
+        },
+        {
+          "archive_manifest": [
+            {
+              "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-10.zip.CHECKSUM",
+              "end": "2025-01-11T00:00:00+00:00",
+              "format_reference": "https://github.com/binance/binance-public-data#spot",
+              "sha256": "a034d2f10ece1ffa26d185d837fed7297d36249f77c5e3a42d377872a9f287b6",
+              "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-10.zip",
+              "start": "2025-01-10T00:00:00+00:00",
+              "timestamp_unit": "us",
+              "validation_status": "checksum_and_full_day_validated"
+            }
+          ],
+          "count": 24,
+          "end": "2025-01-11T00:00:00Z",
+          "id": "f291f28281e34ef77cbc681ae7b95b573dffebd513bcf0b7aba355a8b47a80d0",
+          "imported_at": "2026-10-25T23:09:33.260763+00:00",
+          "interval": "1h",
+          "sha256": "ac69618397dfaceb4fa30b95eec83e9337e287ad1b8beddb04fb4c86fb79eec9",
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-10.zip",
+          "start": "2025-01-10T00:00:00Z",
+          "symbol": "BTCEUR"
+        },
+        {
+          "archive_manifest": [
+            {
+              "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/4h/ETHEUR-4h-2025-01-10.zip.CHECKSUM",
+              "end": "2025-01-11T00:00:00+00:00",
+              "format_reference": "https://github.com/binance/binance-public-data#spot",
+              "sha256": "1922228085060505afc5b37cc66fb1b513e89ec7342f59330df7d72bb6bc81a1",
+              "source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/4h/ETHEUR-4h-2025-01-10.zip",
+              "start": "2025-01-10T00:00:00+00:00",
+              "timestamp_unit": "us",
+              "validation_status": "checksum_and_full_day_validated"
+            }
+          ],
+          "count": 6,
+          "end": "2025-01-11T00:00:00Z",
+          "id": "f2adcd92417020ad1c3e0ae1a1e0edcebd89f5fe046ffe3d0e08e0c513f35d66",
+          "imported_at": "2026-10-25T23:09:35.826245+00:00",
+          "interval": "4h",
+          "sha256": "809be7139409430cae2c3c7b2bf9bd18fe061a87779f8d09de585ce984734709",
+          "source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/4h/ETHEUR-4h-2025-01-10.zip",
+          "start": "2025-01-10T00:00:00Z",
+          "symbol": "ETHEUR"
+        }
+      ],
+      "file": "/tmp/crypto-phase2b-live.sqlite3",
+      "read_only": true,
+      "research_registration": {
+        "decision_protocols": null,
+        "joint_protocols": null,
+        "periods": [],
+        "research_exposures": null,
+        "research_plans": null,
+        "simulation_protocols": null
+      }
+    },
+    {
+      "dataset_metadata": [],
+      "file": "/tmp/crypto-phase3-cli.sqlite3",
+      "read_only": true,
+      "research_registration": {
+        "decision_protocols": null,
+        "joint_protocols": null,
+        "periods": [],
+        "research_exposures": null,
+        "research_plans": null,
+        "simulation_protocols": null
+      }
+    },
+    {
+      "dataset_metadata": [
+        {
+          "archive_manifest": [],
+          "count": 24,
+          "end": "2026-01-02T00:00:00Z",
+          "id": "3fd50ae61e144a499f85bb08dcbfad60b0a0aad62eb23197ab72a47458811334",
+          "imported_at": "2026-10-25T23:16:57.861771+00:00",
+          "interval": "1h",
+          "sha256": "d4dec0c1f8a94753e524af1166424da46bb516fdc7cfafcc030a2af65a8fd32b",
+          "source": "fixture:synthetic-v1",
+          "start": "2026-01-01T00:00:00Z",
+          "symbol": "BTCEUR"
+        }
+      ],
+      "file": "/tmp/crypto-phase3-cli24.sqlite3",
+      "read_only": true,
+      "research_registration": {
+        "decision_protocols": null,
+        "joint_protocols": null,
+        "periods": [],
+        "research_exposures": null,
+        "research_plans": null,
+        "simulation_protocols": null
+      }
+    },
+    {
+      "dataset_metadata": [
+        {
+          "archive_manifest": [],
+          "count": 32,
+          "end": "2025-01-11T00:00:00Z",
+          "id": "3606156e09157f2e88318ac62320be953bf34b37927f0e07af8739825dbc14bc",
+          "imported_at": "2026-10-25T23:15:42.103509+00:00",
+          "interval": "4h",
+          "sha256": "828cbd332a7763285a8c21861171b5488b67a1ae3737374ac9d7f1b15eaa907f",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BTCEUR&interval=4h&startTime=1736092800000&endTime=1736553599999&limit=32",
+          "start": "2025-01-05T16:00:00Z",
+          "symbol": "BTCEUR"
+        },
+        {
+          "archive_manifest": [],
+          "count": 32,
+          "end": "2025-01-11T00:00:00Z",
+          "id": "68c727652ec36e05a0007a11777cab2bb47a9de3938adf3a11da83da9493f7fe",
+          "imported_at": "2026-10-25T23:15:40.907239+00:00",
+          "interval": "15m",
+          "sha256": "1ceb21ec4102e47de942fe21a77a0aff7500a0a15adeba0364c2638e6bd36f06",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BTCEUR&interval=15m&startTime=1736524800000&endTime=1736553599999&limit=32",
+          "start": "2025-01-10T16:00:00Z",
+          "symbol": "BTCEUR"
+        },
+        {
+          "archive_manifest": [],
+          "count": 32,
+          "end": "2025-01-11T00:00:00Z",
+          "id": "6fb8896116b8be0474234146387450277bdf0abb4595c530441dfabca8e16de8",
+          "imported_at": "2026-10-25T23:15:42.673771+00:00",
+          "interval": "15m",
+          "sha256": "14de5e29bcac288f3208dd5db1abfbc96f2e98a4ff8ff3c44e2f17672040106f",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=ETHEUR&interval=15m&startTime=1736524800000&endTime=1736553599999&limit=32",
+          "start": "2025-01-10T16:00:00Z",
+          "symbol": "ETHEUR"
+        },
+        {
+          "archive_manifest": [],
+          "count": 32,
+          "end": "2025-01-11T00:00:00Z",
+          "id": "c1705b42438a66655d434970d76a370e9e5b9b26b083a9b7d2c7c4e82e982d44",
+          "imported_at": "2026-10-25T23:15:43.256870+00:00",
+          "interval": "1h",
+          "sha256": "75138bdfe2615f21f8be404aae0bde5e10955a791197e3c1795be3d72f90dab5",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=ETHEUR&interval=1h&startTime=1736438400000&endTime=1736553599999&limit=32",
+          "start": "2025-01-09T16:00:00Z",
+          "symbol": "ETHEUR"
+        },
+        {
+          "archive_manifest": [],
+          "count": 32,
+          "end": "2025-01-11T00:00:00Z",
+          "id": "cf8a44a890be4c59a504fd1b1bb29720167091c82e4ed95efd7d1ca9c4f2e371",
+          "imported_at": "2026-10-25T23:15:43.429117+00:00",
+          "interval": "4h",
+          "sha256": "e4b0e794fbb76d9a1839878eb79c733e4e2a33120d3e3e0f9bc90b6019bbd525",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=ETHEUR&interval=4h&startTime=1736092800000&endTime=1736553599999&limit=32",
+          "start": "2025-01-05T16:00:00Z",
+          "symbol": "ETHEUR"
+        },
+        {
+          "archive_manifest": [],
+          "count": 32,
+          "end": "2025-01-11T00:00:00Z",
+          "id": "e16a28947d843f0d1d8c205a29f3620413c3636fef1c617371e55dc4c04739d3",
+          "imported_at": "2026-10-25T23:15:41.492437+00:00",
+          "interval": "1h",
+          "sha256": "f75c5423068330aad91c4c91d04d9ae457c643de39c5870b326c6341e56fd324",
+          "source": "https://data-api.binance.vision/api/v3/klines?symbol=BTCEUR&interval=1h&startTime=1736438400000&endTime=1736553599999&limit=32",
+          "start": "2025-01-09T16:00:00Z",
+          "symbol": "BTCEUR"
+        }
+      ],
+      "file": "/tmp/crypto-phase3-live.sqlite3",
+      "read_only": true,
+      "research_registration": {
+        "decision_protocols": null,
+        "joint_protocols": null,
+        "periods": [],
+        "research_exposures": null,
+        "research_plans": null,
+        "simulation_protocols": null
+      }
+    }
+  ],
+  "defaults": {
+    "hard_limits": {
+      "correlation": "0.8",
+      "daily_loss": "0.03",
+      "drawdown": "0.1",
+      "exposure": "0.5",
+      "max_age": 60,
+      "trade_risk": "0.01"
+    },
+    "indicators": {
+      "atr": 14,
+      "fast": 9,
+      "momentum": 10,
+      "rsi": 14,
+      "sideways": "0.002",
+      "slow": 21,
+      "structure": 5
+    },
+    "joint_policy": {
+      "decision": {
+        "costs": {
+          "fee": "0.001",
+          "slippage": "0.001",
+          "spread": "0.001"
+        },
+        "horizon_hours": 4,
+        "hypothesis": "aligned_trend",
+        "max_consecutive_losses": 3,
+        "planned_risk": "0.005",
+        "stop_atr": 2,
+        "target": null,
+        "unknown_sentiment": "neutral_unknown",
+        "version": "phase5-v1"
+      },
+      "max_open_positions": 1,
+      "priority": "scanner_desc_utc_rotating_ties",
+      "starting_cash": "200",
+      "version": "phase6a-v1"
+    }
+  },
+  "existing_archives": [
+    {
+      "checksum_record": "309ac30484e9d714a6986f26e3a14d16db4b6a0058a2d3bb38a279955477fe09  BTCEUR-15m-2025-01-10.zip",
+      "file": "tests/fixtures/archive/BTCEUR-15m-2025-01-10.zip"
+    },
+    {
+      "checksum_record": "fa469bcd27549f0e127e8b303d8046a921d9e0df63c54570f79344e8b67ae698  BTCEUR-1h-2024-12-31.zip",
+      "file": "tests/fixtures/archive/BTCEUR-1h-2024-12-31.zip"
+    },
+    {
+      "checksum_record": "a034d2f10ece1ffa26d185d837fed7297d36249f77c5e3a42d377872a9f287b6  BTCEUR-1h-2025-01-10.zip",
+      "file": "tests/fixtures/archive/BTCEUR-1h-2025-01-10.zip"
+    },
+    {
+      "checksum_record": "8a84ee1bb5e76b7957c63010f8d36f216696b99a01a7caf189078e761ce487b5  BTCEUR-4h-2025-01-10.zip",
+      "file": "tests/fixtures/archive/BTCEUR-4h-2025-01-10.zip"
+    },
+    {
+      "checksum_record": "8ae674fcc852499940d38c374cadffba184c2189b104ead119050c62dae0b163  ETHEUR-15m-2025-01-10.zip",
+      "file": "tests/fixtures/archive/ETHEUR-15m-2025-01-10.zip"
+    },
+    {
+      "checksum_record": "82c6627d52f57ee58c9bcf2b14eadf1c77282a5068eab7fc14ccf993fca7948a  ETHEUR-1h-2025-01-10.zip",
+      "file": "tests/fixtures/archive/ETHEUR-1h-2025-01-10.zip"
+    },
+    {
+      "checksum_record": "1922228085060505afc5b37cc66fb1b513e89ec7342f59330df7d72bb6bc81a1  ETHEUR-4h-2025-01-10.zip",
+      "file": "tests/fixtures/archive/ETHEUR-4h-2025-01-10.zip"
+    }
+  ],
+  "independent_test_opened_by_this_audit": false,
+  "missing_before_execution": [
+    "Authoritative consolidated registry of historical prior views, including warm-up coverage and recovered smoke-test exposure; no inference that absence means untouched.",
+    "Exact UTC development/validation intervals and protected independent intervals for all six requested pairs; no relabelling of known holdouts or previously viewed data.",
+    "Primary hypothesis versus separately labelled secondary hypotheses; no post-hoc choice or newly invented combination.",
+    "Point-in-time instrument eligibility and data-quality/exclusion policy fixed before scanning new periods; listing/delisting, missing bars, uniform-universe behavior and historical filter assumptions.",
+    "Joint benchmarks with exact allocation, ranking, entry/exit, exposure, costs and capital rules; buy-and-hold market return must be distinguished from a risk-constrained executable portfolio.",
+    "Warm-up/lookback, availability lag, evaluation horizon and period-boundary rules; uninterrupted joint ledger over batches and chronological split semantics.",
+    "Metrics conventions for open positions, holding duration, exposure, mark-to-market drawdown; fixed winner/loser sensitivity definition and cost-stress scenarios.",
+    "Verified joint validation runner and portfolio metrics/benchmarks; current mode rejects validation and more than 192 candles per coin. No workaround via per-coin capital or split relabelling."
+  ],
+  "network_requests": 0,
+  "new_historical_evaluation": false,
+  "scope": "Repository plus accessible project-specific /tmp databases; metadata only. Pytest databases are synthetic test state, not authoritative historical registration. /tmp/codex-daemon-1000 inaccessible and not searched further. External/local databases on other machines were not inspected.",
+  "status": "blocked_before_new_historical_evaluation"
+}

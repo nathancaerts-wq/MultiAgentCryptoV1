@@ -138,3 +138,20 @@ rollback, muntwissels, heropening, gedeelde verliesbescherming en de volledige
 portefeuille-reproduceerbaarheid zijn getest met kleine fixtures. Geen nieuwe
 historische downloads, parameteroptimalisatie of onafhankelijke testinzage.
 Zie PHASE6A_REPORT.md. Fase 6A afgerond; geen volgende fase gestart.
+
+## Fase 6B — preregistratiecontrole afgerond, evaluatie geblokkeerd
+
+Vanaf b1c6049ff36e34b3c1fd6adec4cf5f490a6dd289 zijn bestaande plannen,
+configuraties, experimentartefacten en toegankelijke projectdatabase-metadata
+gecontroleerd. Twee oude smoke-testplannen zijn teruggevonden; geen volledig
+fase-6B-plan voor de gezamenlijke zesmunten-evaluatie of compleet inzageregister.
+Exacte nieuwe perioden, historische universumregels, gezamenlijke benchmarks en
+meet-/gevoeligheidsconventies ontbreken. De gezamenlijke runner ondersteunt nog
+uitsluitend ontwikkeling tot 192 candles per coin.
+
+Conform de expliciete stopvoorwaarde is vóór nieuwe historische resultaten gestopt.
+Geen nieuwe Binance-verzoeken of evaluatieruns; onafhankelijke test niet geopend.
+Alle prestatievelden blijven niet berekend. 287 bestaande tests geslaagd, 0 mislukt;
+een bestaande dependencywaarschuwing. Geen runtime-, strategie- of risicowijzigingen.
+Zie PHASE6B_REPORT.md en experiments/phase6b_preregistration_audit.json.
+De historische evaluatie is niet voltooid; geen volgende fase gestart.
