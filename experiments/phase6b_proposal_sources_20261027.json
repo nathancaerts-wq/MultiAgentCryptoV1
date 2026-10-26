@@ -1,0 +1,142 @@
+{
+  "base_commit": "58863994285005fe052d9e87acc52eadedcdfe0d",
+  "checked_at_utc": "2026-10-26T23:35:38.375236+00:00",
+  "defaults": {
+    "indicators": {
+      "atr": 14,
+      "fast": 9,
+      "momentum": 10,
+      "rsi": 14,
+      "sideways": "0.002",
+      "slow": 21,
+      "structure": 5
+    },
+    "joint": {
+      "decision": {
+        "costs": {
+          "fee": "0.001",
+          "slippage": "0.001",
+          "spread": "0.001"
+        },
+        "horizon_hours": 4,
+        "hypothesis": "aligned_trend",
+        "max_consecutive_losses": 3,
+        "planned_risk": "0.005",
+        "stop_atr": 2,
+        "target": null,
+        "unknown_sentiment": "neutral_unknown",
+        "version": "phase5-v1"
+      },
+      "max_open_positions": 1,
+      "priority": "scanner_desc_utc_rotating_ties",
+      "starting_cash": "200",
+      "version": "phase6a-v1"
+    },
+    "limits": {
+      "correlation": "0.8",
+      "daily_loss": "0.03",
+      "drawdown": "0.1",
+      "exposure": "0.5",
+      "max_age": 60,
+      "trade_risk": "0.01"
+    }
+  },
+  "independent_test_authorization": null,
+  "limitations": "External databases not audited; missing records do not prove untouched periods. See previous audit for imported coverage and warm-up exposure.",
+  "new_market_data_payloads_read": 0,
+  "new_performance_runs": 0,
+  "plans": [
+    {
+      "coins": [
+        "BTCEUR"
+      ],
+      "development": {
+        "end": "2025-01-11T00:00:00Z",
+        "start": "2025-01-10T00:00:00Z"
+      },
+      "file": "experiments/phase4b_smoke.json",
+      "fingerprint": "abcdf19dac30fe1423b7aacd1de11313a495373af460923a78cf96e3c28695d4",
+      "independent_test": {
+        "end": "2025-01-16T00:00:00Z",
+        "start": "2025-01-15T00:00:00Z"
+      },
+      "previously_reported_opened": false,
+      "validation": {
+        "end": "2025-01-13T00:00:00Z",
+        "start": "2025-01-12T00:00:00Z"
+      }
+    },
+    {
+      "coins": [
+        "BTCEUR",
+        "ETHEUR"
+      ],
+      "development": {
+        "end": "2025-01-12T00:00:00Z",
+        "start": "2025-01-10T00:00:00Z"
+      },
+      "file": "experiments/phase5_smoke.json",
+      "fingerprint": "af69653d7015072bec3b75c5b4e19a0328d382f48490d1aa7cc81b22177d5a86",
+      "independent_test": {
+        "end": "2025-01-16T00:00:00Z",
+        "start": "2025-01-15T00:00:00Z"
+      },
+      "previously_reported_opened": false,
+      "validation": {
+        "end": "2025-01-14T00:00:00Z",
+        "start": "2025-01-13T00:00:00Z"
+      }
+    }
+  ],
+  "preliminary_head_probes": [
+    {
+      "body_bytes_read": 0,
+      "http_status": 200,
+      "method": "HEAD",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/1h/BTCEUR-1h-2024-01.zip"
+    },
+    {
+      "body_bytes_read": 0,
+      "http_status": 200,
+      "method": "HEAD",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/LINKEUR/1h/LINKEUR-1h-2024-01.zip"
+    }
+  ],
+  "read_only_database_checks": [
+    {
+      "exists": false,
+      "path": "/tmp/crypto-phase2b-live.sqlite3"
+    },
+    {
+      "exists": false,
+      "path": "/tmp/crypto-phase3-live.sqlite3"
+    },
+    {
+      "exists": false,
+      "path": "/tmp/crypto-phase3-cli.sqlite3"
+    },
+    {
+      "exists": false,
+      "path": "/tmp/crypto-phase3-cli24.sqlite3"
+    }
+  ],
+  "source_sha256": {
+    "PHASE6B_REPORT.md": "593d4557af5b89a6285b2b97b2270e06613d6b767d7a1729efa915866b1f7802",
+    "RESEARCH_PROTOCOL.md": "bb36e42fcc06068e897a488fcbae11e92c473441e5e458e2480ea286de184f7e",
+    "crypto/analysis.py": "1f3a3c52f01dc163eeeceedb03b0697f5425d420d9ca0f24b088a9b531f63f52",
+    "crypto/indicators.py": "479843e7dfdc1d0c4867e3d9700f8605c6f3f39c7876aae1d74a79bfa29f6030",
+    "crypto/joint_portfolio.py": "8e8fecc66f3f000e02bb10193a6adfdc36e9b2ebe0d68eb3ff3a26df514f6335",
+    "crypto/offline_optimizer.py": "e2bb6369c67c7da202480f1867edede4911b5afcea5098da263efeef2c62167f",
+    "crypto/protocol.py": "555a9a771ceadc6dca45bb9c39d30980de1229fb35454e85308bf73e4bea85fe",
+    "crypto/research_execution.py": "3f79aa60ed7d6ff4e1d9acbc0ab3507fa06359f3df4ad3acc7602502f428854e",
+    "crypto/scanner.py": "bfade18073bb12cb04917252b13992ac9528704cf0405ca7cc9db5e88b0690b7",
+    "crypto/sim_execution.py": "4c160790f6950aa2756f605baea4a98ebe4d3d0f4a1607530e73e6475e05ad14",
+    "crypto/trade_agents.py": "52f6e2f7f144eeb66b1bc3577dd2225d99bce4be45fff63f4df9583ed04e32da",
+    "experiments/phase4b_smoke.json": "6f53eeaa50abee0242d885eaa006cfffc67827fa1c490ebcc5ea1ff2f3fb457a",
+    "experiments/phase5_smoke.json": "63acd2d30f658442eb4cb86104c445bd117458504f3c06f1d4cbd93ea0685a7d",
+    "experiments/phase6b_coverage_metadata_20261027.json": "0100dbb6e19f8474b298b0c5704a80a324568b2c1efa3429a5b781aebbf111e8",
+    "experiments/phase6b_preregistration_audit.json": "6888991d5b9c2204a6ccc436c3e8ad6d4c5490fe3564766a8b11df1185a23358",
+    "scripts/phase6b_coverage_metadata.py": "448890b7d8c0efe6c098ceedd78f0ff14da6557329c5cee0c2e0828f9f5e0b57"
+  },
+  "status": "proposal_not_registered_not_authorized"
+}

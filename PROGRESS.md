@@ -155,3 +155,31 @@ Alle prestatievelden blijven niet berekend. 287 bestaande tests geslaagd, 0 misl
 een bestaande dependencywaarschuwing. Geen runtime-, strategie- of risicowijzigingen.
 Zie PHASE6B_REPORT.md en experiments/phase6b_preregistration_audit.json.
 De historische evaluatie is niet voltooid; geen volgende fase gestart.
+
+## Fase 6B — protocolvoorstel, wacht op expliciete goedkeuring
+
+Op 27 oktober 2026 (Europe/Brussels) vanaf
+58863994285005fe052d9e87acc52eadedcdfe0d de oude plannen en inzage gecontroleerd.
+PHASE6B_PROTOCOL_PROPOSAL.md stelt ontwikkeling 2024, validatie vanaf februari
+2025 en een voorlopig gesloten testvenster januari–september 2026 voor. Heel 2025
+als validatie conflicteert met het bestaande testslot 15–16 januari 2025 en eerdere
+inzage. Oude registraties en PHASE6B_REPORT.md blijven ongewijzigd. De eerder
+gecontroleerde tijdelijke projectdatabases zijn nu niet meer aanwezig; externe
+onaangeraaktheid blijft onbewezen.
+
+Uitsluitend HEAD-metadata onderzocht voor zes EUR-paren op 15m/1h/4h in alle
+maanden van 2024 en 2025: 432 ZIP- en 432 CHECKSUM-objecten, alle HTTP 200,
+plus twee voorafgaande succesvolle HEAD-probes. Geen nieuwe koersbestanden,
+checksuminhoud, signalen of rendementen bekeken; geen 2026-verzoeken.
+Bestandsaanwezigheid bewijst nog geen candlekwaliteit of historische orderfilters.
+Bewijs en herhaalbaar begrensd script zijn opgeslagen.
+
+Voorstel specificeert vaste aligned_trend, één €200-ledger, bestaande risicogrenzen,
+liquiditeit/datatoelating, cash/marktindex/EMA-benchmarks, uitkomsten en kostenstress.
+Nieuwe toelatingsvoorwaarden zijn expliciet voorstellen, niet in handelscode
+geïmplementeerd. Historische filterbewijzen en een geteste lange gezamenlijke
+validatierunner ontbreken nog. Zonder geldige metadata wordt niet ingestapt.
+
+287 bestaande tests geslaagd, 0 mislukt; één bestaande dependencywaarschuwing.
+Geen rendementsbacktests en geen testvrijgave. Stop na dit voorstel en wacht op
+expliciete goedkeuring vóór evaluatie; geen automatische vervolgfase.
