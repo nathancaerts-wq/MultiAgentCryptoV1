@@ -1,20 +1,22 @@
-# Vervolg na fase 4B
+# Vervolg na fase 5
 
-Fase 4B is afgerond. Begin fase 5 alleen na expliciet verzoek. Behoud alle 191 tests.
+Fase 5 is afgerond. Stop hier; start een volgende fase alleen na expliciet verzoek.
+Behoud alle 251 tests en lees PHASE5_REPORT.md vóór vervolgwerk.
 
-1. Lees PHASE4B_REPORT.md en RESEARCH_PROTOCOL.md. De simulator is een expliciet
-   OHLCV-model, geen bewijs van werkelijke uitvoerbaarheid of winstgevendheid.
-2. Laat de onafhankelijke historische test gesloten. Leg vóór eventuele evaluatie
-   het onderzoeks- én uitvoeringsprotocol vast, inclusief expliciete toestemming.
-3. Verbeter historische metadata/provenance en de marktprijsreferenties voor
-   notionalfilters; gebruik geen huidige filters alsof ze historisch bekend waren.
-4. Valideer liquiditeit, deeluitvoering, intrabar/gapregels en kostenkalibratie
-   voordat grotere studies worden overwogen. Houd single-coin-experimenten gescheiden
-   van eventuele toekomstige gezamenlijke multi-coinboekhouding.
-5. Definieer expliciet een toegestane buy-and-hold-vergelijking: de huidige variant
-   zonder stop past niet binnen de geplande-risicoregel en wordt niet gesimuleerd.
-6. Vereis voldoende onafhankelijke trades en statistische validatie; geen promotie
-   op basis van de kleine ontwikkelsteekproef. Voer ook Windows-validatie uit.
+1. Behoud de gesloten onafhankelijke test. Fase 5 heeft alleen een ontwikkelpad;
+   toekomstige evaluatie vereist vooraf een expliciet onderzoeksprotocol.
+2. Behoud het bevroren beslisbeleid en de drie oorspronkelijke hypotheses. Geen
+   automatische promotie, parameteroptimalisatie of winstclaim op basis van fixtures.
+3. Valideer historische metadata, publicatielatentie, liquiditeit, kosten en
+   intrabar-aannames vóór eventuele grotere studies. Een enkele archiefdag bevat
+   onvoldoende indicatorhistorie en geeft daarom HOLD.
+4. Ontwerp alleen na nieuwe opdracht een gezamenlijke multi-coinportefeuille of
+   operationele planner. De huidige EUR 200-ledgers zijn afzonderlijke experimenten.
+   Behoud maximaal 0,5% gepland risico, 50% exposure en alle verliespauzes.
+5. Houd toekomstige live- of paperuitvoering gescheiden van deze onderzoeksinterfaces;
+   geen automatische uitvoering via de alleen-lezen API. Regel eerst benodigde
+   monitoring, autorisatie en aanvullende verificatie als de scope ooit verandert.
+6. Voer Windows-validatie en dependencyonderhoud uit in een afzonderlijke wijziging.
 
-Geen automatische optimalisatie, live orders, API-sleutels, hogere risicolimieten
-of aanpassingen aan andere bots.
+Geen echte transacties, API-sleutels, verhoging van risicogrenzen of wijzigingen
+ aan andere tradingbots.

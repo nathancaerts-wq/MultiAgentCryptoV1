@@ -109,3 +109,18 @@ geen nieuwe historische backtest uitgevoerd bij hervatten. Historische orderfilt
 zijn aannames; alle uitkomsten blijven onvoldoende bewijs. De onafhankelijke test
 is niet vrijgegeven. Zie PHASE4B_REPORT.md voor alle uitvoeringsaannames en beperkingen.
 Fase 5 niet gestart.
+
+## Fase 5
+
+Decision, Entry en Exit geïntegreerd via bestaande analyses, Message, orchestrator,
+Risk Engine en een afzonderlijke offline Execution-adapter. Bevroren beslisbeleid,
+transparante HOLD/conflicten, 0,5% gepland risico inclusief kosten, bestaande
+verlieslimieten, conservatieve exits, verliesreekspauze, persistente deduplicatie
+ en ledgerherstel. Geen automatische paper-orders of strategiepromotie.
+
+251 tests geslaagd, 0 mislukt (191 bestaande + 60 nieuwe). Kleine lokale integratie
+met zes officiële Binance-archieven en 252 candles; alle checksums geldig. BTC/EUR
+ en ETH/EUR geven HOLD wegens onvoldoende warm-up. Volledige entry/exit/fillketen
+met synthetische fixtures getest. Onafhankelijke test blijft gesloten; geen nieuwe
+uitgebreide backtests. Zie PHASE5_REPORT.md en experiments/phase5_smoke.json.
+Fase 5 afgerond; geen volgende fase gestart.

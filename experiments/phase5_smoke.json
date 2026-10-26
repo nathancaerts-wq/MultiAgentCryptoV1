@@ -1,0 +1,498 @@
+{
+  "archives": [
+    {
+      "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-10.zip.CHECKSUM",
+      "end": "2025-01-11T00:00:00+00:00",
+      "format_reference": "https://github.com/binance/binance-public-data#spot",
+      "sha256": "309ac30484e9d714a6986f26e3a14d16db4b6a0058a2d3bb38a279955477fe09",
+      "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-10.zip",
+      "start": "2025-01-10T00:00:00+00:00",
+      "timestamp_unit": "us",
+      "validation_status": "checksum_and_full_day_validated"
+    },
+    {
+      "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-10.zip.CHECKSUM",
+      "end": "2025-01-11T00:00:00+00:00",
+      "format_reference": "https://github.com/binance/binance-public-data#spot",
+      "sha256": "a034d2f10ece1ffa26d185d837fed7297d36249f77c5e3a42d377872a9f287b6",
+      "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-10.zip",
+      "start": "2025-01-10T00:00:00+00:00",
+      "timestamp_unit": "us",
+      "validation_status": "checksum_and_full_day_validated"
+    },
+    {
+      "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-10.zip.CHECKSUM",
+      "end": "2025-01-11T00:00:00+00:00",
+      "format_reference": "https://github.com/binance/binance-public-data#spot",
+      "sha256": "8a84ee1bb5e76b7957c63010f8d36f216696b99a01a7caf189078e761ce487b5",
+      "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-10.zip",
+      "start": "2025-01-10T00:00:00+00:00",
+      "timestamp_unit": "us",
+      "validation_status": "checksum_and_full_day_validated"
+    },
+    {
+      "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/15m/ETHEUR-15m-2025-01-10.zip.CHECKSUM",
+      "end": "2025-01-11T00:00:00+00:00",
+      "format_reference": "https://github.com/binance/binance-public-data#spot",
+      "sha256": "8ae674fcc852499940d38c374cadffba184c2189b104ead119050c62dae0b163",
+      "source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/15m/ETHEUR-15m-2025-01-10.zip",
+      "start": "2025-01-10T00:00:00+00:00",
+      "timestamp_unit": "us",
+      "validation_status": "checksum_and_full_day_validated"
+    },
+    {
+      "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/1h/ETHEUR-1h-2025-01-10.zip.CHECKSUM",
+      "end": "2025-01-11T00:00:00+00:00",
+      "format_reference": "https://github.com/binance/binance-public-data#spot",
+      "sha256": "82c6627d52f57ee58c9bcf2b14eadf1c77282a5068eab7fc14ccf993fca7948a",
+      "source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/1h/ETHEUR-1h-2025-01-10.zip",
+      "start": "2025-01-10T00:00:00+00:00",
+      "timestamp_unit": "us",
+      "validation_status": "checksum_and_full_day_validated"
+    },
+    {
+      "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/4h/ETHEUR-4h-2025-01-10.zip.CHECKSUM",
+      "end": "2025-01-11T00:00:00+00:00",
+      "format_reference": "https://github.com/binance/binance-public-data#spot",
+      "sha256": "1922228085060505afc5b37cc66fb1b513e89ec7342f59330df7d72bb6bc81a1",
+      "source": "https://data.binance.vision/data/spot/daily/klines/ETHEUR/4h/ETHEUR-4h-2025-01-10.zip",
+      "start": "2025-01-10T00:00:00+00:00",
+      "timestamp_unit": "us",
+      "validation_status": "checksum_and_full_day_validated"
+    }
+  ],
+  "candles": 252,
+  "decisions": {
+    "BTCEUR": {
+      "decision:BTCEUR": {
+        "action": "HOLD",
+        "analysis_validation": "failed",
+        "conflicts": [],
+        "contributions": {
+          "multi_timeframe": {
+            "agreement": "incomplete",
+            "directions": {
+              "15m": "unknown",
+              "1h": "unknown",
+              "4h": "unknown"
+            },
+            "ends": {
+              "15m": "2025-01-11T00:00:00+00:00",
+              "1h": "2025-01-11T00:00:00+00:00",
+              "4h": "2025-01-11T00:00:00+00:00"
+            },
+            "missing": [
+              "15m",
+              "1h",
+              "4h"
+            ],
+            "note": "Elke periode eindigt op eigen laatste afgesloten UTC-grens"
+          },
+          "regime": {
+            "classification": "uncertain",
+            "frames": {
+              "15m": {
+                "classification": "uncertain",
+                "features": {
+                  "count": 6,
+                  "direction": "unknown",
+                  "end": "2025-01-11T00:00:00+00:00",
+                  "missing": [
+                    "minimaal 21 candles vereist; ontvangen 6"
+                  ],
+                  "sha256": "8f09ac8a5a2267a43bfa5c691a90e405bb93b0ce34b6d36352d88c3a60537e26",
+                  "sources": [
+                    "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-10.zip"
+                  ],
+                  "start": "2025-01-10T22:30:00+00:00",
+                  "status": "incomplete"
+                }
+              },
+              "1h": {
+                "classification": "uncertain",
+                "features": {
+                  "count": 6,
+                  "direction": "unknown",
+                  "end": "2025-01-11T00:00:00+00:00",
+                  "missing": [
+                    "minimaal 21 candles vereist; ontvangen 6"
+                  ],
+                  "sha256": "21c219e5f5c3f5d13caf46458601d3d3e4e55235b9d6e44eee85ab0fcc85da45",
+                  "sources": [
+                    "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-10.zip"
+                  ],
+                  "start": "2025-01-10T18:00:00+00:00",
+                  "status": "incomplete"
+                }
+              },
+              "4h": {
+                "classification": "uncertain",
+                "features": {
+                  "count": 6,
+                  "direction": "unknown",
+                  "end": "2025-01-11T00:00:00+00:00",
+                  "missing": [
+                    "minimaal 21 candles vereist; ontvangen 6"
+                  ],
+                  "sha256": "cef99e655870a12db0fc2ebb533ce2e39708c5046c8b862389aef86e76dbf646",
+                  "sources": [
+                    "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-10.zip"
+                  ],
+                  "start": "2025-01-10T00:00:00+00:00",
+                  "status": "incomplete"
+                }
+              }
+            },
+            "primary_timeframe": "1h"
+          },
+          "scanner": {
+            "ranking": [
+              {
+                "availability": "historical_data_only_unverified_tradability",
+                "data_end": "2025-01-11T00:00:00+00:00",
+                "explanation": "trend=-0.000502; momentum=-0.000597; volatiliteit=0.003748 (lager beter); quotevolume EUR=5642637.14279090; vier gelijke ranggewichten; geen winstkans",
+                "liquidity": "5642637.14279090",
+                "momentum": "-0.0005974200695568423655372948",
+                "score": "75.00",
+                "sources": [
+                  "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-10.zip"
+                ],
+                "symbol": "BTCEUR",
+                "trend": "-0.0005020909357270330021575261",
+                "volatility": "0.003748104458308125486297366975"
+              }
+            ],
+            "rejections": []
+          },
+          "sentiment": {
+            "explanation": "Geen automatische sentimentscore; bronbetrouwbaarheid moet door adapterbeheer worden vastgesteld",
+            "items": [],
+            "rejections": [],
+            "sentiment": "unknown",
+            "status": "geen betrouwbare data"
+          },
+          "technical": {
+            "frames": {
+              "15m": {
+                "count": 6,
+                "direction": "unknown",
+                "end": "2025-01-11T00:00:00+00:00",
+                "missing": [
+                  "minimaal 21 candles vereist; ontvangen 6"
+                ],
+                "sha256": "8f09ac8a5a2267a43bfa5c691a90e405bb93b0ce34b6d36352d88c3a60537e26",
+                "sources": [
+                  "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-10.zip"
+                ],
+                "start": "2025-01-10T22:30:00+00:00",
+                "status": "incomplete"
+              },
+              "1h": {
+                "count": 6,
+                "direction": "unknown",
+                "end": "2025-01-11T00:00:00+00:00",
+                "missing": [
+                  "minimaal 21 candles vereist; ontvangen 6"
+                ],
+                "sha256": "21c219e5f5c3f5d13caf46458601d3d3e4e55235b9d6e44eee85ab0fcc85da45",
+                "sources": [
+                  "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-10.zip"
+                ],
+                "start": "2025-01-10T18:00:00+00:00",
+                "status": "incomplete"
+              },
+              "4h": {
+                "count": 6,
+                "direction": "unknown",
+                "end": "2025-01-11T00:00:00+00:00",
+                "missing": [
+                  "minimaal 21 candles vereist; ontvangen 6"
+                ],
+                "sha256": "cef99e655870a12db0fc2ebb533ce2e39708c5046c8b862389aef86e76dbf646",
+                "sources": [
+                  "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-10.zip"
+                ],
+                "start": "2025-01-10T00:00:00+00:00",
+                "status": "incomplete"
+              }
+            }
+          }
+        },
+        "hypothesis": "aligned_trend",
+        "missing": [
+          "15m: onvolledige indicatorgegevens",
+          "1h: onvolledige indicatorgegevens",
+          "4h: onvolledige indicatorgegevens",
+          "Ontbrekende indicatoren of datagaten"
+        ],
+        "research_only": true,
+        "sentiment": "unknown"
+      },
+      "entry:BTCEUR": {
+        "action": "REJECTED",
+        "reason": "Uitsluitend BUY_CANDIDATE wordt beoordeeld",
+        "research_only": true
+      },
+      "exit:BTCEUR": {
+        "action": "HOLD_POSITION",
+        "reason": "Geen positie",
+        "research_only": true
+      }
+    },
+    "ETHEUR": {
+      "decision:ETHEUR": {
+        "action": "HOLD",
+        "analysis_validation": "failed",
+        "conflicts": [],
+        "contributions": {
+          "multi_timeframe": {
+            "agreement": "incomplete",
+            "directions": {
+              "15m": "unknown",
+              "1h": "unknown",
+              "4h": "unknown"
+            },
+            "ends": {
+              "15m": "2025-01-11T00:00:00+00:00",
+              "1h": "2025-01-11T00:00:00+00:00",
+              "4h": "2025-01-11T00:00:00+00:00"
+            },
+            "missing": [
+              "15m",
+              "1h",
+              "4h"
+            ],
+            "note": "Elke periode eindigt op eigen laatste afgesloten UTC-grens"
+          },
+          "regime": {
+            "classification": "uncertain",
+            "frames": {
+              "15m": {
+                "classification": "uncertain",
+                "features": {
+                  "count": 6,
+                  "direction": "unknown",
+                  "end": "2025-01-11T00:00:00+00:00",
+                  "missing": [
+                    "minimaal 21 candles vereist; ontvangen 6"
+                  ],
+                  "sha256": "41f87f4f9b03bc53318d1525ad01234c0b968ebf4a8a034c76fa171c350e9fa0",
+                  "sources": [
+                    "https://data.binance.vision/data/spot/daily/klines/ETHEUR/15m/ETHEUR-15m-2025-01-10.zip"
+                  ],
+                  "start": "2025-01-10T22:30:00+00:00",
+                  "status": "incomplete"
+                }
+              },
+              "1h": {
+                "classification": "uncertain",
+                "features": {
+                  "count": 6,
+                  "direction": "unknown",
+                  "end": "2025-01-11T00:00:00+00:00",
+                  "missing": [
+                    "minimaal 21 candles vereist; ontvangen 6"
+                  ],
+                  "sha256": "92b951a1b41a3360fb7d99c755b1ed158caada76ddf37ba6f7326bc863565edd",
+                  "sources": [
+                    "https://data.binance.vision/data/spot/daily/klines/ETHEUR/1h/ETHEUR-1h-2025-01-10.zip"
+                  ],
+                  "start": "2025-01-10T18:00:00+00:00",
+                  "status": "incomplete"
+                }
+              },
+              "4h": {
+                "classification": "uncertain",
+                "features": {
+                  "count": 6,
+                  "direction": "unknown",
+                  "end": "2025-01-11T00:00:00+00:00",
+                  "missing": [
+                    "minimaal 21 candles vereist; ontvangen 6"
+                  ],
+                  "sha256": "809be7139409430cae2c3c7b2bf9bd18fe061a87779f8d09de585ce984734709",
+                  "sources": [
+                    "https://data.binance.vision/data/spot/daily/klines/ETHEUR/4h/ETHEUR-4h-2025-01-10.zip"
+                  ],
+                  "start": "2025-01-10T00:00:00+00:00",
+                  "status": "incomplete"
+                }
+              }
+            },
+            "primary_timeframe": "1h"
+          },
+          "scanner": {
+            "ranking": [
+              {
+                "availability": "historical_data_only_unverified_tradability",
+                "data_end": "2025-01-11T00:00:00+00:00",
+                "explanation": "trend=-0.001592; momentum=-0.005095; volatiliteit=0.005009 (lager beter); quotevolume EUR=1332953.43672900; vier gelijke ranggewichten; geen winstkans",
+                "liquidity": "1332953.43672900",
+                "momentum": "-0.0050953468731398867492933517",
+                "score": "25.00",
+                "sources": [
+                  "https://data.binance.vision/data/spot/daily/klines/ETHEUR/1h/ETHEUR-1h-2025-01-10.zip"
+                ],
+                "symbol": "ETHEUR",
+                "trend": "-0.0015918437553752091445012588",
+                "volatility": "0.005009228338574391520605342615"
+              }
+            ],
+            "rejections": []
+          },
+          "sentiment": {
+            "explanation": "Geen automatische sentimentscore; bronbetrouwbaarheid moet door adapterbeheer worden vastgesteld",
+            "items": [],
+            "rejections": [],
+            "sentiment": "unknown",
+            "status": "geen betrouwbare data"
+          },
+          "technical": {
+            "frames": {
+              "15m": {
+                "count": 6,
+                "direction": "unknown",
+                "end": "2025-01-11T00:00:00+00:00",
+                "missing": [
+                  "minimaal 21 candles vereist; ontvangen 6"
+                ],
+                "sha256": "41f87f4f9b03bc53318d1525ad01234c0b968ebf4a8a034c76fa171c350e9fa0",
+                "sources": [
+                  "https://data.binance.vision/data/spot/daily/klines/ETHEUR/15m/ETHEUR-15m-2025-01-10.zip"
+                ],
+                "start": "2025-01-10T22:30:00+00:00",
+                "status": "incomplete"
+              },
+              "1h": {
+                "count": 6,
+                "direction": "unknown",
+                "end": "2025-01-11T00:00:00+00:00",
+                "missing": [
+                  "minimaal 21 candles vereist; ontvangen 6"
+                ],
+                "sha256": "92b951a1b41a3360fb7d99c755b1ed158caada76ddf37ba6f7326bc863565edd",
+                "sources": [
+                  "https://data.binance.vision/data/spot/daily/klines/ETHEUR/1h/ETHEUR-1h-2025-01-10.zip"
+                ],
+                "start": "2025-01-10T18:00:00+00:00",
+                "status": "incomplete"
+              },
+              "4h": {
+                "count": 6,
+                "direction": "unknown",
+                "end": "2025-01-11T00:00:00+00:00",
+                "missing": [
+                  "minimaal 21 candles vereist; ontvangen 6"
+                ],
+                "sha256": "809be7139409430cae2c3c7b2bf9bd18fe061a87779f8d09de585ce984734709",
+                "sources": [
+                  "https://data.binance.vision/data/spot/daily/klines/ETHEUR/4h/ETHEUR-4h-2025-01-10.zip"
+                ],
+                "start": "2025-01-10T00:00:00+00:00",
+                "status": "incomplete"
+              }
+            }
+          }
+        },
+        "hypothesis": "aligned_trend",
+        "missing": [
+          "15m: onvolledige indicatorgegevens",
+          "1h: onvolledige indicatorgegevens",
+          "4h: onvolledige indicatorgegevens",
+          "Ontbrekende indicatoren of datagaten"
+        ],
+        "research_only": true,
+        "sentiment": "unknown"
+      },
+      "entry:ETHEUR": {
+        "action": "REJECTED",
+        "reason": "Uitsluitend BUY_CANDIDATE wordt beoordeeld",
+        "research_only": true
+      },
+      "exit:ETHEUR": {
+        "action": "HOLD_POSITION",
+        "reason": "Geen positie",
+        "research_only": true
+      }
+    }
+  },
+  "independent_test_opened": false,
+  "limitation": "E\u00e9n dag bevat onvoldoende indicator-warm-up; correcte veilige HOLD. Geen prestatiemeting.",
+  "network_requests": 0,
+  "offline_fills": 0,
+  "paper_orders": 0,
+  "plan": {
+    "assumptions": [
+      "next_bar_execution_required",
+      "no_short_no_leverage",
+      "historical_revisions_not_reconstructed",
+      "no_validated_fill_simulator"
+    ],
+    "coins": [
+      "BTCEUR",
+      "ETHEUR"
+    ],
+    "dataset_sha256": "18a11758c3d585a9660efc10ab2a42900d624ca0303b726e07d2ace0e9f60d6e",
+    "development": {
+      "end": "2025-01-12T00:00:00Z",
+      "start": "2025-01-10T00:00:00Z"
+    },
+    "family_alpha": "0.05",
+    "fee": "0.001",
+    "horizon_hours": 4,
+    "hypotheses": [
+      "regime_momentum",
+      "aligned_trend",
+      "sideways_recovery"
+    ],
+    "independent_test": {
+      "end": "2025-01-16T00:00:00Z",
+      "start": "2025-01-15T00:00:00Z"
+    },
+    "indicators": {
+      "atr": 14,
+      "fast": 9,
+      "momentum": 10,
+      "rsi": 14,
+      "sideways": "0.002",
+      "slow": 21,
+      "structure": 5
+    },
+    "minimum_trades": 30,
+    "planned_risk": "0.005",
+    "report_hashes": [
+      "c7437d6315ce4e4f4007549b0ad6a3356da3d23b37500ef45fb682799dd4d9a7",
+      "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    ],
+    "selection": "net_expectancy_after_costs_then_lower_drawdown",
+    "slippage": "0.001",
+    "source": "Bestaande offici\u00eble Binance Spot-archiefbestanden",
+    "starting_cash": "200",
+    "stop_atr": 2,
+    "validation": {
+      "end": "2025-01-14T00:00:00Z",
+      "start": "2025-01-13T00:00:00Z"
+    },
+    "version": "phase4-v1",
+    "walk_train_days": 7,
+    "walk_validation_days": 2
+  },
+  "policy": {
+    "costs": {
+      "fee": "0.001",
+      "slippage": "0.001",
+      "spread": "0.001"
+    },
+    "horizon_hours": 4,
+    "hypothesis": "aligned_trend",
+    "max_consecutive_losses": 3,
+    "planned_risk": "0.005",
+    "stop_atr": 2,
+    "target": null,
+    "unknown_sentiment": "neutral_unknown",
+    "version": "phase5-v1"
+  },
+  "policy_sha256": "026d14c1ecdf25e10a0a01f3f19e4d0cdce9b1f72a204744dfc1727a74bd6103",
+  "test": "phase5-official-archive-fixtures"
+}

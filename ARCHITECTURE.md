@@ -113,3 +113,37 @@ Elke coin/hypothese heeft een afzonderlijke EUR-ledger, maximaal één positie e
 papertrading-tabellen; de API biedt alleen leesroutes. De onafhankelijke test
 blijft gesloten zonder vooraf vastgelegde expliciete protocolautorisatie.
 Zie PHASE4B_REPORT.md voor filters, kosten, tijdconventies en modelbeperkingen.
+
+## Fase-5-onderzoeksworkflow
+
+De bovenstaande fase-1-catalogus blijft als bestaand contract behouden. Het nieuwe
+onderzoeks-DAG gebruikt de gevalideerde fase-3-snapshot als invoer:
+
+```mermaid
+flowchart TD
+  A[Scanner + vier analyses: bevroren rapport] --> D[Decision: BUY_CANDIDATE / HOLD / EXIT_REVIEW]
+  D --> E[Entry: onderzoeksvoorstel]
+  L[Offline ledger + afgesloten candle] --> X[Exit: EXIT_CANDIDATE / HOLD_POSITION]
+  E --> R[Bestaande Risk Engine]
+  X --> R
+  R --> V[Opgeslagen onderzoeksbeoordeling]
+  V --> S[Expliciet aangeroepen ResearchExecutionEngine]
+  S --> F[Bestaande offline fillsimulator en ledger]
+  F --> DB[(Afzonderlijke onderzoeksopslag en audit)]
+  DB --> API[Alleen-lezen API]
+```
+
+ResearchTradingSession bindt ResearchPlan, DecisionPolicy, filters, rapporthashes
+ en candlehashes vóór evaluatie. Alleen kleine ontwikkelperioden zijn toegestaan;
+validatie en onafhankelijke test blijven gesloten. evaluate maakt geen orders.
+De onderzoeks-Execution-adapter erft het bestaande Execution-contract maar blokkeert
+propose; expliciete simulate vereist een geregistreerd risicobesluit en hercontrole.
+De Risk Engine heeft een optionele historische evaluatieklok en een bezitbegrensde
+exitcontrole; de bestaande paper-route kan de onderzoeks-evaluatieklok niet gebruiken.
+Elke open positie wordt op alle opeenvolgende 15m-candles gecontroleerd.
+
+Nieuwe tabellen decision_protocols, trade_decisions, research_trade_reviews,
+research_fills en research_ledger_states zijn gescheiden van papertrading. De laatste
+bewaart ook HOLD-waarderingen en herstartbare ledgerstaat. De API heeft uitsluitend
+leesroutes voor beslissingen, beoordelingen en onderzoeksfills. Zie PHASE5_REPORT.md
+voor de regels, exitprioriteit, onbekende nieuwsdata en modelbeperkingen.

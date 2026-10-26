@@ -11,7 +11,13 @@ class RiskEngine:
         self.hard, self.limits = hard, operational
         self.stopped = False
 
-    def check(self, proposal, rules, cash, equity, exposure, daily_loss, peak, correlation):
+    def check(self, proposal, rules, cash, equity, exposure, daily_loss, peak, correlation, *, evaluation_time=None):
+        # Alleen expliciete historische onderzoeksaanroepen leveren een evaluatieklok.
+        from .data import utc
+        at = evaluation_time or now()
+        utc(at)
+        if at > now():
+            return 'toekomstige evaluatie'
         p = Proposal.model_validate(proposal)
         if self.stopped:
             return 'noodstop'
@@ -26,7 +32,7 @@ class RiskEngine:
             return 'ongeldige portefeuille'
         l = self.limits
         for timestamp in (p.timestamp, r.timestamp):
-            if not 0 <= (now()-timestamp).total_seconds() < l.max_age:
+            if not 0 <= (at-timestamp).total_seconds() < l.max_age:
                 return 'verouderde marktgegevens'
         if not r.enabled or r.symbol != p.symbol:
             return 'ongeldig handelspaar'
@@ -50,6 +56,31 @@ class RiskEngine:
         return None
 
 
+    def check_exit(self, *, quantity, price, available, rules, timestamp, evaluation_time=None):
+        """Risicoverlagende long-Spot-exit; pauzes/noodstop blokkeren geen verkoop.
+
+        Geen saldo/exposure- of long-entry-stoptest op een verkoop. Beschikbaar
+        bezit en actuele filters blijven verplicht; nooit short verkopen.
+        """
+        from .data import utc
+        at = evaluation_time or now()
+        utc(at); utc(timestamp)
+        if at > now(): return 'toekomstige evaluatie'
+        if rules is None: return 'ontbrekende marktgegevens'
+        r = MarketRules.model_validate(rules)
+        q, price, available = map(lambda x: Decimal(str(x)), (quantity, price, available))
+        if any(not x.is_finite() for x in (q, price, available)) or q <= 0 or price <= 0 or available < q:
+            return 'onvoldoende positie of ongeldige exit'
+        if any(not 0 <= (at-t).total_seconds() < self.limits.max_age for t in (timestamp, r.timestamp)):
+            return 'verouderde marktgegevens'
+        if not r.enabled: return 'ongeldig handelspaar'
+        if not r.min_qty <= q <= r.max_qty or q % r.step or price % r.tick:
+            return 'Binance precisie/hoeveelheid'
+        if q*price < r.min_notional or (r.max_notional is not None and q*price > r.max_notional):
+            return 'Binance notional'
+        return None
+
+
 class PortfolioManager:
     def __init__(self, store):
         self.store = store
@@ -66,6 +97,8 @@ class ExecutionEngine:
         self.store, self.risk = store, risk
 
     def propose(self, proposal, rules, **portfolio):
+        if 'evaluation_time' in portfolio:
+            raise ValueError('Historische klok uitsluitend via afzonderlijke onderzoeksinterface')
         proposal = Proposal.model_validate(proposal)
         # Status komt later uit één transactionele portefeuille-ledger; geen automatische bot.
         with self.store.transaction():

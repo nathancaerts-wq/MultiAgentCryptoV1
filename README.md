@@ -123,3 +123,22 @@ Lees [PHASE4B_REPORT.md](PHASE4B_REPORT.md) voor alle uitvoeringsaannames en
 beperkingen. De eerder uitgevoerde kleine historische ontwikkelingstest staat in
 [experiments/phase4b_smoke.json](experiments/phase4b_smoke.json).
 `scripts/phase4b_smoke.py` beschrijft de handmatige reproductie; wordt niet automatisch gestart.
+
+## Fase 5: gecontroleerde Decision/Entry/Exit-agenten
+
+`crypto.trade_agents` levert vaste onderzoeksbeslissingen; `ResearchTradingSession`
+in `crypto.research_execution` verbindt deze met orchestrator, Risk Engine en de
+bestaande offline ledger. `evaluate()` maakt alleen berichten en beoordelingen.
+Een fill vereist een afzonderlijke expliciete `execution.simulate(review_id)`-aanroep;
+er ontstaan geen paper-orders. De onafhankelijke test blijft gesloten.
+
+Lees PHASE5_REPORT.md voor beslisregels, grenzen, gebruiksvoorwaarden en beperkingen.
+De kleine archieftest gebruikt alleen al aanwezige bestanden:
+
+```bash
+PYTHONPATH=. .venv/bin/python scripts/phase5_smoke.py
+.venv/bin/python -m pytest -q
+```
+
+Resultaten: alleen-lezen `/decisions`, `/research-trade-reviews` en `/research-fills`.
+Stop na fase 5; geen automatische activatie of volgende fase.

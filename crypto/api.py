@@ -51,6 +51,6 @@ def create_app(store=None):
             return store.list(table)
         return read
 
-    for route, table in {'coins': 'pairs', 'market': 'regimes', 'signals': 'results', 'research': 'research_results', 'errors': 'errors', 'candles': 'candles', 'data-quality': 'data_rejections', 'backtests': 'backtest_runs', 'simulation-protocols': 'simulation_protocols'}.items():
+    for route, table in {'coins': 'pairs', 'market': 'regimes', 'signals': 'results', 'research': 'research_results', 'errors': 'errors', 'candles': 'candles', 'data-quality': 'data_rejections', 'backtests': 'backtest_runs', 'simulation-protocols': 'simulation_protocols', 'decisions': 'trade_decisions', 'research-trade-reviews': 'research_trade_reviews', 'research-fills': 'research_fills'}.items():
         app.add_api_route('/'+route, reader(table), methods=['GET'])
     return app

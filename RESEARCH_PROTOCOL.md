@@ -100,3 +100,23 @@ benchmarks en selectie-effecten vereisen een expliciet uitgebreid analyseplan en
 correctie vóór enige claim. Het aantal geregistreerde plannen wordt gerapporteerd.
 Selectiecriterium: netto-expectancy, bij gelijkheid lagere drawdown; toepassing
 blijft geblokkeerd zolang prestatiemeting ontbreekt. Geen automatische promotie.
+
+## Aanvulling fase 5 — gecontroleerde beslisworkflow
+
+De eerdere beschrijving van ontbrekende fills is de historische fase-4-status;
+PHASE4B_REPORT.md documenteert de later gebouwde simulator. Fase 5 voegt een
+ afzonderlijke technische onderzoeksworkflow toe, zonder de bovenstaande hypothesen
+of bestaande meetresultaten te veranderen. PHASE5_REPORT.md legt DecisionPolicy
+phase5-v1, strengere veiligheidsfilters en expliciete offline uitvoering vast.
+
+Standaardhypothese aligned_trend, stop 2 ATR, horizon 4 uur, kosten en maximaal
+0,5% gepland risico staan vast vóór evaluatie. Geen winsttarget voor deze hypotheses.
+Eén andere bestaande hypothese kan alleen vooraf worden gekozen en moet al in het
+ResearchPlan staan. Filters, rapportbundel en uitvoeringscandles zijn eveneens gebonden.
+Een bevroren beleid kan niet voor hetzelfde plan/coin worden vervangen.
+
+Fase 5 staat uitsluitend kleine technische ontwikkeltests toe, maximaal 192
+uitvoeringscandles per coin. Validatie en onafhankelijke test zijn niet beschikbaar
+in deze interface. Het toetsen van striktere veiligheidsvoorwaarden is geen nieuwe
+statistische validatie van de oorspronkelijke hypotheses. Er is geen zoeklus,
+strategiepromotie of claim van positieve verwachtingswaarde.
