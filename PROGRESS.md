@@ -94,3 +94,18 @@ Bestaande productiestrategieën, agents en harde grenzen worden niet gewijzigd.
 fillsimulator aanwezig: prestaties, benchmarks en gevoeligheidsuitkomsten blijven
 expliciet niet berekend, met onvoldoende bewijs. Geen winstclaims of transacties.
 Zie RESEARCH_PROTOCOL.md en PHASE4_REPORT.md. Fase 5 is niet gestart.
+
+## Fase 4B
+
+Onderbroken ontwikkeling hervat en behouden vanaf da81022303a8300ded72519567114701ff0482a1.
+Offline fillsimulator, single-position EUR-ledger en preregistreerde backtestrunner
+met kosten, orderfilters, stops/gaps, risico- en verliespauzes, audit-hashketen,
+benchmark- en gevoeligheidsscenario's. Onderzoeksopslag en API blijven gescheiden
+van papertrading. Bestaande agenten en harde grenzen zijn ongewijzigd.
+
+191 tests geslaagd, 0 mislukt (154 bestaande + 37 nieuwe). De bestaande kleine
+BTC/EUR-integratietest is gecontroleerd en opgeslagen in experiments/phase4b_smoke.json;
+geen nieuwe historische backtest uitgevoerd bij hervatten. Historische orderfilters
+zijn aannames; alle uitkomsten blijven onvoldoende bewijs. De onafhankelijke test
+is niet vrijgegeven. Zie PHASE4B_REPORT.md voor alle uitvoeringsaannames en beperkingen.
+Fase 5 niet gestart.

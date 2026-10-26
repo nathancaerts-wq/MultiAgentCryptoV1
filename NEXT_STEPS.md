@@ -1,18 +1,20 @@
-# Vervolg na fase 4
+# Vervolg na fase 4B
 
-Begin fase 5 uitsluitend na expliciet verzoek. Behoud alle 154 tests.
+Fase 4B is afgerond. Begin fase 5 alleen na expliciet verzoek. Behoud alle 191 tests.
 
-1. Lees RESEARCH_PROTOCOL.md en PHASE4_REPORT.md. Het huidige systeem levert
-   onderzoeksselecties en testplannen, geen betrouwbare backtests.
-2. Ontwerp en valideer eerst de ontbrekende fillsimulator en portefeuille-ledger:
-   volgende-bar-instap, gaps, intrabarstops, fees/slippage, beursfilters,
-   saldoreservering, exposure, correlatie en equitycurve. Behoud harde risicogrenzen.
-3. Maak vooraf een plan voor benchmarkvergelijking, onzekerheidsintervallen,
-   meervoudig testen, onafhankelijke test en resultaatselectie. Bekijk de testset
-   pas na preregistratie; registreer externe inzage expliciet.
-4. Bereken prestaties pas met geverifieerde fills en voldoende onafhankelijke data.
-   Laat ontbrekende resultaten null; claim geen winstgevendheid op basis van
-   fixtureselecties, lage trade-aantallen of een enkele uitzonderlijke winnaar.
-5. Behoud €200-startkapitaal en maximaal 0,5% gepland risico. Geen automatische
-   promotie, live orders, API-sleutels of wijziging van bestaande productie-instellingen.
-6. Voer later Windows 11-validatie en een point-in-time dataversie-audit uit.
+1. Lees PHASE4B_REPORT.md en RESEARCH_PROTOCOL.md. De simulator is een expliciet
+   OHLCV-model, geen bewijs van werkelijke uitvoerbaarheid of winstgevendheid.
+2. Laat de onafhankelijke historische test gesloten. Leg vóór eventuele evaluatie
+   het onderzoeks- én uitvoeringsprotocol vast, inclusief expliciete toestemming.
+3. Verbeter historische metadata/provenance en de marktprijsreferenties voor
+   notionalfilters; gebruik geen huidige filters alsof ze historisch bekend waren.
+4. Valideer liquiditeit, deeluitvoering, intrabar/gapregels en kostenkalibratie
+   voordat grotere studies worden overwogen. Houd single-coin-experimenten gescheiden
+   van eventuele toekomstige gezamenlijke multi-coinboekhouding.
+5. Definieer expliciet een toegestane buy-and-hold-vergelijking: de huidige variant
+   zonder stop past niet binnen de geplande-risicoregel en wordt niet gesimuleerd.
+6. Vereis voldoende onafhankelijke trades en statistische validatie; geen promotie
+   op basis van de kleine ontwikkelsteekproef. Voer ook Windows-validatie uit.
+
+Geen automatische optimalisatie, live orders, API-sleutels, hogere risicolimieten
+of aanpassingen aan andere bots.

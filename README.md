@@ -110,3 +110,16 @@ de vooraf vastgelegde bundelhash per stage. Er is geen optimizer-zoeklus of prom
 Lees [RESEARCH_PROTOCOL.md](RESEARCH_PROTOCOL.md) en
 [PHASE4_REPORT.md](PHASE4_REPORT.md): betrouwbare backtests wachten op een
 gevalideerde fillsimulator en ledger. Huidige prestatievelden zijn bewust null.
+
+## Fase 4B: offline simulatie
+
+`crypto.backtest.BacktestRunner` koppelt ResearchPlan aan een vooraf vastgelegd
+SimulationProtocol met kosten, filters en candlehashes. Resultaten en audits staan
+in aparte onderzoekstabellen; alleen-lezen API: `/backtests` en `/simulation-protocols`.
+De onafhankelijke test is standaard gesloten. De simulator gebruikt één positie
+per afzonderlijk €200 coin/hypothese-experiment, maximaal 0,5% gepland risico.
+
+Lees [PHASE4B_REPORT.md](PHASE4B_REPORT.md) voor alle uitvoeringsaannames en
+beperkingen. De eerder uitgevoerde kleine historische ontwikkelingstest staat in
+[experiments/phase4b_smoke.json](experiments/phase4b_smoke.json).
+`scripts/phase4b_smoke.py` beschrijft de handmatige reproductie; wordt niet automatisch gestart.

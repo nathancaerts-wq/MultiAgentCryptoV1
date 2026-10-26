@@ -1,0 +1,212 @@
+{
+  "archive_manifest": [
+    {
+      "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-10.zip.CHECKSUM",
+      "end": "2025-01-11T00:00:00+00:00",
+      "format_reference": "https://github.com/binance/binance-public-data#spot",
+      "sha256": "a034d2f10ece1ffa26d185d837fed7297d36249f77c5e3a42d377872a9f287b6",
+      "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-10.zip",
+      "start": "2025-01-10T00:00:00+00:00",
+      "timestamp_unit": "us",
+      "validation_status": "checksum_and_full_day_validated"
+    }
+  ],
+  "candle_count": 24,
+  "execution": {
+    "benchmarks": [
+      "ema_trend"
+    ],
+    "candle_hashes": [
+      "f34c68920204a10198c3162ce54c2ce9da46c53ce62a059c74cf331c26e42416",
+      "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    ],
+    "costs": {
+      "fee": "0.001",
+      "slippage": "0.001",
+      "spread": "0.001"
+    },
+    "data_kind": "binance_spot",
+    "filters": [
+      {
+        "avg_price_mins": 0,
+        "known_at": null,
+        "market_max_qty": null,
+        "market_min_qty": "0",
+        "market_step": "0",
+        "max_price": null,
+        "max_qty": "100",
+        "min_notional": "5",
+        "min_notional_market": true,
+        "min_price": "0",
+        "min_qty": "0.00001",
+        "note": "Alleen simulatie: historische Binance filters niet vastgesteld; tick 0.01 EUR, step 0.00001 BTC, minimum 5 EUR zijn aannames.",
+        "notional_apply_max_market": true,
+        "notional_apply_min_market": true,
+        "notional_max": null,
+        "notional_min": "0",
+        "source": "assumption:historical-filters-unavailable",
+        "status": "assumed",
+        "step": "0.00001",
+        "symbol": "BTCEUR",
+        "tick": "0.01",
+        "valid_from": null,
+        "valid_until": null
+      }
+    ],
+    "independent_test_authorization": null,
+    "interval": "1h",
+    "version": "conservative-ohlcv-v1"
+  },
+  "independent_test_opened": false,
+  "paper_orders": 0,
+  "plan": {
+    "assumptions": [
+      "next_bar_execution_required",
+      "no_short_no_leverage",
+      "historical_revisions_not_reconstructed",
+      "no_validated_fill_simulator"
+    ],
+    "coins": [
+      "BTCEUR"
+    ],
+    "dataset_sha256": "f34c68920204a10198c3162ce54c2ce9da46c53ce62a059c74cf331c26e42416",
+    "development": {
+      "end": "2025-01-11T00:00:00Z",
+      "start": "2025-01-10T00:00:00Z"
+    },
+    "family_alpha": "0.05",
+    "fee": "0.001",
+    "horizon_hours": 4,
+    "hypotheses": [
+      "regime_momentum",
+      "aligned_trend",
+      "sideways_recovery"
+    ],
+    "independent_test": {
+      "end": "2025-01-16T00:00:00Z",
+      "start": "2025-01-15T00:00:00Z"
+    },
+    "indicators": {
+      "atr": 14,
+      "fast": 9,
+      "momentum": 10,
+      "rsi": 14,
+      "sideways": "0.002",
+      "slow": 21,
+      "structure": 5
+    },
+    "minimum_trades": 30,
+    "planned_risk": "0.005",
+    "report_hashes": [
+      "fb0858c212d5aa128f066ebe6a962dd9852685ccb477b58afdd5d8ac4977be7c",
+      "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    ],
+    "selection": "net_expectancy_after_costs_then_lower_drawdown",
+    "slippage": "0.001",
+    "source": "Binance Spot, vooraf gekozen BTC/EUR ontwikkelingstest 2025-01-10",
+    "starting_cash": "200",
+    "stop_atr": 2,
+    "validation": {
+      "end": "2025-01-13T00:00:00Z",
+      "start": "2025-01-12T00:00:00Z"
+    },
+    "version": "phase4-v1",
+    "walk_train_days": 7,
+    "walk_validation_days": 2
+  },
+  "protocol": "45dde2588f2fc28313ac72e76bd9d02f5d21d0a52b37f028b8697a2bbbfbb30d",
+  "reports": 2,
+  "result_id": "ae14832f29b4040467fe96b2c3f8c0dc0e50bef1def53c55a17f879080397b8e",
+  "results": {
+    "aligned_trend": {
+      "fills": 0,
+      "metrics": {
+        "average_loss": null,
+        "average_win": null,
+        "complete": true,
+        "double_cost_net": "0",
+        "evidence": "insufficient_evidence",
+        "expectancy": null,
+        "market_exposure": "0",
+        "max_drawdown": "0",
+        "net_result": "0",
+        "net_without_top_3_winners": "0",
+        "profit_factor": null,
+        "profit_factor_note": "undefined_without_losses",
+        "realized": "0",
+        "trades": 0,
+        "winrate": null
+      },
+      "rejections": []
+    },
+    "buy_and_hold": {
+      "reason": "Ongeremde buy-and-hold zonder stop past niet binnen 0,5% gepland risico; geen stilzwijgende benchmarkwijziging",
+      "status": "not_simulated"
+    },
+    "ema_trend": {
+      "fills": 4,
+      "metrics": {
+        "average_loss": "-0.99958495",
+        "average_win": "0.48793622",
+        "complete": true,
+        "double_cost_net": "-0.75059616",
+        "evidence": "insufficient_evidence",
+        "expectancy": "-0.255824365",
+        "market_exposure": "0.25",
+        "max_drawdown": "0.0067453054",
+        "net_result": "-0.51164873",
+        "net_without_top_3_winners": "-0.99958495",
+        "profit_factor": "0.4881388220180786035243927992",
+        "profit_factor_note": null,
+        "realized": "-0.51164873",
+        "trades": 2,
+        "winrate": "0.5"
+      },
+      "rejections": []
+    },
+    "regime_momentum": {
+      "fills": 2,
+      "metrics": {
+        "average_loss": "-0.99958495",
+        "average_win": null,
+        "complete": true,
+        "double_cost_net": "-0.99302938",
+        "evidence": "insufficient_evidence",
+        "expectancy": "-0.99958495",
+        "market_exposure": "0.08333333333333333333333333333",
+        "max_drawdown": "0.00499792475",
+        "net_result": "-0.99958495",
+        "net_without_top_3_winners": "-0.99958495",
+        "profit_factor": "0E+8",
+        "profit_factor_note": null,
+        "realized": "-0.99958495",
+        "trades": 1,
+        "winrate": "0"
+      },
+      "rejections": []
+    },
+    "sideways_recovery": {
+      "fills": 0,
+      "metrics": {
+        "average_loss": null,
+        "average_win": null,
+        "complete": true,
+        "double_cost_net": "0",
+        "evidence": "insufficient_evidence",
+        "expectancy": null,
+        "market_exposure": "0",
+        "max_drawdown": "0",
+        "net_result": "0",
+        "net_without_top_3_winners": "0",
+        "profit_factor": null,
+        "profit_factor_note": "undefined_without_losses",
+        "realized": "0",
+        "trades": 0,
+        "winrate": null
+      },
+      "rejections": []
+    }
+  }
+}

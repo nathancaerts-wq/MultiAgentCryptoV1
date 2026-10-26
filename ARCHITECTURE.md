@@ -102,3 +102,14 @@ research_results. Er is geen verbinding naar productieconfiguraties of execution
 De oudere ResearchOptimizer-interface blijft bestaan. Zie RESEARCH_PROTOCOL.md
 voor de vooraf vastgelegde hypotheses en PHASE4_REPORT.md voor de beperking tot
 onderzoeksinterfaces zolang een gevalideerde fillsimulator ontbreekt.
+
+## Fase-4B-simulatiepad
+
+BacktestRunner registreert een SimulationProtocol naast het onveranderde ResearchPlan.
+De bestaande optimizer en QuantResearcher controleren de onderzoeksselecties.
+OfflineLedger en FillCosts verwerken uitsluitend historische simulatietransacties.
+Elke coin/hypothese heeft een afzonderlijke EUR-ledger, maximaal één positie en
+€200 startkapitaal. simulation_protocols en backtest_runs staan los van de
+papertrading-tabellen; de API biedt alleen leesroutes. De onafhankelijke test
+blijft gesloten zonder vooraf vastgelegde expliciete protocolautorisatie.
+Zie PHASE4B_REPORT.md voor filters, kosten, tijdconventies en modelbeperkingen.
