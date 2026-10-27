@@ -1,0 +1,75 @@
+{
+  "status": "stopped_essential_gate_failed",
+  "reason": "synthetic_year_timeout_45_seconds",
+  "checks": [
+    {
+      "symbol": "BTCEUR",
+      "period": "development",
+      "prior_audit_status": "valid",
+      "current_check": "valid",
+      "identical_to_prior_audit": true,
+      "valid_days": 366
+    },
+    {
+      "symbol": "BTCEUR",
+      "period": "validation",
+      "prior_audit_status": "valid",
+      "current_check": "valid",
+      "identical_to_prior_audit": true,
+      "valid_days": 334
+    },
+    {
+      "symbol": "BTCEUR",
+      "period": "validation_warmup",
+      "prior_audit_status": "valid",
+      "current_check": "valid",
+      "identical_to_prior_audit": true,
+      "valid_days": 7
+    },
+    {
+      "symbol": "ETHEUR",
+      "period": "development",
+      "prior_audit_status": "valid",
+      "current_check": "valid",
+      "identical_to_prior_audit": true,
+      "valid_days": 366
+    },
+    {
+      "symbol": "ETHEUR",
+      "period": "validation",
+      "prior_audit_status": "valid",
+      "current_check": "not_completed_before_stop"
+    },
+    {
+      "symbol": "ETHEUR",
+      "period": "validation_warmup",
+      "prior_audit_status": "valid",
+      "current_check": "not_completed_before_stop"
+    },
+    {
+      "symbol": "SOLEUR",
+      "period": "development",
+      "prior_audit_status": "valid",
+      "current_check": "not_completed_before_stop"
+    },
+    {
+      "symbol": "SOLEUR",
+      "period": "validation",
+      "prior_audit_status": "valid",
+      "current_check": "not_completed_before_stop"
+    },
+    {
+      "symbol": "SOLEUR",
+      "period": "validation_warmup",
+      "prior_audit_status": "valid",
+      "current_check": "not_completed_before_stop"
+    }
+  ],
+  "manifest_hashes_verified": true,
+  "network_requests": 0,
+  "historical_performance_runs": 0,
+  "independent_test_accessed": false,
+  "tests_passed": 317,
+  "tests_failed": 0,
+  "recorded_at": "2026-10-27T14:57:31.804690+00:00"
+}

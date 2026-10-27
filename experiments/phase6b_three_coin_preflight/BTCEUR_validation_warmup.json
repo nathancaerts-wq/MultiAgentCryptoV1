@@ -1,0 +1,304 @@
+{
+  "symbol": "BTCEUR",
+  "period": "validation_warmup",
+  "start": "2025-01-25T00:00:00+00:00",
+  "end": "2025-02-01T00:00:00+00:00",
+  "days": [
+    {
+      "start": "2025-01-25T00:00:00+00:00",
+      "end": "2025-01-26T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-25.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-25.zip.CHECKSUM",
+          "sha256": "a842de4c0b7b44a58d9bc8192b74e3540c03afd8d2d03aff6c7da52c5250c2f6",
+          "start": "2025-01-25T00:00:00+00:00",
+          "end": "2025-01-26T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-25.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-25.zip.CHECKSUM",
+          "sha256": "1ac425df562e185af875805c25e89389e89b8d395a9d1311a8566446948eb6a5",
+          "start": "2025-01-25T00:00:00+00:00",
+          "end": "2025-01-26T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-25.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-25.zip.CHECKSUM",
+          "sha256": "55a1ae69d8630d3e75caf9761e78c266ef28b06a80a0b5d8826e64c0367949f6",
+          "start": "2025-01-25T00:00:00+00:00",
+          "end": "2025-01-26T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-26T00:00:00+00:00",
+      "end": "2025-01-27T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-26.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-26.zip.CHECKSUM",
+          "sha256": "2cdd00d1340e5dedbb4bde5e3d26d76d9ef0c5631014e99785f54d49e8b34536",
+          "start": "2025-01-26T00:00:00+00:00",
+          "end": "2025-01-27T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-26.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-26.zip.CHECKSUM",
+          "sha256": "fee0010acf285a52e1403dda8a90eb3f60710f7bda66b9de4a7f6dfe9d49949e",
+          "start": "2025-01-26T00:00:00+00:00",
+          "end": "2025-01-27T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-26.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-26.zip.CHECKSUM",
+          "sha256": "ba9ae84a4499d33b70726b846ee408025e246ee8e04625f2123d880af44651a1",
+          "start": "2025-01-26T00:00:00+00:00",
+          "end": "2025-01-27T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-27T00:00:00+00:00",
+      "end": "2025-01-28T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-27.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-27.zip.CHECKSUM",
+          "sha256": "19c2a6a7384a802d2fb9f034e5c214ae530986b70de86914225766c631e031b8",
+          "start": "2025-01-27T00:00:00+00:00",
+          "end": "2025-01-28T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-27.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-27.zip.CHECKSUM",
+          "sha256": "a740183cbe0ef4fa8dff600a552a22277d5b069f6d4844db1f2e8d0c92eb46f4",
+          "start": "2025-01-27T00:00:00+00:00",
+          "end": "2025-01-28T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-27.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-27.zip.CHECKSUM",
+          "sha256": "86e5833ea0b01c1f4f9db1f386a356b98ce7c349a956c9aabae16d404ac58322",
+          "start": "2025-01-27T00:00:00+00:00",
+          "end": "2025-01-28T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-28T00:00:00+00:00",
+      "end": "2025-01-29T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-28.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-28.zip.CHECKSUM",
+          "sha256": "bebee6356d75b2bc2b3a68ee8ab2c0f2f122d88aa1f77102d3c55a6c9b2b3689",
+          "start": "2025-01-28T00:00:00+00:00",
+          "end": "2025-01-29T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-28.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-28.zip.CHECKSUM",
+          "sha256": "626bcf2f7b93db1ad95f8634d35b1c01a84350d2588b19ebc99e36405bd7fe7e",
+          "start": "2025-01-28T00:00:00+00:00",
+          "end": "2025-01-29T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-28.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-28.zip.CHECKSUM",
+          "sha256": "db0dd39f5f3f5feff35343b30fd691c523f7b06f90190cb9bb9f79f6f3acc1c6",
+          "start": "2025-01-28T00:00:00+00:00",
+          "end": "2025-01-29T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-29T00:00:00+00:00",
+      "end": "2025-01-30T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-29.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-29.zip.CHECKSUM",
+          "sha256": "44744996256c6e15f9cfd157b29bc698e1cdc93b416964657f38180c920f088d",
+          "start": "2025-01-29T00:00:00+00:00",
+          "end": "2025-01-30T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-29.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-29.zip.CHECKSUM",
+          "sha256": "87b9ef842b4fbae52b09967aec63d82469ce38b944ef3248945b043910f3f8bc",
+          "start": "2025-01-29T00:00:00+00:00",
+          "end": "2025-01-30T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-29.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-29.zip.CHECKSUM",
+          "sha256": "3e8e20189887fbbb447968f616db369f43a8a8b9bdb3c27b02516c766ec85c06",
+          "start": "2025-01-29T00:00:00+00:00",
+          "end": "2025-01-30T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-30T00:00:00+00:00",
+      "end": "2025-01-31T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-30.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-30.zip.CHECKSUM",
+          "sha256": "32d1e3c988c04cb9c3e44639deed64417c822986d07323293c70b85683ac942c",
+          "start": "2025-01-30T00:00:00+00:00",
+          "end": "2025-01-31T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-30.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-30.zip.CHECKSUM",
+          "sha256": "a959a5f9725d029188990ff59c595759dd52bedea9ba4043f99e98aaa6cbfb58",
+          "start": "2025-01-30T00:00:00+00:00",
+          "end": "2025-01-31T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-30.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-30.zip.CHECKSUM",
+          "sha256": "8ef6f85e3954f038a94e957e1f02e85caa738f1dbf6175bb857396a428eb2429",
+          "start": "2025-01-30T00:00:00+00:00",
+          "end": "2025-01-31T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-31T00:00:00+00:00",
+      "end": "2025-02-01T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-31.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/15m/BTCEUR-15m-2025-01-31.zip.CHECKSUM",
+          "sha256": "6b7c9074d7765770e74fcf00fca01bb5250ff92a40f0443a9c3d1a0ef488b9ae",
+          "start": "2025-01-31T00:00:00+00:00",
+          "end": "2025-02-01T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-31.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/1h/BTCEUR-1h-2025-01-31.zip.CHECKSUM",
+          "sha256": "a21d0ab24a2d358409a001eda46ac9faf79715d6a7e896e896f97f94a636786a",
+          "start": "2025-01-31T00:00:00+00:00",
+          "end": "2025-02-01T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-31.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/BTCEUR/4h/BTCEUR-4h-2025-01-31.zip.CHECKSUM",
+          "sha256": "d1698d863fa2137b3ff0616915a2c9db38acbfcd99df0c12bde01c8422e7d923",
+          "start": "2025-01-31T00:00:00+00:00",
+          "end": "2025-02-01T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    }
+  ],
+  "performance_computed": false,
+  "status": "valid"
+}

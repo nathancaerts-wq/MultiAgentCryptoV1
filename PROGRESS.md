@@ -206,3 +206,15 @@ Kalenderbinding benchmarks getest. Echte zesmunten-jaarfixture gemeten; candleha
 cache en tijdindex versnellen verwerking, maar de jaarreplay voltooit niet binnen
 45 seconden. Schaalbaarheid blijft open. 317 tests geslaagd, 0 mislukt; één bestaande
 waarschuwing. Geen historische rendementen of testvrijgave. Zie PHASE6B_FINAL_READINESS.md.
+
+## Fase 6B — afzonderlijke drie-muntenstudie, gestopt vóór backtest
+
+De gebruiker gaf voorwaardelijke toestemming voor BTC/EUR, ETH/EUR en SOL/EUR.
+PHASE6B_THREE_COIN_AMENDMENT.md legt de afzonderlijke hypothetische studie vast.
+Bestaand en nieuw manifest gecontroleerd; BTC D/V/warm-up en ETH ontwikkeling opnieuw
+uit cache gevalideerd. De synthetische drie-muntenjaarcontrole voltooide niet binnen
+45 seconden. Volgens de expliciete stopvoorwaarde is geen historische backtest gestart
+en de overige datahercontrole gestopt. 317 tests geslaagd, 0 mislukt; één bestaande
+waarschuwing. Jaarreproduceerbaarheid niet bewezen; onafhankelijke test gesloten.
+Zie PHASE6B_BACKTEST_REPORT.md. Geen commit/push wegens de niet-geslaagde essentiële
+controle; bestaande HEAD b55aa218f66b3facd6d980032fea495f9701bf80 behouden.
