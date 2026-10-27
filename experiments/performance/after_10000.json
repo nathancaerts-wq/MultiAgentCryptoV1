@@ -1,0 +1,155 @@
+{
+  "status": "timeout",
+  "size_per_coin": 10000,
+  "coins": 3,
+  "steps": 0,
+  "candles_processed": 0,
+  "elapsed": 30.10966388899942,
+  "peak_rss_kib": 60296,
+  "stage": "data_input",
+  "stage_seconds": {},
+  "budget_seconds": 30,
+  "profiled": true,
+  "synthetic_only": true,
+  "complete_agent_reports": false,
+  "top": [
+    {
+      "file": "/workspace/MultiAgentCryptoV1/.venv/lib/python3.12/site-packages/pydantic/main.py",
+      "line": 240,
+      "function": "__init__",
+      "calls": 16444,
+      "self_seconds": 1.590801533,
+      "cumulative_seconds": 26.071479148
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'validate_python' of 'pydantic_core._pydantic_core.SchemaValidator' objects>",
+      "calls": 16444,
+      "self_seconds": 15.036242452000002,
+      "cumulative_seconds": 24.480677615
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/data.py",
+      "line": 38,
+      "function": "valid",
+      "calls": 16444,
+      "self_seconds": 6.475948916,
+      "cumulative_seconds": 9.444435163000001
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/data.py",
+      "line": 19,
+      "function": "utc",
+      "calls": 32888,
+      "self_seconds": 0.6942411930000001,
+      "cumulative_seconds": 2.3164567380000003
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'utcoffset' of 'datetime.datetime' objects>",
+      "calls": 32888,
+      "self_seconds": 1.6222155450000002,
+      "cumulative_seconds": 1.6222155450000002
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'timestamp' of 'datetime.datetime' objects>",
+      "calls": 16444,
+      "self_seconds": 0.523069036,
+      "cumulative_seconds": 0.523069036
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.min>",
+      "calls": 16444,
+      "self_seconds": 0.072857394,
+      "cumulative_seconds": 0.072857394
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.max>",
+      "calls": 16443,
+      "self_seconds": 0.056081653,
+      "cumulative_seconds": 0.056081653
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+      "calls": 1,
+      "self_seconds": 0.0016058440000000002,
+      "cumulative_seconds": 0.0016058440000000002
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/readiness.py",
+      "line": 11,
+      "function": "dt",
+      "calls": 1,
+      "self_seconds": 1.4821000000000001e-05,
+      "cumulative_seconds": 2.3582000000000002e-05
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/scripts/profile_replay.py",
+      "line": 19,
+      "function": "timeout",
+      "calls": 1,
+      "self_seconds": 2.1426e-05,
+      "cumulative_seconds": 2.1426e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'replace' of 'datetime.datetime' objects>",
+      "calls": 1,
+      "self_seconds": 4.427e-06,
+      "cumulative_seconds": 4.427e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method fromisoformat>",
+      "calls": 1,
+      "self_seconds": 4.334e-06,
+      "cumulative_seconds": 4.334e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _signal.alarm>",
+      "calls": 1,
+      "self_seconds": 4.281e-06,
+      "cumulative_seconds": 4.281e-06
+    }
+  ],
+  "components": [
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/data.py",
+      "line": 38,
+      "function": "valid",
+      "calls": 16444,
+      "self_seconds": 6.475948916,
+      "cumulative_seconds": 9.444435163000001
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/data.py",
+      "line": 19,
+      "function": "utc",
+      "calls": 32888,
+      "self_seconds": 0.6942411930000001,
+      "cumulative_seconds": 2.3164567380000003
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/readiness.py",
+      "line": 11,
+      "function": "dt",
+      "calls": 1,
+      "self_seconds": 1.4821000000000001e-05,
+      "cumulative_seconds": 2.3582000000000002e-05
+    }
+  ]
+}

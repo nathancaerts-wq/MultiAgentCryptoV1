@@ -1,20 +1,14 @@
-# Vervolg na de gestopte drie-muntenvoorbereiding
+# Vervolg na fase-6B-performanceonderzoek
 
-Lees PHASE6B_BACKTEST_REPORT.md en PHASE6B_THREE_COIN_AMENDMENT.md. De gebruiker
-heeft voorwaardelijke toestemming voor historische evaluatie gegeven; die is niet
-ingetrokken, maar de essentiële technische voorwaarden zijn nog niet vervuld.
-De expliciete stopvoorwaarde is toegepast. Geen historische resultaten berekend.
+Lees PHASE6B_PERFORMANCE_REPORT.md. De prefixcache vermindert herhaalde
+historieverificatie; de jaarblokkering is nog niet volledig opgelost.
 
-1. Bewaar de lokale, nog niet gecommitte amendering, meetgegevens en rapporten.
-2. Bij een volgende opdracht: los de jaarreplayblokkering op en valideer de volledige
-   synthetische agentketen, risicopauzes en reproduceerbaarheid inclusief herstart.
-   Een lege-rapporten-capaciteitsscreening alleen is niet voldoende.
-3. Rond de onderbroken corpushercontrole af. Bestaande ETH/SOL-audits blijven geldig
-   als oudere bewijsstukken; presenteer ze niet als volledig nieuwe hercontrole.
-4. Voltooi de afzonderlijke hypothetische stage-/benchmarkregisseur, controleer alle
-   hashes en toegangspoorten. Oorspronkelijke zesmuntenconfiguratie niet aanpassen.
-5. Pas wanneer alle vooraf vastgelegde controles slagen, mag de geautoriseerde
-   ontwikkelstudie beginnen. Validatie volgt uitsluitend bij technische consistentie;
-   geen selectie op winst. De onafhankelijke test vanaf 2026 blijft geheel gesloten.
-
-Geen parameteroptimalisatie, echte orders, risicowijzigingen of automatische volgende fase.
+1. Bewaar de lokale wijzigingen en profielartefacten; verander geen onderzoekparameters.
+2. Ontwerp een incrementele ledger-/eventopslag, met bewijs voor dezelfde inhoud,
+   kosten, risicopauzes, herstart, corruptiedetectie en rollback.
+3. Meet daarna sequentieel op gereserveerde resources: 1.000, 10.000 en een jaar
+   met volledige synthetische agentrapporten en transacties, plus herhaalrun.
+   De bestaande lege-rapporten-screening is slechts een ondergrens.
+4. Handhaaf het afzonderlijke 45-secondencriterium; rapporteer overschrijding eerlijk.
+5. Historische evaluatie blijft afhankelijk van alle essentiële controles.
+   Geen historische backtests in deze performancefase; onafhankelijke test gesloten.

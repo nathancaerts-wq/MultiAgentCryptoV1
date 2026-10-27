@@ -1,0 +1,517 @@
+{
+  "status": "timeout",
+  "size_per_coin": 35136,
+  "coins": 3,
+  "steps": 0,
+  "candles_processed": 0,
+  "elapsed": 30.32765342499988,
+  "peak_rss_kib": 257008,
+  "stage": "initialization",
+  "stage_seconds": {
+    "data_input": 25.286079744000745
+  },
+  "budget_seconds": 30,
+  "profiled": true,
+  "synthetic_only": true,
+  "complete_agent_reports": false,
+  "top": [
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'validate_python' of 'pydantic_core._pydantic_core.SchemaValidator' objects>",
+      "calls": 116094,
+      "self_seconds": 13.553977499,
+      "cumulative_seconds": 22.627218291000002
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/.venv/lib/python3.12/site-packages/pydantic/main.py",
+      "line": 240,
+      "function": "__init__",
+      "calls": 105419,
+      "self_seconds": 0.6882403730000001,
+      "cumulative_seconds": 20.960120769
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/data.py",
+      "line": 38,
+      "function": "valid",
+      "calls": 116078,
+      "self_seconds": 4.6822032490000005,
+      "cumulative_seconds": 9.070982174000001
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/readiness_runner.py",
+      "line": 45,
+      "function": "__init__",
+      "calls": 1,
+      "self_seconds": 0.00015713,
+      "cumulative_seconds": 5.012277749
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 42,
+      "function": "__init__",
+      "calls": 1,
+      "self_seconds": 0.15610688,
+      "cumulative_seconds": 4.602884612
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 48,
+      "function": "<genexpr>",
+      "calls": 10670,
+      "self_seconds": 0.228056116,
+      "cumulative_seconds": 4.435988418
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/data.py",
+      "line": 19,
+      "function": "utc",
+      "calls": 232173,
+      "self_seconds": 1.3944498680000001,
+      "cumulative_seconds": 2.579064724
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/.venv/lib/python3.12/site-packages/pydantic/main.py",
+      "line": 677,
+      "function": "model_validate",
+      "calls": 10675,
+      "self_seconds": 0.082486325,
+      "cumulative_seconds": 2.437818734
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/.venv/lib/python3.12/site-packages/pydantic/main.py",
+      "line": 418,
+      "function": "model_dump",
+      "calls": 10675,
+      "self_seconds": 1.39588701,
+      "cumulative_seconds": 1.7809013800000002
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'utcoffset' of 'datetime.datetime' objects>",
+      "calls": 232173,
+      "self_seconds": 1.1779347850000002,
+      "cumulative_seconds": 1.1779347850000002
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'timestamp' of 'datetime.datetime' objects>",
+      "calls": 116077,
+      "self_seconds": 1.131387549,
+      "cumulative_seconds": 1.131387549
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.min>",
+      "calls": 116085,
+      "self_seconds": 0.47804199100000005,
+      "cumulative_seconds": 0.47804199100000005
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.any>",
+      "calls": 7,
+      "self_seconds": 0.07960705700000001,
+      "cumulative_seconds": 0.41127636700000003
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'to_python' of 'pydantic_core._pydantic_core.SchemaSerializer' objects>",
+      "calls": 10675,
+      "self_seconds": 0.38501437000000005,
+      "cumulative_seconds": 0.38501437000000005
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/readiness_runner.py",
+      "line": 53,
+      "function": "<genexpr>",
+      "calls": 105411,
+      "self_seconds": 0.23741615700000002,
+      "cumulative_seconds": 0.329635995
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.max>",
+      "calls": 116077,
+      "self_seconds": 0.200340701,
+      "cumulative_seconds": 0.200340701
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'startswith' of 'str' objects>",
+      "calls": 105409,
+      "self_seconds": 0.092220831,
+      "cumulative_seconds": 0.092220831
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/storage.py",
+      "line": 20,
+      "function": "__init__",
+      "calls": 1,
+      "self_seconds": 0.000360971,
+      "cumulative_seconds": 0.008340929
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'execute' of 'sqlite3.Connection' objects>",
+      "calls": 42,
+      "self_seconds": 0.007084310000000001,
+      "cumulative_seconds": 0.007084310000000001
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/scripts/profile_replay.py",
+      "line": 19,
+      "function": "timeout",
+      "calls": 1,
+      "self_seconds": 0.006680071,
+      "cumulative_seconds": 0.006680071
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 62,
+      "function": "valid",
+      "calls": 2,
+      "self_seconds": 0.00011486100000000001,
+      "cumulative_seconds": 0.0021647610000000003
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/__init__.py",
+      "line": 169,
+      "function": "fullmatch",
+      "calls": 12,
+      "self_seconds": 2.7667e-05,
+      "cumulative_seconds": 0.002017351
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/__init__.py",
+      "line": 280,
+      "function": "_compile",
+      "calls": 12,
+      "self_seconds": 0.000126852,
+      "cumulative_seconds": 0.001970861
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_compiler.py",
+      "line": 745,
+      "function": "compile",
+      "calls": 2,
+      "self_seconds": 2.5180000000000003e-05,
+      "cumulative_seconds": 0.001786405
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 65,
+      "function": "<genexpr>",
+      "calls": 8,
+      "self_seconds": 1.1613e-05,
+      "cumulative_seconds": 0.001750215
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 969,
+      "function": "parse",
+      "calls": 2,
+      "self_seconds": 1.7105e-05,
+      "cumulative_seconds": 0.001031665
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 452,
+      "function": "_parse_sub",
+      "calls": 2,
+      "self_seconds": 0.000766507,
+      "cumulative_seconds": 0.0010007220000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _sqlite3.connect>",
+      "calls": 1,
+      "self_seconds": 0.0008457540000000001,
+      "cumulative_seconds": 0.000894633
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 113,
+      "function": "report_digest",
+      "calls": 1,
+      "self_seconds": 3.9949e-05,
+      "cumulative_seconds": 0.0008012490000000001
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_compiler.py",
+      "line": 578,
+      "function": "_code",
+      "calls": 2,
+      "self_seconds": 2.2400000000000002e-05,
+      "cumulative_seconds": 0.0007222890000000001
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py",
+      "line": 183,
+      "function": "dumps",
+      "calls": 1,
+      "self_seconds": 6.267e-06,
+      "cumulative_seconds": 0.000699211
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py",
+      "line": 183,
+      "function": "encode",
+      "calls": 1,
+      "self_seconds": 0.000652184,
+      "cumulative_seconds": 0.000692944
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_compiler.py",
+      "line": 37,
+      "function": "_compile",
+      "calls": 4,
+      "self_seconds": 4.3667e-05,
+      "cumulative_seconds": 0.000657604
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.len>",
+      "calls": 54,
+      "self_seconds": 0.000557723,
+      "cumulative_seconds": 0.000558931
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+      "calls": 1,
+      "self_seconds": 0.00035593800000000003,
+      "cumulative_seconds": 0.00035593800000000003
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 68,
+      "function": "<genexpr>",
+      "calls": 8,
+      "self_seconds": 4.351e-06,
+      "cumulative_seconds": 0.0002831
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 512,
+      "function": "_parse",
+      "calls": 2,
+      "self_seconds": 8.7039e-05,
+      "cumulative_seconds": 0.00022943800000000002
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 168,
+      "function": "__getitem__",
+      "calls": 19,
+      "self_seconds": 2.6316e-05,
+      "cumulative_seconds": 0.00011402100000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.isinstance>",
+      "calls": 64,
+      "self_seconds": 0.000103616,
+      "cumulative_seconds": 0.000103616
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 27,
+      "function": "valid",
+      "calls": 9,
+      "self_seconds": 2.1681e-05,
+      "cumulative_seconds": 7.4762e-05
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/readiness.py",
+      "line": 11,
+      "function": "dt",
+      "calls": 5,
+      "self_seconds": 5.1337e-05,
+      "cumulative_seconds": 6.914e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/enum.py",
+      "line": 1561,
+      "function": "__and__",
+      "calls": 4,
+      "self_seconds": 1.7393e-05,
+      "cumulative_seconds": 4.5454e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/functools.py",
+      "line": 521,
+      "function": "decorating_function",
+      "calls": 1,
+      "self_seconds": 8.071000000000001e-06,
+      "cumulative_seconds": 4.3744e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_compiler.py",
+      "line": 516,
+      "function": "_compile_info",
+      "calls": 2,
+      "self_seconds": 2.0465e-05,
+      "cumulative_seconds": 4.1883000000000005e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/functools.py",
+      "line": 35,
+      "function": "update_wrapper",
+      "calls": 1,
+      "self_seconds": 1.5165000000000001e-05,
+      "cumulative_seconds": 3.5673e-05
+    }
+  ],
+  "components": [
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/data.py",
+      "line": 38,
+      "function": "valid",
+      "calls": 116078,
+      "self_seconds": 4.6822032490000005,
+      "cumulative_seconds": 9.070982174000001
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/readiness_runner.py",
+      "line": 45,
+      "function": "__init__",
+      "calls": 1,
+      "self_seconds": 0.00015713,
+      "cumulative_seconds": 5.012277749
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 42,
+      "function": "__init__",
+      "calls": 1,
+      "self_seconds": 0.15610688,
+      "cumulative_seconds": 4.602884612
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 48,
+      "function": "<genexpr>",
+      "calls": 10670,
+      "self_seconds": 0.228056116,
+      "cumulative_seconds": 4.435988418
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/data.py",
+      "line": 19,
+      "function": "utc",
+      "calls": 232173,
+      "self_seconds": 1.3944498680000001,
+      "cumulative_seconds": 2.579064724
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/readiness_runner.py",
+      "line": 53,
+      "function": "<genexpr>",
+      "calls": 105411,
+      "self_seconds": 0.23741615700000002,
+      "cumulative_seconds": 0.329635995
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/storage.py",
+      "line": 20,
+      "function": "__init__",
+      "calls": 1,
+      "self_seconds": 0.000360971,
+      "cumulative_seconds": 0.008340929
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 62,
+      "function": "valid",
+      "calls": 2,
+      "self_seconds": 0.00011486100000000001,
+      "cumulative_seconds": 0.0021647610000000003
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 65,
+      "function": "<genexpr>",
+      "calls": 8,
+      "self_seconds": 1.1613e-05,
+      "cumulative_seconds": 0.001750215
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 113,
+      "function": "report_digest",
+      "calls": 1,
+      "self_seconds": 3.9949e-05,
+      "cumulative_seconds": 0.0008012490000000001
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 68,
+      "function": "<genexpr>",
+      "calls": 8,
+      "self_seconds": 4.351e-06,
+      "cumulative_seconds": 0.0002831
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 27,
+      "function": "valid",
+      "calls": 9,
+      "self_seconds": 2.1681e-05,
+      "cumulative_seconds": 7.4762e-05
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/readiness.py",
+      "line": 11,
+      "function": "dt",
+      "calls": 5,
+      "self_seconds": 5.1337e-05,
+      "cumulative_seconds": 6.914e-05
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/sim_execution.py",
+      "line": 73,
+      "function": "consistent",
+      "calls": 6,
+      "self_seconds": 9.863e-06,
+      "cumulative_seconds": 9.863e-06
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/indicators.py",
+      "line": 16,
+      "function": "ordered",
+      "calls": 2,
+      "self_seconds": 3.7460000000000002e-06,
+      "cumulative_seconds": 3.7460000000000002e-06
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 47,
+      "function": "<genexpr>",
+      "calls": 1,
+      "self_seconds": 2.54e-07,
+      "cumulative_seconds": 2.54e-07
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 116,
+      "function": "<genexpr>",
+      "calls": 1,
+      "self_seconds": 2.27e-07,
+      "cumulative_seconds": 2.27e-07
+    }
+  ]
+}

@@ -117,19 +117,34 @@ class JointPortfolio:
 
     def _read(self):
         self._frozen()
-        rows = self.store.db.execute("SELECT payload FROM joint_states WHERE json_extract(payload,'$.portfolio')=? ORDER BY rowid",(self.key,)).fetchall()
-        previous = '0'*64
+        epoch = self.store.db.execute('SELECT value FROM joint_mutation_epoch WHERE singleton=1').fetchone()[0]
+        cache = getattr(self,'_chain_prefix',None)
+        previous, revision, anchor = '0'*64, -1, None
         state = None
-        for revision,row in enumerate(rows):
-            state = json.loads(row[0])
+        if cache and cache[0]==epoch:
+            row = self.store.db.execute('SELECT payload FROM joint_states WHERE rowid=?',(cache[1],)).fetchone()
+            # De anchor controle detecteert ook rollback/verwijdering en rowid-hergebruik.
+            if row and row[0]==cache[4]:
+                _,anchor,revision,previous,raw=cache
+                state=json.loads(raw)
+        query="SELECT rowid,payload FROM joint_states WHERE json_extract(payload,'$.portfolio')=?"
+        params=(self.key,)
+        if anchor is not None:
+            query+=' AND rowid>?';params+=(anchor,)
+        rows = self.store.db.execute(query+' ORDER BY rowid',params).fetchall()
+        raw = cache[4] if state is not None else None
+        for rowid,payload in rows:
+            state = json.loads(payload)
+            revision+=1
             if state['revision']!=revision or state['previous']!=previous or digest({k:v for k,v in state.items() if k!='hash'})!=state['hash']:
                 raise ValueError('Inconsistente portefeuille-hashketen')
-            previous = state['hash']
+            previous = state['hash'];anchor=rowid;raw=payload
         if state is None: raise ValueError('Portefeuilletoestand ontbreekt')
         ledger = restore_ledger(state['ledger'],self.policy.decision,self.rules[state['active_rules']])
         self._validate(state,ledger)
         if state.get('valuation')!=self._valuation(state,ledger): raise ValueError('Portefeuillewaardering inconsistent')
         self.risk.stopped = self.risk.stopped or state['stopped']
+        self._chain_prefix=(epoch,anchor,revision,previous,raw)
         return state,ledger
 
     def _validate(self, state, ledger):

@@ -23,6 +23,13 @@ class SQLiteStore:
         self.db.execute('PRAGMA busy_timeout=5000')
         for table in TABLES:
             self.db.execute(f'CREATE TABLE IF NOT EXISTS {table} (id TEXT PRIMARY KEY, payload TEXT NOT NULL CHECK(json_valid(payload)))')
+        # Inserts blijven append-only; UPDATE/DELETE maken alle prefixcaches ongeldig.
+        self.db.execute('CREATE TABLE IF NOT EXISTS joint_mutation_epoch (singleton INTEGER PRIMARY KEY CHECK(singleton=1), value INTEGER NOT NULL)')
+        self.db.execute('INSERT OR IGNORE INTO joint_mutation_epoch VALUES (1,0)')
+        for operation in ('UPDATE','DELETE'):
+            self.db.execute(f'CREATE TRIGGER IF NOT EXISTS joint_states_{operation.lower()} AFTER {operation} ON joint_states BEGIN UPDATE joint_mutation_epoch SET value=value+1 WHERE singleton=1; END')
+        self.db.execute('CREATE TRIGGER IF NOT EXISTS joint_states_nonappend AFTER INSERT ON joint_states WHEN NEW.rowid < (SELECT max(rowid) FROM joint_states) BEGIN UPDATE joint_mutation_epoch SET value=value+1 WHERE singleton=1; END')
+        self.db.execute("CREATE INDEX IF NOT EXISTS joint_states_portfolio ON joint_states(json_extract(payload,'$.portfolio'))")
         self.db.execute('CREATE TABLE IF NOT EXISTS audit (id INTEGER PRIMARY KEY, timestamp TEXT NOT NULL, action TEXT NOT NULL, details TEXT NOT NULL)')
 
     @contextmanager

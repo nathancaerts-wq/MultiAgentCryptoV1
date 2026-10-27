@@ -1,0 +1,37 @@
+{
+  "candles": 3000,
+  "current_bytes": 6002298,
+  "peak_bytes": 6003466,
+  "top": [
+    {
+      "location": "/workspace/MultiAgentCryptoV1/.venv/lib/python3.12/site-packages/pydantic/main.py:250",
+      "bytes": 5446336,
+      "count": 29974
+    },
+    {
+      "location": "<stdin>:6",
+      "bytes": 530400,
+      "count": 9003
+    },
+    {
+      "location": "/workspace/MultiAgentCryptoV1/crypto/data.py:20",
+      "bytes": 25450,
+      "count": 509
+    },
+    {
+      "location": "<stdin>:7",
+      "bytes": 64,
+      "count": 2
+    },
+    {
+      "location": "/workspace/MultiAgentCryptoV1/crypto/data.py:42",
+      "bytes": 64,
+      "count": 1
+    },
+    {
+      "location": "/workspace/MultiAgentCryptoV1/crypto/readiness.py:11",
+      "bytes": 48,
+      "count": 1
+    }
+  ]
+}

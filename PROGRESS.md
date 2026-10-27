@@ -218,3 +218,16 @@ en de overige datahercontrole gestopt. 317 tests geslaagd, 0 mislukt; één best
 waarschuwing. Jaarreproduceerbaarheid niet bewezen; onafhankelijke test gesloten.
 Zie PHASE6B_BACKTEST_REPORT.md. Geen commit/push wegens de niet-geslaagde essentiële
 controle; bestaande HEAD b55aa218f66b3facd6d980032fea495f9701bf80 behouden.
+
+## Fase 6B — performanceonderzoek
+
+Vanaf d46f2f9 cProfile- en tracemalloc-metingen met uitsluitend synthetische data.
+De herhaalde volledige SQLite-statecontrole is deels geoptimaliseerd met een
+gecontroleerde prefixcache, mutatietriggers en portfolio-index. De drie kleine
+voor/na-fixtures leveren exact dezelfde economische inhoud en berichten op.
+De synthetische jaarcontrole voltooit echter nog niet binnen 45 seconden; omvangrijke
+ledgerkopieën en JSON-opslag blijven knelpunten. Geen historische resultaten of
+testvrijgave. Zie PHASE6B_PERFORMANCE_REPORT.md en experiments/performance/.
+
+Definitieve suite: 324 tests geslaagd, 0 mislukt; één bestaande waarschuwing.
+Geen commit/push omdat de volledige jaarcontrole niet slaagt; wijzigingen lokaal bewaard.

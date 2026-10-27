@@ -1,0 +1,1674 @@
+[
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 218,
+    "function": "JointPortfolio.evaluate",
+    "calls": 60,
+    "self_seconds": 0.094877922,
+    "cumulative_seconds": 32.204035645000005
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 224,
+    "function": "JointPortfolio._evaluate",
+    "calls": 60,
+    "self_seconds": 1.0304358610000002,
+    "cumulative_seconds": 32.109157723
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 118,
+    "function": "JointPortfolio._read",
+    "calls": 135,
+    "self_seconds": 0.567686543,
+    "cumulative_seconds": 12.458616693000002
+  },
+  {
+    "file": "crypto/orchestrator.py",
+    "line": 54,
+    "function": "Orchestrator.execute",
+    "calls": 64,
+    "self_seconds": 0.48195192400000003,
+    "cumulative_seconds": 8.387764647000001
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 21,
+    "function": "digest",
+    "calls": 5433,
+    "self_seconds": 0.17312654800000002,
+    "cumulative_seconds": 5.209633274000001
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 17,
+    "function": "canonical",
+    "calls": 6120,
+    "self_seconds": 0.232789346,
+    "cumulative_seconds": 5.201472752
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 100,
+    "function": "run_research",
+    "calls": 4,
+    "self_seconds": 0.007832808,
+    "cumulative_seconds": 4.976581332
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 176,
+    "function": "JointPortfolio._compare",
+    "calls": 60,
+    "self_seconds": 0.022096841000000002,
+    "cumulative_seconds": 4.927020427
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 112,
+    "function": "JointPortfolio._frozen",
+    "calls": 135,
+    "self_seconds": 0.101292669,
+    "cumulative_seconds": 3.5944538250000004
+  },
+  {
+    "file": "crypto/trade_agents.py",
+    "line": 131,
+    "function": "EntryAgent.__init__",
+    "calls": 120,
+    "self_seconds": 0.022446367000000002,
+    "cumulative_seconds": 3.496457916
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 164,
+    "function": "JointPortfolio._save",
+    "calls": 72,
+    "self_seconds": 0.039270246,
+    "cumulative_seconds": 3.185449703
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 106,
+    "function": "JointPortfolio._manifest",
+    "calls": 138,
+    "self_seconds": 0.138732385,
+    "cumulative_seconds": 3.169398928
+  },
+  {
+    "file": "crypto/protocol.py",
+    "line": 113,
+    "function": "report_digest",
+    "calls": 150,
+    "self_seconds": 0.089489329,
+    "cumulative_seconds": 2.4533740930000003
+  },
+  {
+    "file": "crypto/data.py",
+    "line": 121,
+    "function": "DataEngine.load",
+    "calls": 32,
+    "self_seconds": 0.228907419,
+    "cumulative_seconds": 2.284251808
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 22,
+    "function": "AnalysisContext.__init__",
+    "calls": 8,
+    "self_seconds": 0.016382121,
+    "cumulative_seconds": 2.229446063
+  },
+  {
+    "file": "crypto/orchestrator.py",
+    "line": 76,
+    "function": "<genexpr>",
+    "calls": 512,
+    "self_seconds": 0.008145451,
+    "cumulative_seconds": 1.743008705
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 337,
+    "function": "JointPortfolio.execute",
+    "calls": 8,
+    "self_seconds": 0.0065899240000000005,
+    "cumulative_seconds": 1.7025490090000002
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 343,
+    "function": "JointPortfolio._execute",
+    "calls": 8,
+    "self_seconds": 0.017054344000000003,
+    "cumulative_seconds": 1.6959590850000001
+  },
+  {
+    "file": "crypto/trade_agents.py",
+    "line": 34,
+    "function": "message",
+    "calls": 276,
+    "self_seconds": 0.13308781,
+    "cumulative_seconds": 1.609892917
+  },
+  {
+    "file": "crypto/storage.py",
+    "line": 38,
+    "function": "SQLiteStore.put",
+    "calls": 1281,
+    "self_seconds": 0.100618972,
+    "cumulative_seconds": 1.538991811
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 135,
+    "function": "JointPortfolio._validate",
+    "calls": 207,
+    "self_seconds": 0.19168742500000002,
+    "cumulative_seconds": 1.2995250710000001
+  },
+  {
+    "file": "crypto/trade_agents.py",
+    "line": 136,
+    "function": "EntryAgent.run",
+    "calls": 120,
+    "self_seconds": 0.06354620200000001,
+    "cumulative_seconds": 1.136136751
+  },
+  {
+    "file": "crypto/trade_agents.py",
+    "line": 52,
+    "function": "DecisionAgent.run",
+    "calls": 120,
+    "self_seconds": 0.055789493,
+    "cumulative_seconds": 1.101483111
+  },
+  {
+    "file": "crypto/trade_agents.py",
+    "line": 172,
+    "function": "ExitAgent.__init__",
+    "calls": 36,
+    "self_seconds": 0.008562847,
+    "cumulative_seconds": 1.055483852
+  },
+  {
+    "file": "crypto/storage.py",
+    "line": 43,
+    "function": "SQLiteStore.list",
+    "calls": 50,
+    "self_seconds": 0.06618660400000001,
+    "cumulative_seconds": 1.037210269
+  },
+  {
+    "file": "crypto/protocol.py",
+    "line": 74,
+    "function": "ResearchPlan.fingerprint",
+    "calls": 281,
+    "self_seconds": 0.08455089,
+    "cumulative_seconds": 0.977511989
+  },
+  {
+    "file": "crypto/protocol.py",
+    "line": 116,
+    "function": "<genexpr>",
+    "calls": 536,
+    "self_seconds": 0.031528379,
+    "cumulative_seconds": 0.9402742110000001
+  },
+  {
+    "file": "crypto/research_execution.py",
+    "line": 21,
+    "function": "ledger_state",
+    "calls": 72,
+    "self_seconds": 0.018786543000000003,
+    "cumulative_seconds": 0.84969032
+  },
+  {
+    "file": "crypto/research_execution.py",
+    "line": 28,
+    "function": "restore_ledger",
+    "calls": 135,
+    "self_seconds": 0.159029011,
+    "cumulative_seconds": 0.80122481
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 188,
+    "function": "JointPortfolio._valuation",
+    "calls": 207,
+    "self_seconds": 0.143175825,
+    "cumulative_seconds": 0.673713204
+  },
+  {
+    "file": "crypto/storage.py",
+    "line": 48,
+    "function": "SQLiteStore.audit",
+    "calls": 1071,
+    "self_seconds": 0.08213189400000001,
+    "cumulative_seconds": 0.672771954
+  },
+  {
+    "file": "crypto/orchestrator.py",
+    "line": 30,
+    "function": "Orchestrator.register",
+    "calls": 320,
+    "self_seconds": 0.065573111,
+    "cumulative_seconds": 0.5906372940000001
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 125,
+    "function": "OfflineLedger.__init__",
+    "calls": 138,
+    "self_seconds": 0.394144794,
+    "cumulative_seconds": 0.5514603220000001
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 92,
+    "function": "JointPortfolio._get",
+    "calls": 342,
+    "self_seconds": 0.021854467000000002,
+    "cumulative_seconds": 0.516761084
+  },
+  {
+    "file": "crypto/scanner.py",
+    "line": 19,
+    "function": "CoinScanner.run",
+    "calls": 4,
+    "self_seconds": 0.005813255000000001,
+    "cumulative_seconds": 0.40015847000000004
+  },
+  {
+    "file": "crypto/storage.py",
+    "line": 51,
+    "function": "SQLiteStore.agent_status",
+    "calls": 320,
+    "self_seconds": 0.058804592,
+    "cumulative_seconds": 0.354898606
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 42,
+    "function": "JointPortfolio.__init__",
+    "calls": 3,
+    "self_seconds": 0.035730935000000005,
+    "cumulative_seconds": 0.308679766
+  },
+  {
+    "file": "crypto/trade_agents.py",
+    "line": 177,
+    "function": "ExitAgent.run",
+    "calls": 36,
+    "self_seconds": 0.072479971,
+    "cumulative_seconds": 0.27870325900000004
+  },
+  {
+    "file": "crypto/trade_agents.py",
+    "line": 30,
+    "function": "DecisionPolicy.fingerprint",
+    "calls": 447,
+    "self_seconds": 0.018867288000000003,
+    "cumulative_seconds": 0.273688763
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 37,
+    "function": "AnalysisContext.message",
+    "calls": 40,
+    "self_seconds": 0.008095847,
+    "cumulative_seconds": 0.259879758
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 183,
+    "function": "JointPortfolio._risk_reason",
+    "calls": 51,
+    "self_seconds": 0.014207721000000001,
+    "cumulative_seconds": 0.255969482
+  },
+  {
+    "file": "crypto/storage.py",
+    "line": 20,
+    "function": "SQLiteStore.__init__",
+    "calls": 7,
+    "self_seconds": 0.016898931000000002,
+    "cumulative_seconds": 0.24162986400000003
+  },
+  {
+    "file": "crypto/api.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 4.9108000000000005e-05,
+    "cumulative_seconds": 0.23705413300000003
+  },
+  {
+    "file": "crypto/research_execution.py",
+    "line": 66,
+    "function": "ResearchExecutionEngine.reason",
+    "calls": 51,
+    "self_seconds": 0.000175873,
+    "cumulative_seconds": 0.23048742700000002
+  },
+  {
+    "file": "crypto/research_execution.py",
+    "line": 72,
+    "function": "ResearchExecutionEngine._reason",
+    "calls": 51,
+    "self_seconds": 0.009111399000000001,
+    "cumulative_seconds": 0.230311554
+  },
+  {
+    "file": "crypto/data.py",
+    "line": 38,
+    "function": "Candle.valid",
+    "calls": 1332,
+    "self_seconds": 0.15117818000000002,
+    "cumulative_seconds": 0.22791635200000002
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 0.0009155190000000001,
+    "cumulative_seconds": 0.219457369
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 39,
+    "function": "JointPortfolio._decision",
+    "calls": 120,
+    "self_seconds": 0.00413359,
+    "cumulative_seconds": 0.21829505600000002
+  },
+  {
+    "file": "crypto/trade_agents.py",
+    "line": 45,
+    "function": "DecisionAgent.__init__",
+    "calls": 120,
+    "self_seconds": 0.001142376,
+    "cumulative_seconds": 0.21416146600000002
+  },
+  {
+    "file": "crypto/models.py",
+    "line": 8,
+    "function": "now",
+    "calls": 1286,
+    "self_seconds": 0.036404482,
+    "cumulative_seconds": 0.20323604
+  },
+  {
+    "file": "crypto/storage.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 2.939e-05,
+    "cumulative_seconds": 0.198171536
+  },
+  {
+    "file": "crypto/models.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 4.1687e-05,
+    "cumulative_seconds": 0.178496561
+  },
+  {
+    "file": "crypto/models.py",
+    "line": 29,
+    "function": "Message.coherent",
+    "calls": 1057,
+    "self_seconds": 0.11514776,
+    "cumulative_seconds": 0.152533366
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 16,
+    "function": "boundary",
+    "calls": 276,
+    "self_seconds": 0.101265667,
+    "cumulative_seconds": 0.13456904
+  },
+  {
+    "file": "crypto/indicators.py",
+    "line": 37,
+    "function": "technical",
+    "calls": 24,
+    "self_seconds": 0.060206275000000004,
+    "cumulative_seconds": 0.12233253000000001
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 135,
+    "function": "OfflineLedger.snapshot",
+    "calls": 338,
+    "self_seconds": 0.047157342000000005,
+    "cumulative_seconds": 0.11676393900000001
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 84,
+    "function": "CombinedResearchAgent.run",
+    "calls": 8,
+    "self_seconds": 0.000280132,
+    "cumulative_seconds": 0.110271511
+  },
+  {
+    "file": "crypto/storage.py",
+    "line": 28,
+    "function": "SQLiteStore.transaction",
+    "calls": 846,
+    "self_seconds": 0.007336846,
+    "cumulative_seconds": 0.106368292
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 0.000941038,
+    "cumulative_seconds": 0.093149148
+  },
+  {
+    "file": "crypto/protocol.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 3.6862e-05,
+    "cumulative_seconds": 0.090375232
+  },
+  {
+    "file": "crypto/data.py",
+    "line": 49,
+    "function": "validate_series",
+    "calls": 38,
+    "self_seconds": 0.083549832,
+    "cumulative_seconds": 0.083821224
+  },
+  {
+    "file": "crypto/quant.py",
+    "line": 13,
+    "function": "QuantResearcher.evaluate",
+    "calls": 8,
+    "self_seconds": 0.028328788,
+    "cumulative_seconds": 0.08058475000000001
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 5.5113000000000006e-05,
+    "cumulative_seconds": 0.07983997200000001
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 34,
+    "function": "FillCosts.price",
+    "calls": 530,
+    "self_seconds": 0.053782114000000006,
+    "cumulative_seconds": 0.07055188600000001
+  },
+  {
+    "file": "crypto/orchestrator.py",
+    "line": 77,
+    "function": "<genexpr>",
+    "calls": 512,
+    "self_seconds": 0.065557035,
+    "cumulative_seconds": 0.06908636800000001
+  },
+  {
+    "file": "crypto/offline_optimizer.py",
+    "line": 28,
+    "function": "OfflineResearchOptimizer.register",
+    "calls": 3,
+    "self_seconds": 0.000137692,
+    "cumulative_seconds": 0.06279449200000001
+  },
+  {
+    "file": "crypto/data.py",
+    "line": 19,
+    "function": "utc",
+    "calls": 3612,
+    "self_seconds": 0.034780412000000004,
+    "cumulative_seconds": 0.062420118000000004
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 55,
+    "function": "TechnicalAnalysisAgent.run",
+    "calls": 8,
+    "self_seconds": 4.0259e-05,
+    "cumulative_seconds": 0.06067791300000001
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 98,
+    "function": "JointPortfolio._bar_metadata",
+    "calls": 472,
+    "self_seconds": 0.042522928,
+    "cumulative_seconds": 0.058616031000000006
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 144,
+    "function": "OfflineLedger.audit",
+    "calls": 84,
+    "self_seconds": 0.035149734,
+    "cumulative_seconds": 0.058443549000000004
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 180,
+    "function": "JointPortfolio._bar",
+    "calls": 196,
+    "self_seconds": 0.0036005420000000004,
+    "cumulative_seconds": 0.05740805400000001
+  },
+  {
+    "file": "crypto/models.py",
+    "line": 37,
+    "function": "Message.usable",
+    "calls": 691,
+    "self_seconds": 0.039171049,
+    "cumulative_seconds": 0.044487535
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 60,
+    "function": "MarketRegimeAgent.run",
+    "calls": 8,
+    "self_seconds": 0.00013280800000000002,
+    "cumulative_seconds": 0.043344423
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 158,
+    "function": "OfflineLedger.observe",
+    "calls": 123,
+    "self_seconds": 0.016564432,
+    "cumulative_seconds": 0.039414395000000005
+  },
+  {
+    "file": "crypto/data.py",
+    "line": 114,
+    "function": "DataEngine.record_scan",
+    "calls": 4,
+    "self_seconds": 0.00013179200000000001,
+    "cumulative_seconds": 0.038727908000000005
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 78,
+    "function": "NewsSentimentAgent.run",
+    "calls": 8,
+    "self_seconds": 5.5632000000000005e-05,
+    "cumulative_seconds": 0.03859618
+  },
+  {
+    "file": "crypto/indicators.py",
+    "line": 30,
+    "function": "wilder",
+    "calls": 72,
+    "self_seconds": 0.037252652000000004,
+    "cumulative_seconds": 0.037448667000000005
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 67,
+    "function": "MultiTimeframeAgent.run",
+    "calls": 8,
+    "self_seconds": 0.006035152,
+    "cumulative_seconds": 0.034865882
+  },
+  {
+    "file": "crypto/storage.py",
+    "line": 57,
+    "function": "SQLiteStore.close",
+    "calls": 7,
+    "self_seconds": 3.7144e-05,
+    "cumulative_seconds": 0.034609015
+  },
+  {
+    "file": "crypto/data.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 5.8661000000000006e-05,
+    "cumulative_seconds": 0.031220647
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 47,
+    "function": "<genexpr>",
+    "calls": 11,
+    "self_seconds": 4.6542e-05,
+    "cumulative_seconds": 0.030089618000000002
+  },
+  {
+    "file": "crypto/orchestrator.py",
+    "line": 19,
+    "function": "Orchestrator.__init__",
+    "calls": 64,
+    "self_seconds": 0.015288490000000002,
+    "cumulative_seconds": 0.026666782
+  },
+  {
+    "file": "crypto/indicators.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 1.7419e-05,
+    "cumulative_seconds": 0.025938000000000003
+  },
+  {
+    "file": "crypto/news.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 2.7941000000000002e-05,
+    "cumulative_seconds": 0.024869645000000003
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 209,
+    "function": "JointPortfolio.stop",
+    "calls": 1,
+    "self_seconds": 0.0022329190000000003,
+    "cumulative_seconds": 0.021449953
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 273,
+    "function": "<genexpr>",
+    "calls": 16,
+    "self_seconds": 0.021375679,
+    "cumulative_seconds": 0.021375679
+  },
+  {
+    "file": "crypto/news.py",
+    "line": 33,
+    "function": "news_report",
+    "calls": 8,
+    "self_seconds": 8.999000000000001e-05,
+    "cumulative_seconds": 0.02097227
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 153,
+    "function": "OfflineLedger.reconcile",
+    "calls": 361,
+    "self_seconds": 0.020899313000000003,
+    "cumulative_seconds": 0.020899313000000003
+  },
+  {
+    "file": "crypto/research_execution.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 5.8732000000000006e-05,
+    "cumulative_seconds": 0.019714646000000002
+  },
+  {
+    "file": "crypto/models.py",
+    "line": 42,
+    "function": "Proposal",
+    "calls": 1,
+    "self_seconds": 0.00037989,
+    "cumulative_seconds": 0.019153289
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 25,
+    "function": "rounded",
+    "calls": 837,
+    "self_seconds": 0.016190087000000002,
+    "cumulative_seconds": 0.017384724
+  },
+  {
+    "file": "crypto/trade_agents.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 5.1151000000000005e-05,
+    "cumulative_seconds": 0.017241367
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 48,
+    "function": "<genexpr>",
+    "calls": 138,
+    "self_seconds": 0.000843737,
+    "cumulative_seconds": 0.016224448000000002
+  },
+  {
+    "file": "crypto/scanner.py",
+    "line": 32,
+    "function": "<genexpr>",
+    "calls": 256,
+    "self_seconds": 0.016175906,
+    "cumulative_seconds": 0.016175906
+  },
+  {
+    "file": "crypto/scanner.py",
+    "line": 12,
+    "function": "CoinScanner.__init__",
+    "calls": 4,
+    "self_seconds": 0.013983205,
+    "cumulative_seconds": 0.01496568
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 247,
+    "function": "<genexpr>",
+    "calls": 128,
+    "self_seconds": 0.014236957000000001,
+    "cumulative_seconds": 0.0143893
+  },
+  {
+    "file": "crypto/orchestrator.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 2.5904e-05,
+    "cumulative_seconds": 0.013536739
+  },
+  {
+    "file": "crypto/agents.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 3.4315e-05,
+    "cumulative_seconds": 0.012249439
+  },
+  {
+    "file": "crypto/research_execution.py",
+    "line": 59,
+    "function": "ResearchExecutionEngine.__init__",
+    "calls": 51,
+    "self_seconds": 0.011247392,
+    "cumulative_seconds": 0.011274334
+  },
+  {
+    "file": "crypto/protocol.py",
+    "line": 38,
+    "function": "ResearchPlan",
+    "calls": 1,
+    "self_seconds": 0.00034684600000000005,
+    "cumulative_seconds": 0.009803486
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 48,
+    "function": "SpotFilters",
+    "calls": 1,
+    "self_seconds": 0.000116781,
+    "cumulative_seconds": 0.009138469
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 215,
+    "function": "OfflineLedger.sell",
+    "calls": 4,
+    "self_seconds": 0.00017322800000000002,
+    "cumulative_seconds": 0.008568664
+  },
+  {
+    "file": "crypto/indicators.py",
+    "line": 22,
+    "function": "ema",
+    "calls": 48,
+    "self_seconds": 0.007725064,
+    "cumulative_seconds": 0.007989009
+  },
+  {
+    "file": "crypto/protocol.py",
+    "line": 62,
+    "function": "valid",
+    "calls": 9,
+    "self_seconds": 0.000188536,
+    "cumulative_seconds": 0.007420421000000001
+  },
+  {
+    "file": "crypto/protocol.py",
+    "line": 65,
+    "function": "<genexpr>",
+    "calls": 27,
+    "self_seconds": 5.1249000000000003e-05,
+    "cumulative_seconds": 0.006921577000000001
+  },
+  {
+    "file": "crypto/indicators.py",
+    "line": 7,
+    "function": "IndicatorConfig",
+    "calls": 1,
+    "self_seconds": 4.1933e-05,
+    "cumulative_seconds": 0.006880039
+  },
+  {
+    "file": "crypto/risk.py",
+    "line": 14,
+    "function": "RiskEngine.check",
+    "calls": 11,
+    "self_seconds": 0.00635661,
+    "cumulative_seconds": 0.006691005000000001
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 139,
+    "function": "<genexpr>",
+    "calls": 333,
+    "self_seconds": 0.0066349650000000005,
+    "cumulative_seconds": 0.0066349650000000005
+  },
+  {
+    "file": "crypto/research_execution.py",
+    "line": 46,
+    "function": "market_rules",
+    "calls": 19,
+    "self_seconds": 0.00020844100000000002,
+    "cumulative_seconds": 0.006032532
+  },
+  {
+    "file": "crypto/data.py",
+    "line": 25,
+    "function": "Candle",
+    "calls": 1,
+    "self_seconds": 6.4243e-05,
+    "cumulative_seconds": 0.0052034640000000005
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 22,
+    "function": "JointPolicy",
+    "calls": 1,
+    "self_seconds": 3.1551e-05,
+    "cumulative_seconds": 0.005046879000000001
+  },
+  {
+    "file": "crypto/risk.py",
+    "line": 59,
+    "function": "RiskEngine.check_exit",
+    "calls": 8,
+    "self_seconds": 0.0027894200000000004,
+    "cumulative_seconds": 0.0040421300000000005
+  },
+  {
+    "file": "crypto/protocol.py",
+    "line": 27,
+    "function": "valid",
+    "calls": 36,
+    "self_seconds": 4.6443e-05,
+    "cumulative_seconds": 0.0035920690000000003
+  },
+  {
+    "file": "crypto/models.py",
+    "line": 66,
+    "function": "MarketRules",
+    "calls": 1,
+    "self_seconds": 4.825e-05,
+    "cumulative_seconds": 0.003057792
+  },
+  {
+    "file": "crypto/models.py",
+    "line": 57,
+    "function": "Limits",
+    "calls": 1,
+    "self_seconds": 5.2268e-05,
+    "cumulative_seconds": 0.002849644
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 195,
+    "function": "<genexpr>",
+    "calls": 540,
+    "self_seconds": 0.0024878500000000002,
+    "cumulative_seconds": 0.0024878500000000002
+  },
+  {
+    "file": "crypto/news.py",
+    "line": 9,
+    "function": "NewsItem",
+    "calls": 1,
+    "self_seconds": 4.1077e-05,
+    "cumulative_seconds": 0.0022744510000000003
+  },
+  {
+    "file": "crypto/data.py",
+    "line": 124,
+    "function": "<genexpr>",
+    "calls": 40,
+    "self_seconds": 0.002169691,
+    "cumulative_seconds": 0.002169691
+  },
+  {
+    "file": "crypto/orchestrator.py",
+    "line": 63,
+    "function": "<genexpr>",
+    "calls": 864,
+    "self_seconds": 0.0018975160000000001,
+    "cumulative_seconds": 0.0018975160000000001
+  },
+  {
+    "file": "crypto/protocol.py",
+    "line": 23,
+    "function": "Period",
+    "calls": 1,
+    "self_seconds": 2.0295e-05,
+    "cumulative_seconds": 0.0018156160000000001
+  },
+  {
+    "file": "crypto/models.py",
+    "line": 16,
+    "function": "Message",
+    "calls": 1,
+    "self_seconds": 6.692900000000001e-05,
+    "cumulative_seconds": 0.0014289840000000001
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 29,
+    "function": "FillCosts",
+    "calls": 1,
+    "self_seconds": 3.7291e-05,
+    "cumulative_seconds": 0.001285139
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 187,
+    "function": "OfflineLedger.buy",
+    "calls": 4,
+    "self_seconds": 0.00014654500000000001,
+    "cumulative_seconds": 0.001177941
+  },
+  {
+    "file": "crypto/scanner.py",
+    "line": 15,
+    "function": "<genexpr>",
+    "calls": 12,
+    "self_seconds": 0.0009580840000000001,
+    "cumulative_seconds": 0.000967478
+  },
+  {
+    "file": "crypto/risk.py",
+    "line": 71,
+    "function": "<lambda>",
+    "calls": 24,
+    "self_seconds": 0.000964525,
+    "cumulative_seconds": 0.000964525
+  },
+  {
+    "file": "crypto/scanner.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 0.000856283,
+    "cumulative_seconds": 0.0008978450000000001
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 44,
+    "function": "FillCosts.charge",
+    "calls": 293,
+    "self_seconds": 0.00032209800000000005,
+    "cumulative_seconds": 0.000891375
+  },
+  {
+    "file": "crypto/offline_optimizer.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 6.600200000000001e-05,
+    "cumulative_seconds": 0.00086101
+  },
+  {
+    "file": "crypto/trade_agents.py",
+    "line": 17,
+    "function": "DecisionPolicy",
+    "calls": 1,
+    "self_seconds": 4.1335e-05,
+    "cumulative_seconds": 0.000777613
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 96,
+    "function": "SpotFilters.check",
+    "calls": 41,
+    "self_seconds": 0.000716688,
+    "cumulative_seconds": 0.000716688
+  },
+  {
+    "file": "crypto/scanner.py",
+    "line": 40,
+    "function": "<genexpr>",
+    "calls": 96,
+    "self_seconds": 0.0006879340000000001,
+    "cumulative_seconds": 0.0006879340000000001
+  },
+  {
+    "file": "crypto/indicators.py",
+    "line": 50,
+    "function": "<genexpr>",
+    "calls": 144,
+    "self_seconds": 0.000349078,
+    "cumulative_seconds": 0.000349078
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 201,
+    "function": "<genexpr>",
+    "calls": 540,
+    "self_seconds": 0.000276677,
+    "cumulative_seconds": 0.000276677
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 284,
+    "function": "<lambda>",
+    "calls": 120,
+    "self_seconds": 0.00026870400000000003,
+    "cumulative_seconds": 0.00026870400000000003
+  },
+  {
+    "file": "crypto/protocol.py",
+    "line": 68,
+    "function": "<genexpr>",
+    "calls": 36,
+    "self_seconds": 2.0427000000000003e-05,
+    "cumulative_seconds": 0.000248608
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 176,
+    "function": "OfflineLedger.size",
+    "calls": 7,
+    "self_seconds": 0.000126042,
+    "cumulative_seconds": 0.00024097000000000002
+  },
+  {
+    "file": "crypto/indicators.py",
+    "line": 59,
+    "function": "classify",
+    "calls": 32,
+    "self_seconds": 0.000212236,
+    "cumulative_seconds": 0.000235008
+  },
+  {
+    "file": "crypto/risk.py",
+    "line": 7,
+    "function": "RiskEngine.__init__",
+    "calls": 3,
+    "self_seconds": 0.00011678400000000001,
+    "cumulative_seconds": 0.00020751000000000002
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 141,
+    "function": "<genexpr>",
+    "calls": 333,
+    "self_seconds": 0.00018003300000000002,
+    "cumulative_seconds": 0.00018003300000000002
+  },
+  {
+    "file": "crypto/protocol.py",
+    "line": 33,
+    "function": "Period.contains",
+    "calls": 128,
+    "self_seconds": 0.000108882,
+    "cumulative_seconds": 0.000108882
+  },
+  {
+    "file": "crypto/risk.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 1.6262e-05,
+    "cumulative_seconds": 9.1196e-05
+  },
+  {
+    "file": "crypto/orchestrator.py",
+    "line": 66,
+    "function": "<genexpr>",
+    "calls": 456,
+    "self_seconds": 8.8084e-05,
+    "cumulative_seconds": 8.8084e-05
+  },
+  {
+    "file": "crypto/risk.py",
+    "line": 28,
+    "function": "<genexpr>",
+    "calls": 77,
+    "self_seconds": 6.1086e-05,
+    "cumulative_seconds": 7.228100000000001e-05
+  },
+  {
+    "file": "crypto/scanner.py",
+    "line": 33,
+    "function": "<genexpr>",
+    "calls": 264,
+    "self_seconds": 7.1456e-05,
+    "cumulative_seconds": 7.1456e-05
+  },
+  {
+    "file": "crypto/quant.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 1.9388e-05,
+    "cumulative_seconds": 5.3187000000000004e-05
+  },
+  {
+    "file": "crypto/models.py",
+    "line": 12,
+    "function": "Model",
+    "calls": 1,
+    "self_seconds": 4.0758000000000005e-05,
+    "cumulative_seconds": 5.1706e-05
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 38,
+    "function": "FillCosts.impact",
+    "calls": 12,
+    "self_seconds": 3.9642000000000004e-05,
+    "cumulative_seconds": 4.784e-05
+  },
+  {
+    "file": "crypto/risk.py",
+    "line": 74,
+    "function": "<genexpr>",
+    "calls": 24,
+    "self_seconds": 3.5284e-05,
+    "cumulative_seconds": 4.2265e-05
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 30,
+    "function": "JointPortfolio",
+    "calls": 1,
+    "self_seconds": 3.8755000000000004e-05,
+    "cumulative_seconds": 3.8755000000000004e-05
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 104,
+    "function": "<genexpr>",
+    "calls": 12,
+    "self_seconds": 2.6108e-05,
+    "cumulative_seconds": 3.7296000000000003e-05
+  },
+  {
+    "file": "crypto/storage.py",
+    "line": 18,
+    "function": "SQLiteStore",
+    "calls": 1,
+    "self_seconds": 7.875e-06,
+    "cumulative_seconds": 3.2824e-05
+  },
+  {
+    "file": "crypto/risk.py",
+    "line": 72,
+    "function": "<genexpr>",
+    "calls": 32,
+    "self_seconds": 2.2139000000000003e-05,
+    "cumulative_seconds": 2.7369000000000002e-05
+  },
+  {
+    "file": "crypto/risk.py",
+    "line": 96,
+    "function": "ExecutionEngine.__init__",
+    "calls": 51,
+    "self_seconds": 2.6942e-05,
+    "cumulative_seconds": 2.6942e-05
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 73,
+    "function": "SpotFilters.consistent",
+    "calls": 12,
+    "self_seconds": 2.1107e-05,
+    "cumulative_seconds": 2.1107e-05
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 159,
+    "function": "<genexpr>",
+    "calls": 24,
+    "self_seconds": 1.6484e-05,
+    "cumulative_seconds": 1.9945e-05
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 90,
+    "function": "SpotFilters.quantity_step",
+    "calls": 26,
+    "self_seconds": 1.8734e-05,
+    "cumulative_seconds": 1.8734e-05
+  },
+  {
+    "file": "crypto/quant.py",
+    "line": 11,
+    "function": "QuantResearcher.__init__",
+    "calls": 8,
+    "self_seconds": 1.7966e-05,
+    "cumulative_seconds": 1.7966e-05
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 76,
+    "function": "NewsSentimentAgent.__init__",
+    "calls": 8,
+    "self_seconds": 1.4687e-05,
+    "cumulative_seconds": 1.4687e-05
+  },
+  {
+    "file": "crypto/models.py",
+    "line": 50,
+    "function": "Proposal.stop_below_entry",
+    "calls": 22,
+    "self_seconds": 1.3556e-05,
+    "cumulative_seconds": 1.3556e-05
+  },
+  {
+    "file": "crypto/joint_portfolio.py",
+    "line": 266,
+    "function": "<genexpr>",
+    "calls": 12,
+    "self_seconds": 9.587e-06,
+    "cumulative_seconds": 1.2671000000000001e-05
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 123,
+    "function": "OfflineLedger",
+    "calls": 1,
+    "self_seconds": 1.2182000000000001e-05,
+    "cumulative_seconds": 1.2182000000000001e-05
+  },
+  {
+    "file": "crypto/quant.py",
+    "line": 42,
+    "function": "<genexpr>",
+    "calls": 32,
+    "self_seconds": 1.2014e-05,
+    "cumulative_seconds": 1.2014e-05
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 115,
+    "function": "<genexpr>",
+    "calls": 40,
+    "self_seconds": 1.1933e-05,
+    "cumulative_seconds": 1.1933e-05
+  },
+  {
+    "file": "crypto/scanner.py",
+    "line": 43,
+    "function": "<lambda>",
+    "calls": 8,
+    "self_seconds": 1.1286e-05,
+    "cumulative_seconds": 1.1286e-05
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 54,
+    "function": "TechnicalAnalysisAgent.__init__",
+    "calls": 8,
+    "self_seconds": 1.056e-05,
+    "cumulative_seconds": 1.056e-05
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 193,
+    "function": "<genexpr>",
+    "calls": 16,
+    "self_seconds": 7.816000000000001e-06,
+    "cumulative_seconds": 1.0012e-05
+  },
+  {
+    "file": "crypto/indicators.py",
+    "line": 16,
+    "function": "IndicatorConfig.ordered",
+    "calls": 17,
+    "self_seconds": 8.947000000000001e-06,
+    "cumulative_seconds": 8.947000000000001e-06
+  },
+  {
+    "file": "crypto/storage.py",
+    "line": 12,
+    "function": "Storage",
+    "calls": 1,
+    "self_seconds": 7.658e-06,
+    "cumulative_seconds": 7.658e-06
+  },
+  {
+    "file": "crypto/data.py",
+    "line": 112,
+    "function": "DataEngine.__init__",
+    "calls": 4,
+    "self_seconds": 7.2510000000000005e-06,
+    "cumulative_seconds": 7.2510000000000005e-06
+  },
+  {
+    "file": "crypto/sim_execution.py",
+    "line": 109,
+    "function": "Position",
+    "calls": 1,
+    "self_seconds": 6.562e-06,
+    "cumulative_seconds": 6.562e-06
+  },
+  {
+    "file": "crypto/news.py",
+    "line": 25,
+    "function": "NewsAdapter",
+    "calls": 1,
+    "self_seconds": 5.924e-06,
+    "cumulative_seconds": 5.924e-06
+  },
+  {
+    "file": "crypto/trade_agents.py",
+    "line": 79,
+    "function": "<genexpr>",
+    "calls": 24,
+    "self_seconds": 5.792000000000001e-06,
+    "cumulative_seconds": 5.792000000000001e-06
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 91,
+    "function": "<genexpr>",
+    "calls": 24,
+    "self_seconds": 5.1020000000000004e-06,
+    "cumulative_seconds": 5.1020000000000004e-06
+  },
+  {
+    "file": "crypto/orchestrator.py",
+    "line": 7,
+    "function": "Agent",
+    "calls": 1,
+    "self_seconds": 5.037e-06,
+    "cumulative_seconds": 5.037e-06
+  },
+  {
+    "file": "crypto/research_execution.py",
+    "line": 57,
+    "function": "ResearchExecutionEngine",
+    "calls": 1,
+    "self_seconds": 5.0360000000000006e-06,
+    "cumulative_seconds": 5.0360000000000006e-06
+  },
+  {
+    "file": "crypto/orchestrator.py",
+    "line": 18,
+    "function": "Orchestrator",
+    "calls": 1,
+    "self_seconds": 4.774e-06,
+    "cumulative_seconds": 4.774e-06
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 59,
+    "function": "MarketRegimeAgent.__init__",
+    "calls": 8,
+    "self_seconds": 4.6010000000000005e-06,
+    "cumulative_seconds": 4.6010000000000005e-06
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 66,
+    "function": "MultiTimeframeAgent.__init__",
+    "calls": 8,
+    "self_seconds": 4.536e-06,
+    "cumulative_seconds": 4.536e-06
+  },
+  {
+    "file": "crypto/data.py",
+    "line": 65,
+    "function": "DataAdapter",
+    "calls": 1,
+    "self_seconds": 4.444e-06,
+    "cumulative_seconds": 4.444e-06
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 83,
+    "function": "CombinedResearchAgent.__init__",
+    "calls": 8,
+    "self_seconds": 4.163000000000001e-06,
+    "cumulative_seconds": 4.163000000000001e-06
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 92,
+    "function": "<genexpr>",
+    "calls": 24,
+    "self_seconds": 4.044000000000001e-06,
+    "cumulative_seconds": 4.044000000000001e-06
+  },
+  {
+    "file": "crypto/trade_agents.py",
+    "line": 113,
+    "function": "<genexpr>",
+    "calls": 8,
+    "self_seconds": 3.892e-06,
+    "cumulative_seconds": 3.892e-06
+  },
+  {
+    "file": "crypto/agents.py",
+    "line": 5,
+    "function": "Component",
+    "calls": 1,
+    "self_seconds": 3.848e-06,
+    "cumulative_seconds": 3.848e-06
+  },
+  {
+    "file": "crypto/risk.py",
+    "line": 6,
+    "function": "RiskEngine",
+    "calls": 1,
+    "self_seconds": 3.096e-06,
+    "cumulative_seconds": 3.096e-06
+  },
+  {
+    "file": "crypto/research_execution.py",
+    "line": 183,
+    "function": "ResearchTradingSession",
+    "calls": 1,
+    "self_seconds": 3.0250000000000003e-06,
+    "cumulative_seconds": 3.0250000000000003e-06
+  },
+  {
+    "file": "crypto/offline_optimizer.py",
+    "line": 8,
+    "function": "OfflineResearchOptimizer",
+    "calls": 1,
+    "self_seconds": 2.9e-06,
+    "cumulative_seconds": 2.9e-06
+  },
+  {
+    "file": "crypto/scanner.py",
+    "line": 10,
+    "function": "CoinScanner",
+    "calls": 1,
+    "self_seconds": 2.8290000000000004e-06,
+    "cumulative_seconds": 2.8290000000000004e-06
+  },
+  {
+    "file": "crypto/orchestrator.py",
+    "line": 11,
+    "function": "Task",
+    "calls": 1,
+    "self_seconds": 2.787e-06,
+    "cumulative_seconds": 2.787e-06
+  },
+  {
+    "file": "crypto/data.py",
+    "line": 111,
+    "function": "DataEngine",
+    "calls": 1,
+    "self_seconds": 2.582e-06,
+    "cumulative_seconds": 2.582e-06
+  },
+  {
+    "file": "crypto/news.py",
+    "line": 30,
+    "function": "NoNews.fetch",
+    "calls": 8,
+    "self_seconds": 2.458e-06,
+    "cumulative_seconds": 2.458e-06
+  },
+  {
+    "file": "crypto/trade_agents.py",
+    "line": 88,
+    "function": "<genexpr>",
+    "calls": 8,
+    "self_seconds": 2.429e-06,
+    "cumulative_seconds": 2.429e-06
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 20,
+    "function": "AnalysisContext",
+    "calls": 1,
+    "self_seconds": 2.3480000000000002e-06,
+    "cumulative_seconds": 2.3480000000000002e-06
+  },
+  {
+    "file": "crypto/offline_optimizer.py",
+    "line": 9,
+    "function": "OfflineResearchOptimizer.__init__",
+    "calls": 3,
+    "self_seconds": 2.277e-06,
+    "cumulative_seconds": 2.277e-06
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 75,
+    "function": "NewsSentimentAgent",
+    "calls": 1,
+    "self_seconds": 1.95e-06,
+    "cumulative_seconds": 1.95e-06
+  },
+  {
+    "file": "crypto/quant.py",
+    "line": 10,
+    "function": "QuantResearcher",
+    "calls": 1,
+    "self_seconds": 1.917e-06,
+    "cumulative_seconds": 1.917e-06
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 53,
+    "function": "TechnicalAnalysisAgent",
+    "calls": 1,
+    "self_seconds": 1.771e-06,
+    "cumulative_seconds": 1.771e-06
+  },
+  {
+    "file": "crypto/data.py",
+    "line": 69,
+    "function": "LocalAdapter",
+    "calls": 1,
+    "self_seconds": 1.757e-06,
+    "cumulative_seconds": 1.757e-06
+  },
+  {
+    "file": "crypto/trade_agents.py",
+    "line": 44,
+    "function": "DecisionAgent",
+    "calls": 1,
+    "self_seconds": 1.6250000000000001e-06,
+    "cumulative_seconds": 1.6250000000000001e-06
+  },
+  {
+    "file": "crypto/trade_agents.py",
+    "line": 130,
+    "function": "EntryAgent",
+    "calls": 1,
+    "self_seconds": 1.602e-06,
+    "cumulative_seconds": 1.602e-06
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 65,
+    "function": "MultiTimeframeAgent",
+    "calls": 1,
+    "self_seconds": 1.4230000000000002e-06,
+    "cumulative_seconds": 1.4230000000000002e-06
+  },
+  {
+    "file": "crypto/data.py",
+    "line": 77,
+    "function": "PublicDataAdapter",
+    "calls": 1,
+    "self_seconds": 1.4090000000000002e-06,
+    "cumulative_seconds": 1.4090000000000002e-06
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 82,
+    "function": "CombinedResearchAgent",
+    "calls": 1,
+    "self_seconds": 1.285e-06,
+    "cumulative_seconds": 1.285e-06
+  },
+  {
+    "file": "crypto/risk.py",
+    "line": 94,
+    "function": "ExecutionEngine",
+    "calls": 1,
+    "self_seconds": 1.2730000000000001e-06,
+    "cumulative_seconds": 1.2730000000000001e-06
+  },
+  {
+    "file": "crypto/trade_agents.py",
+    "line": 171,
+    "function": "ExitAgent",
+    "calls": 1,
+    "self_seconds": 1.2670000000000001e-06,
+    "cumulative_seconds": 1.2670000000000001e-06
+  },
+  {
+    "file": "crypto/analysis.py",
+    "line": 58,
+    "function": "MarketRegimeAgent",
+    "calls": 1,
+    "self_seconds": 1.2170000000000002e-06,
+    "cumulative_seconds": 1.2170000000000002e-06
+  },
+  {
+    "file": "crypto/offline_optimizer.py",
+    "line": 30,
+    "function": "<genexpr>",
+    "calls": 3,
+    "self_seconds": 1.1180000000000001e-06,
+    "cumulative_seconds": 1.1180000000000001e-06
+  },
+  {
+    "file": "crypto/news.py",
+    "line": 29,
+    "function": "NoNews",
+    "calls": 1,
+    "self_seconds": 9.100000000000001e-07,
+    "cumulative_seconds": 9.100000000000001e-07
+  },
+  {
+    "file": "crypto/risk.py",
+    "line": 84,
+    "function": "PortfolioManager",
+    "calls": 1,
+    "self_seconds": 8.510000000000001e-07,
+    "cumulative_seconds": 8.510000000000001e-07
+  },
+  {
+    "file": "crypto/__init__.py",
+    "line": 1,
+    "function": "<module>",
+    "calls": 1,
+    "self_seconds": 7.420000000000001e-07,
+    "cumulative_seconds": 7.420000000000001e-07
+  }
+]

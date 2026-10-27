@@ -1,0 +1,15 @@
+{
+  "equal": true,
+  "scenarios": [
+    "emergency",
+    "normal",
+    "switch"
+  ],
+  "tables": [
+    "joint_states",
+    "joint_batches",
+    "joint_settlements",
+    "results"
+  ],
+  "sha256": "f1ff968366404902c41ce542e5097957631fe625aa03cd745ff918ccc930840e"
+}
