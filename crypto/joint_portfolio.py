@@ -34,6 +34,11 @@ class JointPortfolio:
     mutatie vergelijkt de gelezen revisie in BEGIN IMMEDIATE met de actuele staat.
     Agents krijgen alleen kopieën. Een Python-/SQLite-beheerder is geen sandbox.
     """
+    _max_bars = 192
+
+    def _decision(self, symbol, at, report):
+        return DecisionAgent(self.plan,self.policy.decision,symbol,at,report)
+
     def __init__(self, store, plan, policy, filters, reports, bars):
         self.store = store
         self.plan = ResearchPlan.model_validate(plan.model_dump())
@@ -51,7 +56,7 @@ class JointPortfolio:
             raise ValueError('Rapportbundel wijkt af van preregistratie')
         ranges = set()
         for s,rows in self.bars.items():
-            if self.rules[s].symbol!=s or not 1<=len(rows)<=192:
+            if self.rules[s].symbol!=s or not 1<=len(rows)<=self._max_bars:
                 raise ValueError('Verkeerde filters of geen kleine candlebatch')
             validate_series(rows,s,'15m',rows[0].opened,rows[-1].closed,now())
             if rows[0].opened<self.plan.development.start or rows[-1].closed>self.plan.development.end:
@@ -233,7 +238,7 @@ class JointPortfolio:
         for s in self.plan.coins:
             r = next((r for r in self.reports if r.coin==s and datetime.fromisoformat(r.data['as_of'])==at),None)
             # Signaal op zichzelf; centrale portfolio-/slotcontrole volgt afzonderlijk.
-            decision = DecisionAgent(self.plan,policy,s,at,r)
+            decision = self._decision(s,at,r)
             view = deepcopy(ledger)
             if not view.position: view.rules=self.rules[s]
             entry = EntryAgent(policy,s,at,view,self._bar(s,at-timedelta(minutes=15)))

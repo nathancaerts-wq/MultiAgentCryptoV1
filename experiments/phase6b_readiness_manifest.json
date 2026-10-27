@@ -1,0 +1,215 @@
+{
+  "version": "phase6b-readiness-v1",
+  "configuration": {
+    "policy": {
+      "version": "phase6a-v1",
+      "starting_cash": "200",
+      "max_open_positions": 1,
+      "priority": "scanner_desc_utc_rotating_ties",
+      "decision": {
+        "version": "phase5-v1",
+        "hypothesis": "aligned_trend",
+        "unknown_sentiment": "neutral_unknown",
+        "planned_risk": "0.005",
+        "stop_atr": 2,
+        "horizon_hours": 4,
+        "target": null,
+        "max_consecutive_losses": 3,
+        "costs": {
+          "fee": "0.001",
+          "spread": "0.001",
+          "slippage": "0.001"
+        }
+      }
+    },
+    "periods": {
+      "development": [
+        "2024-01-01T00:00:00+00:00",
+        "2025-01-01T00:00:00+00:00"
+      ],
+      "development_warmup": [
+        "2024-01-01T00:00:00+00:00",
+        "2024-01-08T00:00:00+00:00"
+      ],
+      "validation": [
+        "2025-02-01T00:00:00+00:00",
+        "2025-12-31T20:00:00+00:00"
+      ],
+      "validation_warmup": [
+        "2025-01-25T00:00:00+00:00",
+        "2025-02-01T00:00:00+00:00"
+      ]
+    },
+    "liquidity_24h": "100000",
+    "liquidity_15m": "10000"
+  },
+  "configuration_sha256": "b21dd229331ac9aeae817978bbab4b81bb70ecaa7cbfcab4fe1ba08a54898c71",
+  "files": {
+    "PHASE6B_PROTOCOL_PROPOSAL.md": "782feb54d579e9f189f1d9751a0d60f094cad5c59f12d7765885f3f8dec7aba9",
+    "tests/fixtures/archive/ETHEUR-15m-2025-01-10.zip": "8ae674fcc852499940d38c374cadffba184c2189b104ead119050c62dae0b163",
+    "tests/fixtures/archive/BTCEUR-1h-2025-01-10.zip": "a034d2f10ece1ffa26d185d837fed7297d36249f77c5e3a42d377872a9f287b6",
+    "tests/fixtures/archive/ETHEUR-4h-2025-01-10.zip": "1922228085060505afc5b37cc66fb1b513e89ec7342f59330df7d72bb6bc81a1",
+    "tests/fixtures/archive/BTCEUR-15m-2025-01-10.zip": "309ac30484e9d714a6986f26e3a14d16db4b6a0058a2d3bb38a279955477fe09",
+    "tests/fixtures/archive/ETHEUR-1h-2025-01-10.zip": "82c6627d52f57ee58c9bcf2b14eadf1c77282a5068eab7fc14ccf993fca7948a",
+    "tests/fixtures/archive/BTCEUR-4h-2025-01-10.zip": "8a84ee1bb5e76b7957c63010f8d36f216696b99a01a7caf189078e761ce487b5",
+    "tests/fixtures/archive/BTCEUR-1h-2024-12-31.zip": "fa469bcd27549f0e127e8b303d8046a921d9e0df63c54570f79344e8b67ae698",
+    "crypto/readiness.py": "2527d873e928acd1d2b3f47add59bea693f3b40a077fae4d57805d158948a82a",
+    "crypto/readiness_runner.py": "9c6f45a925dbb70992a596ab1dc13b33263fddaf86aad3b0da5fc294990b7292",
+    "crypto/research_benchmarks.py": "cc0a7c10091c010b79dfccf09bb3a6e4e5d58ecbd6894ed7c5b89e1e83863780",
+    "crypto/joint_portfolio.py": "6e24872c0bf05bd79274cdd815765b972e80367d6601d31f1427375ac2fbcc68",
+    "crypto/trade_agents.py": "52f6e2f7f144eeb66b1bc3577dd2225d99bce4be45fff63f4df9583ed04e32da",
+    "crypto/sim_execution.py": "4c160790f6950aa2756f605baea4a98ebe4d3d0f4a1607530e73e6475e05ad14",
+    "crypto/research_execution.py": "3f79aa60ed7d6ff4e1d9acbc0ab3507fa06359f3df4ad3acc7602502f428854e",
+    "crypto/risk.py": "2b0293c77d1b2b5df4666705aa72dde1407dbbe6880438e839bc48ad5107f4f0"
+  },
+  "datasets": [
+    {
+      "symbol": "BTCEUR",
+      "period": "development",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "BTCEUR",
+      "period": "development_warmup",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "BTCEUR",
+      "period": "validation",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "BTCEUR",
+      "period": "validation_warmup",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "ETHEUR",
+      "period": "development",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "ETHEUR",
+      "period": "development_warmup",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "ETHEUR",
+      "period": "validation",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "ETHEUR",
+      "period": "validation_warmup",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "SOLEUR",
+      "period": "development",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "SOLEUR",
+      "period": "development_warmup",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "SOLEUR",
+      "period": "validation",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "SOLEUR",
+      "period": "validation_warmup",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "XRPEUR",
+      "period": "development",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "XRPEUR",
+      "period": "development_warmup",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "XRPEUR",
+      "period": "validation",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "XRPEUR",
+      "period": "validation_warmup",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "ADAEUR",
+      "period": "development",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "ADAEUR",
+      "period": "development_warmup",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "ADAEUR",
+      "period": "validation",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "ADAEUR",
+      "period": "validation_warmup",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "LINKEUR",
+      "period": "development",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "LINKEUR",
+      "period": "development_warmup",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "LINKEUR",
+      "period": "validation",
+      "status": "not_audited",
+      "dataset_hash": null
+    },
+    {
+      "symbol": "LINKEUR",
+      "period": "validation_warmup",
+      "status": "not_audited",
+      "dataset_hash": null
+    }
+  ],
+  "performance_authorized": false,
+  "independent_test_authorized": false,
+  "integrity": "hash snapshot; writable files are not immutable",
+  "sha256": "42fc1c42368d6194df043ce0bbfb76b6705e0a86d51070e6b5121bf685abe8bd"
+}

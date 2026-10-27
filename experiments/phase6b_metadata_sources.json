@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/binance/binance-public-data/master/README.md",
+    "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+    "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>"
+  }
+]

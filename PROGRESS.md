@@ -183,3 +183,15 @@ validatierunner ontbreken nog. Zonder geldige metadata wordt niet ingestapt.
 287 bestaande tests geslaagd, 0 mislukt; één bestaande dependencywaarschuwing.
 Geen rendementsbacktests en geen testvrijgave. Stop na dit voorstel en wacht op
 expliciete goedkeuring vóór evaluatie; geen automatische vervolgfase.
+
+## Fase 6B — technische voorbereiding
+
+Dagelijkse data-audit, expliciete periode-/testsloten, inhoudsgebonden manifest,
+trailing liquiditeit, langere gezamenlijke fixture-runner en benchmarkprimitieven
+toegevoegd. De bestaande centrale ledger, Risk Engine en simulator worden hergebruikt.
+Historische rendementen zijn niet vrijgegeven. Volledige corpusaudit, bewezen
+historische filters en de historische validatieregisseur blijven blokkeringen.
+Officiële documentatieverzoeken faalden met proxy 502; geen reconstructie geclaimd.
+Zie PHASE6B_READINESS_REPORT.md voor exact gerealiseerde onderdelen en beperkingen.
+
+Definitieve verificatie: 310 tests geslaagd, 0 mislukt; één bestaande dependencywaarschuwing.
