@@ -1,5 +1,5 @@
 """Eén gedeelde EUR-ledger voor expliciet offline multi-coinonderzoek (fase 6A)."""
-from copy import deepcopy
+from copy import deepcopy, copy
 from datetime import datetime, timedelta
 from decimal import Decimal as D
 import json
@@ -103,10 +103,23 @@ class JointPortfolio:
             cache[s]=old;self._bar_cache=cache
         return old
 
+    def _report_digest(self):
+        from .tracked_payload import Revision,tracked
+        if getattr(self,'_report_identity',None) is not self.reports:
+            self._report_revision=Revision()
+            self.reports=tuple(r.model_copy(update={'data':tracked(r.data,self._report_revision),'result':tracked(r.result,self._report_revision)}) for r in self.reports)
+            self._report_identity=self.reports
+            self._report_cached_version=None
+        version=self._report_revision.value
+        if not self._report_revision.cacheable or self._report_cached_version!=version:
+            self._report_cached_hash=report_digest(self.reports)
+            self._report_cached_version=version
+        return self._report_cached_hash
+
     def _manifest(self):
         return dict(plan=self.plan.fingerprint,policy=self.policy.model_dump(mode='json'),
                     filters={s:self.rules[s].model_dump(mode='json') for s in sorted(self.rules)},
-                    reports=report_digest(self.reports),bars={s:self._bar_metadata(s,self.bars[s])[1] for s in sorted(self.bars)},
+                    reports=self._report_digest(),bars={s:self._bar_metadata(s,self.bars[s])[1] for s in sorted(self.bars)},
                     stage='development',independent_test_authorization=None)
 
     def _frozen(self):
@@ -177,7 +190,7 @@ class JointPortfolio:
                 raise ValueError('Exitreservering overschrijdt bezit')
 
     def _save(self, before, state, ledger, kind):
-        state = deepcopy(state)
+        state = dict(state)
         state.update(ledger=ledger_state(ledger),kind=kind,stopped=state['stopped'] or self.risk.stopped,
                      revision=0 if before is None else before['revision']+1,
                      previous='0'*64 if before is None else before['hash'])
@@ -226,7 +239,7 @@ class JointPortfolio:
         with self.store.transaction():
             before,ledger=self._read()
             self.risk.stopped=True
-            state=deepcopy(before);state['stopped']=True
+            state=dict(before);state['stopped']=True
             ledger.audit('joint_emergency_stop',datetime.fromisoformat(state['at']))
             self._save(before,state,ledger,'emergency_stop')
 
@@ -245,7 +258,7 @@ class JointPortfolio:
         old = self._get('joint_batches',batch_id)
         if old: return old
         if at<datetime.fromisoformat(before['at']): raise ValueError('Terugwaartse portefeuille-evaluatie')
-        state = deepcopy(before)
+        state = dict(before)
         expired = None
         if state['pending']:
             if state['pending']['side']=='sell': raise ValueError('Open exit eerst expliciet afhandelen')
@@ -262,7 +275,7 @@ class JointPortfolio:
             r = next((r for r in self.reports if r.coin==s and datetime.fromisoformat(r.data['as_of'])==at),None)
             # Signaal op zichzelf; centrale portfolio-/slotcontrole volgt afzonderlijk.
             decision = self._decision(s,at,r)
-            view = deepcopy(ledger)
+            view = ledger.analysis_view()
             if not view.position: view.rules=self.rules[s]
             entry = EntryAgent(policy,s,at,view,self._bar(s,at-timedelta(minutes=15)))
             for agent in (decision,entry): o.register(agent.id,agent)
@@ -317,7 +330,7 @@ class JointPortfolio:
             if p: c['reason']='centrale positielimiet: één open positie'
             elif incomplete: c['reason']='onvolledig vergelijkingsuniversum; geen nieuwe instap'
             elif c['eligible']:
-                view=deepcopy(ledger);view.rules=self.rules[c['symbol']]
+                view=copy(ledger);view.rules=self.rules[c['symbol']]
                 m=Message.model_validate(c['entry'])
                 reason=self._risk_reason(m,view)
                 c['risk_approved']=reason is None
@@ -370,7 +383,7 @@ class JointPortfolio:
             m=Message.model_validate(pending['candidate'])
             stored=self._get('results',str(m.event_id))
             if stored!=m.model_dump(mode='json'): raise ValueError('Gevalideerde agentherkomst ontbreekt of gewijzigd')
-            state=deepcopy(before);at=m.timestamp;r=m.result
+            state=dict(before);at=m.timestamp;r=m.result
             raw=D(r['reference'])
             failure=None
             if pending['side']=='buy':

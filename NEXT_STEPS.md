@@ -1,14 +1,16 @@
-# Vervolg na fase-6B-performanceonderzoek
+# Vervolg na de gerichte ledgeroptimalisatie
 
-Lees PHASE6B_PERFORMANCE_REPORT.md. De prefixcache vermindert herhaalde
-historieverificatie; de jaarblokkering is nog niet volledig opgelost.
+Lees PHASE6B_LEDGER_OPTIMIZATION_REPORT.md. De financiële gelijkheids- en
+correctheidstests slagen; 340 tests behouden. De jaarreplay is niet vrijgegeven.
 
-1. Bewaar de lokale wijzigingen en profielartefacten; verander geen onderzoekparameters.
-2. Ontwerp een incrementele ledger-/eventopslag, met bewijs voor dezelfde inhoud,
-   kosten, risicopauzes, herstart, corruptiedetectie en rollback.
-3. Meet daarna sequentieel op gereserveerde resources: 1.000, 10.000 en een jaar
-   met volledige synthetische agentrapporten en transacties, plus herhaalrun.
-   De bestaande lege-rapporten-screening is slechts een ondergrens.
-4. Handhaaf het afzonderlijke 45-secondencriterium; rapporteer overschrijding eerlijk.
-5. Historische evaluatie blijft afhankelijk van alle essentiële controles.
-   Geen historische backtests in deze performancefase; onafhankelijke test gesloten.
+1. Ontwerp een afzonderlijk genormaliseerd append-only audit-/tradearchief met
+   gecontroleerde checkpoints, zodat niet iedere revisie de hele ledger kopieert
+   en valideert. Behoud alle auditdata, Decimal, rollback en herstartgelijkheid.
+2. Meet volledige analyse-/toelatingshistorie en actieve posities met synthetische
+   data. De huidige 1.000-stappenperformancecases zijn geen actieve jaarsimulatie.
+3. Onderzoek versiegebonden binding van FixtureJointRunner.history en streaming
+   van gepreregistreerde rapporten, met dezelfde mutatie-/as_of-beveiligingen.
+4. Pas bij stabiele, voldoende snelle kleine runs: een begrensde synthetische
+   jaarprobe met herhaalrun. De 45-secondenvoorwaarde niet stilzwijgend verhogen.
+5. Historische rendementsevaluatie blijft afhankelijk van alle eerdere essentiële
+   controles. De onafhankelijke test blijft gesloten; geen automatische volgende fase.

@@ -231,3 +231,18 @@ testvrijgave. Zie PHASE6B_PERFORMANCE_REPORT.md en experiments/performance/.
 
 Definitieve suite: 324 tests geslaagd, 0 mislukt; één bestaande waarschuwing.
 Geen commit/push omdat de volledige jaarcontrole niet slaagt; wijzigingen lokaal bewaard.
+
+## Fase 6B — targeted performance fix
+
+Gerichte financiële analyseviews vervangen grote agent-ledgerkopieën; gerichte
+statevelden blijven binnen bestaande SQLite-transacties. Dataset-cache gebruikt
+primaire-key-lookups. Rapporthashes zijn mutation-versiegebonden met fallback voor
+onbekende mutable payloads. De originele referenties, inclusief persistente audit,
+rollback, herstart en risicopauzes, zijn exact gelijk. Alle 340 tests slagen (324
+behouden plus zestien nieuwe), één bestaande waarschuwing.
+
+De 50/100/200/1.000-stappenmetingen zijn voltooid. Lege 1.000-replay: 33,740 s
+tegenover 123,162 s met de checkpointcode opnieuw gemeten; chain 1.000: 76,711 s.
+Volledige stateserialisatie/eventvalidatie blijft groeien. Geen jaarprobe uitgevoerd,
+geen historische backtest of testvrijgave. Zie PHASE6B_LEDGER_OPTIMIZATION_REPORT.md.
+De bestaande lokale oorzaakanalyse en artefacten zijn behouden.

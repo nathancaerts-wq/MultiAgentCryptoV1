@@ -1,0 +1,3594 @@
+{
+  "n": 50,
+  "mode": "empty",
+  "elapsed_profiled": 13.185695971998939,
+  "phases": {
+    "setup": 1.1858972829995764,
+    "analysis": 0.00586843100063561,
+    "initialize": 0.2014568969989341,
+    "replay": 11.792473360999793
+  },
+  "replay_steps": [
+    0.1020534500003123,
+    0.10863956100001815,
+    0.10397822400045698,
+    0.1741109080012393,
+    0.12356345299849636,
+    0.10592544400060433,
+    0.14341796599910595,
+    0.13556610299929162,
+    0.10322094100047252,
+    0.1450790250000864,
+    0.20879698199860286,
+    0.20957042900045053,
+    0.30537156900027185,
+    0.1668099180005811,
+    0.09199248299955798,
+    0.08812636099901283,
+    0.16294333199948596,
+    0.2313701389994094,
+    0.6601602539994929,
+    0.15619703099946491,
+    2.442515476999688,
+    0.39841171100124484,
+    0.226218517000234,
+    0.3325749880004878,
+    0.18559242000083032,
+    0.21143035699969914,
+    0.21567166199929488,
+    0.19075344699922425,
+    0.17802095899969572,
+    0.2879308999999921,
+    0.1361392890012212,
+    0.11154870499922254,
+    0.10788411799876485,
+    0.10790939800062915,
+    0.11218538299908687,
+    0.08415652300027432,
+    0.12473666799996863,
+    0.10790555099993071,
+    0.0922696529996756,
+    0.1297961860000214,
+    0.0974180699995486,
+    0.11495155999909912,
+    0.1010984609984007,
+    0.10427737499958312,
+    0.130764638999608,
+    0.5963082569996914,
+    0.7133000180001545,
+    0.23472372099968197,
+    0.2117607300006057,
+    0.147105490001195
+  ],
+  "analysis_steps": [],
+  "sql": {
+    "replay": {
+      "SELECT": 1258,
+      "INSERT": 1701,
+      "BEGIN": 350,
+      "COMMIT": 350
+    },
+    "initialize": {
+      "SELECT": 6,
+      "BEGIN": 2,
+      "INSERT": 6,
+      "COMMIT": 2
+    }
+  },
+  "technical_calls": 0,
+  "unique_windows": 0,
+  "repeated_identical_windows": 0,
+  "candle_visits": 0,
+  "unique_analyzed_candles": 0,
+  "max_visits_same_candle": 0,
+  "sizes": [
+    {
+      "step": 1,
+      "events": 2,
+      "state_bytes": 2119,
+      "reports": 0
+    },
+    {
+      "step": 50,
+      "events": 51,
+      "state_bytes": 19066,
+      "reports": 0
+    }
+  ],
+  "profile": [
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py",
+      "line": 160,
+      "function": "run",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 0.003769787,
+      "cumulative_seconds": 11.790377351
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py",
+      "line": 86,
+      "function": "Runner.run",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 5.6698000000000005e-05,
+      "cumulative_seconds": 11.785243315
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 655,
+      "function": "BaseEventLoop.run_until_complete",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 5.4120000000000004e-05,
+      "cumulative_seconds": 11.783550124000001
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 631,
+      "function": "BaseEventLoop.run_forever",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 5.0629000000000006e-05,
+      "cumulative_seconds": 11.783421548000002
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 1922,
+      "function": "BaseEventLoop._run_once",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 0.001049072,
+      "cumulative_seconds": 11.783336249000001
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/events.py",
+      "line": 86,
+      "function": "Handle._run",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 2.0281e-05,
+      "cumulative_seconds": 11.781670578
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'run' of '_contextvars.Context' objects>",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 5.3613e-05,
+      "cumulative_seconds": 11.781650297
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/experiments/bottleneck/diagnose.py",
+      "line": 65,
+      "function": "replay",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 0.026360706,
+      "cumulative_seconds": 11.781461085
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/readiness_runner.py",
+      "line": 77,
+      "function": "FixtureJointRunner.run",
+      "primitive_calls": 50,
+      "calls": 50,
+      "self_seconds": 0.08081247800000001,
+      "cumulative_seconds": 11.737963915
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 233,
+      "function": "JointPortfolio.evaluate",
+      "primitive_calls": 50,
+      "calls": 50,
+      "self_seconds": 0.045541646000000005,
+      "cumulative_seconds": 10.023567896000001
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 239,
+      "function": "JointPortfolio._evaluate",
+      "primitive_calls": 50,
+      "calls": 50,
+      "self_seconds": 0.11186014500000001,
+      "cumulative_seconds": 9.978026250000001
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copy.py",
+      "line": 118,
+      "function": "deepcopy",
+      "primitive_calls": 901,
+      "calls": 231763,
+      "self_seconds": 2.099395808,
+      "cumulative_seconds": 4.427332669
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copy.py",
+      "line": 217,
+      "function": "_deepcopy_dict",
+      "primitive_calls": 601,
+      "calls": 23151,
+      "self_seconds": 0.688294049,
+      "cumulative_seconds": 4.315870416
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/orchestrator.py",
+      "line": 54,
+      "function": "Orchestrator.execute",
+      "primitive_calls": 50,
+      "calls": 50,
+      "self_seconds": 0.10201194400000001,
+      "cumulative_seconds": 3.582091891
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copy.py",
+      "line": 247,
+      "function": "_reconstruct",
+      "primitive_calls": 600,
+      "calls": 1200,
+      "self_seconds": 0.050496958,
+      "cumulative_seconds": 3.221053561
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copy.py",
+      "line": 191,
+      "function": "_deepcopy_list",
+      "primitive_calls": 2050,
+      "calls": 2450,
+      "self_seconds": 0.080739293,
+      "cumulative_seconds": 2.889190446
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/tasks.py",
+      "line": 472,
+      "function": "wait_for",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.023810086,
+      "cumulative_seconds": 2.304177779
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 118,
+      "function": "JointPortfolio._read",
+      "primitive_calls": 203,
+      "calls": 203,
+      "self_seconds": 0.045226562000000005,
+      "cumulative_seconds": 2.222628273
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/trade_agents.py",
+      "line": 131,
+      "function": "EntryAgent.__init__",
+      "primitive_calls": 150,
+      "calls": 150,
+      "self_seconds": 0.0018418030000000001,
+      "cumulative_seconds": 1.81094555
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/.venv/lib/python3.12/site-packages/pydantic/main.py",
+      "line": 418,
+      "function": "BaseModel.model_dump",
+      "primitive_calls": 3097,
+      "calls": 3097,
+      "self_seconds": 0.031890904000000005,
+      "cumulative_seconds": 1.807160681
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'to_python' of 'pydantic_core._pydantic_core.SchemaSerializer' objects>",
+      "primitive_calls": 3097,
+      "calls": 3097,
+      "self_seconds": 1.775269777,
+      "cumulative_seconds": 1.775269777
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'validate_python' of 'pydantic_core._pydantic_core.SchemaValidator' objects>",
+      "primitive_calls": 1640,
+      "calls": 1643,
+      "self_seconds": 0.9725870390000001,
+      "cumulative_seconds": 1.452347505
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/.venv/lib/python3.12/site-packages/pydantic/main.py",
+      "line": 240,
+      "function": "BaseModel.__init__",
+      "primitive_calls": 1127,
+      "calls": 1130,
+      "self_seconds": 0.014752795,
+      "cumulative_seconds": 1.3456192880000002
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/trade_agents.py",
+      "line": 52,
+      "function": "DecisionAgent.run",
+      "primitive_calls": 150,
+      "calls": 150,
+      "self_seconds": 0.051019818,
+      "cumulative_seconds": 1.344223253
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 74,
+      "function": "fingerprint",
+      "primitive_calls": 359,
+      "calls": 359,
+      "self_seconds": 0.023641432,
+      "cumulative_seconds": 1.279492647
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py",
+      "line": 183,
+      "function": "dumps",
+      "primitive_calls": 9515,
+      "calls": 9515,
+      "self_seconds": 0.149145612,
+      "cumulative_seconds": 1.264030185
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'execute' of 'sqlite3.Connection' objects>",
+      "primitive_calls": 3666,
+      "calls": 3666,
+      "self_seconds": 0.8406457620000001,
+      "cumulative_seconds": 1.236253319
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 112,
+      "function": "JointPortfolio._frozen",
+      "primitive_calls": 203,
+      "calls": 203,
+      "self_seconds": 0.034868851,
+      "cumulative_seconds": 1.105747602
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py",
+      "line": 183,
+      "function": "JSONEncoder.encode",
+      "primitive_calls": 9515,
+      "calls": 9515,
+      "self_seconds": 0.08794555600000001,
+      "cumulative_seconds": 1.082946446
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 179,
+      "function": "JointPortfolio._save",
+      "primitive_calls": 51,
+      "calls": 51,
+      "self_seconds": 0.015969226,
+      "cumulative_seconds": 1.0164051950000002
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/experiments/bottleneck/diagnose.py",
+      "line": 18,
+      "function": "candle",
+      "primitive_calls": 207,
+      "calls": 207,
+      "self_seconds": 0.041945197000000004,
+      "cumulative_seconds": 0.9838584680000001
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/.venv/lib/python3.12/site-packages/pydantic/main.py",
+      "line": 974,
+      "function": "BaseModel.__deepcopy__",
+      "primitive_calls": 1050,
+      "calls": 1050,
+      "self_seconds": 0.173581646,
+      "cumulative_seconds": 0.96381967
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/sim_execution.py",
+      "line": 21,
+      "function": "digest",
+      "primitive_calls": 7536,
+      "calls": 7536,
+      "self_seconds": 0.08485730200000001,
+      "cumulative_seconds": 0.934936862
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/readiness_runner.py",
+      "line": 63,
+      "function": "FixtureJointRunner._manifest",
+      "primitive_calls": 204,
+      "calls": 204,
+      "self_seconds": 0.022013503,
+      "cumulative_seconds": 0.9228725200000001
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py",
+      "line": 205,
+      "function": "JSONEncoder.iterencode",
+      "primitive_calls": 9515,
+      "calls": 9515,
+      "self_seconds": 0.9107432750000001,
+      "cumulative_seconds": 0.9107432750000001
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 106,
+      "function": "JointPortfolio._manifest",
+      "primitive_calls": 204,
+      "calls": 204,
+      "self_seconds": 0.053139236000000006,
+      "cumulative_seconds": 0.900575611
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/sim_execution.py",
+      "line": 17,
+      "function": "canonical",
+      "primitive_calls": 8242,
+      "calls": 8242,
+      "self_seconds": 0.044804090000000005,
+      "cumulative_seconds": 0.8921990620000001
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 150,
+      "function": "JointPortfolio._validate",
+      "primitive_calls": 254,
+      "calls": 254,
+      "self_seconds": 0.124522883,
+      "cumulative_seconds": 0.7348936420000001
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 220,
+      "function": "JointPortfolio.snapshot",
+      "primitive_calls": 50,
+      "calls": 50,
+      "self_seconds": 0.015403274000000002,
+      "cumulative_seconds": 0.688336292
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/trade_agents.py",
+      "line": 34,
+      "function": "message",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.056746040000000005,
+      "cumulative_seconds": 0.605892647
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/orchestrator.py",
+      "line": 30,
+      "function": "Orchestrator.register",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.052682682,
+      "cumulative_seconds": 0.5994921400000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'get' of 'dict' objects>",
+      "primitive_calls": 467541,
+      "calls": 467541,
+      "self_seconds": 0.5452448510000001,
+      "cumulative_seconds": 0.5452448510000001
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/trade_agents.py",
+      "line": 136,
+      "function": "EntryAgent.run",
+      "primitive_calls": 150,
+      "calls": 150,
+      "self_seconds": 0.007042892,
+      "cumulative_seconds": 0.533038419
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/storage.py",
+      "line": 45,
+      "function": "SQLiteStore.put",
+      "primitive_calls": 404,
+      "calls": 404,
+      "self_seconds": 0.022383965000000002,
+      "cumulative_seconds": 0.526191103
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/storage.py",
+      "line": 58,
+      "function": "SQLiteStore.agent_status",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.28087059200000003,
+      "cumulative_seconds": 0.411705429
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/orchestrator.py",
+      "line": 76,
+      "function": "<genexpr>",
+      "primitive_calls": 450,
+      "calls": 450,
+      "self_seconds": 0.0025145690000000004,
+      "cumulative_seconds": 0.41116276
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/.venv/lib/python3.12/site-packages/pydantic/main.py",
+      "line": 384,
+      "function": "BaseModel.model_copy",
+      "primitive_calls": 150,
+      "calls": 150,
+      "self_seconds": 0.0033161030000000004,
+      "cumulative_seconds": 0.40864819100000005
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/data.py",
+      "line": 38,
+      "function": "valid",
+      "primitive_calls": 414,
+      "calls": 414,
+      "self_seconds": 0.359236977,
+      "cumulative_seconds": 0.39884651200000004
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/experiments/bottleneck/diagnose.py",
+      "line": 34,
+      "function": "sql",
+      "primitive_calls": 3675,
+      "calls": 3675,
+      "self_seconds": 0.167534427,
+      "cumulative_seconds": 0.395607557
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 191,
+      "function": "JointPortfolio._compare",
+      "primitive_calls": 50,
+      "calls": 50,
+      "self_seconds": 0.005835764,
+      "cumulative_seconds": 0.37149361000000003
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/storage.py",
+      "line": 55,
+      "function": "SQLiteStore.audit",
+      "primitive_calls": 952,
+      "calls": 952,
+      "self_seconds": 0.029773601,
+      "cumulative_seconds": 0.366224859
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py",
+      "line": 299,
+      "function": "loads",
+      "primitive_calls": 1160,
+      "calls": 1160,
+      "self_seconds": 0.018223486,
+      "cumulative_seconds": 0.33410849400000003
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/decoder.py",
+      "line": 333,
+      "function": "JSONDecoder.decode",
+      "primitive_calls": 1160,
+      "calls": 1160,
+      "self_seconds": 0.028069507,
+      "cumulative_seconds": 0.30865026100000004
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/timeouts.py",
+      "line": 85,
+      "function": "Timeout.__aenter__",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.012239446000000001,
+      "cumulative_seconds": 0.284082449
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/timeouts.py",
+      "line": 50,
+      "function": "Timeout.reschedule",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.009636587,
+      "cumulative_seconds": 0.257749817
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/decoder.py",
+      "line": 344,
+      "function": "JSONDecoder.raw_decode",
+      "primitive_calls": 1160,
+      "calls": 1160,
+      "self_seconds": 0.25045304100000004,
+      "cumulative_seconds": 0.25045304100000004
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 771,
+      "function": "BaseEventLoop.call_at",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.047429112,
+      "cumulative_seconds": 0.24756682500000002
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.id>",
+      "primitive_calls": 286866,
+      "calls": 286866,
+      "self_seconds": 0.214658217,
+      "cumulative_seconds": 0.214658217
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'split' of 'str' objects>",
+      "primitive_calls": 3675,
+      "calls": 3675,
+      "self_seconds": 0.211324222,
+      "cumulative_seconds": 0.211324222
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copy.py",
+      "line": 231,
+      "function": "_keep_alive",
+      "primitive_calls": 27551,
+      "calls": 27551,
+      "self_seconds": 0.13565955200000002,
+      "cumulative_seconds": 0.20226206700000002
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/storage.py",
+      "line": 20,
+      "function": "SQLiteStore.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 0.0006747340000000001,
+      "cumulative_seconds": 0.19506473600000002
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/trade_agents.py",
+      "line": 30,
+      "function": "fingerprint",
+      "primitive_calls": 450,
+      "calls": 450,
+      "self_seconds": 0.013526061,
+      "cumulative_seconds": 0.194967249
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/events.py",
+      "line": 111,
+      "function": "TimerHandle.__init__",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.019547326,
+      "cumulative_seconds": 0.17555907
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 203,
+      "function": "JointPortfolio._valuation",
+      "primitive_calls": 254,
+      "calls": 254,
+      "self_seconds": 0.036613314,
+      "cumulative_seconds": 0.17346398100000002
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 92,
+      "function": "JointPortfolio._get",
+      "primitive_calls": 354,
+      "calls": 354,
+      "self_seconds": 0.011840652,
+      "cumulative_seconds": 0.160650439
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/events.py",
+      "line": 36,
+      "function": "Handle.__init__",
+      "primitive_calls": 307,
+      "calls": 307,
+      "self_seconds": 0.15169538100000002,
+      "cumulative_seconds": 0.15607119900000002
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/readiness_runner.py",
+      "line": 45,
+      "function": "FixtureJointRunner.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 0.00011629000000000001,
+      "cumulative_seconds": 0.13862939600000002
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.next>",
+      "primitive_calls": 854,
+      "calls": 854,
+      "self_seconds": 0.020150670000000002,
+      "cumulative_seconds": 0.13124496100000002
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 42,
+      "function": "JointPortfolio.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 0.003039069,
+      "cumulative_seconds": 0.130958023
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/.venv/lib/python3.12/site-packages/pydantic/main.py",
+      "line": 677,
+      "function": "model_validate",
+      "primitive_calls": 513,
+      "calls": 513,
+      "self_seconds": 0.0006420730000000001,
+      "cumulative_seconds": 0.12211682500000001
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/storage.py",
+      "line": 35,
+      "function": "transaction",
+      "primitive_calls": 704,
+      "calls": 704,
+      "self_seconds": 0.004324794,
+      "cumulative_seconds": 0.11104243000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method '__reduce_ex__' of 'object' objects>",
+      "primitive_calls": 1050,
+      "calls": 1050,
+      "self_seconds": 0.067583565,
+      "cumulative_seconds": 0.110491872
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/research_execution.py",
+      "line": 28,
+      "function": "restore_ledger",
+      "primitive_calls": 203,
+      "calls": 203,
+      "self_seconds": 0.022557345000000003,
+      "cumulative_seconds": 0.103524641
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copy.py",
+      "line": 252,
+      "function": "<genexpr>",
+      "primitive_calls": 1950,
+      "calls": 2850,
+      "self_seconds": 0.009362224,
+      "cumulative_seconds": 0.102848516
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'append' of 'list' objects>",
+      "primitive_calls": 39225,
+      "calls": 39225,
+      "self_seconds": 0.09686536600000001,
+      "cumulative_seconds": 0.09686536600000001
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copy.py",
+      "line": 172,
+      "function": "_deepcopy_atomic",
+      "primitive_calls": 196412,
+      "calls": 196412,
+      "self_seconds": 0.09618367400000001,
+      "cumulative_seconds": 0.09618367400000001
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/timeouts.py",
+      "line": 129,
+      "function": "timeout",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.046754571,
+      "cumulative_seconds": 0.09376423
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 48,
+      "function": "<genexpr>",
+      "primitive_calls": 210,
+      "calls": 210,
+      "self_seconds": 0.0012976440000000001,
+      "cumulative_seconds": 0.082403423
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py",
+      "line": 132,
+      "function": "_GeneratorContextManager.__enter__",
+      "primitive_calls": 352,
+      "calls": 352,
+      "self_seconds": 0.009634481,
+      "cumulative_seconds": 0.081694606
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/research_execution.py",
+      "line": 21,
+      "function": "ledger_state",
+      "primitive_calls": 51,
+      "calls": 51,
+      "self_seconds": 0.003281019,
+      "cumulative_seconds": 0.065414885
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.any>",
+      "primitive_calls": 410,
+      "calls": 410,
+      "self_seconds": 0.0037159000000000003,
+      "cumulative_seconds": 0.064333245
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'hexdigest' of '_hashlib.HASH' objects>",
+      "primitive_calls": 8103,
+      "calls": 8103,
+      "self_seconds": 0.060500473000000006,
+      "cumulative_seconds": 0.060500473000000006
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/models.py",
+      "line": 8,
+      "function": "now",
+      "primitive_calls": 1157,
+      "calls": 1157,
+      "self_seconds": 0.049244373,
+      "cumulative_seconds": 0.060377595000000006
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'join' of 'str' objects>",
+      "primitive_calls": 9515,
+      "calls": 9515,
+      "self_seconds": 0.056048937,
+      "cumulative_seconds": 0.056048937
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/data.py",
+      "line": 19,
+      "function": "utc",
+      "primitive_calls": 1411,
+      "calls": 1411,
+      "self_seconds": 0.030205736,
+      "cumulative_seconds": 0.055528672
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _hashlib.openssl_sha256>",
+      "primitive_calls": 8103,
+      "calls": 8103,
+      "self_seconds": 0.051599609000000005,
+      "cumulative_seconds": 0.051599609000000005
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'isoformat' of 'datetime.datetime' objects>",
+      "primitive_calls": 1056,
+      "calls": 1056,
+      "self_seconds": 0.050753286,
+      "cumulative_seconds": 0.050753286
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py",
+      "line": 141,
+      "function": "_GeneratorContextManager.__exit__",
+      "primitive_calls": 352,
+      "calls": 352,
+      "self_seconds": 0.0035978010000000003,
+      "cumulative_seconds": 0.050183356000000005
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.setattr>",
+      "primitive_calls": 3250,
+      "calls": 3250,
+      "self_seconds": 0.049871081000000005,
+      "cumulative_seconds": 0.049871081000000005
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 62,
+      "function": "valid",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 0.001169928,
+      "cumulative_seconds": 0.048700211
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/__init__.py",
+      "line": 169,
+      "function": "fullmatch",
+      "primitive_calls": 18,
+      "calls": 18,
+      "self_seconds": 3.1264000000000004e-05,
+      "cumulative_seconds": 0.047397091
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.isinstance>",
+      "primitive_calls": 23530,
+      "calls": 23530,
+      "self_seconds": 0.047362162000000006,
+      "cumulative_seconds": 0.047362162000000006
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/__init__.py",
+      "line": 280,
+      "function": "_compile",
+      "primitive_calls": 18,
+      "calls": 18,
+      "self_seconds": 0.0019043880000000001,
+      "cumulative_seconds": 0.047332066000000006
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 65,
+      "function": "<genexpr>",
+      "primitive_calls": 12,
+      "calls": 12,
+      "self_seconds": 1.7074e-05,
+      "cumulative_seconds": 0.043959055000000004
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py",
+      "line": 727,
+      "function": "uuid5",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.025214900000000002,
+      "cumulative_seconds": 0.043424592000000005
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 113,
+      "function": "report_digest",
+      "primitive_calls": 208,
+      "calls": 208,
+      "self_seconds": 0.021745098,
+      "cumulative_seconds": 0.043170596000000006
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copyreg.py",
+      "line": 107,
+      "function": "_slotnames",
+      "primitive_calls": 451,
+      "calls": 451,
+      "self_seconds": 0.040604124000000005,
+      "cumulative_seconds": 0.041890031
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'items' of 'dict' objects>",
+      "primitive_calls": 30297,
+      "calls": 30297,
+      "self_seconds": 0.036860699000000004,
+      "cumulative_seconds": 0.036860699000000004
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/models.py",
+      "line": 29,
+      "function": "coherent",
+      "primitive_calls": 600,
+      "calls": 600,
+      "self_seconds": 0.031113119,
+      "cumulative_seconds": 0.032121279
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py",
+      "line": 105,
+      "function": "JSONEncoder.__init__",
+      "primitive_calls": 9005,
+      "calls": 9005,
+      "self_seconds": 0.031938127000000004,
+      "cumulative_seconds": 0.031938127000000004
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/sim_execution.py",
+      "line": 125,
+      "function": "OfflineLedger.__init__",
+      "primitive_calls": 204,
+      "calls": 204,
+      "self_seconds": 0.023889741000000003,
+      "cumulative_seconds": 0.03001956
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method __new__ of type object at 0x144d380>",
+      "primitive_calls": 1501,
+      "calls": 1501,
+      "self_seconds": 0.029193872000000003,
+      "cumulative_seconds": 0.029193872000000003
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 98,
+      "function": "JointPortfolio._bar_metadata",
+      "primitive_calls": 762,
+      "calls": 762,
+      "self_seconds": 0.005830650000000001,
+      "cumulative_seconds": 0.027697426
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/enum.py",
+      "line": 1561,
+      "function": "Flag.__and__",
+      "primitive_calls": 4,
+      "calls": 4,
+      "self_seconds": 0.003465666,
+      "cumulative_seconds": 0.026962543000000002
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/timeouts.py",
+      "line": 33,
+      "function": "Timeout.__init__",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.026609871,
+      "cumulative_seconds": 0.026609871
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'utcoffset' of 'datetime.datetime' objects>",
+      "primitive_calls": 2011,
+      "calls": 2011,
+      "self_seconds": 0.026106001,
+      "cumulative_seconds": 0.026106001
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py",
+      "line": 299,
+      "function": "helper",
+      "primitive_calls": 352,
+      "calls": 352,
+      "self_seconds": 0.016503073,
+      "cumulative_seconds": 0.025425276
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/timeouts.py",
+      "line": 97,
+      "function": "Timeout.__aexit__",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.013868182000000001,
+      "cumulative_seconds": 0.025259342
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'match' of 're.Pattern' objects>",
+      "primitive_calls": 2320,
+      "calls": 2320,
+      "self_seconds": 0.025005148,
+      "cumulative_seconds": 0.025005148
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _heapq.heappush>",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.009024688000000001,
+      "cumulative_seconds": 0.024425298
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/enum.py",
+      "line": 1543,
+      "function": "Flag._get_value",
+      "primitive_calls": 12,
+      "calls": 12,
+      "self_seconds": 0.019789014,
+      "cumulative_seconds": 0.023199084000000002
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'timestamp' of 'datetime.datetime' objects>",
+      "primitive_calls": 670,
+      "calls": 670,
+      "self_seconds": 0.022578251,
+      "cumulative_seconds": 0.022578251
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'update' of 'dict' objects>",
+      "primitive_calls": 1060,
+      "calls": 1060,
+      "self_seconds": 0.021267264,
+      "cumulative_seconds": 0.021267264
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.getattr>",
+      "primitive_calls": 12950,
+      "calls": 12950,
+      "self_seconds": 0.020579883,
+      "cumulative_seconds": 0.020579883
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py",
+      "line": 280,
+      "function": "UUID.__str__",
+      "primitive_calls": 1050,
+      "calls": 1050,
+      "self_seconds": 0.018072202000000002,
+      "cumulative_seconds": 0.018072202000000002
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copy.py",
+      "line": 200,
+      "function": "_deepcopy_tuple",
+      "primitive_calls": 150,
+      "calls": 150,
+      "self_seconds": 0.017863089000000002,
+      "cumulative_seconds": 0.017883656
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 195,
+      "function": "JointPortfolio._bar",
+      "primitive_calls": 150,
+      "calls": 150,
+      "self_seconds": 0.010004887,
+      "cumulative_seconds": 0.01737852
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'encode' of 'str' objects>",
+      "primitive_calls": 8104,
+      "calls": 8104,
+      "self_seconds": 0.017094518,
+      "cumulative_seconds": 0.017094518
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'upper' of 'str' objects>",
+      "primitive_calls": 3675,
+      "calls": 3675,
+      "self_seconds": 0.016746256,
+      "cumulative_seconds": 0.016746256
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/analysis.py",
+      "line": 16,
+      "function": "boundary",
+      "primitive_calls": 200,
+      "calls": 200,
+      "self_seconds": 0.012194004000000001,
+      "cumulative_seconds": 0.016681807
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 738,
+      "function": "BaseEventLoop.time",
+      "primitive_calls": 606,
+      "calls": 606,
+      "self_seconds": 0.015316175000000001,
+      "cumulative_seconds": 0.016513966
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.sum>",
+      "primitive_calls": 2032,
+      "calls": 2032,
+      "self_seconds": 0.015145232000000002,
+      "cumulative_seconds": 0.015707513
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_compiler.py",
+      "line": 745,
+      "function": "compile",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 7.6438e-05,
+      "cumulative_seconds": 0.015459133000000002
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/events.py",
+      "line": 127,
+      "function": "TimerHandle.__lt__",
+      "primitive_calls": 299,
+      "calls": 299,
+      "self_seconds": 0.013227716,
+      "cumulative_seconds": 0.01540061
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copy.py",
+      "line": 61,
+      "function": "copy",
+      "primitive_calls": 1050,
+      "calls": 1050,
+      "self_seconds": 0.005093096,
+      "cumulative_seconds": 0.015131680000000002
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.issubclass>",
+      "primitive_calls": 9600,
+      "calls": 9600,
+      "self_seconds": 0.014590531,
+      "cumulative_seconds": 0.014590531
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _asyncio.current_task>",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.013926412,
+      "cumulative_seconds": 0.013926412
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/sim_execution.py",
+      "line": 144,
+      "function": "OfflineLedger.audit",
+      "primitive_calls": 51,
+      "calls": 51,
+      "self_seconds": 0.002527731,
+      "cumulative_seconds": 0.012534060000000001
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 969,
+      "function": "parse",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 7.6611e-05,
+      "cumulative_seconds": 0.011734838000000001
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/events.py",
+      "line": 155,
+      "function": "TimerHandle.cancel",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.006887562000000001,
+      "cumulative_seconds": 0.011391160000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method now>",
+      "primitive_calls": 1157,
+      "calls": 1157,
+      "self_seconds": 0.011133222,
+      "cumulative_seconds": 0.011133222
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py",
+      "line": 139,
+      "function": "UUID.__init__",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.009816625,
+      "cumulative_seconds": 0.011056362
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'startswith' of 'str' objects>",
+      "primitive_calls": 1575,
+      "calls": 1575,
+      "self_seconds": 0.010204824000000001,
+      "cumulative_seconds": 0.010204824000000001
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/models.py",
+      "line": 37,
+      "function": "Message.usable",
+      "primitive_calls": 600,
+      "calls": 600,
+      "self_seconds": 0.009244938000000001,
+      "cumulative_seconds": 0.009557732000000001
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/.venv/lib/python3.12/site-packages/pydantic/main.py",
+      "line": 1147,
+      "function": "__eq__",
+      "primitive_calls": 406,
+      "calls": 406,
+      "self_seconds": 0.007277202000000001,
+      "cumulative_seconds": 0.009326351
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/readiness_runner.py",
+      "line": 74,
+      "function": "FixtureJointRunner._decision",
+      "primitive_calls": 150,
+      "calls": 150,
+      "self_seconds": 0.0026029490000000002,
+      "cumulative_seconds": 0.009222766
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method '__deepcopy__' of 'decimal.Decimal' objects>",
+      "primitive_calls": 7500,
+      "calls": 7500,
+      "self_seconds": 0.008951512,
+      "cumulative_seconds": 0.008951512
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py",
+      "line": 104,
+      "function": "_GeneratorContextManagerBase.__init__",
+      "primitive_calls": 352,
+      "calls": 352,
+      "self_seconds": 0.008718429,
+      "cumulative_seconds": 0.008922203
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 452,
+      "function": "_parse_sub",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 9.0518e-05,
+      "cumulative_seconds": 0.008542825
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 512,
+      "function": "_parse",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 0.006056246,
+      "cumulative_seconds": 0.008443973
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.sorted>",
+      "primitive_calls": 970,
+      "calls": 970,
+      "self_seconds": 0.008060114,
+      "cumulative_seconds": 0.008117242
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'fetchone' of 'sqlite3.Cursor' objects>",
+      "primitive_calls": 1059,
+      "calls": 1059,
+      "self_seconds": 0.008022798000000001,
+      "cumulative_seconds": 0.008022798000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'copy' of 'set' objects>",
+      "primitive_calls": 1050,
+      "calls": 1050,
+      "self_seconds": 0.0076597110000000005,
+      "cumulative_seconds": 0.0076597110000000005
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/readiness_runner.py",
+      "line": 53,
+      "function": "<genexpr>",
+      "primitive_calls": 210,
+      "calls": 210,
+      "self_seconds": 0.004370009,
+      "cumulative_seconds": 0.007523082
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 39,
+      "function": "JointPortfolio._decision",
+      "primitive_calls": 150,
+      "calls": 150,
+      "self_seconds": 0.0005750530000000001,
+      "cumulative_seconds": 0.006619817
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/sim_execution.py",
+      "line": 135,
+      "function": "OfflineLedger.snapshot",
+      "primitive_calls": 254,
+      "calls": 254,
+      "self_seconds": 0.006279285000000001,
+      "cumulative_seconds": 0.006279285000000001
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/trade_agents.py",
+      "line": 45,
+      "function": "DecisionAgent.__init__",
+      "primitive_calls": 150,
+      "calls": 150,
+      "self_seconds": 0.0038828450000000002,
+      "cumulative_seconds": 0.006044764
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/orchestrator.py",
+      "line": 19,
+      "function": "Orchestrator.__init__",
+      "primitive_calls": 50,
+      "calls": 50,
+      "self_seconds": 0.004414229,
+      "cumulative_seconds": 0.005926600000000001
+    },
+    {
+      "file": "<string>",
+      "line": 2,
+      "function": "__init__",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.005655945000000001,
+      "cumulative_seconds": 0.005655945000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'update' of 'set' objects>",
+      "primitive_calls": 100,
+      "calls": 100,
+      "self_seconds": 0.005515011,
+      "cumulative_seconds": 0.0055898580000000005
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/offline_optimizer.py",
+      "line": 28,
+      "function": "OfflineResearchOptimizer.register",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 5.5748e-05,
+      "cumulative_seconds": 0.004909122
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.max>",
+      "primitive_calls": 627,
+      "calls": 627,
+      "self_seconds": 0.0046583630000000004,
+      "cumulative_seconds": 0.0046583630000000004
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method '__reduce_ex__' of 'datetime.datetime' objects>",
+      "primitive_calls": 150,
+      "calls": 150,
+      "self_seconds": 0.004479960000000001,
+      "cumulative_seconds": 0.004479960000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _asyncio.get_running_loop>",
+      "primitive_calls": 600,
+      "calls": 600,
+      "self_seconds": 0.004441914,
+      "cumulative_seconds": 0.004441914
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _contextvars.copy_context>",
+      "primitive_calls": 302,
+      "calls": 302,
+      "self_seconds": 0.004245591,
+      "cumulative_seconds": 0.004245591
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'fetchall' of 'sqlite3.Cursor' objects>",
+      "primitive_calls": 203,
+      "calls": 203,
+      "self_seconds": 0.004208534,
+      "cumulative_seconds": 0.004208534
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'sort' of 'list' objects>",
+      "primitive_calls": 50,
+      "calls": 50,
+      "self_seconds": 0.003935494,
+      "cumulative_seconds": 0.004192195
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.hasattr>",
+      "primitive_calls": 1959,
+      "calls": 1959,
+      "self_seconds": 0.004160947,
+      "cumulative_seconds": 0.004160947
+    },
+    {
+      "file": "<frozen importlib._bootstrap>",
+      "line": 645,
+      "function": "parent",
+      "primitive_calls": 559,
+      "calls": 559,
+      "self_seconds": 0.00370219,
+      "cumulative_seconds": 0.004137277
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copyreg.py",
+      "line": 98,
+      "function": "__newobj__",
+      "primitive_calls": 450,
+      "calls": 450,
+      "self_seconds": 0.003465721,
+      "cumulative_seconds": 0.0038476250000000004
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.len>",
+      "primitive_calls": 2712,
+      "calls": 2718,
+      "self_seconds": 0.003765772,
+      "cumulative_seconds": 0.003769272
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'digest' of '_hashlib.HASH' objects>",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.0036695990000000004,
+      "cumulative_seconds": 0.0036695990000000004
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_compiler.py",
+      "line": 578,
+      "function": "_code",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 0.003247877,
+      "cumulative_seconds": 0.0036349790000000004
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'end' of 're.Match' objects>",
+      "primitive_calls": 2320,
+      "calls": 2320,
+      "self_seconds": 0.0035445940000000003,
+      "cumulative_seconds": 0.0035445940000000003
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 68,
+      "function": "<genexpr>",
+      "primitive_calls": 12,
+      "calls": 12,
+      "self_seconds": 4.0455000000000005e-05,
+      "cumulative_seconds": 0.0034955650000000004
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'pop' of 'dict' objects>",
+      "primitive_calls": 54,
+      "calls": 54,
+      "self_seconds": 0.003024225,
+      "cumulative_seconds": 0.003024225
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 1917,
+      "function": "BaseEventLoop._timer_handle_cancelled",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.002923953,
+      "cumulative_seconds": 0.002923953
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/orchestrator.py",
+      "line": 77,
+      "function": "<genexpr>",
+      "primitive_calls": 450,
+      "calls": 450,
+      "self_seconds": 0.000947377,
+      "cumulative_seconds": 0.0028680380000000003
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 77,
+      "function": "State.__init__",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 0.002780598,
+      "cumulative_seconds": 0.002780598
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/orchestrator.py",
+      "line": 63,
+      "function": "<genexpr>",
+      "primitive_calls": 700,
+      "calls": 700,
+      "self_seconds": 0.0027713380000000004,
+      "cumulative_seconds": 0.0027713380000000004
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/sim_execution.py",
+      "line": 153,
+      "function": "OfflineLedger.reconcile",
+      "primitive_calls": 457,
+      "calls": 457,
+      "self_seconds": 0.0023140870000000003,
+      "cumulative_seconds": 0.0023140870000000003
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 449,
+      "function": "_uniq",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 0.001137713,
+      "cumulative_seconds": 0.002294099
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _sqlite3.connect>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 0.002036913,
+      "cumulative_seconds": 0.002102071
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _hashlib.openssl_sha1>",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.002008338,
+      "cumulative_seconds": 0.002008338
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py",
+      "line": 233,
+      "function": "UUID.__setstate__",
+      "primitive_calls": 150,
+      "calls": 150,
+      "self_seconds": 0.001682693,
+      "cumulative_seconds": 0.001739932
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/events.py",
+      "line": 72,
+      "function": "Handle.cancel",
+      "primitive_calls": 301,
+      "calls": 301,
+      "self_seconds": 0.0015020880000000002,
+      "cumulative_seconds": 0.0015824460000000002
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/signal.py",
+      "line": 62,
+      "function": "getsignal",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 0.0014922310000000001,
+      "cumulative_seconds": 0.001508147
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method time.monotonic>",
+      "primitive_calls": 606,
+      "calls": 606,
+      "self_seconds": 0.0011977910000000001,
+      "cumulative_seconds": 0.0011977910000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method fromkeys>",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 0.0011563860000000001,
+      "cumulative_seconds": 0.0011563860000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.min>",
+      "primitive_calls": 629,
+      "calls": 629,
+      "self_seconds": 0.001093865,
+      "cumulative_seconds": 0.001093865
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py",
+      "line": 225,
+      "function": "UUID.__getstate__",
+      "primitive_calls": 150,
+      "calls": 150,
+      "self_seconds": 0.000742797,
+      "cumulative_seconds": 0.001018276
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'count' of 'list' objects>",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.000876557,
+      "cumulative_seconds": 0.000876557
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/data.py",
+      "line": 49,
+      "function": "validate_series",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 0.0008320710000000001,
+      "cumulative_seconds": 0.0008488250000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'is_finite' of 'decimal.Decimal' objects>",
+      "primitive_calls": 1524,
+      "calls": 1524,
+      "self_seconds": 0.000815519,
+      "cumulative_seconds": 0.000815519
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/uuid.py",
+      "line": 285,
+      "function": "bytes",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.000373555,
+      "cumulative_seconds": 0.0007761010000000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'extend' of 'list' objects>",
+      "primitive_calls": 150,
+      "calls": 150,
+      "self_seconds": 0.000765149,
+      "cumulative_seconds": 0.000765149
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py",
+      "line": 57,
+      "function": "Runner.__enter__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 4.395e-06,
+      "cumulative_seconds": 0.0006999150000000001
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py",
+      "line": 131,
+      "function": "Runner._lazy_init",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 1.1557000000000001e-05,
+      "cumulative_seconds": 0.000698602
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/events.py",
+      "line": 821,
+      "function": "new_event_loop",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 2.667e-06,
+      "cumulative_seconds": 0.000672646
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'total_seconds' of 'datetime.timedelta' objects>",
+      "primitive_calls": 1410,
+      "calls": 1410,
+      "self_seconds": 0.000640533,
+      "cumulative_seconds": 0.000640533
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py",
+      "line": 61,
+      "function": "Runner.__exit__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.2726000000000001e-05,
+      "cumulative_seconds": 0.00059822
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py",
+      "line": 451,
+      "function": "select",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 0.0005594630000000001,
+      "cumulative_seconds": 0.000597118
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py",
+      "line": 64,
+      "function": "Runner.close",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 2.5179e-05,
+      "cumulative_seconds": 0.0005847960000000001
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/events.py",
+      "line": 714,
+      "function": "BaseDefaultEventLoopPolicy.new_event_loop",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 4.5e-06,
+      "cumulative_seconds": 0.000478014
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/unix_events.py",
+      "line": 63,
+      "function": "_UnixSelectorEventLoop.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 4.3820000000000006e-06,
+      "cumulative_seconds": 0.000473514
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/selector_events.py",
+      "line": 59,
+      "function": "BaseSelectorEventLoop.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 2.1915000000000003e-05,
+      "cumulative_seconds": 0.00046913200000000003
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'rpartition' of 'str' objects>",
+      "primitive_calls": 559,
+      "calls": 559,
+      "self_seconds": 0.000435087,
+      "cumulative_seconds": 0.000435087
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 0.00040630500000000003,
+      "cumulative_seconds": 0.00040630500000000003
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'to_bytes' of 'int' objects>",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.00040254600000000005,
+      "cumulative_seconds": 0.00040254600000000005
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/storage.py",
+      "line": 50,
+      "function": "SQLiteStore.list",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 1.1421000000000001e-05,
+      "cumulative_seconds": 0.000339403
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/enum.py",
+      "line": 202,
+      "function": "property.__get__",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.000332718,
+      "cumulative_seconds": 0.000332718
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 231,
+      "function": "Tokenizer.__init__",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 0.000303201,
+      "cumulative_seconds": 0.000329652
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/enum.py",
+      "line": 720,
+      "function": "EnumType.__call__",
+      "primitive_calls": 5,
+      "calls": 5,
+      "self_seconds": 0.000137655,
+      "cumulative_seconds": 0.00031015700000000003
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'get' of 'mappingproxy' objects>",
+      "primitive_calls": 451,
+      "calls": 451,
+      "self_seconds": 0.00030513100000000004,
+      "cumulative_seconds": 0.00030513100000000004
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/signal.py",
+      "line": 56,
+      "function": "signal",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 1.9350000000000003e-05,
+      "cumulative_seconds": 0.000295653
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 216,
+      "function": "<genexpr>",
+      "primitive_calls": 762,
+      "calls": 762,
+      "self_seconds": 0.00029427200000000004,
+      "cumulative_seconds": 0.00029427200000000004
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/selector_events.py",
+      "line": 118,
+      "function": "BaseSelectorEventLoop._make_self_pipe",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.4103e-05,
+      "cumulative_seconds": 0.000279001
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/unix_events.py",
+      "line": 67,
+      "function": "_UnixSelectorEventLoop.close",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 8.298000000000001e-06,
+      "cumulative_seconds": 0.00026579100000000003
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_compiler.py",
+      "line": 37,
+      "function": "_compile",
+      "primitive_calls": 2,
+      "calls": 4,
+      "self_seconds": 0.000140195,
+      "cumulative_seconds": 0.000263435
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 299,
+      "function": "<lambda>",
+      "primitive_calls": 150,
+      "calls": 150,
+      "self_seconds": 0.000256701,
+      "cumulative_seconds": 0.000256701
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/selector_events.py",
+      "line": 99,
+      "function": "BaseSelectorEventLoop.close",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 2.8557e-05,
+      "cumulative_seconds": 0.000255036
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/signal.py",
+      "line": 36,
+      "function": "_enum_to_int",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 0.00022811400000000002,
+      "cumulative_seconds": 0.00022811400000000002
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 2017,
+      "function": "BaseEventLoop.get_debug",
+      "primitive_calls": 611,
+      "calls": 611,
+      "self_seconds": 0.00021192000000000002,
+      "cumulative_seconds": 0.00021192000000000002
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/events.py",
+      "line": 783,
+      "function": "get_event_loop_policy",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 3.4820000000000003e-06,
+      "cumulative_seconds": 0.00019282400000000002
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/selector_events.py",
+      "line": 110,
+      "function": "BaseSelectorEventLoop._close_self_pipe",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.3127000000000002e-05,
+      "cumulative_seconds": 0.000189368
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/events.py",
+      "line": 775,
+      "function": "_init_event_loop_policy",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 0.000132687,
+      "cumulative_seconds": 0.000189342
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'keys' of 'dict' objects>",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.00018528000000000001,
+      "cumulative_seconds": 0.00018528000000000001
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/selector_events.py",
+      "line": 278,
+      "function": "BaseSelectorEventLoop._add_reader",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 0.000106143,
+      "cumulative_seconds": 0.000179068
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method from_bytes>",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.00017719100000000002,
+      "cumulative_seconds": 0.00017719100000000002
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/enum.py",
+      "line": 1128,
+      "function": "Enum.__new__",
+      "primitive_calls": 5,
+      "calls": 5,
+      "self_seconds": 0.00017250200000000002,
+      "cumulative_seconds": 0.00017250200000000002
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'cancelling' of '_asyncio.Task' objects>",
+      "primitive_calls": 300,
+      "calls": 300,
+      "self_seconds": 0.000166774,
+      "cumulative_seconds": 0.000166774
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 543,
+      "function": "BaseEventLoop._check_closed",
+      "primitive_calls": 316,
+      "calls": 316,
+      "self_seconds": 0.000156944,
+      "cumulative_seconds": 0.000156944
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method fromisoformat>",
+      "primitive_calls": 104,
+      "calls": 104,
+      "self_seconds": 0.000155042,
+      "cumulative_seconds": 0.000155042
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 210,
+      "function": "<genexpr>",
+      "primitive_calls": 762,
+      "calls": 762,
+      "self_seconds": 0.000143904,
+      "cumulative_seconds": 0.000143904
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/selector_events.py",
+      "line": 294,
+      "function": "BaseSelectorEventLoop._remove_reader",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.1531e-05,
+      "cumulative_seconds": 0.00013626100000000002
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 450,
+      "function": "BaseEventLoop.create_task",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 6.9313e-05,
+      "cumulative_seconds": 0.00013375
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_compiler.py",
+      "line": 516,
+      "function": "_compile_info",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 8.6575e-05,
+      "cumulative_seconds": 0.00012301600000000002
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 789,
+      "function": "BaseEventLoop.call_soon",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 1.3999000000000001e-05,
+      "cumulative_seconds": 0.000120346
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.vars>",
+      "primitive_calls": 51,
+      "calls": 51,
+      "self_seconds": 0.00010780400000000001,
+      "cumulative_seconds": 0.00010780400000000001
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 818,
+      "function": "BaseEventLoop._call_soon",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 5.9685e-05,
+      "cumulative_seconds": 0.000105103
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method time.perf_counter>",
+      "primitive_calls": 108,
+      "calls": 108,
+      "self_seconds": 0.00010232500000000001,
+      "cumulative_seconds": 0.00010232500000000001
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 33,
+      "function": "Period.contains",
+      "primitive_calls": 150,
+      "calls": 150,
+      "self_seconds": 9.4288e-05,
+      "cumulative_seconds": 9.4288e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 410,
+      "function": "BaseEventLoop.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 2.8443000000000002e-05,
+      "cumulative_seconds": 9.0401e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py",
+      "line": 365,
+      "function": "_PollLikeSelector.unregister",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 6.801000000000001e-06,
+      "cumulative_seconds": 8.8874e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/socket.py",
+      "line": 653,
+      "function": "socketpair",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.5028e-05,
+      "cumulative_seconds": 8.136000000000001e-05
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/orchestrator.py",
+      "line": 66,
+      "function": "<genexpr>",
+      "primitive_calls": 400,
+      "calls": 400,
+      "self_seconds": 7.484700000000001e-05,
+      "cumulative_seconds": 7.484700000000001e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py",
+      "line": 247,
+      "function": "_BaseSelectorImpl.unregister",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 7.1992e-05,
+      "cumulative_seconds": 7.427100000000001e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'index' of 'tuple' objects>",
+      "primitive_calls": 150,
+      "calls": 150,
+      "self_seconds": 7.039000000000001e-05,
+      "cumulative_seconds": 7.039000000000001e-05
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 27,
+      "function": "valid",
+      "primitive_calls": 12,
+      "calls": 12,
+      "self_seconds": 2.0348000000000002e-05,
+      "cumulative_seconds": 6.985900000000001e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 181,
+      "function": "_run_until_complete_cb",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 2.5936e-05,
+      "cumulative_seconds": 6.5128e-05
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 154,
+      "function": "<genexpr>",
+      "primitive_calls": 254,
+      "calls": 254,
+      "self_seconds": 6.2199e-05,
+      "cumulative_seconds": 6.2199e-05
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 156,
+      "function": "<genexpr>",
+      "primitive_calls": 254,
+      "calls": 254,
+      "self_seconds": 6.1906e-05,
+      "cumulative_seconds": 6.1906e-05
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+      "line": 116,
+      "function": "<genexpr>",
+      "primitive_calls": 208,
+      "calls": 208,
+      "self_seconds": 5.7128000000000006e-05,
+      "cumulative_seconds": 5.7128000000000006e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 240,
+      "function": "Tokenizer.__next",
+      "primitive_calls": 26,
+      "calls": 26,
+      "self_seconds": 5.6834000000000005e-05,
+      "cumulative_seconds": 5.6834000000000005e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py",
+      "line": 180,
+      "function": "BaseSelector.get_key",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 1.4010000000000001e-05,
+      "cumulative_seconds": 5.6526e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/functools.py",
+      "line": 521,
+      "function": "decorating_function",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 7.757e-06,
+      "cumulative_seconds": 5.5079000000000006e-05
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 262,
+      "function": "<genexpr>",
+      "primitive_calls": 150,
+      "calls": 150,
+      "self_seconds": 5.1861000000000004e-05,
+      "cumulative_seconds": 5.1861000000000004e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _socket.socketpair>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 5.1782e-05,
+      "cumulative_seconds": 5.1782e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 168,
+      "function": "SubPattern.__getitem__",
+      "primitive_calls": 19,
+      "calls": 19,
+      "self_seconds": 4.448e-05,
+      "cumulative_seconds": 5.1683000000000006e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_compiler.py",
+      "line": 243,
+      "function": "_optimize_charset",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 3.9960000000000004e-05,
+      "cumulative_seconds": 5.0724000000000004e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/tasks.py",
+      "line": 670,
+      "function": "ensure_future",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 1.1919e-05,
+      "cumulative_seconds": 5.0444e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py",
+      "line": 198,
+      "function": "_cancel_all_tasks",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 5.454000000000001e-06,
+      "cumulative_seconds": 4.9317e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _asyncio._get_running_loop>",
+      "primitive_calls": 8,
+      "calls": 8,
+      "self_seconds": 4.9254e-05,
+      "cumulative_seconds": 4.9254e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/functools.py",
+      "line": 35,
+      "function": "update_wrapper",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 2.4523000000000002e-05,
+      "cumulative_seconds": 4.7322000000000005e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/tasks.py",
+      "line": 43,
+      "function": "all_tasks",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.5845e-05,
+      "cumulative_seconds": 4.3863e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py",
+      "line": 69,
+      "function": "_SelectorMapping.__getitem__",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 3.1612e-05,
+      "cumulative_seconds": 4.0522e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/socket.py",
+      "line": 501,
+      "function": "socket.close",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 5.03e-06,
+      "cumulative_seconds": 3.9115e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/futures.py",
+      "line": 301,
+      "function": "_get_loop",
+      "primitive_calls": 4,
+      "calls": 4,
+      "self_seconds": 5.913e-06,
+      "cumulative_seconds": 3.8354e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 261,
+      "function": "Tokenizer.get",
+      "primitive_calls": 19,
+      "calls": 19,
+      "self_seconds": 1.1254000000000001e-05,
+      "cumulative_seconds": 3.7055000000000004e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/socket.py",
+      "line": 497,
+      "function": "socket._real_close",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 9.933000000000001e-06,
+      "cumulative_seconds": 3.4085e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'fullmatch' of 're.Pattern' objects>",
+      "primitive_calls": 18,
+      "calls": 18,
+      "self_seconds": 3.3761000000000004e-05,
+      "cumulative_seconds": 3.3761000000000004e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'get_loop' of '_asyncio.Future' objects>",
+      "primitive_calls": 4,
+      "calls": 4,
+      "self_seconds": 3.2441e-05,
+      "cumulative_seconds": 3.2441e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py",
+      "line": 351,
+      "function": "_PollLikeSelector.register",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 6.1570000000000005e-06,
+      "cumulative_seconds": 3.1384e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/coroutines.py",
+      "line": 10,
+      "function": "_is_debug_mode",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.1129000000000001e-05,
+      "cumulative_seconds": 3.0471000000000004e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'poll' of 'select.epoll' objects>",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 2.956e-05,
+      "cumulative_seconds": 2.956e-05
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/readiness.py",
+      "line": 11,
+      "function": "dt",
+      "primitive_calls": 4,
+      "calls": 4,
+      "self_seconds": 1.5818e-05,
+      "cumulative_seconds": 2.9074000000000003e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/logging/__init__.py",
+      "line": 1517,
+      "function": "Logger.debug",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 4.403e-06,
+      "cumulative_seconds": 2.8974e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py",
+      "line": 347,
+      "function": "_PollLikeSelector.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.7045e-05,
+      "cumulative_seconds": 2.8757000000000003e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/signal.py",
+      "line": 24,
+      "function": "_int_to_enum",
+      "primitive_calls": 5,
+      "calls": 5,
+      "self_seconds": 1.0529e-05,
+      "cumulative_seconds": 2.7843e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _signal.signal>",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 2.6775e-05,
+      "cumulative_seconds": 2.6775e-05
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/risk.py",
+      "line": 7,
+      "function": "RiskEngine.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.3313000000000001e-05,
+      "cumulative_seconds": 2.6515000000000003e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/events.py",
+      "line": 816,
+      "function": "set_event_loop",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 6.492000000000001e-06,
+      "cumulative_seconds": 2.5961e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method time.get_clock_info>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 2.5512000000000002e-05,
+      "cumulative_seconds": 2.5512000000000002e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/_weakrefset.py",
+      "line": 63,
+      "function": "WeakSet.__iter__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 9.855000000000001e-06,
+      "cumulative_seconds": 2.5123000000000003e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 701,
+      "function": "BaseEventLoop.close",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 8.499000000000001e-06,
+      "cumulative_seconds": 2.5072000000000003e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/logging/__init__.py",
+      "line": 1790,
+      "function": "Logger.isEnabledFor",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.2501000000000001e-05,
+      "cumulative_seconds": 2.4571000000000002e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_compiler.py",
+      "line": 216,
+      "function": "_compile_charset",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 4.403e-06,
+      "cumulative_seconds": 2.4405e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<function socket.close at 0x7fd729267ec0>",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 2.4152000000000002e-05,
+      "cumulative_seconds": 2.4152000000000002e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 178,
+      "function": "SubPattern.getwidth",
+      "primitive_calls": 2,
+      "calls": 4,
+      "self_seconds": 1.6075e-05,
+      "cumulative_seconds": 2.2596000000000002e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/weakref.py",
+      "line": 104,
+      "function": "WeakValueDictionary.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.4991000000000001e-05,
+      "cumulative_seconds": 2.0084000000000003e-05
+    },
+    {
+      "file": "<frozen _collections_abc>",
+      "line": 804,
+      "function": "get",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 8.788000000000001e-06,
+      "cumulative_seconds": 1.9342000000000002e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/unix_events.py",
+      "line": 1458,
+      "function": "_UnixDefaultEventLoopPolicy.set_event_loop",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 6.416e-06,
+      "cumulative_seconds": 1.861e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'clear' of 'collections.deque' objects>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.564e-05,
+      "cumulative_seconds": 1.564e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py",
+      "line": 234,
+      "function": "_BaseSelectorImpl.register",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 6.651e-06,
+      "cumulative_seconds": 1.4924000000000001e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/_weakrefset.py",
+      "line": 39,
+      "function": "_remove",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 1.3219e-05,
+      "cumulative_seconds": 1.4896000000000001e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/unix_events.py",
+      "line": 1446,
+      "function": "_UnixDefaultEventLoopPolicy.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 6.532e-06,
+      "cumulative_seconds": 1.4441000000000001e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method sys.set_asyncgen_hooks>",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 1.2585e-05,
+      "cumulative_seconds": 1.2585e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/socket.py",
+      "line": 221,
+      "function": "socket.__init__",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 1.2574e-05,
+      "cumulative_seconds": 1.2574e-05
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/sim_execution.py",
+      "line": 73,
+      "function": "consistent",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 1.2365000000000001e-05,
+      "cumulative_seconds": 1.2365000000000001e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/events.py",
+      "line": 707,
+      "function": "BaseDefaultEventLoopPolicy.set_event_loop",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 1.1858e-05,
+      "cumulative_seconds": 1.2194e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 256,
+      "function": "Tokenizer.match",
+      "primitive_calls": 14,
+      "calls": 14,
+      "self_seconds": 7.015000000000001e-06,
+      "cumulative_seconds": 1.1959e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 624,
+      "function": "BaseEventLoop._check_running",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 7.889e-06,
+      "cumulative_seconds": 1.1952e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/coroutines.py",
+      "line": 32,
+      "function": "iscoroutine",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 9.995e-06,
+      "cumulative_seconds": 1.1765e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py",
+      "line": 209,
+      "function": "_BaseSelectorImpl.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.001e-05,
+      "cumulative_seconds": 1.1712e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/_weakrefset.py",
+      "line": 27,
+      "function": "_IterationGuard.__exit__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 5.0510000000000004e-06,
+      "cumulative_seconds": 1.1174e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py",
+      "line": 483,
+      "function": "close",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 4.325e-06,
+      "cumulative_seconds": 1.1168e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 293,
+      "function": "Tokenizer.tell",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 7.660000000000001e-06,
+      "cumulative_seconds": 1.0815e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'add' of 'set' objects>",
+      "primitive_calls": 8,
+      "calls": 8,
+      "self_seconds": 1.0799000000000001e-05,
+      "cumulative_seconds": 1.0799000000000001e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'replace' of 'datetime.datetime' objects>",
+      "primitive_calls": 4,
+      "calls": 4,
+      "self_seconds": 1.0599000000000001e-05,
+      "cumulative_seconds": 1.0599000000000001e-05
+    },
+    {
+      "file": "<frozen os>",
+      "line": 709,
+      "function": "__getitem__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 7.429e-06,
+      "cumulative_seconds": 1.0554000000000001e-05
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'register' of 'select.epoll' objects>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.0303000000000001e-05,
+      "cumulative_seconds": 1.0303000000000001e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/functools.py",
+      "line": 482,
+      "function": "lru_cache",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 9.416000000000001e-06,
+      "cumulative_seconds": 1.0079000000000001e-05
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_futures.py",
+      "line": 13,
+      "function": "isfuture",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 6.394e-06,
+      "cumulative_seconds": 9.729000000000001e-06
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/.venv/lib/python3.12/site-packages/pydantic/_internal/_utils.py",
+      "line": 428,
+      "function": "deprecated_instance_property.__get__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 6.3200000000000005e-06,
+      "cumulative_seconds": 9.641000000000001e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_compiler.py",
+      "line": 403,
+      "function": "_simple",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 3.849e-06,
+      "cumulative_seconds": 9.563e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _signal.getsignal>",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 9.487e-06,
+      "cumulative_seconds": 9.487e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py",
+      "line": 215,
+      "function": "_BaseSelectorImpl._fileobj_lookup",
+      "primitive_calls": 4,
+      "calls": 4,
+      "self_seconds": 5.104000000000001e-06,
+      "cumulative_seconds": 9.219000000000001e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py",
+      "line": 48,
+      "function": "Runner.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 8.827e-06,
+      "cumulative_seconds": 8.827e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'find' of 'bytearray' objects>",
+      "primitive_calls": 10,
+      "calls": 10,
+      "self_seconds": 8.165e-06,
+      "cumulative_seconds": 8.165e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/events.py",
+      "line": 671,
+      "function": "BaseDefaultEventLoopPolicy.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 7.909e-06,
+      "cumulative_seconds": 7.909e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'unregister' of 'select.epoll' objects>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 7.802000000000001e-06,
+      "cumulative_seconds": 7.802000000000001e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_compiler.py",
+      "line": 575,
+      "function": "isstring",
+      "primitive_calls": 4,
+      "calls": 4,
+      "self_seconds": 5.5030000000000005e-06,
+      "cumulative_seconds": 7.5040000000000005e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 176,
+      "function": "SubPattern.append",
+      "primitive_calls": 5,
+      "calls": 5,
+      "self_seconds": 4.208e-06,
+      "cumulative_seconds": 7.088000000000001e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_compiler.py",
+      "line": 441,
+      "function": "_get_literal_prefix",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 5.788e-06,
+      "cumulative_seconds": 7.083000000000001e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 2002,
+      "function": "BaseEventLoop._set_coroutine_origin_tracking",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 7.028e-06,
+      "cumulative_seconds": 7.028e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/_weakrefset.py",
+      "line": 85,
+      "function": "WeakSet.add",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 5.320000000000001e-06,
+      "cumulative_seconds": 6.676e-06
+    },
+    {
+      "file": "<string>",
+      "line": 1,
+      "function": "<lambda>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 5.406e-06,
+      "cumulative_seconds": 6.637e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/threading.py",
+      "line": 1485,
+      "function": "current_thread",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 5.567e-06,
+      "cumulative_seconds": 5.9210000000000006e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/logging/__init__.py",
+      "line": 234,
+      "function": "_acquireLock",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 4.588e-06,
+      "cumulative_seconds": 5.847e-06
+    },
+    {
+      "file": "<frozen importlib._bootstrap>",
+      "line": 1390,
+      "function": "_handle_fromlist",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 4.07e-06,
+      "cumulative_seconds": 5.752e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method sys.get_asyncgen_hooks>",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 5.704e-06,
+      "cumulative_seconds": 5.704e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/_weakrefset.py",
+      "line": 53,
+      "function": "WeakSet._commit_removals",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 4.557000000000001e-06,
+      "cumulative_seconds": 5.645e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 565,
+      "function": "BaseEventLoop.shutdown_asyncgens",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 2.1460000000000003e-06,
+      "cumulative_seconds": 5.330000000000001e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/_weakrefset.py",
+      "line": 72,
+      "function": "WeakSet.__len__",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 4.328e-06,
+      "cumulative_seconds": 5.258e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 953,
+      "function": "fix_flags",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 4.873000000000001e-06,
+      "cumulative_seconds": 5.152e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/weakref.py",
+      "line": 289,
+      "function": "WeakValueDictionary.update",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 3.8860000000000006e-06,
+      "cumulative_seconds": 5.093e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _sre.compile>",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 4.962e-06,
+      "cumulative_seconds": 4.962e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 164,
+      "function": "SubPattern.__len__",
+      "primitive_calls": 8,
+      "calls": 8,
+      "self_seconds": 3.0150000000000004e-06,
+      "cumulative_seconds": 4.74e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _asyncio._set_running_loop>",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 4.522e-06,
+      "cumulative_seconds": 4.522e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'setblocking' of '_socket.socket' objects>",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 4.131e-06,
+      "cumulative_seconds": 4.131e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py",
+      "line": 21,
+      "function": "_fileobj_to_fd",
+      "primitive_calls": 4,
+      "calls": 4,
+      "self_seconds": 3.2970000000000004e-06,
+      "cumulative_seconds": 4.115e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py",
+      "line": 268,
+      "function": "_BaseSelectorImpl.close",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 3.49e-06,
+      "cumulative_seconds": 4.024e-06
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/indicators.py",
+      "line": 16,
+      "function": "ordered",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 3.98e-06,
+      "cumulative_seconds": 3.98e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.ord>",
+      "primitive_calls": 11,
+      "calls": 11,
+      "self_seconds": 3.6020000000000004e-06,
+      "cumulative_seconds": 3.6020000000000004e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'format' of 'str' objects>",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 3.4100000000000004e-06,
+      "cumulative_seconds": 3.4100000000000004e-06
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/.venv/lib/python3.12/site-packages/pydantic/main.py",
+      "line": 262,
+      "function": "model_fields",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.711e-06,
+      "cumulative_seconds": 3.321e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/_weakrefset.py",
+      "line": 37,
+      "function": "WeakSet.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 3.3190000000000003e-06,
+      "cumulative_seconds": 3.3190000000000003e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'popleft' of 'collections.deque' objects>",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 3.3140000000000004e-06,
+      "cumulative_seconds": 3.3140000000000004e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'append' of 'collections.deque' objects>",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 3.208e-06,
+      "cumulative_seconds": 3.208e-06
+    },
+    {
+      "file": "<frozen os>",
+      "line": 791,
+      "function": "encode",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.898e-06,
+      "cumulative_seconds": 3.125e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_compiler.py",
+      "line": 472,
+      "function": "_get_charset_prefix",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 2.657e-06,
+      "cumulative_seconds": 3.0700000000000003e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 113,
+      "function": "SubPattern.__init__",
+      "primitive_calls": 4,
+      "calls": 4,
+      "self_seconds": 3.022e-06,
+      "cumulative_seconds": 3.022e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 734,
+      "function": "BaseEventLoop.is_running",
+      "primitive_calls": 9,
+      "calls": 9,
+      "self_seconds": 2.911e-06,
+      "cumulative_seconds": 2.911e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'add_done_callback' of '_asyncio.Task' objects>",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 2.8730000000000003e-06,
+      "cumulative_seconds": 2.8730000000000003e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'close' of 'select.epoll' objects>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 2.819e-06,
+      "cumulative_seconds": 2.819e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/logging/__init__.py",
+      "line": 243,
+      "function": "_releaseLock",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 2.06e-06,
+      "cumulative_seconds": 2.803e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/selector_events.py",
+      "line": 750,
+      "function": "BaseSelectorEventLoop._process_events",
+      "primitive_calls": 6,
+      "calls": 6,
+      "self_seconds": 2.7940000000000003e-06,
+      "cumulative_seconds": 2.7940000000000003e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/logging/__init__.py",
+      "line": 1776,
+      "function": "Logger.getEffectiveLevel",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 2.7540000000000002e-06,
+      "cumulative_seconds": 2.7540000000000002e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'lower' of 'str' objects>",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 2.736e-06,
+      "cumulative_seconds": 2.736e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 2020,
+      "function": "BaseEventLoop.set_debug",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 2.2140000000000003e-06,
+      "cumulative_seconds": 2.656e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/collections/__init__.py",
+      "line": 609,
+      "function": "Counter.__missing__",
+      "primitive_calls": 8,
+      "calls": 8,
+      "self_seconds": 2.652e-06,
+      "cumulative_seconds": 2.652e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 172,
+      "function": "SubPattern.__setitem__",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 2.571e-06,
+      "cumulative_seconds": 2.571e-06
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/data.py",
+      "line": 112,
+      "function": "DataEngine.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 2.4730000000000003e-06,
+      "cumulative_seconds": 2.4730000000000003e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method sys.is_finalizing>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 2.4570000000000004e-06,
+      "cumulative_seconds": 2.4570000000000004e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/_weakrefset.py",
+      "line": 17,
+      "function": "_IterationGuard.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 2.147e-06,
+      "cumulative_seconds": 2.147e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'detach' of '_socket.socket' objects>",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 1.9760000000000002e-06,
+      "cumulative_seconds": 1.9760000000000002e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/_weakrefset.py",
+      "line": 21,
+      "function": "_IterationGuard.__enter__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.491e-06,
+      "cumulative_seconds": 1.947e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'result' of '_asyncio.Task' objects>",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 1.8990000000000002e-06,
+      "cumulative_seconds": 1.8990000000000002e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_compiler.py",
+      "line": 433,
+      "function": "_get_iscased",
+      "primitive_calls": 4,
+      "calls": 4,
+      "self_seconds": 1.7080000000000002e-06,
+      "cumulative_seconds": 1.7080000000000002e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py",
+      "line": 63,
+      "function": "_SelectorMapping.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.7020000000000002e-06,
+      "cumulative_seconds": 1.7020000000000002e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'discard' of 'set' objects>",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 1.6770000000000002e-06,
+      "cumulative_seconds": 1.6770000000000002e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/re/_parser.py",
+      "line": 83,
+      "function": "groups",
+      "primitive_calls": 4,
+      "calls": 4,
+      "self_seconds": 1.246e-06,
+      "cumulative_seconds": 1.6680000000000002e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'remove_done_callback' of '_asyncio.Task' objects>",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 1.602e-06,
+      "cumulative_seconds": 1.602e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'values' of 'dict' objects>",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 1.353e-06,
+      "cumulative_seconds": 1.353e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'cancelled' of '_asyncio.Task' objects>",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 1.326e-06,
+      "cumulative_seconds": 1.326e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _thread.get_ident>",
+      "primitive_calls": 4,
+      "calls": 4,
+      "self_seconds": 1.269e-06,
+      "cumulative_seconds": 1.269e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'acquire' of '_thread.RLock' objects>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.2590000000000001e-06,
+      "cumulative_seconds": 1.2590000000000001e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'fileno' of '_socket.socket' objects>",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 1.204e-06,
+      "cumulative_seconds": 1.204e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'exception' of '_asyncio.Task' objects>",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 1.184e-06,
+      "cumulative_seconds": 1.184e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 693,
+      "function": "BaseEventLoop.stop",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 1.114e-06,
+      "cumulative_seconds": 1.114e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'pop' of 'list' objects>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.088e-06,
+      "cumulative_seconds": 1.088e-06
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 724,
+      "function": "BaseEventLoop.is_closed",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 1.04e-06,
+      "cumulative_seconds": 1.04e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'set_trace_callback' of 'sqlite3.Connection' objects>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 1.006e-06,
+      "cumulative_seconds": 1.006e-06
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'done' of '_asyncio.Task' objects>",
+      "primitive_calls": 3,
+      "calls": 3,
+      "self_seconds": 9.89e-07,
+      "cumulative_seconds": 9.89e-07
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/offline_optimizer.py",
+      "line": 9,
+      "function": "OfflineResearchOptimizer.__init__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 9.69e-07,
+      "cumulative_seconds": 9.69e-07
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 590,
+      "function": "BaseEventLoop.shutdown_default_executor",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 9.400000000000001e-07,
+      "cumulative_seconds": 9.400000000000001e-07
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method '__exit__' of '_thread.lock' objects>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 9.070000000000001e-07,
+      "cumulative_seconds": 9.070000000000001e-07
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py",
+      "line": 272,
+      "function": "_BaseSelectorImpl.get_map",
+      "primitive_calls": 2,
+      "calls": 2,
+      "self_seconds": 8.440000000000001e-07,
+      "cumulative_seconds": 8.440000000000001e-07
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'release' of '_thread.RLock' objects>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 7.43e-07,
+      "cumulative_seconds": 7.43e-07
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'clear' of 'list' objects>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 7.36e-07,
+      "cumulative_seconds": 7.36e-07
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+      "line": 728,
+      "function": "BaseEventLoop.__del__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 5.51e-07,
+      "cumulative_seconds": 6.98e-07
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/logging/__init__.py",
+      "line": 1369,
+      "function": "disable",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 6.660000000000001e-07,
+      "cumulative_seconds": 6.660000000000001e-07
+    },
+    {
+      "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/threading.py",
+      "line": 1631,
+      "function": "main_thread",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 6.110000000000001e-07,
+      "cumulative_seconds": 6.110000000000001e-07
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'clear' of 'dict' objects>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 5.34e-07,
+      "cumulative_seconds": 5.34e-07
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method _heapq.heapify>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 4.98e-07,
+      "cumulative_seconds": 4.98e-07
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'remove' of 'set' objects>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 4.78e-07,
+      "cumulative_seconds": 4.78e-07
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/offline_optimizer.py",
+      "line": 30,
+      "function": "<genexpr>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 2.67e-07,
+      "cumulative_seconds": 2.67e-07
+    },
+    {
+      "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+      "line": 47,
+      "function": "<genexpr>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_seconds": 2.39e-07,
+      "cumulative_seconds": 2.39e-07
+    }
+  ],
+  "peak_rss_kib": 38424,
+  "trades": 0
+}

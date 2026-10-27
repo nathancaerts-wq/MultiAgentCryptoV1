@@ -130,7 +130,7 @@ class DecisionAgent:
 class EntryAgent:
     def __init__(self, policy, symbol, at, ledger, reference):
         self.policy, self.symbol, self.at = policy, symbol, at
-        self.ledger, self.reference = deepcopy(ledger), reference
+        self.ledger, self.reference = ledger.analysis_view(), reference
         self.id = 'entry:'+symbol
 
     async def run(self, inputs):
@@ -171,7 +171,7 @@ class EntryAgent:
 class ExitAgent:
     def __init__(self, policy, symbol, at, ledger, bar=None, emergency=False):
         self.policy, self.symbol, self.at = policy, symbol, at
-        self.ledger, self.bar, self.emergency = deepcopy(ledger), bar, emergency
+        self.ledger, self.bar, self.emergency = ledger.analysis_view(), bar, emergency
         self.id = 'exit:'+symbol
 
     async def run(self, inputs):

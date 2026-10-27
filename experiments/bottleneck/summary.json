@@ -1,0 +1,972 @@
+{
+  "empty_50": {
+    "n": 50,
+    "elapsed": 13.185695971998939,
+    "analysis": 0.00586843100063561,
+    "replay": 11.792473360999793,
+    "per_step": 0.2637139194399788,
+    "sql_calls": 3666,
+    "trace_sql": 3675,
+    "technical": 0,
+    "unique_windows": 0,
+    "repeated_windows": 0,
+    "candle_visits": 0,
+    "unique_candles": 0,
+    "max_visits": 0,
+    "dataset_records_decoded": 0,
+    "analyses": 0,
+    "decision": 150,
+    "entry": 150,
+    "exit": 0,
+    "trades": 0,
+    "top10": [
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/readiness_runner.py",
+        "line": 77,
+        "function": "FixtureJointRunner.run",
+        "primitive_calls": 50,
+        "calls": 50,
+        "self_seconds": 0.08081247800000001,
+        "cumulative_seconds": 11.737963915
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 233,
+        "function": "JointPortfolio.evaluate",
+        "primitive_calls": 50,
+        "calls": 50,
+        "self_seconds": 0.045541646000000005,
+        "cumulative_seconds": 10.023567896000001
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 239,
+        "function": "JointPortfolio._evaluate",
+        "primitive_calls": 50,
+        "calls": 50,
+        "self_seconds": 0.11186014500000001,
+        "cumulative_seconds": 9.978026250000001
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/orchestrator.py",
+        "line": 54,
+        "function": "Orchestrator.execute",
+        "primitive_calls": 50,
+        "calls": 50,
+        "self_seconds": 0.10201194400000001,
+        "cumulative_seconds": 3.582091891
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 118,
+        "function": "JointPortfolio._read",
+        "primitive_calls": 203,
+        "calls": 203,
+        "self_seconds": 0.045226562000000005,
+        "cumulative_seconds": 2.222628273
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/trade_agents.py",
+        "line": 131,
+        "function": "EntryAgent.__init__",
+        "primitive_calls": 150,
+        "calls": 150,
+        "self_seconds": 0.0018418030000000001,
+        "cumulative_seconds": 1.81094555
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/trade_agents.py",
+        "line": 52,
+        "function": "DecisionAgent.run",
+        "primitive_calls": 150,
+        "calls": 150,
+        "self_seconds": 0.051019818,
+        "cumulative_seconds": 1.344223253
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+        "line": 74,
+        "function": "fingerprint",
+        "primitive_calls": 359,
+        "calls": 359,
+        "self_seconds": 0.023641432,
+        "cumulative_seconds": 1.279492647
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 112,
+        "function": "JointPortfolio._frozen",
+        "primitive_calls": 203,
+        "calls": 203,
+        "self_seconds": 0.034868851,
+        "cumulative_seconds": 1.105747602
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 179,
+        "function": "JointPortfolio._save",
+        "primitive_calls": 51,
+        "calls": 51,
+        "self_seconds": 0.015969226,
+        "cumulative_seconds": 1.0164051950000002
+      }
+    ],
+    "top10_all": [
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py",
+        "line": 160,
+        "function": "run",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_seconds": 0.003769787,
+        "cumulative_seconds": 11.790377351
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py",
+        "line": 86,
+        "function": "Runner.run",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_seconds": 5.6698000000000005e-05,
+        "cumulative_seconds": 11.785243315
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+        "line": 655,
+        "function": "BaseEventLoop.run_until_complete",
+        "primitive_calls": 3,
+        "calls": 3,
+        "self_seconds": 5.4120000000000004e-05,
+        "cumulative_seconds": 11.783550124000001
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+        "line": 631,
+        "function": "BaseEventLoop.run_forever",
+        "primitive_calls": 3,
+        "calls": 3,
+        "self_seconds": 5.0629000000000006e-05,
+        "cumulative_seconds": 11.783421548000002
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+        "line": 1922,
+        "function": "BaseEventLoop._run_once",
+        "primitive_calls": 6,
+        "calls": 6,
+        "self_seconds": 0.001049072,
+        "cumulative_seconds": 11.783336249000001
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/events.py",
+        "line": 86,
+        "function": "Handle._run",
+        "primitive_calls": 6,
+        "calls": 6,
+        "self_seconds": 2.0281e-05,
+        "cumulative_seconds": 11.781670578
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<method 'run' of '_contextvars.Context' objects>",
+        "primitive_calls": 6,
+        "calls": 6,
+        "self_seconds": 5.3613e-05,
+        "cumulative_seconds": 11.781650297
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/experiments/bottleneck/diagnose.py",
+        "line": 65,
+        "function": "replay",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_seconds": 0.026360706,
+        "cumulative_seconds": 11.781461085
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/readiness_runner.py",
+        "line": 77,
+        "function": "FixtureJointRunner.run",
+        "primitive_calls": 50,
+        "calls": 50,
+        "self_seconds": 0.08081247800000001,
+        "cumulative_seconds": 11.737963915
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 233,
+        "function": "JointPortfolio.evaluate",
+        "primitive_calls": 50,
+        "calls": 50,
+        "self_seconds": 0.045541646000000005,
+        "cumulative_seconds": 10.023567896000001
+      }
+    ],
+    "total_calls": 1550657,
+    "times": {
+      "report_digest": 0.043170596000000006,
+      "DataEngine.load": 0,
+      "SQLiteStore.list": 0.000339403,
+      "JointPortfolio._read": 2.222628273,
+      "JointPortfolio._validate": 0.7348936420000001,
+      "technical": 0,
+      "deepcopy": 4.427332669,
+      "ledger_state": 0.065414885,
+      "restore_ledger": 0.103524641
+    },
+    "blocks": {
+      "replay": {
+        "first10": 0.12455550750000839,
+        "last10": 0.24517083209975682
+      }
+    },
+    "sizes": [
+      {
+        "step": 1,
+        "events": 2,
+        "state_bytes": 2119,
+        "reports": 0
+      },
+      {
+        "step": 50,
+        "events": 51,
+        "state_bytes": 19066,
+        "reports": 0
+      }
+    ]
+  },
+  "empty_200": {
+    "n": 200,
+    "elapsed": 58.11963355300031,
+    "analysis": 1.7040001694113016e-06,
+    "replay": 57.999956783000016,
+    "per_step": 0.2905981677650016,
+    "sql_calls": 14474,
+    "trace_sql": 14633,
+    "technical": 0,
+    "unique_windows": 0,
+    "repeated_windows": 0,
+    "candle_visits": 0,
+    "unique_candles": 0,
+    "max_visits": 0,
+    "dataset_records_decoded": 0,
+    "analyses": 0,
+    "decision": 600,
+    "entry": 600,
+    "exit": 0,
+    "trades": 0,
+    "top10": [
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/readiness_runner.py",
+        "line": 77,
+        "function": "FixtureJointRunner.run",
+        "primitive_calls": 200,
+        "calls": 200,
+        "self_seconds": 0.080696343,
+        "cumulative_seconds": 57.791620224000006
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 233,
+        "function": "JointPortfolio.evaluate",
+        "primitive_calls": 200,
+        "calls": 200,
+        "self_seconds": 0.265703168,
+        "cumulative_seconds": 52.85633609400001
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 239,
+        "function": "JointPortfolio._evaluate",
+        "primitive_calls": 200,
+        "calls": 200,
+        "self_seconds": 0.49167561600000004,
+        "cumulative_seconds": 52.590632926000005
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/trade_agents.py",
+        "line": 131,
+        "function": "EntryAgent.__init__",
+        "primitive_calls": 600,
+        "calls": 600,
+        "self_seconds": 0.035280700000000005,
+        "cumulative_seconds": 14.180568494000001
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 118,
+        "function": "JointPortfolio._read",
+        "primitive_calls": 805,
+        "calls": 805,
+        "self_seconds": 0.245233782,
+        "cumulative_seconds": 9.052608316
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/orchestrator.py",
+        "line": 54,
+        "function": "Orchestrator.execute",
+        "primitive_calls": 200,
+        "calls": 200,
+        "self_seconds": 0.6962947180000001,
+        "cumulative_seconds": 7.830920180000001
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 179,
+        "function": "JointPortfolio._save",
+        "primitive_calls": 201,
+        "calls": 201,
+        "self_seconds": 0.038018898,
+        "cumulative_seconds": 6.841195359
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/sim_execution.py",
+        "line": 21,
+        "function": "digest",
+        "primitive_calls": 105263,
+        "calls": 105263,
+        "self_seconds": 0.551199741,
+        "cumulative_seconds": 6.407070672000001
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 150,
+        "function": "JointPortfolio._validate",
+        "primitive_calls": 1006,
+        "calls": 1006,
+        "self_seconds": 0.810706939,
+        "cumulative_seconds": 5.766397486000001
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/sim_execution.py",
+        "line": 17,
+        "function": "canonical",
+        "primitive_calls": 108071,
+        "calls": 108071,
+        "self_seconds": 0.347011991,
+        "cumulative_seconds": 5.759766203000001
+      }
+    ],
+    "top10_all": [
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py",
+        "line": 160,
+        "function": "run",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_seconds": 5.933800000000001e-05,
+        "cumulative_seconds": 57.999943990000006
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+        "line": 655,
+        "function": "BaseEventLoop.run_until_complete",
+        "primitive_calls": 3,
+        "calls": 3,
+        "self_seconds": 3.8403000000000005e-05,
+        "cumulative_seconds": 57.987917914
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+        "line": 631,
+        "function": "BaseEventLoop.run_forever",
+        "primitive_calls": 3,
+        "calls": 3,
+        "self_seconds": 5.4355000000000004e-05,
+        "cumulative_seconds": 57.987706085000006
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+        "line": 1922,
+        "function": "BaseEventLoop._run_once",
+        "primitive_calls": 6,
+        "calls": 6,
+        "self_seconds": 0.0036318020000000004,
+        "cumulative_seconds": 57.98762073100001
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py",
+        "line": 86,
+        "function": "Runner.run",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_seconds": 4.5471000000000006e-05,
+        "cumulative_seconds": 57.987056907
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/events.py",
+        "line": 86,
+        "function": "Handle._run",
+        "primitive_calls": 6,
+        "calls": 6,
+        "self_seconds": 1.9025e-05,
+        "cumulative_seconds": 57.983145045
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<method 'run' of '_contextvars.Context' objects>",
+        "primitive_calls": 6,
+        "calls": 6,
+        "self_seconds": 0.000861124,
+        "cumulative_seconds": 57.98312602
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/experiments/bottleneck/diagnose.py",
+        "line": 65,
+        "function": "replay",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_seconds": 0.135281541,
+        "cumulative_seconds": 57.982167769
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/readiness_runner.py",
+        "line": 77,
+        "function": "FixtureJointRunner.run",
+        "primitive_calls": 200,
+        "calls": 200,
+        "self_seconds": 0.080696343,
+        "cumulative_seconds": 57.791620224000006
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 233,
+        "function": "JointPortfolio.evaluate",
+        "primitive_calls": 200,
+        "calls": 200,
+        "self_seconds": 0.265703168,
+        "cumulative_seconds": 52.85633609400001
+      }
+    ],
+    "total_calls": 18686976,
+    "times": {
+      "report_digest": 0.10060340100000001,
+      "DataEngine.load": 0,
+      "SQLiteStore.list": 0.000110821,
+      "JointPortfolio._read": 9.052608316,
+      "JointPortfolio._validate": 5.766397486000001,
+      "technical": 0,
+      "deepcopy": 35.576502079,
+      "ledger_state": 0.6071193500000001,
+      "restore_ledger": 0.270183073
+    },
+    "blocks": {
+      "replay": {
+        "first10": 0.0709180309997464,
+        "last10": 0.6136468058995888
+      }
+    },
+    "sizes": [
+      {
+        "step": 1,
+        "events": 2,
+        "state_bytes": 2119,
+        "reports": 0
+      },
+      {
+        "step": 50,
+        "events": 51,
+        "state_bytes": 19066,
+        "reports": 0
+      },
+      {
+        "step": 100,
+        "events": 101,
+        "state_bytes": 36368,
+        "reports": 0
+      },
+      {
+        "step": 200,
+        "events": 201,
+        "state_bytes": 71068,
+        "reports": 0
+      }
+    ]
+  },
+  "chain_50": {
+    "n": 50,
+    "elapsed": 54.217481050998686,
+    "analysis": 27.01125896299891,
+    "replay": 26.6035425150003,
+    "per_step": 1.0843496210199737,
+    "sql_calls": 19382,
+    "trace_sql": 19391,
+    "technical": 450,
+    "unique_windows": 201,
+    "repeated_windows": 249,
+    "candle_visits": 14400,
+    "unique_candles": 480,
+    "max_visits": 50,
+    "dataset_records_decoded": 60945,
+    "analyses": 800,
+    "decision": 150,
+    "entry": 150,
+    "exit": 0,
+    "trades": 0,
+    "top10": [
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/analysis.py",
+        "line": 100,
+        "function": "run_research",
+        "primitive_calls": 50,
+        "calls": 50,
+        "self_seconds": 0.27397093100000003,
+        "cumulative_seconds": 26.969655286000002
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/readiness_runner.py",
+        "line": 77,
+        "function": "FixtureJointRunner.run",
+        "primitive_calls": 50,
+        "calls": 50,
+        "self_seconds": 0.0034696640000000003,
+        "cumulative_seconds": 26.348619711
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 118,
+        "function": "JointPortfolio._read",
+        "primitive_calls": 203,
+        "calls": 203,
+        "self_seconds": 0.017790461,
+        "cumulative_seconds": 23.030881379
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 112,
+        "function": "JointPortfolio._frozen",
+        "primitive_calls": 203,
+        "calls": 203,
+        "self_seconds": 0.020640282000000003,
+        "cumulative_seconds": 22.593773132000003
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/readiness_runner.py",
+        "line": 63,
+        "function": "FixtureJointRunner._manifest",
+        "primitive_calls": 204,
+        "calls": 204,
+        "self_seconds": 0.004683152,
+        "cumulative_seconds": 22.518408057000002
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 106,
+        "function": "JointPortfolio._manifest",
+        "primitive_calls": 204,
+        "calls": 204,
+        "self_seconds": 1.1850095820000002,
+        "cumulative_seconds": 22.510049164
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/protocol.py",
+        "line": 113,
+        "function": "report_digest",
+        "primitive_calls": 208,
+        "calls": 208,
+        "self_seconds": 0.282722232,
+        "cumulative_seconds": 21.402953535
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/data.py",
+        "line": 121,
+        "function": "DataEngine.load",
+        "primitive_calls": 600,
+        "calls": 600,
+        "self_seconds": 1.456858425,
+        "cumulative_seconds": 19.008196314000003
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/analysis.py",
+        "line": 22,
+        "function": "AnalysisContext.__init__",
+        "primitive_calls": 150,
+        "calls": 150,
+        "self_seconds": 0.143144875,
+        "cumulative_seconds": 16.57571988
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/storage.py",
+        "line": 50,
+        "function": "SQLiteStore.list",
+        "primitive_calls": 602,
+        "calls": 602,
+        "self_seconds": 1.393432027,
+        "cumulative_seconds": 14.173206912000001
+      }
+    ],
+    "top10_all": [
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py",
+        "line": 160,
+        "function": "run",
+        "primitive_calls": 2,
+        "calls": 2,
+        "self_seconds": 7.561e-05,
+        "cumulative_seconds": 53.614779635000005
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py",
+        "line": 86,
+        "function": "Runner.run",
+        "primitive_calls": 2,
+        "calls": 2,
+        "self_seconds": 6.9087e-05,
+        "cumulative_seconds": 53.609589492000005
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+        "line": 655,
+        "function": "BaseEventLoop.run_until_complete",
+        "primitive_calls": 6,
+        "calls": 6,
+        "self_seconds": 5.8921e-05,
+        "cumulative_seconds": 53.608234799
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+        "line": 631,
+        "function": "BaseEventLoop.run_forever",
+        "primitive_calls": 6,
+        "calls": 6,
+        "self_seconds": 0.000327607,
+        "cumulative_seconds": 53.60776584600001
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+        "line": 1922,
+        "function": "BaseEventLoop._run_once",
+        "primitive_calls": 12,
+        "calls": 12,
+        "self_seconds": 0.0011945010000000002,
+        "cumulative_seconds": 53.60736991700001
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/events.py",
+        "line": 86,
+        "function": "Handle._run",
+        "primitive_calls": 12,
+        "calls": 12,
+        "self_seconds": 2.5854e-05,
+        "cumulative_seconds": 53.606053307
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<method 'run' of '_contextvars.Context' objects>",
+        "primitive_calls": 12,
+        "calls": 12,
+        "self_seconds": 9.929e-05,
+        "cumulative_seconds": 53.606027453
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/experiments/bottleneck/diagnose.py",
+        "line": 47,
+        "function": "analyses",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_seconds": 0.034557063,
+        "cumulative_seconds": 27.004435076
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/analysis.py",
+        "line": 100,
+        "function": "run_research",
+        "primitive_calls": 50,
+        "calls": 50,
+        "self_seconds": 0.27397093100000003,
+        "cumulative_seconds": 26.969655286000002
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/experiments/bottleneck/diagnose.py",
+        "line": 58,
+        "function": "replay",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_seconds": 0.023956245,
+        "cumulative_seconds": 26.601156417000002
+      }
+    ],
+    "total_calls": 5689024,
+    "times": {
+      "report_digest": 21.402953535,
+      "DataEngine.load": 19.008196314000003,
+      "SQLiteStore.list": 14.173206912000001,
+      "JointPortfolio._read": 23.030881379,
+      "JointPortfolio._validate": 0.268392087,
+      "technical": 0.529280865,
+      "deepcopy": 4.110933171,
+      "ledger_state": 0.030392031000000003,
+      "restore_ledger": 0.039020565
+    },
+    "blocks": {
+      "analysis": {
+        "first10": 0.21598387229987565,
+        "last10": 0.7654726822003795
+      },
+      "replay": {
+        "first10": 0.42892519979977806,
+        "last10": 0.7422561238998242
+      }
+    },
+    "sizes": [
+      {
+        "step": 1,
+        "events": 2,
+        "state_bytes": 2119,
+        "reports": 150
+      },
+      {
+        "step": 50,
+        "events": 51,
+        "state_bytes": 19066,
+        "reports": 150
+      }
+    ]
+  },
+  "empty_100": {
+    "n": 100,
+    "elapsed": 26.18829044800077,
+    "analysis": 0.0011713580006471602,
+    "replay": 25.618707727000583,
+    "per_step": 0.2618829044800077,
+    "sql_calls": 7270,
+    "trace_sql": 7329,
+    "technical": 0,
+    "unique_windows": 0,
+    "repeated_windows": 0,
+    "candle_visits": 0,
+    "unique_candles": 0,
+    "max_visits": 0,
+    "dataset_records_decoded": 0,
+    "analyses": 0,
+    "decision": 300,
+    "entry": 300,
+    "exit": 0,
+    "trades": 0,
+    "top10": [
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/readiness_runner.py",
+        "line": 77,
+        "function": "FixtureJointRunner.run",
+        "primitive_calls": 100,
+        "calls": 100,
+        "self_seconds": 0.018724727,
+        "cumulative_seconds": 25.513685413
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 233,
+        "function": "JointPortfolio.evaluate",
+        "primitive_calls": 100,
+        "calls": 100,
+        "self_seconds": 0.14255631000000002,
+        "cumulative_seconds": 22.809370153
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 239,
+        "function": "JointPortfolio._evaluate",
+        "primitive_calls": 100,
+        "calls": 100,
+        "self_seconds": 0.263940414,
+        "cumulative_seconds": 22.666813843
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 118,
+        "function": "JointPortfolio._read",
+        "primitive_calls": 404,
+        "calls": 404,
+        "self_seconds": 0.26602368400000004,
+        "cumulative_seconds": 5.448377478
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/orchestrator.py",
+        "line": 54,
+        "function": "Orchestrator.execute",
+        "primitive_calls": 100,
+        "calls": 100,
+        "self_seconds": 0.20353605700000002,
+        "cumulative_seconds": 4.393418926
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 179,
+        "function": "JointPortfolio._save",
+        "primitive_calls": 101,
+        "calls": 101,
+        "self_seconds": 0.031253934000000004,
+        "cumulative_seconds": 4.3600143330000005
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/trade_agents.py",
+        "line": 131,
+        "function": "EntryAgent.__init__",
+        "primitive_calls": 300,
+        "calls": 300,
+        "self_seconds": 0.030751994,
+        "cumulative_seconds": 3.702086663
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/sim_execution.py",
+        "line": 21,
+        "function": "digest",
+        "primitive_calls": 27612,
+        "calls": 27612,
+        "self_seconds": 0.35017264600000003,
+        "cumulative_seconds": 3.2218806960000004
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 150,
+        "function": "JointPortfolio._validate",
+        "primitive_calls": 505,
+        "calls": 505,
+        "self_seconds": 0.485590183,
+        "cumulative_seconds": 2.773137858
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/sim_execution.py",
+        "line": 17,
+        "function": "canonical",
+        "primitive_calls": 29019,
+        "calls": 29019,
+        "self_seconds": 0.17816790000000002,
+        "cumulative_seconds": 2.599263143
+      }
+    ],
+    "top10_all": [
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py",
+        "line": 160,
+        "function": "run",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_seconds": 0.001789605,
+        "cumulative_seconds": 25.616022764
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py",
+        "line": 86,
+        "function": "Runner.run",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_seconds": 4.6301e-05,
+        "cumulative_seconds": 25.605231852000003
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+        "line": 655,
+        "function": "BaseEventLoop.run_until_complete",
+        "primitive_calls": 3,
+        "calls": 3,
+        "self_seconds": 4.0265e-05,
+        "cumulative_seconds": 25.605220078000002
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+        "line": 631,
+        "function": "BaseEventLoop.run_forever",
+        "primitive_calls": 3,
+        "calls": 3,
+        "self_seconds": 4.7981e-05,
+        "cumulative_seconds": 25.605069646
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py",
+        "line": 1922,
+        "function": "BaseEventLoop._run_once",
+        "primitive_calls": 6,
+        "calls": 6,
+        "self_seconds": 0.000200752,
+        "cumulative_seconds": 25.604973273000002
+      },
+      {
+        "file": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/events.py",
+        "line": 86,
+        "function": "Handle._run",
+        "primitive_calls": 6,
+        "calls": 6,
+        "self_seconds": 1.7019e-05,
+        "cumulative_seconds": 25.604711377
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<method 'run' of '_contextvars.Context' objects>",
+        "primitive_calls": 6,
+        "calls": 6,
+        "self_seconds": 6.4702e-05,
+        "cumulative_seconds": 25.604694358000003
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/experiments/bottleneck/diagnose.py",
+        "line": 65,
+        "function": "replay",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_seconds": 0.041937481000000006,
+        "cumulative_seconds": 25.603112488
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/readiness_runner.py",
+        "line": 77,
+        "function": "FixtureJointRunner.run",
+        "primitive_calls": 100,
+        "calls": 100,
+        "self_seconds": 0.018724727,
+        "cumulative_seconds": 25.513685413
+      },
+      {
+        "file": "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py",
+        "line": 233,
+        "function": "JointPortfolio.evaluate",
+        "primitive_calls": 100,
+        "calls": 100,
+        "self_seconds": 0.14255631000000002,
+        "cumulative_seconds": 22.809370153
+      }
+    ],
+    "total_calls": 5180329,
+    "times": {
+      "report_digest": 0.10189692700000001,
+      "DataEngine.load": 0,
+      "SQLiteStore.list": 0.00017421300000000002,
+      "JointPortfolio._read": 5.448377478,
+      "JointPortfolio._validate": 2.773137858,
+      "technical": 0,
+      "deepcopy": 11.880201172000001,
+      "ledger_state": 0.24077543,
+      "restore_ledger": 0.22464139900000002
+    },
+    "blocks": {
+      "replay": {
+        "first10": 0.16718486059980933,
+        "last10": 0.2468948478004677
+      }
+    },
+    "sizes": [
+      {
+        "step": 1,
+        "events": 2,
+        "state_bytes": 2119,
+        "reports": 0
+      },
+      {
+        "step": 50,
+        "events": 51,
+        "state_bytes": 19066,
+        "reports": 0
+      },
+      {
+        "step": 100,
+        "events": 101,
+        "state_bytes": 36368,
+        "reports": 0
+      }
+    ]
+  }
+}

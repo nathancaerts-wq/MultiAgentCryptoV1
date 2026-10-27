@@ -132,6 +132,18 @@ class OfflineLedger:
         self.max_drawdown=D(0); self.curve=[]; self.last_equity=D(200)
         self.limits=Limits()
 
+    def analysis_view(self):
+        """Geïsoleerde financiële state voor voorstellen; geen uitvoeringsledger.
+
+        De historie blijft op de echte ledger/in SQLite. Alleen hypothetische
+        observe-events worden lokaal opgebouwd en nooit als uitvoering opgeslagen.
+        """
+        from copy import deepcopy
+        view=object.__new__(AnalysisLedger)
+        view.__dict__={k:deepcopy(v) for k,v in vars(self).items() if k not in ('events','trades','curve','ids')}
+        view.events=[];view.trades=[];view.curve=[];view.ids=set()
+        return view
+
     def snapshot(self, mark):
         p=self.position
         basis=p.quantity*p.average_price+p.entry_fee if p else D(0)
@@ -254,3 +266,10 @@ class OfflineLedger:
             self.observe(event_at,bar.low)
             if self.drawdown_paused or self.day_paused:
                 self.sell(f'exit:{serial}',event_at,bar.low,'portfolio_limit_worst_bar_price',True)
+
+
+class AnalysisLedger(OfflineLedger):
+    """Uitsluitend price/size/snapshot/observe; kan geen fills uitvoeren."""
+    def buy(self,*args,**kwargs):raise ValueError('Analyseview kan niet uitvoeren')
+    def sell(self,*args,**kwargs):raise ValueError('Analyseview kan niet uitvoeren')
+    def process_bar(self,*args,**kwargs):raise ValueError('Analyseview kan niet uitvoeren')

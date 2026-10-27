@@ -121,7 +121,7 @@ class DataEngine:
     def load(self, symbol, interval, start, end, as_of):
         # Exacte aanvraag bepaalt cache; bronadapter maakt deel uit van identiteit.
         key=hashlib.sha256(f'{type(self.adapter).__name__}:{getattr(self.adapter,"path",getattr(self.adapter,"BASE",""))}:{symbol}:{interval}:{start}:{end}'.encode()).hexdigest()
-        cached = next((x for x in self.store.list('datasets') if x['id']==key),None)
+        cached = self.store.get('datasets',key)
         try:
             rows = [Candle.model_validate(r) for r in cached['rows']] if cached else self.adapter.fetch(symbol,interval,start,end)
             validate_series(rows,symbol,interval,start,end,as_of)

@@ -10,6 +10,7 @@ TABLES = ('coins', 'pairs', 'candles', 'agents', 'results', 'regimes', 'hypothes
 
 
 class Storage(Protocol):
+    def get(self, table: str, key: str) -> dict | None: ...
     def put(self, table: str, key: str, value: dict): ...
     def list(self, table: str) -> list[dict]: ...
     def audit(self, action: str, details: str): ...
@@ -46,6 +47,12 @@ class SQLiteStore:
         if table not in TABLES:
             raise ValueError('Onbekende tabel')
         self.db.execute(f'INSERT INTO {table} VALUES (?, ?)', (str(key), json.dumps(value, default=str, allow_nan=False)))
+
+    def get(self, table, key):
+        if table not in TABLES:
+            raise ValueError('Onbekende tabel')
+        row=self.db.execute(f'SELECT payload FROM {table} WHERE id=?',(str(key),)).fetchone()
+        return None if row is None else dict(id=str(key),**json.loads(row[0]))
 
     def list(self, table):
         if table not in TABLES:

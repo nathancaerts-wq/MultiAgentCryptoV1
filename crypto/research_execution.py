@@ -91,7 +91,7 @@ class ResearchExecutionEngine(ExecutionEngine):
             return self.risk.check_exit(quantity=q,price=price,available=p.quantity,
                                         rules=market_rules(ledger.rules,at),timestamp=at,evaluation_time=at)
         if ledger.position: return 'bestaande positie; geen tweede exposure'
-        preview = deepcopy(ledger)
+        preview = ledger.analysis_view()
         preview.observe(at,reference)
         if preview.day_paused: return 'dagverliespauze'
         if preview.drawdown_paused: return 'drawdownpauze'
