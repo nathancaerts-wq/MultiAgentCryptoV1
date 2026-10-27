@@ -1,0 +1,304 @@
+{
+  "symbol": "XRPEUR",
+  "period": "validation_warmup",
+  "start": "2025-01-25T00:00:00+00:00",
+  "end": "2025-02-01T00:00:00+00:00",
+  "days": [
+    {
+      "start": "2025-01-25T00:00:00+00:00",
+      "end": "2025-01-26T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/15m/XRPEUR-15m-2025-01-25.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/15m/XRPEUR-15m-2025-01-25.zip.CHECKSUM",
+          "sha256": "708e597f85be5dbe844783ad6b3f9a74a0176cae69c33399f4ec1952f32eac77",
+          "start": "2025-01-25T00:00:00+00:00",
+          "end": "2025-01-26T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/1h/XRPEUR-1h-2025-01-25.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/1h/XRPEUR-1h-2025-01-25.zip.CHECKSUM",
+          "sha256": "a60fe9d180816b371a30ae4c7a94562b0ebc4a79c2dbc80c4450f3303c272b7a",
+          "start": "2025-01-25T00:00:00+00:00",
+          "end": "2025-01-26T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/4h/XRPEUR-4h-2025-01-25.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/4h/XRPEUR-4h-2025-01-25.zip.CHECKSUM",
+          "sha256": "6a37aee1f4b507ddd05ae12b828b435d9907ff140a89888e55d678877b9b8298",
+          "start": "2025-01-25T00:00:00+00:00",
+          "end": "2025-01-26T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-26T00:00:00+00:00",
+      "end": "2025-01-27T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/15m/XRPEUR-15m-2025-01-26.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/15m/XRPEUR-15m-2025-01-26.zip.CHECKSUM",
+          "sha256": "c04369f27884ceeaa071ce1a9acc22ed04e56f14254ddee80d7618fd8d29e8d6",
+          "start": "2025-01-26T00:00:00+00:00",
+          "end": "2025-01-27T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/1h/XRPEUR-1h-2025-01-26.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/1h/XRPEUR-1h-2025-01-26.zip.CHECKSUM",
+          "sha256": "af8d52536cef0cccb46b97bd1efbad9adb906e321c91f5cc8cc0b4aed77800d9",
+          "start": "2025-01-26T00:00:00+00:00",
+          "end": "2025-01-27T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/4h/XRPEUR-4h-2025-01-26.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/4h/XRPEUR-4h-2025-01-26.zip.CHECKSUM",
+          "sha256": "f9ac1ae0e9f3e4c22d1633eb7a4944565ed1237303981f4fbd40c4990c58dced",
+          "start": "2025-01-26T00:00:00+00:00",
+          "end": "2025-01-27T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-27T00:00:00+00:00",
+      "end": "2025-01-28T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/15m/XRPEUR-15m-2025-01-27.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/15m/XRPEUR-15m-2025-01-27.zip.CHECKSUM",
+          "sha256": "ffc46035c34bc7a155c833259345d50f4ba9155bb48074a876cb37ca4bac4361",
+          "start": "2025-01-27T00:00:00+00:00",
+          "end": "2025-01-28T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/1h/XRPEUR-1h-2025-01-27.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/1h/XRPEUR-1h-2025-01-27.zip.CHECKSUM",
+          "sha256": "a97971626305c540e08ec8cdcd8c3f4ff37529084ba3233b71e3df05a6f6deb5",
+          "start": "2025-01-27T00:00:00+00:00",
+          "end": "2025-01-28T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/4h/XRPEUR-4h-2025-01-27.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/4h/XRPEUR-4h-2025-01-27.zip.CHECKSUM",
+          "sha256": "851496b8b2c605c4cd0d0f42f60d25bfe38859ee85c541fac575770f11025459",
+          "start": "2025-01-27T00:00:00+00:00",
+          "end": "2025-01-28T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-28T00:00:00+00:00",
+      "end": "2025-01-29T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/15m/XRPEUR-15m-2025-01-28.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/15m/XRPEUR-15m-2025-01-28.zip.CHECKSUM",
+          "sha256": "87227aa18f6bfe26b68947b3a6af648f7495e4c291074e3fb50a0a4af9062423",
+          "start": "2025-01-28T00:00:00+00:00",
+          "end": "2025-01-29T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/1h/XRPEUR-1h-2025-01-28.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/1h/XRPEUR-1h-2025-01-28.zip.CHECKSUM",
+          "sha256": "702c18a903cd3f11220c42f4868b09fcd5bd18f00e89ed2eff8cc71d35daa5d7",
+          "start": "2025-01-28T00:00:00+00:00",
+          "end": "2025-01-29T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/4h/XRPEUR-4h-2025-01-28.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/4h/XRPEUR-4h-2025-01-28.zip.CHECKSUM",
+          "sha256": "fcdf071c5fc38ae7db6b742cd7fbbec24240f94a9e057ecf25a1d94eec297186",
+          "start": "2025-01-28T00:00:00+00:00",
+          "end": "2025-01-29T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-29T00:00:00+00:00",
+      "end": "2025-01-30T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/15m/XRPEUR-15m-2025-01-29.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/15m/XRPEUR-15m-2025-01-29.zip.CHECKSUM",
+          "sha256": "dbfc7f23ff473d603fe56bb8b65dfddaec1888e15f964d76528003141d78f60b",
+          "start": "2025-01-29T00:00:00+00:00",
+          "end": "2025-01-30T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/1h/XRPEUR-1h-2025-01-29.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/1h/XRPEUR-1h-2025-01-29.zip.CHECKSUM",
+          "sha256": "ab05da1e07f9b22cb234f1c787e0364464f0cb520b5d5e010debd1951315073a",
+          "start": "2025-01-29T00:00:00+00:00",
+          "end": "2025-01-30T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/4h/XRPEUR-4h-2025-01-29.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/4h/XRPEUR-4h-2025-01-29.zip.CHECKSUM",
+          "sha256": "dbc8074d0dd386308da89c96e2576f73d5122f7b232411f7c43de0726f8bcda1",
+          "start": "2025-01-29T00:00:00+00:00",
+          "end": "2025-01-30T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-30T00:00:00+00:00",
+      "end": "2025-01-31T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/15m/XRPEUR-15m-2025-01-30.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/15m/XRPEUR-15m-2025-01-30.zip.CHECKSUM",
+          "sha256": "b3d24d153a2b9bd66ec6731f88982ffbfda2fc27d6101555862a8fef83cd1bbc",
+          "start": "2025-01-30T00:00:00+00:00",
+          "end": "2025-01-31T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/1h/XRPEUR-1h-2025-01-30.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/1h/XRPEUR-1h-2025-01-30.zip.CHECKSUM",
+          "sha256": "d6e4c744b370d6640a5b2374f98b74de46295cd35d55666b484d08d0ded5d5da",
+          "start": "2025-01-30T00:00:00+00:00",
+          "end": "2025-01-31T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/4h/XRPEUR-4h-2025-01-30.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/4h/XRPEUR-4h-2025-01-30.zip.CHECKSUM",
+          "sha256": "eab2fe45904f6e22fcb7018e4e6668bd762dc92a7ce4b3f00ba6bddf5df1418e",
+          "start": "2025-01-30T00:00:00+00:00",
+          "end": "2025-01-31T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-31T00:00:00+00:00",
+      "end": "2025-02-01T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/15m/XRPEUR-15m-2025-01-31.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/15m/XRPEUR-15m-2025-01-31.zip.CHECKSUM",
+          "sha256": "5b803ea56b028aab4bb8daba9698a187f1ff9e60566a9f4898609dbf026dbc63",
+          "start": "2025-01-31T00:00:00+00:00",
+          "end": "2025-02-01T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/1h/XRPEUR-1h-2025-01-31.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/1h/XRPEUR-1h-2025-01-31.zip.CHECKSUM",
+          "sha256": "a8969fb4e12d80a9ee947de8931b1c6ffa046036916ddaa61f373635fa70ebd4",
+          "start": "2025-01-31T00:00:00+00:00",
+          "end": "2025-02-01T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/4h/XRPEUR-4h-2025-01-31.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/XRPEUR/4h/XRPEUR-4h-2025-01-31.zip.CHECKSUM",
+          "sha256": "ba82413d9ae606df5a909fdec967fe86a42dbdd45f9a4fadd2f920b33a728d5d",
+          "start": "2025-01-31T00:00:00+00:00",
+          "end": "2025-02-01T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    }
+  ],
+  "performance_computed": false,
+  "status": "valid"
+}

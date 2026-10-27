@@ -1,0 +1,304 @@
+{
+  "symbol": "ADAEUR",
+  "period": "validation_warmup",
+  "start": "2025-01-25T00:00:00+00:00",
+  "end": "2025-02-01T00:00:00+00:00",
+  "days": [
+    {
+      "start": "2025-01-25T00:00:00+00:00",
+      "end": "2025-01-26T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/15m/ADAEUR-15m-2025-01-25.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/15m/ADAEUR-15m-2025-01-25.zip.CHECKSUM",
+          "sha256": "f319285c9d4a3f7c2403f914ebe00bc87b3af8367ea1f3c4394294a58233801e",
+          "start": "2025-01-25T00:00:00+00:00",
+          "end": "2025-01-26T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/1h/ADAEUR-1h-2025-01-25.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/1h/ADAEUR-1h-2025-01-25.zip.CHECKSUM",
+          "sha256": "5b09ab6c9b4aedbc5fa69c267c3e7c8d99d628bfbb221c23e869bf060c1a5d4d",
+          "start": "2025-01-25T00:00:00+00:00",
+          "end": "2025-01-26T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/4h/ADAEUR-4h-2025-01-25.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/4h/ADAEUR-4h-2025-01-25.zip.CHECKSUM",
+          "sha256": "92757bcfd3b38e4080d09feb2de97a1f147f05ef57df5c490142af66842975d0",
+          "start": "2025-01-25T00:00:00+00:00",
+          "end": "2025-01-26T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-26T00:00:00+00:00",
+      "end": "2025-01-27T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/15m/ADAEUR-15m-2025-01-26.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/15m/ADAEUR-15m-2025-01-26.zip.CHECKSUM",
+          "sha256": "6c152fe376ca8b82aea21df4c1c93a6d2094b01db53ecd07eba3d322e4746e7b",
+          "start": "2025-01-26T00:00:00+00:00",
+          "end": "2025-01-27T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/1h/ADAEUR-1h-2025-01-26.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/1h/ADAEUR-1h-2025-01-26.zip.CHECKSUM",
+          "sha256": "2feee65682d8b09a60233a5c54955a18ed8558467c3ce0a4893c8387c5acc4c3",
+          "start": "2025-01-26T00:00:00+00:00",
+          "end": "2025-01-27T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/4h/ADAEUR-4h-2025-01-26.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/4h/ADAEUR-4h-2025-01-26.zip.CHECKSUM",
+          "sha256": "323fa2c4a47ebc6803b3d0cd069781a2084a754aedde3cd6469dd44fbc4844b7",
+          "start": "2025-01-26T00:00:00+00:00",
+          "end": "2025-01-27T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-27T00:00:00+00:00",
+      "end": "2025-01-28T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/15m/ADAEUR-15m-2025-01-27.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/15m/ADAEUR-15m-2025-01-27.zip.CHECKSUM",
+          "sha256": "901232e5de3137b7add4e3e9f6a3e43bc43fafb9a78b8c09982f69cf5f68eb5c",
+          "start": "2025-01-27T00:00:00+00:00",
+          "end": "2025-01-28T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/1h/ADAEUR-1h-2025-01-27.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/1h/ADAEUR-1h-2025-01-27.zip.CHECKSUM",
+          "sha256": "8883b35d7ddffcd404519df0e67fd64b33f8604dc86f7107664674b7e991311c",
+          "start": "2025-01-27T00:00:00+00:00",
+          "end": "2025-01-28T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/4h/ADAEUR-4h-2025-01-27.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/4h/ADAEUR-4h-2025-01-27.zip.CHECKSUM",
+          "sha256": "fa3c0b4770c162c0ea3c716ccbf93be55a5e88a2de6d5d2b846a6e53c063badf",
+          "start": "2025-01-27T00:00:00+00:00",
+          "end": "2025-01-28T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-28T00:00:00+00:00",
+      "end": "2025-01-29T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/15m/ADAEUR-15m-2025-01-28.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/15m/ADAEUR-15m-2025-01-28.zip.CHECKSUM",
+          "sha256": "fe4879744134bbfa367b2c5501d9aef2dfb66c9dbe331ce9d8b48a6246ceb67e",
+          "start": "2025-01-28T00:00:00+00:00",
+          "end": "2025-01-29T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/1h/ADAEUR-1h-2025-01-28.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/1h/ADAEUR-1h-2025-01-28.zip.CHECKSUM",
+          "sha256": "46101c94d8ab69d26aca5b54a34115868c59a60c1e7a1f9b6941cb70fa200caa",
+          "start": "2025-01-28T00:00:00+00:00",
+          "end": "2025-01-29T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/4h/ADAEUR-4h-2025-01-28.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/4h/ADAEUR-4h-2025-01-28.zip.CHECKSUM",
+          "sha256": "a81549c82df9fe96bf85e2c700aceed90d2cf323d470b27cad8af8939938582a",
+          "start": "2025-01-28T00:00:00+00:00",
+          "end": "2025-01-29T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-29T00:00:00+00:00",
+      "end": "2025-01-30T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/15m/ADAEUR-15m-2025-01-29.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/15m/ADAEUR-15m-2025-01-29.zip.CHECKSUM",
+          "sha256": "5a1f85ebbd77484a26bafb52c3dd154740a90152e4638203a7e6d006d2aa45f9",
+          "start": "2025-01-29T00:00:00+00:00",
+          "end": "2025-01-30T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/1h/ADAEUR-1h-2025-01-29.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/1h/ADAEUR-1h-2025-01-29.zip.CHECKSUM",
+          "sha256": "1a33d2dc02473a27b8eadf6bf626933f8792fd711069180653a0da5a9d780ce3",
+          "start": "2025-01-29T00:00:00+00:00",
+          "end": "2025-01-30T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/4h/ADAEUR-4h-2025-01-29.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/4h/ADAEUR-4h-2025-01-29.zip.CHECKSUM",
+          "sha256": "72acf4bcd8ca00555d4891c8baaa0bbb7c2a4af716abcacda15a6fa6dc2ec934",
+          "start": "2025-01-29T00:00:00+00:00",
+          "end": "2025-01-30T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-30T00:00:00+00:00",
+      "end": "2025-01-31T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/15m/ADAEUR-15m-2025-01-30.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/15m/ADAEUR-15m-2025-01-30.zip.CHECKSUM",
+          "sha256": "358c72f614a1c3edce7ceaa5300ddc3ffb7f0a4bcaadd4baa96324d561a646e2",
+          "start": "2025-01-30T00:00:00+00:00",
+          "end": "2025-01-31T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/1h/ADAEUR-1h-2025-01-30.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/1h/ADAEUR-1h-2025-01-30.zip.CHECKSUM",
+          "sha256": "5c22574fed3840ae425ae713a009008d065e30349b8c824db30fe1913c5e4e4a",
+          "start": "2025-01-30T00:00:00+00:00",
+          "end": "2025-01-31T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/4h/ADAEUR-4h-2025-01-30.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/4h/ADAEUR-4h-2025-01-30.zip.CHECKSUM",
+          "sha256": "549e567f7c5bc06d4b6834e3deafabe0aa6742bf78f632555b7cafa2ebca7b2c",
+          "start": "2025-01-30T00:00:00+00:00",
+          "end": "2025-01-31T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-31T00:00:00+00:00",
+      "end": "2025-02-01T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/15m/ADAEUR-15m-2025-01-31.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/15m/ADAEUR-15m-2025-01-31.zip.CHECKSUM",
+          "sha256": "0842c38307f8ef8c9fdddbd0c777de1a0da509c84f6f5ff82afde48bcb359d70",
+          "start": "2025-01-31T00:00:00+00:00",
+          "end": "2025-02-01T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/1h/ADAEUR-1h-2025-01-31.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/1h/ADAEUR-1h-2025-01-31.zip.CHECKSUM",
+          "sha256": "49b0eee039cceb3ed0737d3981c9dd4e053f62a89ece6bfb2db8cb5870977151",
+          "start": "2025-01-31T00:00:00+00:00",
+          "end": "2025-02-01T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/4h/ADAEUR-4h-2025-01-31.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/ADAEUR/4h/ADAEUR-4h-2025-01-31.zip.CHECKSUM",
+          "sha256": "8ce10bcff3a4a3b3277e505ed4830844f865cb3af79864c76b47961937daec76",
+          "start": "2025-01-31T00:00:00+00:00",
+          "end": "2025-02-01T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    }
+  ],
+  "performance_computed": false,
+  "status": "valid"
+}

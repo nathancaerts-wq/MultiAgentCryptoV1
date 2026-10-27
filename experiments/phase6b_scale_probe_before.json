@@ -1,0 +1,11 @@
+{
+  "candles_per_coin": 35136,
+  "coins": 6,
+  "completed_steps": 1,
+  "completed": false,
+  "phase": "replaying_real_joint_runner_no_reports",
+  "elapsed_seconds": 28.036573901998054,
+  "peak_rss_kib": 777604,
+  "timeout_seconds": 45,
+  "historical_performance_computed": false
+}

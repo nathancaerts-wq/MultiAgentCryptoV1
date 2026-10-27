@@ -195,3 +195,14 @@ Officiële documentatieverzoeken faalden met proxy 502; geen reconstructie gecla
 Zie PHASE6B_READINESS_REPORT.md voor exact gerealiseerde onderdelen en beperkingen.
 
 Definitieve verificatie: 310 tests geslaagd, 0 mislukt; één bestaande dependencywaarschuwing.
+
+## Fase 6B — resterende blokkeringen onderzocht
+
+Volledige zesmunten-data-audit uitgevoerd met officiële maandchecksums, dagelijkse
+validatie, timeframevergelijking, schijfcache en downloadbudget. XRP/ADA/LINK hebben
+strikte timeframe-afwijkingen; exacte dagrapporten zijn bewaard. Historische filters
+blijven onbewezen; een hypothetisch model is alleen voorgesteld, niet geactiveerd.
+Kalenderbinding benchmarks getest. Echte zesmunten-jaarfixture gemeten; candlehash-
+cache en tijdindex versnellen verwerking, maar de jaarreplay voltooit niet binnen
+45 seconden. Schaalbaarheid blijft open. 317 tests geslaagd, 0 mislukt; één bestaande
+waarschuwing. Geen historische rendementen of testvrijgave. Zie PHASE6B_FINAL_READINESS.md.

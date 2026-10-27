@@ -95,10 +95,18 @@ class JointPortfolio:
         value=json.loads(row[0])
         return dict(id=key,**value) if table=='joint_batches' else value
 
+    def _bar_metadata(self,s,rows):
+        cache=getattr(self,'_bar_cache',{})
+        old=cache.get(s)
+        if old is None or old[0] is not rows:
+            old=(rows,digest([c.model_dump(mode='json') for c in rows]),{c.opened:c for c in rows})
+            cache[s]=old;self._bar_cache=cache
+        return old
+
     def _manifest(self):
         return dict(plan=self.plan.fingerprint,policy=self.policy.model_dump(mode='json'),
                     filters={s:self.rules[s].model_dump(mode='json') for s in sorted(self.rules)},
-                    reports=report_digest(self.reports),bars={s:digest([c.model_dump(mode='json') for c in self.bars[s]]) for s in sorted(self.bars)},
+                    reports=report_digest(self.reports),bars={s:self._bar_metadata(s,self.bars[s])[1] for s in sorted(self.bars)},
                     stage='development',independent_test_authorization=None)
 
     def _frozen(self):
@@ -170,7 +178,7 @@ class JointPortfolio:
         if current['hash']!=before['hash']: raise ValueError('Portefeuille gewijzigd; evalueer de gehele batch opnieuw')
 
     def _bar(self,symbol,opened):
-        return next((c for c in self.bars[symbol] if c.opened==opened),None)
+        return self._bar_metadata(symbol,self.bars[symbol])[2].get(opened)
 
     def _risk_reason(self,candidate,ledger,raw=None):
         # Hergebruik alle fase-5-risicocontroles en dezelfde centrale RiskEngine.

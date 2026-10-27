@@ -1,0 +1,45 @@
+[
+  {
+    "symbol": "XRPEUR",
+    "start": "2024-01-21T06:00:00+00:00",
+    "lower": "15m",
+    "higher": "1h",
+    "differences": {
+      "open": {
+        "aggregated": "0.50780000",
+        "official": "0.50750000"
+      }
+    },
+    "first_subcandle_volume": "0E-8"
+  },
+  {
+    "symbol": "ADAEUR",
+    "start": "2024-01-17T02:00:00+00:00",
+    "lower": "15m",
+    "higher": "1h",
+    "differences": {
+      "open": {
+        "aggregated": "0.49470000",
+        "official": "0.49580000"
+      }
+    },
+    "first_subcandle_volume": "0E-8"
+  },
+  {
+    "symbol": "LINKEUR",
+    "start": "2024-01-06T04:00:00+00:00",
+    "lower": "15m",
+    "higher": "1h",
+    "differences": {
+      "open": {
+        "aggregated": "12.69100000",
+        "official": "12.63100000"
+      },
+      "high": {
+        "aggregated": "12.69100000",
+        "official": "12.64900000"
+      }
+    },
+    "first_subcandle_volume": "0E-8"
+  }
+]

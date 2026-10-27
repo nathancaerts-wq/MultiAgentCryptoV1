@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/binance/binance-public-data/master/README.md",
+    "status": 200,
+    "sha256": "2e133d9945a9263a02781369078e72805eff074680f305cd5460016471c6caad",
+    "relevant_lines": [
+      "**Note**: The timestamp for SPOT Data from January 1st 2025 onwards will be in microseconds.",
+      "## CHECKSUM",
+      "Each zip file has a `.CHECKSUM` file together in the same folder to verify data integrity. The verification can be done through:",
+      "sha256sum -c BNBUSDT-1m-2021-01.zip.CHECKSUM",
+      "shasum -a 256 -c BNBUSDT-1m-2021-01.zip.CHECKSUM",
+      "Archived files may be updated at a later date as a result of recently discovered issues. Below is an exhaustive list of updates performed to the archive, containing the file path for reference, and CHECKSUMs of the replaced file and the replacement file:"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+    "status": 200,
+    "sha256": "a44f55c8ca08a391417aa3a98b3bf4715c99317081d07567b32d088c71181454",
+    "relevant_lines": [
+      "  receive the information in microseconds, please add the header `X-MBX-TIME-UNIT:MICROSECOND` or",
+      "  microseconds.",
+      "- The `/api/v3/exchangeInfo` `rateLimits` array contains objects related to the exchange's",
+      "  either in milliseconds or microseconds. (See [General API Information](#general-api-information))",
+      "    microseconds may be specified.",
+      "<a id=\"exchangeInfo\"></a>",
+      "GET /api/v3/exchangeInfo",
+      "Current exchange trading rules and symbol information",
+      "symbol | STRING | NO | Example: curl -X GET \"https://api.binance.com/api/v3/exchangeInfo?symbol=BNBBTC\"",
+      "symbols | ARRAY OF STRING | NO | Examples: curl -X GET \"https://api.binance.com/api/v3/exchangeInfo?symbols=%5B%22BNBBTC%22,%22BTCUSDT%22%5D\" or curl -g -X GET 'https://api.binance.com/api/v3/exchangeInfo?symbols=[\"BTCUSDT\",\"BNBBTC\"]'",
+      "permissions | ENUM | NO | Examples: curl -X GET \"https://api.binance.com/api/v3/exchangeInfo?permissions=SPOT\" <br/> curl -X GET \"https://api.binance.com/api/v3/exchangeInfo?permissions=%5B%22MARGIN%22%2C%22LEVERAGED%22%5D\" <br/> or <br/> curl -g -X GET 'https://api.binance.com/api/v3/exchangeInfo?permissions=[\"MARGIN\",\"LEVERAGED\"]'",
+      "recvWindow | DECIMAL | NO | Maximum: 60000. <br/> Supports up to three decimal places of precision (e.g., 6000.346) so that microseconds may be specified.",
+      "timestamp | LONG | YES | Unix timestamp used to sign the request, in milliseconds or microseconds. The value must reflect the current client time and is validated by the server for signed endpoints.",
+      "recvWindow | DECIMAL | NO | The value cannot be greater than `60000`. Supports up to three decimal places of precision (e.g., 6000.346) so that microseconds may be specified.",
+      "timestamp | LONG | YES | Unix timestamp used to sign the request, in milliseconds or microseconds. The value must reflect the current client time and is validated by the server for signed endpoints.",
+      "recvWindow | DECIMAL | NO | Maximum: 60000. <br/> Supports up to three decimal places of precision (e.g., 6000.346) so that microseconds may be specified.",
+      "timestamp | LONG | YES | Unix timestamp used to sign the request, in milliseconds or microseconds. The value must reflect the current client time and is validated by the server for signed endpoints.",
+      "recvWindow | DECIMAL | NO | Maximum: 60000. <br/> Supports up to three decimal places of precision (e.g., 6000.346) so that microseconds may be specified.",
+      "timestamp | LONG | YES | Unix timestamp used to sign the request, in milliseconds or microseconds. The value must reflect the current client time and is validated by the server for signed endpoints.",
+      "recvWindow | DECIMAL | NO | Maximum: 60000. <br/> Supports up to three decimal places of precision (e.g., 6000.346) so that microseconds may be specified.",
+      "timestamp | LONG | YES | Unix timestamp used to sign the request, in milliseconds or microseconds. The value must reflect the current client time and is validated by the server for signed endpoints.",
+      "recvWindow | DECIMAL | NO | The value cannot be greater than `60000`. <br> Supports up to three decimal places of precision (e.g., 6000.346) so that microseconds may be specified.",
+      "timestamp | LONG | YES | Unix timestamp used to sign the request, in milliseconds or microseconds. The value must reflect the current client time and is validated by the server for signed endpoints.",
+      "recvWindow | DECIMAL | NO | The value cannot be greater than `60000`. <br> Supports up to three decimal places of precision (e.g., 6000.346) so that microseconds may be specified.",
+      "timestamp | LONG | YES | Unix timestamp used to sign the request, in milliseconds or microseconds. The value must reflect the current client time and is validated by the server for signed endpoints.",
+      "recvWindow | DECIMAL | NO | The value cannot be greater than `60000`. Supports up to three decimal places of precision (e.g., 6000.346) so that microseconds may be specified.",
+      "timestamp | LONG | YES | Unix timestamp used to sign the request, in milliseconds or microseconds. The value must reflect the current client time and is validated by the server for signed endpoints.",
+      "recvWindow | DECIMAL | NO | The value cannot be greater than `60000`. Supports up to three decimal places of precision (e.g., 6000.346) so that microseconds may be specified.",
+      "timestamp | LONG | YES | Unix timestamp used to sign the request, in milliseconds or microseconds. The value must reflect the current client time and is validated by the server for signed endpoints.",
+      "recvWindow | DECIMAL | NO | The value cannot be greater than `60000`. Supports up to three decimal places of precision (e.g., 6000.346) so that microseconds may be specified.",
+      "timestamp | LONG | YES | Unix timestamp used to sign the request, in milliseconds or microseconds. The value must reflect the current client time and is validated by the server for signed endpoints.",
+      "recvWindow | DECIMAL | NO | Maximum: 60000. <br/> Supports up to three decimal places of precision (e.g., 6000.346) so that microseconds may be specified.",
+      "timestamp | LONG | YES | Unix timestamp used to sign the request, in milliseconds or microseconds. The value must reflect the current client time and is validated by the server for signed endpoints.",
+      "recvWindow | DECIMAL | NO | The value cannot be greater than `60000`. Supports up to three decimal places of precision (e.g., 6000.346) so that microseconds may be specified.",
+      "timestamp | LONG | YES | Unix timestamp used to sign the request, in milliseconds or microseconds. The value must reflect the current client time and is validated by the server for signed endpoints.",
+      "recvWindow | DECIMAL | NO | Maximum: 60000. <br/> Supports up to three decimal places of precision (e.g., 6000.346) so that microseconds may be specified.",
+      "timestamp | LONG | YES | Unix timestamp used to sign the request, in milliseconds or microseconds. The value must reflect the current client time and is validated by the server for signed endpoints.",
+      "recvWindow | DECIMAL | NO | The value cannot be greater than `60000`. <br> Supports up to three decimal places of precision (e.g., 6000.346) so that microseconds may be specified.",
+      "timestamp | LONG | YES | Unix timestamp used to sign the request, in milliseconds or microseconds. The value must reflect the current client time and is validated by the server for signed endpoints.",
+      "recvWindow | DECIMAL | NO | The value cannot be greater than `60000`. Supports up to three decimal places of precision (e.g., 6000.346) so that microseconds may be specified."
+    ]
+  }
+]

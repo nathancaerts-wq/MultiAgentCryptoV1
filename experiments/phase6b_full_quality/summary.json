@@ -1,0 +1,134 @@
+{
+  "reports": [
+    {
+      "symbol": "ADAEUR",
+      "period": "development",
+      "status": "incomplete",
+      "valid_days": 274,
+      "total_days": 366
+    },
+    {
+      "symbol": "ADAEUR",
+      "period": "validation",
+      "status": "valid",
+      "valid_days": 334,
+      "total_days": 334
+    },
+    {
+      "symbol": "ADAEUR",
+      "period": "validation_warmup",
+      "status": "valid",
+      "valid_days": 7,
+      "total_days": 7
+    },
+    {
+      "symbol": "BTCEUR",
+      "period": "development",
+      "status": "valid",
+      "valid_days": 366,
+      "total_days": 366
+    },
+    {
+      "symbol": "BTCEUR",
+      "period": "validation",
+      "status": "valid",
+      "valid_days": 334,
+      "total_days": 334
+    },
+    {
+      "symbol": "BTCEUR",
+      "period": "validation_warmup",
+      "status": "valid",
+      "valid_days": 7,
+      "total_days": 7
+    },
+    {
+      "symbol": "ETHEUR",
+      "period": "development",
+      "status": "valid",
+      "valid_days": 366,
+      "total_days": 366
+    },
+    {
+      "symbol": "ETHEUR",
+      "period": "validation",
+      "status": "valid",
+      "valid_days": 334,
+      "total_days": 334
+    },
+    {
+      "symbol": "ETHEUR",
+      "period": "validation_warmup",
+      "status": "valid",
+      "valid_days": 7,
+      "total_days": 7
+    },
+    {
+      "symbol": "LINKEUR",
+      "period": "development",
+      "status": "incomplete",
+      "valid_days": 180,
+      "total_days": 366
+    },
+    {
+      "symbol": "LINKEUR",
+      "period": "validation",
+      "status": "incomplete",
+      "valid_days": 307,
+      "total_days": 334
+    },
+    {
+      "symbol": "LINKEUR",
+      "period": "validation_warmup",
+      "status": "incomplete",
+      "valid_days": 4,
+      "total_days": 7
+    },
+    {
+      "symbol": "SOLEUR",
+      "period": "development",
+      "status": "valid",
+      "valid_days": 366,
+      "total_days": 366
+    },
+    {
+      "symbol": "SOLEUR",
+      "period": "validation",
+      "status": "valid",
+      "valid_days": 334,
+      "total_days": 334
+    },
+    {
+      "symbol": "SOLEUR",
+      "period": "validation_warmup",
+      "status": "valid",
+      "valid_days": 7,
+      "total_days": 7
+    },
+    {
+      "symbol": "XRPEUR",
+      "period": "development",
+      "status": "incomplete",
+      "valid_days": 359,
+      "total_days": 366
+    },
+    {
+      "symbol": "XRPEUR",
+      "period": "validation",
+      "status": "valid",
+      "valid_days": 334,
+      "total_days": 334
+    },
+    {
+      "symbol": "XRPEUR",
+      "period": "validation_warmup",
+      "status": "valid",
+      "valid_days": 7,
+      "total_days": 7
+    }
+  ],
+  "requests": 884,
+  "bytes": 17990012,
+  "network_failures": 0,
+  "performance_computed": false
+}

@@ -33,3 +33,12 @@ class BuyHoldIndex:
    p=closes[s]*(1-self.costs.spread/2-self.costs.slippage)
    equity+=q*p-self.costs.charge(q,p)
   return equity
+
+
+def benchmark_calendar(stage):
+ """Alleen preregistreerde D/V-kalender, geen testvrijgave of rendement."""
+ from .readiness import PERIODS,dt
+ if stage not in ('development','validation'): raise ValueError('Gesloten of onbekende benchmarkperiode')
+ start,end=PERIODS[stage]
+ return dict(start=start,end=end,index_entry=dt('2024-01-08') if stage=='development' else start,
+             latest_entry=end-__import__('datetime').timedelta(hours=4,minutes=15))

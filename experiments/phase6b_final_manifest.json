@@ -1,0 +1,167 @@
+{
+  "version": "phase6b-readiness-v1",
+  "configuration": {
+    "base_commit": "c0618c9c6cd7d435c20231e41b26612c76a185ff",
+    "protocol_sha256": "782feb54d579e9f189f1d9751a0d60f094cad5c59f12d7765885f3f8dec7aba9"
+  },
+  "configuration_sha256": "fc5896481a5b552240f9f99a3e3e436782cc9736b6d1dcbb63ad7d5051ea5c4d",
+  "files": {
+    "experiments/phase6b_full_quality/ADAEUR_validation_warmup.json": "6b3b8a03148df9cedb91a2ceac46ba29b2a1a9b963a83733b2abc3d4588adb78",
+    "experiments/phase6b_full_quality/BTCEUR_validation.json": "ae8454578aa18e695e3cb062cd7fa1692a21317a7f4211f3e7a8549f2c51f759",
+    "experiments/phase6b_full_quality/SOLEUR_development.json": "9042264aa0360bf95926d9cf2afa2b5ce91e5d33c2b75697a58f1875ccb84984",
+    "experiments/phase6b_full_quality/XRPEUR_development.json": "29d8c38e2b28b2d4945379ef314819b10a3ec7eaa50ee4001d2563efb088b03f",
+    "experiments/phase6b_full_quality/XRPEUR_validation.json": "ddbc961672ba7ac6b12b46fafda05362befc2eec828bd83d2f3eeab4de5e46af",
+    "experiments/phase6b_full_quality/SOLEUR_validation.json": "134ef0c41cf99d4b9d362393811025255e9c0ebbd8633db3168ad9f1466626c8",
+    "experiments/phase6b_full_quality/LINKEUR_development.json": "35714e4a29c2632b65db2bf9578cfe4ce05c12f5569c062b61ef564cc7617e7f",
+    "experiments/phase6b_full_quality/ETHEUR_validation_warmup.json": "cbe59ea5f36dbea0325287883f2efff60fc51d610ab0fffbd0056fb86ade1870",
+    "experiments/phase6b_full_quality/BTCEUR_development.json": "82be0d2f535054f4648c809356bd14cd74b3fc0ca38132270d3a0d78cbcfb763",
+    "experiments/phase6b_full_quality/SOLEUR_validation_warmup.json": "406f46c5ea008ad0957507eb386d616dc93a51e5842803820eb211f3c008eb07",
+    "experiments/phase6b_full_quality/LINKEUR_validation_warmup.json": "6d43b7c32aa0f60f0da111c6d2adceb7abbf762dc5729f143c23fc045741fedf",
+    "experiments/phase6b_full_quality/ADAEUR_validation.json": "b0b89c176341d5d9564a53083694f9ed3267b8fd50e87c98d29423af99932b08",
+    "experiments/phase6b_full_quality/summary.json": "55185da839a9b4f56b39168037d8762711e6d84447e0006e8bb5cb4316f3f657",
+    "experiments/phase6b_full_quality/ADAEUR_development.json": "c17aef332a39cc9ba05ad668a55dbbd92e451b1b158252315e9c52c2d411f5fe",
+    "experiments/phase6b_full_quality/BTCEUR_validation_warmup.json": "b38f7157a22e1361c3bdf0d6f4e534e5013d8e27b292da84ef8975cc6656716f",
+    "experiments/phase6b_full_quality/ETHEUR_validation.json": "464c487544a6801e8dfdfc022b98b824292e2379afbe7300b34ee5b55f004ff0",
+    "experiments/phase6b_full_quality/XRPEUR_validation_warmup.json": "bd12e0676d9ff683de49993346dd9ab00d131f97828fe827bc77722acb38c575",
+    "experiments/phase6b_full_quality/LINKEUR_validation.json": "3307f78627c3e2ad60a9d18a46e6dbe84593b496df113d302be7b06ba063769c",
+    "experiments/phase6b_full_quality/ETHEUR_development.json": "1a190b176b8b9c357d84b633cca861a71093b65ca361268f375804842b62c038",
+    "crypto/joint_portfolio.py": "214a7ec170882c169ee3d45e46c8867a3f0b041cc7b130b70f17d9aac24c2001",
+    "crypto/research_benchmarks.py": "a0844729eb24717ce577428426430dd7c0906e2a7f711bf41b950b9cda1f0ee5",
+    "scripts/phase6b_full_audit.py": "e3368aacf1515aaff1b9823b3d919669a07253829873e5ff781c3118493040b6",
+    "scripts/phase6b_scale_probe.py": "b8eefe9566bb6df16f295306eb0bd710adc9ae3a885d6fb219376f5fdfb7dece",
+    "experiments/phase6b_filter_research.json": "aa27d4c0b0c2839c801204cd6c018e5ca82056114cb49132f4708437fb31fef2",
+    "experiments/phase6b_timeframe_differences.json": "57dc72bca7edec343bdf2a1139e982539408620a2ea372ff92149ee6c4902d96"
+  },
+  "datasets": [
+    {
+      "symbol": "ADAEUR",
+      "period": "development",
+      "status": "incomplete",
+      "valid_days": 274,
+      "total_days": 366
+    },
+    {
+      "symbol": "ADAEUR",
+      "period": "validation",
+      "status": "valid",
+      "valid_days": 334,
+      "total_days": 334
+    },
+    {
+      "symbol": "ADAEUR",
+      "period": "validation_warmup",
+      "status": "valid",
+      "valid_days": 7,
+      "total_days": 7
+    },
+    {
+      "symbol": "BTCEUR",
+      "period": "development",
+      "status": "valid",
+      "valid_days": 366,
+      "total_days": 366
+    },
+    {
+      "symbol": "BTCEUR",
+      "period": "validation",
+      "status": "valid",
+      "valid_days": 334,
+      "total_days": 334
+    },
+    {
+      "symbol": "BTCEUR",
+      "period": "validation_warmup",
+      "status": "valid",
+      "valid_days": 7,
+      "total_days": 7
+    },
+    {
+      "symbol": "ETHEUR",
+      "period": "development",
+      "status": "valid",
+      "valid_days": 366,
+      "total_days": 366
+    },
+    {
+      "symbol": "ETHEUR",
+      "period": "validation",
+      "status": "valid",
+      "valid_days": 334,
+      "total_days": 334
+    },
+    {
+      "symbol": "ETHEUR",
+      "period": "validation_warmup",
+      "status": "valid",
+      "valid_days": 7,
+      "total_days": 7
+    },
+    {
+      "symbol": "LINKEUR",
+      "period": "development",
+      "status": "incomplete",
+      "valid_days": 180,
+      "total_days": 366
+    },
+    {
+      "symbol": "LINKEUR",
+      "period": "validation",
+      "status": "incomplete",
+      "valid_days": 307,
+      "total_days": 334
+    },
+    {
+      "symbol": "LINKEUR",
+      "period": "validation_warmup",
+      "status": "incomplete",
+      "valid_days": 4,
+      "total_days": 7
+    },
+    {
+      "symbol": "SOLEUR",
+      "period": "development",
+      "status": "valid",
+      "valid_days": 366,
+      "total_days": 366
+    },
+    {
+      "symbol": "SOLEUR",
+      "period": "validation",
+      "status": "valid",
+      "valid_days": 334,
+      "total_days": 334
+    },
+    {
+      "symbol": "SOLEUR",
+      "period": "validation_warmup",
+      "status": "valid",
+      "valid_days": 7,
+      "total_days": 7
+    },
+    {
+      "symbol": "XRPEUR",
+      "period": "development",
+      "status": "incomplete",
+      "valid_days": 359,
+      "total_days": 366
+    },
+    {
+      "symbol": "XRPEUR",
+      "period": "validation",
+      "status": "valid",
+      "valid_days": 334,
+      "total_days": 334
+    },
+    {
+      "symbol": "XRPEUR",
+      "period": "validation_warmup",
+      "status": "valid",
+      "valid_days": 7,
+      "total_days": 7
+    }
+  ],
+  "performance_authorized": false,
+  "independent_test_authorized": false,
+  "integrity": "hash snapshot; writable files are not immutable",
+  "sha256": "9eac05d96a710905b63b675d2abcdbc528f2153b60c5c9e6eb48bc513393debb"
+}

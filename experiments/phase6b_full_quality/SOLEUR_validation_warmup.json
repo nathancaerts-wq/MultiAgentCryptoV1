@@ -1,0 +1,304 @@
+{
+  "symbol": "SOLEUR",
+  "period": "validation_warmup",
+  "start": "2025-01-25T00:00:00+00:00",
+  "end": "2025-02-01T00:00:00+00:00",
+  "days": [
+    {
+      "start": "2025-01-25T00:00:00+00:00",
+      "end": "2025-01-26T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/15m/SOLEUR-15m-2025-01-25.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/15m/SOLEUR-15m-2025-01-25.zip.CHECKSUM",
+          "sha256": "a1991a0e2787869cee7ab508b78d3b2f56f7ee39d712e7be5ca5fb80f2128b1f",
+          "start": "2025-01-25T00:00:00+00:00",
+          "end": "2025-01-26T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/1h/SOLEUR-1h-2025-01-25.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/1h/SOLEUR-1h-2025-01-25.zip.CHECKSUM",
+          "sha256": "b40e98eff44a082432f48626e7354b154654b7caa7b2aba26a4aa464043f370b",
+          "start": "2025-01-25T00:00:00+00:00",
+          "end": "2025-01-26T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/4h/SOLEUR-4h-2025-01-25.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/4h/SOLEUR-4h-2025-01-25.zip.CHECKSUM",
+          "sha256": "3a4488df543d7e37696383a3b01b2fc5e6636c46fe3851e7bd4c470442c09d9c",
+          "start": "2025-01-25T00:00:00+00:00",
+          "end": "2025-01-26T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-26T00:00:00+00:00",
+      "end": "2025-01-27T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/15m/SOLEUR-15m-2025-01-26.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/15m/SOLEUR-15m-2025-01-26.zip.CHECKSUM",
+          "sha256": "4ff1ea0e2149495d1c12c9573d98d88250d72293946b7cea1d32fe9aa3587d4a",
+          "start": "2025-01-26T00:00:00+00:00",
+          "end": "2025-01-27T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/1h/SOLEUR-1h-2025-01-26.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/1h/SOLEUR-1h-2025-01-26.zip.CHECKSUM",
+          "sha256": "27ce81cf6845a108557506a80e218f906c5000d37c5e9c29dd93e46cba2bd3b5",
+          "start": "2025-01-26T00:00:00+00:00",
+          "end": "2025-01-27T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/4h/SOLEUR-4h-2025-01-26.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/4h/SOLEUR-4h-2025-01-26.zip.CHECKSUM",
+          "sha256": "99956e31c5e2c71dca6efc140d33d684313db144d8057c52b83c307613772a3c",
+          "start": "2025-01-26T00:00:00+00:00",
+          "end": "2025-01-27T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-27T00:00:00+00:00",
+      "end": "2025-01-28T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/15m/SOLEUR-15m-2025-01-27.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/15m/SOLEUR-15m-2025-01-27.zip.CHECKSUM",
+          "sha256": "4070cc619d5c187905c64d1c3776e7e5b26ad48666b5dfc8739ca5106c2372ad",
+          "start": "2025-01-27T00:00:00+00:00",
+          "end": "2025-01-28T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/1h/SOLEUR-1h-2025-01-27.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/1h/SOLEUR-1h-2025-01-27.zip.CHECKSUM",
+          "sha256": "128e157c7fe7aa4cfe86ae009c21030d4c780e6d050ca27910fbbc370d5dd1d4",
+          "start": "2025-01-27T00:00:00+00:00",
+          "end": "2025-01-28T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/4h/SOLEUR-4h-2025-01-27.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/4h/SOLEUR-4h-2025-01-27.zip.CHECKSUM",
+          "sha256": "3650a00fc5dac3547e1ec59f91dbf07deba356ec0d529093f5787ebd702990b8",
+          "start": "2025-01-27T00:00:00+00:00",
+          "end": "2025-01-28T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-28T00:00:00+00:00",
+      "end": "2025-01-29T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/15m/SOLEUR-15m-2025-01-28.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/15m/SOLEUR-15m-2025-01-28.zip.CHECKSUM",
+          "sha256": "bd83f253e9a856db4988df4563da22fcbcfc71c780ac34d2144685a862dbb6c5",
+          "start": "2025-01-28T00:00:00+00:00",
+          "end": "2025-01-29T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/1h/SOLEUR-1h-2025-01-28.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/1h/SOLEUR-1h-2025-01-28.zip.CHECKSUM",
+          "sha256": "b59ed2485549b05f7967e886668c36d5d0f190f436f4d4d82f1b416bdeaf73dc",
+          "start": "2025-01-28T00:00:00+00:00",
+          "end": "2025-01-29T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/4h/SOLEUR-4h-2025-01-28.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/4h/SOLEUR-4h-2025-01-28.zip.CHECKSUM",
+          "sha256": "7204323d0b3396864bb9b1075c22715002c7992c3afa1d0c45c988821fe3db59",
+          "start": "2025-01-28T00:00:00+00:00",
+          "end": "2025-01-29T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-29T00:00:00+00:00",
+      "end": "2025-01-30T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/15m/SOLEUR-15m-2025-01-29.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/15m/SOLEUR-15m-2025-01-29.zip.CHECKSUM",
+          "sha256": "be525e72d54a7eb9585ac2cc653ae556fd9a8ba58bb2280462c278392447edc2",
+          "start": "2025-01-29T00:00:00+00:00",
+          "end": "2025-01-30T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/1h/SOLEUR-1h-2025-01-29.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/1h/SOLEUR-1h-2025-01-29.zip.CHECKSUM",
+          "sha256": "d6602ff49bb5b41dfb1f7a176c7bf0f292f838566c90111f4891961400aeef38",
+          "start": "2025-01-29T00:00:00+00:00",
+          "end": "2025-01-30T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/4h/SOLEUR-4h-2025-01-29.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/4h/SOLEUR-4h-2025-01-29.zip.CHECKSUM",
+          "sha256": "7140d043cc7782b5a41dfb834bc2e1b2be169edf4ca3f6bcf35d447cef325dbc",
+          "start": "2025-01-29T00:00:00+00:00",
+          "end": "2025-01-30T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-30T00:00:00+00:00",
+      "end": "2025-01-31T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/15m/SOLEUR-15m-2025-01-30.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/15m/SOLEUR-15m-2025-01-30.zip.CHECKSUM",
+          "sha256": "b7fcf9ec523c8f57cb98cd88f937d9fc1d7b63d0c6c6a8568da364d0ee57b365",
+          "start": "2025-01-30T00:00:00+00:00",
+          "end": "2025-01-31T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/1h/SOLEUR-1h-2025-01-30.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/1h/SOLEUR-1h-2025-01-30.zip.CHECKSUM",
+          "sha256": "1011917ad2b4b7b6f4976e003d5943fee8de14d9d246fc50215b26f67ae420e4",
+          "start": "2025-01-30T00:00:00+00:00",
+          "end": "2025-01-31T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/4h/SOLEUR-4h-2025-01-30.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/4h/SOLEUR-4h-2025-01-30.zip.CHECKSUM",
+          "sha256": "96b5af67595125b0754b71aca7ea0caebafe74b8ba64f6ccaf6866afc8fda9ad",
+          "start": "2025-01-30T00:00:00+00:00",
+          "end": "2025-01-31T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-31T00:00:00+00:00",
+      "end": "2025-02-01T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/15m/SOLEUR-15m-2025-01-31.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/15m/SOLEUR-15m-2025-01-31.zip.CHECKSUM",
+          "sha256": "dcb975931f769b64164397ac4efc0702bf1ae80ee8feac0cca378eb6d511a497",
+          "start": "2025-01-31T00:00:00+00:00",
+          "end": "2025-02-01T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/1h/SOLEUR-1h-2025-01-31.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/1h/SOLEUR-1h-2025-01-31.zip.CHECKSUM",
+          "sha256": "02a0826bb31c4acd895eae1e5b7fdcfd0a575e25d3b945bce7f83207a8d73a44",
+          "start": "2025-01-31T00:00:00+00:00",
+          "end": "2025-02-01T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/4h/SOLEUR-4h-2025-01-31.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/SOLEUR/4h/SOLEUR-4h-2025-01-31.zip.CHECKSUM",
+          "sha256": "92adcb8514f7fd36ca72b18d47a16cf743a3570790cfdeb2318636f48c4cdce6",
+          "start": "2025-01-31T00:00:00+00:00",
+          "end": "2025-02-01T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    }
+  ],
+  "performance_computed": false,
+  "status": "valid"
+}

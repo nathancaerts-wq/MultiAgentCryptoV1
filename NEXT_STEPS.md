@@ -1,20 +1,19 @@
-# Vervolg na technische voorbereiding fase 6B
+# Vervolg na fase-6B-blokkeringenonderzoek
 
-Het ontwerp is voorlopig aanvaard; historische rendementsevaluatie is niet toegestaan.
-Lees PHASE6B_READINESS_REPORT.md en behoud alle oude registraties en testsloten.
+Lees PHASE6B_FINAL_READINESS.md. Historische backtests zijn nog niet betrouwbaar
+technisch uitvoerbaar; onafhankelijke test en historische rendementsevaluatie
+blijven gesloten. Alle 317 tests en bestaande strategie-/risicoregels behouden.
 
-1. Voer de data-audit afzonderlijk uit voor de goedgekeurde D/V- en warm-upperioden;
-   bewaar per munt/dag de officiële checksums, kwaliteit en ontbrekende data.
-   Gebruik geen gesloten testdata. De huidige manifestdatasetvelden zijn nog leeg.
-2. Verzamel betrouwbare historische listing-/filterbewijzen. Actuele exchangeInfo
-   geldt niet als historische waarheid. Zonder bewijs geen historische instap.
-3. Werk de resterende technische blokkeringen uit met fixtures: historische
-   stage-regisseur, volledige bronveldconsistentie, benchmarkkalender/toelatingsgates
-   en schaalbaarheid. Behoud de aparte fixture- en historische autorisatiepaden.
-4. Vul het externe inzageregister aan en bind echte datasetidentificaties, code en
-   configuratie aan een gecontroleerd manifest. Hashes detecteren wijzigingen;
-   beschrijfbare bestanden zijn niet onveranderlijk.
-5. Vraag pas vóór historische rendementsevaluatie de expliciete toestemming die
-   nu ontbreekt. De onafhankelijke test vereist afzonderlijke toestemming.
-
-Geen parameteroptimalisatie, risicowijzigingen, echte transacties of paperbot.
+1. Beoordeel de officiële timeframeverschillen, inclusief lege 15m-candles.
+   Houd de huidige exacte vergelijking aan; geen alternatieve conventie zonder
+   voorafgaande afzonderlijke protocolkeuze. Dagrapporten staan in experiments/phase6b_full_quality.
+2. Zoek onafhankelijke historische filter-/listingbewijzen. Actuele exchangeInfo
+   is geen historisch feit. Het voorgestelde hypothetische model is niet geactiveerd.
+3. Ontwerp/test incrementele opslag en replay zodat de echte gezamenlijke runner
+   een volledige zesmunten-jaarfixture kan voltooien met rapporten, posities,
+   risicopauzes en herstarts. De huidige begrensde schaalproef bewijst dit niet.
+4. Voltooi de historische benchmarkregisseur en consolideer het externe inzageregister.
+5. Bind de uiteindelijke data/configuraties aan een nieuw gecontroleerd manifest;
+   hashes op beschrijfbare opslag zijn geen onveranderlijkheidsclaim.
+6. Vraag vóór enige historische rendementsevaluatie expliciete toestemming.
+   Onafhankelijke test vereist aparte toestemming. Geen volgende fase automatisch.

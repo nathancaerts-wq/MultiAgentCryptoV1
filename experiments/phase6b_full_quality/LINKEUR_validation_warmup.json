@@ -1,0 +1,292 @@
+{
+  "symbol": "LINKEUR",
+  "period": "validation_warmup",
+  "start": "2025-01-25T00:00:00+00:00",
+  "end": "2025-02-01T00:00:00+00:00",
+  "days": [
+    {
+      "start": "2025-01-25T00:00:00+00:00",
+      "end": "2025-01-26T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/15m/LINKEUR-15m-2025-01-25.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/15m/LINKEUR-15m-2025-01-25.zip.CHECKSUM",
+          "sha256": "e557d5a32da2314f1502ce6def4a69386adb82fd33de04224ec5f267047b9754",
+          "start": "2025-01-25T00:00:00+00:00",
+          "end": "2025-01-26T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/1h/LINKEUR-1h-2025-01-25.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/1h/LINKEUR-1h-2025-01-25.zip.CHECKSUM",
+          "sha256": "7ff98c2e3b9963ebb3029c2e9bec14af20e4fbd060d599d1b17b7546e277733a",
+          "start": "2025-01-25T00:00:00+00:00",
+          "end": "2025-01-26T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/4h/LINKEUR-4h-2025-01-25.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/4h/LINKEUR-4h-2025-01-25.zip.CHECKSUM",
+          "sha256": "ccb8d8194bac3df4eb754e9a65907ebebe2d1320837cdadb718d53e0426b47de",
+          "start": "2025-01-25T00:00:00+00:00",
+          "end": "2025-01-26T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "invalid",
+      "reason": "Timeframe OHLCV mismatch"
+    },
+    {
+      "start": "2025-01-26T00:00:00+00:00",
+      "end": "2025-01-27T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/15m/LINKEUR-15m-2025-01-26.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/15m/LINKEUR-15m-2025-01-26.zip.CHECKSUM",
+          "sha256": "cb0e88b7cd6f7b9fa0b92845898d580b531ac2ee5557aaa8907c49e6613c2dc8",
+          "start": "2025-01-26T00:00:00+00:00",
+          "end": "2025-01-27T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/1h/LINKEUR-1h-2025-01-26.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/1h/LINKEUR-1h-2025-01-26.zip.CHECKSUM",
+          "sha256": "4e71cdba410423476979f32f2197f10053d8a661dafe5791d43887a93883c79a",
+          "start": "2025-01-26T00:00:00+00:00",
+          "end": "2025-01-27T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/4h/LINKEUR-4h-2025-01-26.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/4h/LINKEUR-4h-2025-01-26.zip.CHECKSUM",
+          "sha256": "3bd4e83250389e5ae7c496e03d80af75f3c43219d0cc8edf975f477412e8e4b8",
+          "start": "2025-01-26T00:00:00+00:00",
+          "end": "2025-01-27T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "invalid",
+      "reason": "Timeframe OHLCV mismatch"
+    },
+    {
+      "start": "2025-01-27T00:00:00+00:00",
+      "end": "2025-01-28T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/15m/LINKEUR-15m-2025-01-27.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/15m/LINKEUR-15m-2025-01-27.zip.CHECKSUM",
+          "sha256": "1bab083b250590f7e50b08215409555ff7ca64cb6b8c589800580bd117252bfb",
+          "start": "2025-01-27T00:00:00+00:00",
+          "end": "2025-01-28T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/1h/LINKEUR-1h-2025-01-27.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/1h/LINKEUR-1h-2025-01-27.zip.CHECKSUM",
+          "sha256": "112ebda83032c095af97368b568087e97c3b568ee024397f022530f2aadc99c6",
+          "start": "2025-01-27T00:00:00+00:00",
+          "end": "2025-01-28T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/4h/LINKEUR-4h-2025-01-27.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/4h/LINKEUR-4h-2025-01-27.zip.CHECKSUM",
+          "sha256": "e8d7cd12f3247950adde985fa7488a474bcb62b174b73710d27d90096fdbc573",
+          "start": "2025-01-27T00:00:00+00:00",
+          "end": "2025-01-28T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-28T00:00:00+00:00",
+      "end": "2025-01-29T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/15m/LINKEUR-15m-2025-01-28.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/15m/LINKEUR-15m-2025-01-28.zip.CHECKSUM",
+          "sha256": "fdb2854ad1b5aabfa26c928559170dc89f5240819f70a087027177dc7e7a6dc8",
+          "start": "2025-01-28T00:00:00+00:00",
+          "end": "2025-01-29T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/1h/LINKEUR-1h-2025-01-28.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/1h/LINKEUR-1h-2025-01-28.zip.CHECKSUM",
+          "sha256": "7c4d9cf273a1cdb31a4a2c1804e6cd7c05cd0e579c79d73ff5f5d1ca113f096a",
+          "start": "2025-01-28T00:00:00+00:00",
+          "end": "2025-01-29T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/4h/LINKEUR-4h-2025-01-28.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/4h/LINKEUR-4h-2025-01-28.zip.CHECKSUM",
+          "sha256": "4c48f3537ad01d85f164dc3ad562fe18873b368481b13f635e1e088a456d1cc6",
+          "start": "2025-01-28T00:00:00+00:00",
+          "end": "2025-01-29T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "invalid",
+      "reason": "Timeframe OHLCV mismatch"
+    },
+    {
+      "start": "2025-01-29T00:00:00+00:00",
+      "end": "2025-01-30T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/15m/LINKEUR-15m-2025-01-29.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/15m/LINKEUR-15m-2025-01-29.zip.CHECKSUM",
+          "sha256": "f78cad09f3ed6c5bcc8b7c65d09fad576d45f90241dbd5a2a932a1bc073e53ed",
+          "start": "2025-01-29T00:00:00+00:00",
+          "end": "2025-01-30T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/1h/LINKEUR-1h-2025-01-29.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/1h/LINKEUR-1h-2025-01-29.zip.CHECKSUM",
+          "sha256": "2d4b9883d3256365ca94b05f12ee8c852c65f5a697ab44940cc0b1e6bec18cab",
+          "start": "2025-01-29T00:00:00+00:00",
+          "end": "2025-01-30T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/4h/LINKEUR-4h-2025-01-29.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/4h/LINKEUR-4h-2025-01-29.zip.CHECKSUM",
+          "sha256": "0d18af15cd5d5f6914ed03bd0b28fdfc9597f211d4841dc08c2ec601c16afe0b",
+          "start": "2025-01-29T00:00:00+00:00",
+          "end": "2025-01-30T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-30T00:00:00+00:00",
+      "end": "2025-01-31T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/15m/LINKEUR-15m-2025-01-30.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/15m/LINKEUR-15m-2025-01-30.zip.CHECKSUM",
+          "sha256": "96f9551b3da08a253a3e22cbcb8a0fc9c36c89170d6e02f3e9e783ec5629689d",
+          "start": "2025-01-30T00:00:00+00:00",
+          "end": "2025-01-31T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/1h/LINKEUR-1h-2025-01-30.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/1h/LINKEUR-1h-2025-01-30.zip.CHECKSUM",
+          "sha256": "bb9db8415beaab80b133aa64069eb7170a854dd5f8ff59a3b0993f8bd0f6ff9e",
+          "start": "2025-01-30T00:00:00+00:00",
+          "end": "2025-01-31T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/4h/LINKEUR-4h-2025-01-30.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/4h/LINKEUR-4h-2025-01-30.zip.CHECKSUM",
+          "sha256": "3f6491e3ab678a94ffdcb3ac4865e5f4f08c6152c74d59cdd0d8b0c205ccaa05",
+          "start": "2025-01-30T00:00:00+00:00",
+          "end": "2025-01-31T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    },
+    {
+      "start": "2025-01-31T00:00:00+00:00",
+      "end": "2025-02-01T00:00:00+00:00",
+      "archives": [
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/15m/LINKEUR-15m-2025-01-31.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/15m/LINKEUR-15m-2025-01-31.zip.CHECKSUM",
+          "sha256": "204c62bc806ab70c5add440c4846707d4e0d7e95c2b66473b1ecdf1fea133a30",
+          "start": "2025-01-31T00:00:00+00:00",
+          "end": "2025-02-01T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/1h/LINKEUR-1h-2025-01-31.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/1h/LINKEUR-1h-2025-01-31.zip.CHECKSUM",
+          "sha256": "a9480529c5de2388c308d861afa5240d041fb209e433d862aa8d27848636dcce",
+          "start": "2025-01-31T00:00:00+00:00",
+          "end": "2025-02-01T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        },
+        {
+          "source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/4h/LINKEUR-4h-2025-01-31.zip",
+          "checksum_source": "https://data.binance.vision/data/spot/daily/klines/LINKEUR/4h/LINKEUR-4h-2025-01-31.zip.CHECKSUM",
+          "sha256": "0da267f6c05b78b0af3f7f97deda5bc173e7668885f0341a90b917ccff5f9050",
+          "start": "2025-01-31T00:00:00+00:00",
+          "end": "2025-02-01T00:00:00+00:00",
+          "timestamp_unit": "us",
+          "format_reference": "https://github.com/binance/binance-public-data#spot",
+          "validation_status": "checksum_and_full_day_validated"
+        }
+      ],
+      "status": "valid",
+      "counts": {
+        "15m": 96,
+        "1h": 24,
+        "4h": 6
+      }
+    }
+  ],
+  "performance_computed": false,
+  "status": "incomplete"
+}
