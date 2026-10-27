@@ -246,3 +246,18 @@ tegenover 123,162 s met de checkpointcode opnieuw gemeten; chain 1.000: 76,711 s
 Volledige stateserialisatie/eventvalidatie blijft groeien. Geen jaarprobe uitgevoerd,
 geen historische backtest of testvrijgave. Zie PHASE6B_LEDGER_OPTIMIZATION_REPORT.md.
 De bestaande lokale oorzaakanalyse en artefacten zijn behouden.
+
+## Fase 6B — scalability finalization
+
+Volledige synthetische analyse-opbouw/replay gemeten voor 100/500/1.000 stappen,
+met cProfile, eerste/laatste 100 en piek-RSS. 1.000 stappen: 75,814 → 57,100 s.
+Begrensde causale feature- en gevalideerde candlecaches, versiegebonden rapportindex
+en inhoudsgebonden auditbewijs verminderen herhaald werk. 100-stappenreferentie
+inclusief analyses en audit byte-exact gelijk. Alle 353 tests slagen (340 behouden
+plus dertien nieuwe); één bestaande waarschuwing.
+
+Geen 2.000-run wegens voorspelde tijd/geheugen boven het diagnostische budget.
+Geen jaarprobe of historische backtest. Stateopslag blijft bijna kwadratisch;
+modeljaar circa 4 uur bij voldoende middelen, maar circa 214 GB statepayload maakt
+dat geen uitvoerbare verwachting voor de huidige in-memoryconfiguratie.
+Zie PHASE6B_SCALABILITY_REPORT.md. Onafhankelijke test gesloten.

@@ -28,8 +28,8 @@ class AnalysisContext:
             end=boundary(as_of,interval); start=end-timedelta(seconds=lookback*SECONDS[interval])
             try:
                 rows=engine.load(symbol,interval,start,end,as_of)
-                features=technical(rows,self.config)
                 digest=hashlib.sha256(json.dumps([c.model_dump(mode='json') for c in rows],sort_keys=True).encode()).hexdigest()
+                features=engine.technical_features(rows,self.config,technical,digest) if hasattr(engine,'technical_features') else technical(rows,self.config)
                 self.frames[interval]=dict(**features,start=start.isoformat(),end=end.isoformat(),count=len(rows),sources=sorted({r.source for r in rows}),sha256=digest)
             except Exception as exc:
                 self.frames[interval]=dict(status='incomplete',direction='unknown',missing=[str(exc)],start=start.isoformat(),end=end.isoformat(),count=0,sources=[])

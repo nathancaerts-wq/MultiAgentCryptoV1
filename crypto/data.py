@@ -111,6 +111,28 @@ class PublicDataAdapter:
 class DataEngine:
     def __init__(self, store, adapter): self.store,self.adapter=store,adapter
 
+    def technical_features(self, rows, config, compute, window_hash):
+        """Cache uitsluitend de pure indicatorfunctie op exacte gevalideerde input.
+
+        load/validate_series blijven vóór deze methode uitgevoerd. Geen Message,
+        as_of, TTL of toekomstige candle wordt uit de cache gereconstrueerd.
+        """
+        from collections import OrderedDict
+        from copy import deepcopy
+        if not hasattr(self,'_technical_cache'):
+            self._technical_cache=OrderedDict()
+            self._technical_cache_counts={'hits':0,'misses':0}
+        key=(window_hash,config.model_dump_json(),compute)
+        cache=self._technical_cache
+        if key in cache:
+            cache.move_to_end(key);self._technical_cache_counts['hits']+=1
+            return deepcopy(cache[key])
+        result=compute(rows,config)
+        self._technical_cache_counts['misses']+=1
+        cache[key]=deepcopy(result)
+        if len(cache)>128:cache.popitem(last=False)
+        return result
+
     def record_scan(self, message):
         key=str(message.event_id)
         if not self.store.db.execute('SELECT 1 FROM scan_runs WHERE id=?',(key,)).fetchone():
@@ -121,10 +143,28 @@ class DataEngine:
     def load(self, symbol, interval, start, end, as_of):
         # Exacte aanvraag bepaalt cache; bronadapter maakt deel uit van identiteit.
         key=hashlib.sha256(f'{type(self.adapter).__name__}:{getattr(self.adapter,"path",getattr(self.adapter,"BASE",""))}:{symbol}:{interval}:{start}:{end}'.encode()).hexdigest()
-        cached = self.store.get('datasets',key)
+        from collections import OrderedDict
+        if not hasattr(self,'_candle_cache'):
+            self._candle_cache=OrderedDict()
+            self._candle_cache_counts={'hits':0,'misses':0}
+        raw=self.store.get_payload('datasets',key) if hasattr(self.store,'get_payload') else None
+        previous=self._candle_cache.get(key)
+        hit=raw is not None and previous is not None and previous[0]==raw
+        cached=(None if raw is None else True) if hasattr(self.store,'get_payload') else self.store.get('datasets',key)
         try:
-            rows = [Candle.model_validate(r) for r in cached['rows']] if cached else self.adapter.fetch(symbol,interval,start,end)
+            if hit:
+                rows=list(previous[1]);self._candle_cache.move_to_end(key)
+                self._candle_cache_counts['hits']+=1
+            elif raw is not None:
+                rows=[Candle.model_validate(r) for r in json.loads(raw)['rows']]
+                self._candle_cache_counts['misses']+=1
+            else:
+                rows=[Candle.model_validate(r) for r in cached['rows']] if cached else self.adapter.fetch(symbol,interval,start,end)
             validate_series(rows,symbol,interval,start,end,as_of)
+            if raw is not None and not hit:
+                self._candle_cache[key]=(raw,tuple(rows));self._candle_cache.move_to_end(key)
+                if len(self._candle_cache)>128:self._candle_cache.popitem(last=False)
+
             if not cached:
                 payload=[r.model_dump(mode='json') for r in rows]
                 digest=hashlib.sha256(json.dumps(payload,sort_keys=True).encode()).hexdigest()

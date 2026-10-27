@@ -1,0 +1,16 @@
+{
+  "equal": true,
+  "steps": 100,
+  "coins": 3,
+  "sha256_uncompressed": "bf793351cd38edb40ee561f270e05c4df8102f58556d39c31b39d0580530413c",
+  "compared": [
+    "analyses",
+    "audit",
+    "joint_batches",
+    "joint_settlements",
+    "joint_states",
+    "regimes",
+    "results",
+    "scan_runs"
+  ]
+}

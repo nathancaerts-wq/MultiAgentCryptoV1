@@ -48,6 +48,12 @@ class SQLiteStore:
             raise ValueError('Onbekende tabel')
         self.db.execute(f'INSERT INTO {table} VALUES (?, ?)', (str(key), json.dumps(value, default=str, allow_nan=False)))
 
+    def get_payload(self, table, key):
+        """Lees de actuele payloadbytes (als tekst), zonder JSON-deserialisatie."""
+        if table not in TABLES:raise ValueError('Onbekende tabel')
+        row=self.db.execute(f'SELECT payload FROM {table} WHERE id=?',(str(key),)).fetchone()
+        return None if row is None else row[0]
+
     def get(self, table, key):
         if table not in TABLES:
             raise ValueError('Onbekende tabel')

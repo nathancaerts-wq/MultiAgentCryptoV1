@@ -116,6 +116,17 @@ class JointPortfolio:
             self._report_cached_version=version
         return self._report_cached_hash
 
+    def _reports_at(self, at):
+        # _frozen heeft de bundel eerst gevalideerd; herbouw index na elke mutatie.
+        self._report_digest()
+        token=(id(self.reports),self._report_revision.value)
+        if not self._report_revision.cacheable or getattr(self,'_report_index_token',None)!=token:
+            index={}
+            for r in self.reports:
+                index.setdefault(datetime.fromisoformat(r.data['as_of']),[]).append(r)
+            self._report_time_index={t:tuple(values) for t,values in index.items()};self._report_index_token=token
+        return self._report_time_index.get(at,())
+
     def _manifest(self):
         return dict(plan=self.plan.fingerprint,policy=self.policy.model_dump(mode='json'),
                     filters={s:self.rules[s].model_dump(mode='json') for s in sorted(self.rules)},
@@ -154,13 +165,20 @@ class JointPortfolio:
             previous = state['hash'];anchor=rowid;raw=payload
         if state is None: raise ValueError('Portefeuilletoestand ontbreekt')
         ledger = restore_ledger(state['ledger'],self.policy.decision,self.rules[state['active_rules']])
-        self._validate(state,ledger)
+        self._validate(state,ledger,audit_verified=state['hash'] in getattr(self,'_audit_proofs',()))
         if state.get('valuation')!=self._valuation(state,ledger): raise ValueError('Portefeuillewaardering inconsistent')
+        self._remember_audit_proof(state['hash'])
         self.risk.stopped = self.risk.stopped or state['stopped']
         self._chain_prefix=(epoch,anchor,revision,previous,raw)
         return state,ledger
 
-    def _validate(self, state, ledger):
+    def _remember_audit_proof(self, state_hash):
+        from collections import OrderedDict
+        if not hasattr(self,'_audit_proofs'):self._audit_proofs=OrderedDict()
+        self._audit_proofs[state_hash]=True;self._audit_proofs.move_to_end(state_hash)
+        if len(self._audit_proofs)>8:self._audit_proofs.popitem(last=False)
+
+    def _validate(self, state, ledger, audit_verified=False):
         ledger.reconcile()
         for n in (ledger.cash,ledger.realized,ledger.fees,ledger.peak,ledger.day_start,ledger.last_equity):
             if not n.is_finite(): raise ValueError('Niet-eindige administratie')
@@ -168,11 +186,12 @@ class JointPortfolio:
             raise ValueError('Gerealiseerd resultaat niet verklaard door transacties')
         fees = sum((D(t['fees']) for t in ledger.trades),D(0)) + (ledger.position.entry_fee if ledger.position else D(0))
         if fees!=ledger.fees: raise ValueError('Kostenadministratie inconsistent')
-        previous = '0'*64
-        for index,e in enumerate(ledger.events):
-            if e['sequence']!=index or e['previous']!=previous or digest({k:v for k,v in e.items() if k!='hash'})!=e['hash']:
-                raise ValueError('Ledger-auditketen inconsistent')
-            previous=e['hash']
+        if not audit_verified:
+            previous = '0'*64
+            for index,e in enumerate(ledger.events):
+                if e['sequence']!=index or e['previous']!=previous or digest({k:v for k,v in e.items() if k!='hash'})!=e['hash']:
+                    raise ValueError('Ledger-auditketen inconsistent')
+                previous=e['hash']
         p = ledger.position
         if p and (p.symbol!=state['active_rules'] or p.quantity<=0 or p.average_price<=0 or state['mark'] is None):
             raise ValueError('Inconsistente positie of ontbrekende waardering')
@@ -199,6 +218,7 @@ class JointPortfolio:
         state['valuation']=self._valuation(state,ledger)
         state['hash']=digest(state)
         self.store.put('joint_states',self.key+':'+str(state['revision']),state)
+        self._remember_audit_proof(state['hash'])
         self.store.audit('joint_'+kind,canonical(dict(portfolio=self.key,revision=state['revision'],hash=state['hash'])))
 
     def _compare(self, before):
@@ -271,8 +291,9 @@ class JointPortfolio:
         policy = self.policy.decision
         o = Orchestrator(self.store,evaluation_time=at,reuse_results=True)
         tasks = []
+        current_reports=self._reports_at(at)
         for s in self.plan.coins:
-            r = next((r for r in self.reports if r.coin==s and datetime.fromisoformat(r.data['as_of'])==at),None)
+            r = next((r for r in current_reports if r.coin==s),None)
             # Signaal op zichzelf; centrale portfolio-/slotcontrole volgt afzonderlijk.
             decision = self._decision(s,at,r)
             view = ledger.analysis_view()
@@ -289,7 +310,7 @@ class JointPortfolio:
         order = self.plan.coins[rotation:]+self.plan.coins[:rotation]
         # Ontbrekende marktkennis beïnvloedt de hele gelijktijdige selectie: geen
         # instap met een onvolledig of niet-gevalideerd vergelijkingsuniversum.
-        source_reports=[r for r in self.reports if datetime.fromisoformat(r.data['as_of'])==at]
+        source_reports=current_reports
         scanner_ids={r.data.get('dependencies',[])[-1] for r in source_reports if len(r.data.get('dependencies',[]))==5}
         incomplete=len(source_reports)!=len(self.plan.coins) or len(scanner_ids)!=1 or any(len(r.data.get('dependencies',[]))!=5 for r in source_reports)
         for s in self.plan.coins:
