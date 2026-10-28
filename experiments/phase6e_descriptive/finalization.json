@@ -1,0 +1,19 @@
+{
+  "status": "final_artifacts_bound",
+  "source_manifest": "0d606b4adabd4ef611f855934baa0ae175560777138f93935edf730caab28dd2",
+  "files": {
+    "experiments/phase6e_descriptive/result.json": "788c29ea33fa2cc66235e9d96d17741c7304d253b0e6d3613dc7b949e529e0c9",
+    "experiments/phase6e_descriptive/contrast_summary.csv": "1b8957df8f1b89ac053f81d1fb1c24194c98079d35be5a12457060f5130c1ae1",
+    "experiments/phase6e_descriptive/performance.json": "41283cfee7b47a12be55fe8d4ab4782b5795945a1e4f464f8282c6b14a8dbc06",
+    "experiments/phase6e_descriptive/verification.json": "4f3212183ab8ea159e34b95bf634f499d87d8a5945ef6eedb36a3b65525d8640",
+    "experiments/phase6e_descriptive/registration_v4.json": "747d22a7539a10f87f4a658c078208d6c18d7e005b7aeb5faf9e5139fdfa9b28",
+    "PHASE6E_DESCRIPTIVE_PATTERN_REPORT.md": "22b1ec756a93643c19e1ddcb91246cefed6c396d5de0c2f1be948c9d8e58b853",
+    "PROGRESS.md": "f52eaae4338517eb8ff28978ac3c4cc6d75e03f66c3f9191101a249541338879",
+    "NEXT_STEPS.md": "e61cdd14ddeb72e55e322efcc2af4a6fe54f4a3144d18f0c07dd1e132e9fb10c",
+    "scripts/phase6e_render.py": "a5bb2e24f3b4838ce8a1302e8d254b721a04611c2e2a5a88538ec62727958e0a",
+    "scripts/verify_phase6e_descriptive.py": "e9ea458bdcf194b8140ebbae0243e352dd99d33094e0be87a27986dc002d4316"
+  },
+  "old_results_preserved": true,
+  "validation_accessed": false,
+  "independent_test_opened": false
+}

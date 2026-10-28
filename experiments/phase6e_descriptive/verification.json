@@ -1,0 +1,13 @@
+{
+  "all_inference_fields_null": true,
+  "comparisons": 664,
+  "elapsed": 22.965377535991138,
+  "independent_test_opened": false,
+  "manifest": "0d606b4adabd4ef611f855934baa0ae175560777138f93935edf730caab28dd2",
+  "new_orders": 0,
+  "original_database_sha256": "fa2290c6352550186da5dd4750ad35077b4d9cf2cd2684322368eb96b28aadfa",
+  "original_label_totals_equal": true,
+  "peak_rss_kib": 29860,
+  "status": "verified_descriptive_only",
+  "validation_accessed": false
+}

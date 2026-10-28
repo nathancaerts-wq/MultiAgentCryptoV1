@@ -421,3 +421,25 @@ Probe37,960s/29,508MiB; 332-HAC-familie4,397s inclusief generatie, reproduceerba
 492 tests geslaagd (480 behouden +12), één bestaande waarschuwing. Oude resultaten,
 auditlogs, strategieën en protocolvoorstellen behouden. Geen historische analyse,
 backtest of order; 2025/2026 gesloten. Stop voor expliciete goedkeuring.
+
+## Fase 6E — goedgekeurde beschrijvende analyse 2024 voltooid
+
+Expliciete gebruikersgoedkeuring voor uitsluitend beschrijvende analyse geregistreerd
+vóór vergelijking. Vaste vijf hypotheses, 27 causale kenmerken, 332 contrasten,
+BTC/ETH/SOL en 103.344 bestaande fase-6D-labels. Primaire UTC4h-grid: 6.459
+coinmomenten, 6.307 HOLD; overlappende 15m-groep apart. 332 contrasten per
+steekproef (664 rijen) met n, ontbrekendheid, gemiddelden, medianen, p10/p90,
+min/max en steunstatus. 324 voldoende beschrijvend, acht pauzecontrasten met
+onvoldoende steun per steekproef. Geen p, inferentiële intervallen of handelsclaims.
+
+Extra oude warm-up-candles uit dezelfde officieel gecontroleerde januariarchieven.
+Eerste registratie stopte vóór uitkomsten op JSON/tuplecontrole; v2 gecontroleerd
+onderbroken wegens geheugen; v3-beschrijving achteraf diagnostisch verklaard wegens
+pauzegrens één beslismoment te vroeg. Alle registraties/resultaten behouden.
+Finale v4 vooraf gepusht en geverifieerd met originele ledgerstate: vanaf
+11 januari 16:15 UTC pauze op oorspronkelijk beslismoment. V4-run 268,595 s,
+297,0 MiB RSS, ruim binnen 600 s/1 GiB en vroege 768 MiB-grens.
+Oude database/resultaten/auditlogs byte-identiek; nul nieuwe orders/backtests.
+497 tests geslaagd (492 behouden +5), één bestaande waarschuwing.
+Zie PHASE6E_DESCRIPTIVE_PATTERN_REPORT.md en experiments/phase6e_descriptive/.
+2025-validatie en 2026-test gesloten; stop na deze fase.
