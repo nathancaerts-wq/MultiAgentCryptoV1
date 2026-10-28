@@ -1,0 +1,10 @@
+{
+  "base_commit": "86596f90d2ab53434912fce5972a660470e32a9b",
+  "forward_historical_evaluation_authorized": false,
+  "files": {
+    "crypto/missed_opportunity.py": "012177f354c2175ed4afe90fca558f230511928c0c858abeccd691ca3682622b",
+    "scripts/phase6c_diagnostics.py": "38a34563579c602a86c5cdb370ab57f7f2d9702f3f4ef0cab64b0d2542c6b1ec",
+    "PHASE6C_MEASUREMENT_PROPOSAL.md": "78b350f82a22c3842ddf7cbd69a98db398a40fffe071e382d48a90dfa0bd5c47"
+  },
+  "note": "Deliverable snapshot; writable files are not immutable. Decision classifications only, no forward-price evaluation."
+}

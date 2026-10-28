@@ -1,22 +1,17 @@
-# Na de volledige ontwikkelstudie 2024
+# Na fase 6C — eerst meetkeuzes bevestigen
 
-Alle zes vooraf geregistreerde ontwikkelruns zijn volledig afgerond en gecontroleerd.
-Lees PHASE6B_DEVELOPMENT_2024_REPORT.md. Aligned_trend-baseline: drie verliestrades,
-eindkapitaal €197,03206319; gelijk aan januari door de blijvende verliesreekspauze.
-EMA-baseline positief, maar negatief bij kostenstress; slechts vijf trades.
-Geen bewijs van structurele winstgevendheid of statistische superioriteit.
+Lees PHASE6C_DIAGNOSTICS_REPORT.md en PHASE6C_MEASUREMENT_PROPOSAL.md. De bestaande
+verliesreekspauze is een blijvende blokkering binnen dezelfde studie. Er is geen
+risicoreset, strategieaanpassing of nieuwe backtest uitgevoerd.
 
-1. Bewaar experiments/development_2024/ met protocol, kwaliteit, manifest,
-   scenarioresultaten, volledige 15m-curves en verification.json.
-2. Bewaar /workspace/development_2024.sqlite3 (volledige audit/checkpoints) en
-   /workspace/january_pilot.sqlite3 (ongewijzigd). De grote databases staan niet
-   in Git; een clone alleen bevat niet de volledige herstelgeschiedenis.
-3. Geen nieuwe replay of automatische hervatting: alle replays staan op de
-   laatste ontwikkelgrens 2025-01-01 00:00 UTC, zonder posities/reserveringen.
-4. Historische filters blijven hypothetisch, bronrevisies en selectie-/survivorshipbias
-   blijven beperkingen. Een driemunten-buy-and-hold-interface is nog niet gevalideerd.
-   Geen benchmark of uitvoeringsregel achteraf aanpassen aan deze resultaten.
-5. Validatie en onafhankelijke test blijven gesloten. Verder onderzoek vereist
-   een afzonderlijke expliciete opdracht; geen optimalisatie of strategiepromotie.
-
-402 automatische tests geslaagd. Stop na deze ontwikkelstudie.
+1. Bewaar de oude ontwikkel-/januaridatabases, manifesten, uitkomsten en auditlogs.
+   Nieuwe classificaties staan in experiments/phase6c/; oorspronkelijke artefacten
+   blijven ongewijzigd. 420 tests slagen.
+2. Bevestig vóór historische forward-labels: horizon/waardering, hoeveelheid/stop,
+   overlapconventie en definitie van een betere alternatieve coin. Voorstellen zijn
+   niet automatisch goedgekeurd. Geen historische gemiste winst of vermeden verlies
+   uit de huidige classificaties afleiden.
+3. Vier verbeterhypotheses zijn uitsluitend exploratieve voorstellen. Registreer
+   eventueel een aparte studie vóór een variant; Research Optimizer activeert niets.
+4. Geen herstart vanaf nul, geen pauze wissen, geen nieuwe strategie kiezen.
+   Validatie 2025 en onafhankelijke test 2026 blijven gesloten. Stop na de diagnose.

@@ -343,3 +343,19 @@ SQLite integrity ok, nul paperorders. Database /workspace/development_2024.sqlit
 389 tests en strategie-/risicomodules behouden. Geen validatie/test, optimalisatie
 of echte orders. Zie PHASE6B_DEVELOPMENT_2024_REPORT.md en experiments/development_2024/.
 Stop na ontwikkeling 2024; geen automatische vervolgfase.
+
+## Fase 6C — diagnostiek voltooid, nieuwe uitkomstlabels geblokkeerd
+
+Vanaf 86596f90: verliesreeks 1/2/3 gereconstrueerd, alle volgende checkpoints blijven
+gepauzeerd volgens het expliciete protocol. Geen automatische reset bestaat; geen
+verwerkingsfout in de drie verliezen gevonden. Sizing op cash versus controle op
+min(200,cash) is apart als aandachtspunt beschreven, zonder logica te wijzigen.
+Offline analyzer classificeert per baseline alle 103.395 opgeslagen coinbeoordelingen,
+ook HOLD. aligned_trend: 3 uitgevoerd, 4 bij fill geweigerd, 1.946 geblokkeerde
+kandidaten, 101.442 overige momenten. EMA: 5/2/39.765/63.623.
+420 tests geslaagd (402 behouden + 18). Oude datasetdatabase en alle ontwikkel-
+resultaten byte-identiek. Diagnose 64,870 s / 44,660 MiB binnen 300 s / 1 GiB.
+Nieuwe historische stijgings-/dalings-/netto-/alternatieve-coinlabels niet berekend:
+meetregistratie ontbreekt; expliciete gebruikersstopregel toegepast. Voorstel
+PHASE6C_MEASUREMENT_PROPOSAL.md wacht op bevestiging. Geen backtest, wijziging van
+strategie/risico, validatie- of testinzage. Zie PHASE6C_DIAGNOSTICS_REPORT.md.

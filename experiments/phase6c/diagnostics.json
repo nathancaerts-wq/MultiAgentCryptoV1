@@ -1,0 +1,390 @@
+{
+  "scope": "saved_2024_baseline_decisions_only",
+  "forward_labels_computed": false,
+  "forward_protocol_status": "proposal_requires_approval",
+  "studies": {
+    "aligned_trend_baseline": {
+      "rows": 103395,
+      "categories": {
+        "not_selected_no_buy": 101442,
+        "blocked_candidate": 1946,
+        "approved_execution_rejected": 4,
+        "executed_entry": 3
+      },
+      "reasons": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 83832,
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 18590,
+        "centrale Risk Engine akkoord; cash en positieplaats gereserveerd": 7,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 120,
+        "verliesreekspauze": 793,
+        "liquiditeit_15m": 53
+      },
+      "buy_candidates": 1953,
+      "higher_known_score_rows": 60924,
+      "higher_score_is_not_future_profit": true,
+      "trades": [
+        {
+          "at": "2024-01-09T00:45:00+00:00",
+          "coin": "ETHEUR",
+          "net": "-0.99591459",
+          "cash_after": "199.00408541",
+          "trailing_losses": 1
+        },
+        {
+          "at": "2024-01-10T13:00:00+00:00",
+          "coin": "ETHEUR",
+          "net": "-0.98857766",
+          "cash_after": "198.01550775",
+          "trailing_losses": 2
+        },
+        {
+          "at": "2024-01-11T16:00:00+00:00",
+          "coin": "SOLEUR",
+          "net": "-0.98344456",
+          "cash_after": "197.03206319",
+          "trailing_losses": 3
+        }
+      ],
+      "monthly_risk": {
+        "2024-01-01T00:00:00+00:00": {
+          "cash": "200",
+          "position": null,
+          "pending": null,
+          "losses": 0,
+          "loss_pause": false,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-02-01T00:00:00+00:00": {
+          "cash": "197.03206319",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-03-01T00:00:00+00:00": {
+          "cash": "197.03206319",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-04-01T00:00:00+00:00": {
+          "cash": "197.03206319",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-05-01T00:00:00+00:00": {
+          "cash": "197.03206319",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-06-01T00:00:00+00:00": {
+          "cash": "197.03206319",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-07-01T00:00:00+00:00": {
+          "cash": "197.03206319",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-08-01T00:00:00+00:00": {
+          "cash": "197.03206319",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-09-01T00:00:00+00:00": {
+          "cash": "197.03206319",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-10-01T00:00:00+00:00": {
+          "cash": "197.03206319",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-11-01T00:00:00+00:00": {
+          "cash": "197.03206319",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-12-01T00:00:00+00:00": {
+          "cash": "197.03206319",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2025-01-01T00:00:00+00:00": {
+          "cash": "197.03206319",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        }
+      },
+      "state_count": 34476,
+      "final_hash": "a2dff22a999003e0b144b9702c26a55f9e8796275c92481a0a857c9d445b3735",
+      "classifications_sha256": "f39f0c1971e5df04cc5fdf1c0c4ba5877c0b200cc88626a6d9a0475ee72a5058"
+    },
+    "ema_trend_baseline": {
+      "rows": 103395,
+      "categories": {
+        "not_selected_no_buy": 63623,
+        "approved_execution_rejected": 2,
+        "executed_entry": 5,
+        "blocked_candidate": 39765
+      },
+      "reasons": {
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 63560,
+        "centrale Risk Engine akkoord; cash en positieplaats gereserveerd": 7,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 255,
+        "positieplaats en cash gereserveerd voor hoger gerangschikte kandidaat": 2,
+        "gepland risico boven 0,5%": 30481,
+        "verliesreekspauze": 8776,
+        "liquiditeit_15m": 259,
+        "stop_exit_MIN_NOTIONAL": 4,
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 51
+      },
+      "buy_candidates": 39772,
+      "higher_known_score_rows": 68896,
+      "higher_score_is_not_future_profit": true,
+      "trades": [
+        {
+          "at": "2024-01-08T17:30:00+00:00",
+          "coin": "BTCEUR",
+          "net": "-0.29803399",
+          "cash_after": "199.70196601",
+          "trailing_losses": 1
+        },
+        {
+          "at": "2024-01-08T22:00:00+00:00",
+          "coin": "BTCEUR",
+          "net": "1.62185399",
+          "cash_after": "201.32382000",
+          "trailing_losses": 0
+        },
+        {
+          "at": "2024-01-09T02:45:00+00:00",
+          "coin": "BTCEUR",
+          "net": "-0.39778090",
+          "cash_after": "200.92603910",
+          "trailing_losses": 1
+        },
+        {
+          "at": "2024-01-09T07:15:00+00:00",
+          "coin": "BTCEUR",
+          "net": "-0.12306604",
+          "cash_after": "200.80297306",
+          "trailing_losses": 2
+        },
+        {
+          "at": "2024-01-09T12:15:00+00:00",
+          "coin": "BTCEUR",
+          "net": "-0.22072893",
+          "cash_after": "200.58224413",
+          "trailing_losses": 3
+        }
+      ],
+      "monthly_risk": {
+        "2024-01-01T00:00:00+00:00": {
+          "cash": "200",
+          "position": null,
+          "pending": null,
+          "losses": 0,
+          "loss_pause": false,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-02-01T00:00:00+00:00": {
+          "cash": "200.58224413",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-03-01T00:00:00+00:00": {
+          "cash": "200.58224413",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-04-01T00:00:00+00:00": {
+          "cash": "200.58224413",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-05-01T00:00:00+00:00": {
+          "cash": "200.58224413",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-06-01T00:00:00+00:00": {
+          "cash": "200.58224413",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-07-01T00:00:00+00:00": {
+          "cash": "200.58224413",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-08-01T00:00:00+00:00": {
+          "cash": "200.58224413",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-09-01T00:00:00+00:00": {
+          "cash": "200.58224413",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-10-01T00:00:00+00:00": {
+          "cash": "200.58224413",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-11-01T00:00:00+00:00": {
+          "cash": "200.58224413",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2024-12-01T00:00:00+00:00": {
+          "cash": "200.58224413",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        },
+        "2025-01-01T00:00:00+00:00": {
+          "cash": "200.58224413",
+          "position": null,
+          "pending": null,
+          "losses": 3,
+          "loss_pause": true,
+          "day_paused": false,
+          "drawdown_paused": false,
+          "emergency": false
+        }
+      },
+      "state_count": 34478,
+      "final_hash": "7981e27ddddbfba6c674cbede99d925abcb8781b8999ea32439ad7a4305212c9",
+      "classifications_sha256": "5ab041eff80f8509104568d2c43d5e792d7181959307a6925acb6c3665ec935d"
+    }
+  },
+  "database_sha256": "fa2290c6352550186da5dd4750ad35077b4d9cf2cd2684322368eb96b28aadfa",
+  "existing_artifacts_unchanged": true,
+  "elapsed": 64.870322407005,
+  "peak_rss_kib": 45732,
+  "limits": {
+    "seconds": 300,
+    "address_space_bytes": 1073741824
+  },
+  "validation_accessed": false,
+  "independent_test_opened": false
+}
