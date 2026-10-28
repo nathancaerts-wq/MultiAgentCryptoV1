@@ -315,18 +315,31 @@ Zie PHASE6B_JANUARY_PILOT_REPORT.md en experiments/january_pilot/. Checkpointdat
 /workspace/january_pilot.sqlite3 behouden, niet in Git. Geen validatie, onafhankelijke
 test, jaarprobe, benchmarks/stressruns, optimalisatie of echte orders. Stop na pilot.
 
-## Fase 6B — ontwikkeljaar 2024, uitvoering hervat
+## Fase 6B — ontwikkeljaar 2024 volledig afgerond
 
-Alleen BTC/EUR, ETH/EUR en SOL/EUR. Voorbereiding volledig voltooid; 108 officiële
-archieven/138.348 broncandles opnieuw geldig, 694,180 s en 177,113 MiB piek-RSS.
-Januari-checkpoint ongewijzigd geverifieerd; geen veilige verlenging van het
-verzegelde maandplan, daarom afzonderlijke jaarreplay. Financiële januariprefix
-exact gelijk: €197,03206319 en dezelfde drie trades.
+Alleen BTC/EUR, ETH/EUR en SOL/EUR, 2024; warm-up 1–7 januari. Alle 108 officiële
+archieven/138.348 broncandles opnieuw geldig. De bestaande voorbereiding is bij
+hervatting hergebruikt; geen duplicaatproces of financiële herstart vanaf nul.
+Januari-checkpoint ongewijzigd geverifieerd; afzonderlijke jaarreplay wegens de
+verzegelde maandgrenzen. Jaarprefix januari exact gelijk: €197,03206319 en drie trades.
 
-Baseline 2024 volledig voltooid, inclusief audit en reconstructie: 1.953 kandidaten,
-zeven entries goedgekeurd, vier fillafwijzingen, drie gesloten verliestrades;
-eindkapitaal €197,03206319. Slippage-stress volledig voltooid: €197,03119966.
-Overige vooraf vastgelegde runs zijn sequentieel in uitvoering, ieder maximaal
-1.800 seconden; statusbestanden/checkpoints blijven bewaard. Geen validatie/test.
-402 automatische tests geslaagd; 389 bestaande behouden plus 13 grens-/metingstests.
-Zie experiments/development_2024/ en PHASE6B_DEVELOPMENT_2024_REPORT.md.
+Alle zes geregistreerde replays volledig voltooid, januari t/m december: drie
+aligned_trend-kostenscenario’s en drie EMA-benchmarkscenario’s. Ieder 34.465
+chronologische evaluatiegrenzen; één €200-portefeuille per vergelijkingsscenario,
+geen reset per maand/coin. Baseline: 1.953 kandidaten, zeven entryreserveringen,
+vier fillafwijzingen, drie gesloten verliestrades; netto −€2,96793681 en eindkapitaal
+€197,03206319. Verliesreekspauze vanaf 11 januari blijft het hele jaar actief.
+Slippage-stress €197,03119966; dubbele kosten €197,03035790. EMA-baseline €200,58224413,
+EMA-slippage €199,17805569, EMA-dubbel €199,50530416; elk vijf trades. Onvoldoende bewijs.
+Cashbenchmark €200. Driemunten-buy-and-hold niet uitgevoerd: bestaande functie
+vereist zes coins; geen vervangende regels geïntroduceerd.
+
+Alle replays binnen 1.800 s en 1,5 GiB adresruimte; voorbereiding 694,180 s /
+177,113 MiB piek-RSS. Definitieve read-only verificatie: zes audit-/checkpointketens,
+unieke fills, kas/fees/netto, risicolimieten, chronologie, alle maanden/coinbijdragen,
+SQLite integrity ok, nul paperorders. Database /workspace/development_2024.sqlite3
+15.057.117.184 bytes; inhoudshash en eindcheckpoints in verification.json.
+402 tests geslaagd, 0 mislukt, één bestaande dependencywaarschuwing. Bestaande
+389 tests en strategie-/risicomodules behouden. Geen validatie/test, optimalisatie
+of echte orders. Zie PHASE6B_DEVELOPMENT_2024_REPORT.md en experiments/development_2024/.
+Stop na ontwikkeling 2024; geen automatische vervolgfase.
