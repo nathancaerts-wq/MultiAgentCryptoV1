@@ -24,9 +24,12 @@ from .sim_execution import OfflineLedger, SpotFilters, canonical, digest
 from .storage import SQLiteStore
 
 
-def pieces(value):
+def pieces(value, event_cache=False):
     """Exactly canonical JSON, including spaces, without materialising histories."""
     if isinstance(value, DiskList):
+        if event_cache and getattr(value, 'kind', None) == 'events' and not value.pending:
+            yield from value.store.event_pieces(value)
+            return
         yield '['
         for i, raw in enumerate(value.raws()):
             if i: yield ', '
@@ -37,15 +40,15 @@ def pieces(value):
         for i, key in enumerate(sorted(value)):
             if i: yield ', '
             yield json.dumps(key) + ': '
-            yield from pieces(value[key])
+            yield from pieces(value[key], event_cache)
         yield '}'
     else:
         yield canonical(value)
 
 
-def streamed_hash(value):
+def streamed_hash(value, event_cache=False):
     h = hashlib.sha256()
-    for part in pieces(value): h.update(part.encode())
+    for part in pieces(value, event_cache): h.update(part if isinstance(part, (bytes,bytearray)) else part.encode())
     return h.hexdigest()
 
 
@@ -76,6 +79,10 @@ class StreamingStore(SQLiteStore):
             portfolio TEXT, revision INTEGER, payload TEXT NOT NULL,
             PRIMARY KEY(portfolio,revision));
         ''')
+        self.db.execute('CREATE TABLE IF NOT EXISTS stream_hash_epoch (id INTEGER PRIMARY KEY, value INTEGER NOT NULL)')
+        self.db.execute('INSERT OR IGNORE INTO stream_hash_epoch VALUES (1,0)')
+        for op in ('UPDATE','DELETE'):
+            self.db.execute(f'CREATE TRIGGER IF NOT EXISTS stream_hash_{op} AFTER {op} ON stream_history BEGIN UPDATE stream_hash_epoch SET value=value+1 WHERE id=1; END')
         for table in ('stream_input','stream_seal','stream_history','stream_ids','stream_states'):
             for op in ('UPDATE','DELETE'):
                 self.db.execute(f"CREATE TRIGGER IF NOT EXISTS {table}_{op} BEFORE {op} ON {table} BEGIN SELECT RAISE(ABORT,'append-only streaming data'); END")
@@ -88,7 +95,11 @@ class StreamingStore(SQLiteStore):
         # One sequential owner per connection, as for SQLiteStore. Nested agent
         # commits become savepoints inside a single preparation timestamp.
         if not self.db.in_transaction:
-            with super().transaction(): yield
+            try:
+                with super().transaction(): yield
+            except BaseException:
+                self.__dict__.pop("_event_prefix",None)
+                raise
             return
         depth=getattr(self,'_savepoint_depth',0)+1
         self._savepoint_depth=depth
@@ -98,11 +109,52 @@ class StreamingStore(SQLiteStore):
             yield
             self.db.execute(f'RELEASE {name}')
         except BaseException:
+            self.__dict__.pop('_event_prefix',None)
             self.db.execute(f'ROLLBACK TO {name}')
             self.db.execute(f'RELEASE {name}')
             raise
         finally:
             self._savepoint_depth=depth-1
+
+    _event_cache_limit = 2 * 1024 * 1024
+
+    def event_pieces(self, events):
+        """Exact JSON bytes; one bounded prefix, anchored to the actual SQL tail.
+
+        Only immutable events are cached. IDs sort globally and cannot use this
+        append representation. No digest/context, financial state or proof is cached.
+        """
+        version=self.db.execute('PRAGMA data_version').fetchone()[0]
+        epoch=self.db.execute('SELECT value FROM stream_hash_epoch WHERE id=1').fetchone()[0]
+        cache=getattr(self,'_event_prefix',None)
+        if cache and cache['epoch']!=epoch:raise ValueError('Auditprefix gewijzigd')
+        if cache and cache['key']==events.key and cache['version']==version and cache['count']<=events.count:
+            row=self.db.execute("SELECT payload FROM stream_history WHERE portfolio=? AND kind='events' AND seq=?",
+                                (events.key,cache['count']-1)).fetchone() if cache['count'] else None
+            if cache['count'] and (row is None or row[0]!=cache['tail']):cache=None
+        else:cache=None
+        if cache is None:
+            cache=dict(key=events.key,version=version,epoch=epoch,count=0,size=0,chunks=[],tail=None)
+        self._event_prefix=cache
+        for (raw,) in self.db.execute("SELECT payload FROM stream_history WHERE portfolio=? AND kind='events' AND seq>=? AND seq<? ORDER BY seq",
+                                     (events.key,cache['count'],events.count)):
+            data=(b', ' if cache['count'] else b'')+raw.encode()
+            if cache['size']+len(data)>self._event_cache_limit:
+                self.__dict__.pop('_event_prefix',None)
+                yield '['
+                for i,raw in enumerate(events.raws()):
+                    if i:yield ', '
+                    yield raw
+                yield ']'
+                return
+            if not cache['chunks'] or len(cache['chunks'][-1])+len(data)>65536:
+                cache['chunks'].append(bytearray())
+            cache['chunks'][-1].extend(data)
+            cache['size']+=len(data);cache['count']+=1;cache['tail']=raw
+        if cache['count']!=events.count:raise ValueError('Auditprefix ontbreekt')
+        yield b'['
+        yield from cache['chunks']
+        yield b']'
 
     async def prepare_research(self, engine, at, coins):
         """One causal timestamp, all its analyses and reports committed together.
@@ -350,7 +402,7 @@ class StreamingFixtureRunner(FixtureJointRunner):
         state.update(ledger=self._ledger_value(ledger),kind=kind,stopped=state['stopped'] or self.risk.stopped,
                      revision=0 if before is None else before['revision']+1,previous='0'*64 if before is None else before['hash'])
         state.pop('hash',None);state['valuation']=self._valuation(state,ledger)
-        state['hash']=streamed_hash(state)
+        state['hash']=streamed_hash(state, event_cache=True)
         compact=dict(state);compact['ledger']=dict(state['ledger'])
         for name in ('events','trades','curve','ids'):
             compact['ledger'][name]={'count':getattr(ledger,name).count}

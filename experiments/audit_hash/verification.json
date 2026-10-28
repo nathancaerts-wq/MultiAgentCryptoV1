@@ -1,0 +1,55 @@
+{
+  "baseline_commit": "00271e19a459491d3a68c58c53f49a37defd00b8",
+  "comparisons": {
+    "100": {
+      "exact_content_hashes": true,
+      "tables": [
+        "results",
+        "analyses",
+        "regimes",
+        "scan_runs",
+        "stream_states",
+        "stream_history",
+        "joint_batches",
+        "joint_settlements",
+        "audit"
+      ],
+      "closed_trades": 3
+    },
+    "500": {
+      "exact_content_hashes": true,
+      "tables": [
+        "results",
+        "analyses",
+        "regimes",
+        "scan_runs",
+        "stream_states",
+        "stream_history",
+        "joint_batches",
+        "joint_settlements",
+        "audit"
+      ],
+      "closed_trades": 3
+    },
+    "1000": {
+      "exact_content_hashes": true,
+      "tables": [
+        "results",
+        "analyses",
+        "regimes",
+        "scan_runs",
+        "stream_states",
+        "stream_history",
+        "joint_batches",
+        "joint_settlements",
+        "audit"
+      ],
+      "closed_trades": 3
+    }
+  },
+  "tests_passed": 385,
+  "new_5000_run": false,
+  "year_probe": false,
+  "historical_returns": false,
+  "independent_test_opened": false
+}

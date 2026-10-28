@@ -280,3 +280,19 @@ Het herhaald lezen/hashen van de volledige auditgeschiedenis blijft een CPU-/I/O
 bottleneck. Prestatiefixtures hadden nul trades; lange actieve handelsketens en
 jaarcapaciteit zijn niet bewezen. Geen historische backtests, jaarprobe, testvrijgave
 of strategie-/risicowijzigingen. Zie PHASE6B_STREAMING_REPORT.md.
+
+
+## Fase 6B — audit-hashoptimalisatie, 28 oktober 2026
+
+Begrensde 2-MiB-cache van exacte eventbytes vermindert herhaalde SQL-prefixlezingen.
+Hashsemantiek, stream-v1-checkpoints, financiële regels en herstelcontroles behouden.
+Rollback/savepoint wist de cache; externe commits, tailcontrole en mutatie-epoch
+beschermen tegen verouderd hergebruik. Herstart verifieert alles zonder cache.
+
+100/500/1.000 synthetische stappen gemeten met elk drie gesloten virtuele trades.
+Alle vergeleken analyses, beslissingen, fills, states en auditregels exact gelijk
+tegen de module uit 00271e1. Bij 1.000 stappen: hashfunctie 2,028 → 0,886 s;
+totaal 89,977 → 91,382 s. Geen aantoonbare totale versnelling geclaimd.
+385 tests geslaagd (377 behouden plus acht nieuwe), 0 mislukt, één bestaande
+waarschuwing. Geen 5.000-run, jaarprobe, historische rendementen of testvrijgave.
+Zie PHASE6B_AUDIT_OPTIMIZATION_REPORT.md voor beperkingen en metingen.
