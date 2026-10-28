@@ -1,0 +1,245 @@
+{
+  "status": "aborted_environment_tmpfs",
+  "n": 5000,
+  "variant": "stream",
+  "phase": "analysis",
+  "samples": [
+    {
+      "label": "setup",
+      "elapsed": 1.0055445190009777,
+      "rss_kib": 35480,
+      "tracked_objects": 31852,
+      "objects": {
+        "builtins.function": 7091,
+        "builtins.tuple": 3952,
+        "builtins.dict": 3747,
+        "weakref.ReferenceType": 1905,
+        "builtins.wrapper_descriptor": 1396,
+        "builtins.getset_descriptor": 1335,
+        "builtins.method_descriptor": 1236,
+        "builtins.builtin_function_or_method": 1103,
+        "builtins.type": 1050,
+        "builtins.list": 1031,
+        "builtins.cell": 878,
+        "typing.ForwardRef": 666,
+        "builtins.member_descriptor": 649,
+        "builtins.set": 547,
+        "builtins.frozenset": 460
+      },
+      "candles": 0,
+      "messages": 0,
+      "caches": {
+        "_technical_cache": 0,
+        "_candle_cache": 0
+      }
+    },
+    {
+      "label": "analysis_500",
+      "elapsed": 15.384636421000323,
+      "rss_kib": 51352,
+      "tracked_objects": 57148,
+      "objects": {
+        "_contextvars.Context": 8004,
+        "asyncio.events.TimerHandle": 8000,
+        "builtins.function": 7094,
+        "builtins.set": 4658,
+        "builtins.tuple": 4339,
+        "crypto.data.Candle": 4096,
+        "builtins.dict": 3957,
+        "weakref.ReferenceType": 1961,
+        "builtins.list": 1402,
+        "builtins.wrapper_descriptor": 1396,
+        "builtins.getset_descriptor": 1335,
+        "builtins.method_descriptor": 1236,
+        "builtins.builtin_function_or_method": 1116,
+        "builtins.type": 1050,
+        "builtins.cell": 878
+      },
+      "candles": 4096,
+      "messages": 3,
+      "caches": {
+        "_technical_cache": 128,
+        "_candle_cache": 128
+      }
+    },
+    {
+      "label": "analysis_1000",
+      "elapsed": 29.92331893699884,
+      "rss_kib": 53784,
+      "tracked_objects": 72989,
+      "objects": {
+        "_contextvars.Context": 16004,
+        "asyncio.events.TimerHandle": 16000,
+        "builtins.function": 7094,
+        "builtins.set": 4658,
+        "builtins.tuple": 4339,
+        "crypto.data.Candle": 4096,
+        "builtins.dict": 3958,
+        "weakref.ReferenceType": 1801,
+        "builtins.list": 1402,
+        "builtins.wrapper_descriptor": 1396,
+        "builtins.getset_descriptor": 1335,
+        "builtins.method_descriptor": 1236,
+        "builtins.builtin_function_or_method": 1116,
+        "builtins.type": 1050,
+        "builtins.cell": 878
+      },
+      "candles": 4096,
+      "messages": 3,
+      "caches": {
+        "_technical_cache": 128,
+        "_candle_cache": 128
+      }
+    },
+    {
+      "label": "analysis_1500",
+      "elapsed": 44.66330466300133,
+      "rss_kib": 55284,
+      "tracked_objects": 89031,
+      "objects": {
+        "_contextvars.Context": 24004,
+        "asyncio.events.TimerHandle": 24000,
+        "builtins.function": 7094,
+        "builtins.set": 4658,
+        "builtins.tuple": 4339,
+        "crypto.data.Candle": 4096,
+        "builtins.dict": 3959,
+        "weakref.ReferenceType": 1842,
+        "builtins.list": 1402,
+        "builtins.wrapper_descriptor": 1396,
+        "builtins.getset_descriptor": 1335,
+        "builtins.method_descriptor": 1236,
+        "builtins.builtin_function_or_method": 1116,
+        "builtins.type": 1050,
+        "builtins.cell": 878
+      },
+      "candles": 4096,
+      "messages": 3,
+      "caches": {
+        "_technical_cache": 128,
+        "_candle_cache": 128
+      }
+    },
+    {
+      "label": "analysis_2000",
+      "elapsed": 59.49405089300126,
+      "rss_kib": 57972,
+      "tracked_objects": 105073,
+      "objects": {
+        "_contextvars.Context": 32004,
+        "asyncio.events.TimerHandle": 32000,
+        "builtins.function": 7094,
+        "builtins.set": 4658,
+        "builtins.tuple": 4339,
+        "crypto.data.Candle": 4096,
+        "builtins.dict": 3960,
+        "weakref.ReferenceType": 1883,
+        "builtins.list": 1402,
+        "builtins.wrapper_descriptor": 1396,
+        "builtins.getset_descriptor": 1335,
+        "builtins.method_descriptor": 1236,
+        "builtins.builtin_function_or_method": 1116,
+        "builtins.type": 1050,
+        "builtins.cell": 878
+      },
+      "candles": 4096,
+      "messages": 3,
+      "caches": {
+        "_technical_cache": 128,
+        "_candle_cache": 128
+      }
+    },
+    {
+      "label": "analysis_2500",
+      "elapsed": 74.32297076800023,
+      "rss_kib": 59248,
+      "tracked_objects": 121025,
+      "objects": {
+        "_contextvars.Context": 40004,
+        "asyncio.events.TimerHandle": 40000,
+        "builtins.function": 7094,
+        "builtins.set": 4658,
+        "builtins.tuple": 4339,
+        "crypto.data.Candle": 4096,
+        "builtins.dict": 3961,
+        "weakref.ReferenceType": 1834,
+        "builtins.list": 1402,
+        "builtins.wrapper_descriptor": 1396,
+        "builtins.getset_descriptor": 1335,
+        "builtins.method_descriptor": 1236,
+        "builtins.builtin_function_or_method": 1116,
+        "builtins.type": 1050,
+        "builtins.cell": 878
+      },
+      "candles": 4096,
+      "messages": 3,
+      "caches": {
+        "_technical_cache": 128,
+        "_candle_cache": 128
+      }
+    },
+    {
+      "label": "analysis_3000",
+      "elapsed": 89.234250169,
+      "rss_kib": 61168,
+      "tracked_objects": 137067,
+      "objects": {
+        "_contextvars.Context": 48004,
+        "asyncio.events.TimerHandle": 48000,
+        "builtins.function": 7094,
+        "builtins.set": 4658,
+        "builtins.tuple": 4339,
+        "crypto.data.Candle": 4096,
+        "builtins.dict": 3962,
+        "weakref.ReferenceType": 1875,
+        "builtins.list": 1402,
+        "builtins.wrapper_descriptor": 1396,
+        "builtins.getset_descriptor": 1335,
+        "builtins.method_descriptor": 1236,
+        "builtins.builtin_function_or_method": 1116,
+        "builtins.type": 1050,
+        "builtins.cell": 878
+      },
+      "candles": 4096,
+      "messages": 3,
+      "caches": {
+        "_technical_cache": 128,
+        "_candle_cache": 128
+      }
+    },
+    {
+      "label": "analysis_3500",
+      "elapsed": 104.27813127799891,
+      "rss_kib": 63216,
+      "tracked_objects": 153109,
+      "objects": {
+        "_contextvars.Context": 56004,
+        "asyncio.events.TimerHandle": 56000,
+        "builtins.function": 7094,
+        "builtins.set": 4658,
+        "builtins.tuple": 4339,
+        "crypto.data.Candle": 4096,
+        "builtins.dict": 3963,
+        "weakref.ReferenceType": 1916,
+        "builtins.list": 1402,
+        "builtins.wrapper_descriptor": 1396,
+        "builtins.getset_descriptor": 1335,
+        "builtins.method_descriptor": 1236,
+        "builtins.builtin_function_or_method": 1116,
+        "builtins.type": 1050,
+        "builtins.cell": 878
+      },
+      "candles": 4096,
+      "messages": 3,
+      "caches": {
+        "_technical_cache": 128,
+        "_candle_cache": 128
+      }
+    }
+  ],
+  "phases": {
+    "setup": 0.9854977760005568
+  },
+  "elapsed": 118.42259163600102,
+  "reason": "Explicitly stopped: /tmp is tmpfs, measurement repeated with disk-backed /workspace."
+}

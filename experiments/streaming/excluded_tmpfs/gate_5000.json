@@ -1,0 +1,13 @@
+{
+  "next_steps": 5000,
+  "prior_steps": 2000,
+  "prior_elapsed": 90.85630935600057,
+  "prior_peak_rss_kib": 65612,
+  "projected_linear_seconds": 227.1407733900014,
+  "timeout_seconds": 360,
+  "address_space_limit_bytes": 1610612736,
+  "rss_stop_bytes": 1288490188,
+  "decision": "proceed_synthetic_only",
+  "reason": "2000 completed, bounded object/cache population and RSS; 360s explicit diagnostic timeout, not year gate",
+  "year_probe": false
+}

@@ -1,0 +1,14 @@
+{
+  "next_steps": 5000,
+  "prior_steps": 2000,
+  "prior_elapsed": 112.01013334399977,
+  "prior_peak_rss_kib": 65520,
+  "projected_linear_seconds": 280.0253333599994,
+  "timeout_seconds": 360,
+  "address_space_limit_bytes": 1610612736,
+  "rss_stop_bytes": 1288490188,
+  "storage": "/workspace (overlay)",
+  "decision": "proceed_synthetic_only",
+  "reason": "Disk-backed 2000 completed in 112s at 64 MiB RSS; bounded caches and object populations, 360s explicit diagnostic timeout",
+  "year_probe": false
+}

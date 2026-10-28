@@ -261,3 +261,22 @@ Geen jaarprobe of historische backtest. Stateopslag blijft bijna kwadratisch;
 modeljaar circa 4 uur bij voldoende middelen, maar circa 214 GB statepayload maakt
 dat geen uitvoerbare verwachting voor de huidige in-memoryconfiguratie.
 Zie PHASE6B_SCALABILITY_REPORT.md. Onafhankelijke test gesloten.
+
+
+## Fase 6B — streamingcheckpoint, 28 oktober 2026
+
+Geheugenbegrensde fixture-runner met schijfopslag, compacte checkpoints en
+append-only historie toegevoegd. Bestaande agents, risicoregels en Decimal-fills
+worden hergebruikt. Exacte vergelijking met de bestaande runner, procescrash,
+rollback, pending entry/exit, dubbele fills en risicopauzes getest.
+
+Bestaande definitieve metingen bevestigd: 500 stappen 25,067 s / 59,0 MiB;
+1.000 stappen 52,620 s / 60,6 MiB; 2.000 stappen 112,010 s / 64,0 MiB;
+5.000 stappen voltooid in 291,499 s / 74,4 MiB. Geen meetproces bij hervatting,
+geen nieuwe meting gestart. Alle bronhashes stemmen overeen. 377 tests geslaagd
+(353 behouden plus 24 nieuwe), 0 mislukt, één bestaande dependencywaarschuwing.
+
+Het herhaald lezen/hashen van de volledige auditgeschiedenis blijft een CPU-/I/O-
+bottleneck. Prestatiefixtures hadden nul trades; lange actieve handelsketens en
+jaarcapaciteit zijn niet bewezen. Geen historische backtests, jaarprobe, testvrijgave
+of strategie-/risicowijzigingen. Zie PHASE6B_STREAMING_REPORT.md.
