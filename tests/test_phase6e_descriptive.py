@@ -25,3 +25,10 @@ def test_time_bitmap_counts_distinct_groups():
  bits=0
  for i in (0,0,16,16,32):bits |= 1 << i
  assert bits.bit_count()==3
+
+
+def test_pause_boundary_uses_pre_settlement_original_decision_state():
+ from datetime import datetime,timezone,timedelta
+ from scripts.phase6e_descriptive import PAUSE_DECISION_AT
+ before=datetime(2024,1,11,16,tzinfo=timezone.utc)
+ assert before<PAUSE_DECISION_AT==before+timedelta(minutes=15)

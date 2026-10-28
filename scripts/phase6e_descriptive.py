@@ -13,10 +13,12 @@ from scripts.phase6c_diagnostics import sha
 from scripts.phase6b_full_audit import CachedDownloads,MonthlyAuditAdapter
 
 ROOT=Path('experiments/phase6e_descriptive');DB=Path('/workspace/development_2024.sqlite3')
+PAUSE_DECISION_AT=utc('2024-01-11T16:15:00+00:00')
 APPROVAL='User Fase 6E: beschrijvende patroonanalyse; expliciete goedkeuring statistische amendering, 2024 BTC/ETH/SOL; geen p-waarden of backtests'
 SOURCE=[Path(p) for p in ('PHASE6E_STATISTICAL_AMENDMENT.md','PHASE6E_ANALYSIS_PROTOCOL_PROPOSAL.md','PHASE6E_HYPOTHESES.md',
   'experiments/phase6d/labels.jsonl.gz','experiments/phase6d/registration.json','experiments/phase6e/protocol_proposal.json',
   'experiments/phase6c/ema_trend_baseline_classifications.jsonl.gz',
+  'experiments/phase6e_descriptive/supersession_v3.json','experiments/phase6e_descriptive/result_v3_diagnostic.json',
   'scripts/phase6e_descriptive.py','scripts/phase6e_technical.py','crypto/indicators.py','scripts/phase6b_full_audit.py','crypto/archive.py')]
 def save(path,value):
  with path.open('x') as f:json.dump(value,f,sort_keys=True,indent=2,default=str);f.write('\n')
@@ -34,7 +36,7 @@ def approval_manifest():
     p=Path('/workspace/phase6b_archive_cache')/token
     if not p.exists():raise ValueError('Missing official cached January archive')
     source[str(p)]=sha(p)
- m=dict(version='phase6e-descriptive-v3',supersedes_registration='experiments/phase6e_descriptive/registration_v2.json; v2 stopped without result after observed memory growth from Python timegroup sets',approval=APPROVAL,prior_viewed_2024=True,
+ m=dict(version='phase6e-descriptive-v4',supersedes_registration='experiments/phase6e_descriptive/registration_v3.json; v3 diagnostic preserved but original decision at 16:00 preceded third loss settlement; pause begins 16:15',approval=APPROVAL,prior_viewed_2024=True,
   original_proposal_status='not_activated',amendment_scope='descriptive_only_this_2024_study',
   contrasts=contrast_family(),coins=COINS,first=FIRST.isoformat(),last=LAST.isoformat(),
   source_sha256=source,database_sha256=old['database_sha256'],database_bytes=DB.stat().st_size,
@@ -44,12 +46,12 @@ def approval_manifest():
  path=ROOT/('manifest_'+h+'.json')
  with path.open('xb') as f:f.write(raw)
  path.chmod(0o444)
- save(ROOT/'registration_v3.json',dict(manifest=str(path),sha256=h,status='approved_descriptive_only_before_comparisons',
+ save(ROOT/'registration_v4.json',dict(manifest=str(path),sha256=h,status='approved_descriptive_only_before_comparisons',
     prior_viewed_2024=True,validation_accessed=False,independent_test_opened=False))
  print('registered',h,flush=True)
 
 def check():
- reg=json.loads((ROOT/'registration_v3.json').read_text());m=json.loads(Path(reg['manifest']).read_text())
+ reg=json.loads((ROOT/'registration_v4.json').read_text());m=json.loads(Path(reg['manifest']).read_text())
  if sha(reg['manifest'])!=reg['sha256'] or reg['status']!='approved_descriptive_only_before_comparisons':raise ValueError('Registration changed')
  if m['approval']!=APPROVAL or m['contrasts']!=[list(k) for k in contrast_family()] or not m['no_inference']:raise ValueError('Wrong scope')
  for p,h in m['source_sha256'].items():
@@ -71,7 +73,7 @@ def summaries(values,selected,missing,blocks,groups):
 def run():
  reg,m=check()
  if (ROOT/'result.json').exists():raise ValueError('Existing results preserved')
- save(ROOT/'access_v3.json',dict(status='2024_previously_viewed_descriptive_only',manifest=reg['sha256'],
+ save(ROOT/'access_v4.json',dict(status='2024_previously_viewed_descriptive_only',manifest=reg['sha256'],
   validation_accessed=False,independent_test_opened=False,new_orders=0))
  ema=set()
  with gzip.open('experiments/phase6c/ema_trend_baseline_classifications.jsonl.gz','rt') as f:
@@ -136,7 +138,7 @@ def run():
      scores[other]=rank[0]['score'] if rank else None
     feats=extract_features(coin,t,windows,recorded,scores,score_at=t)
     regime=report['result']['components']['regime']['frames']['1h']['classification']
-    pause=t>=utc('2024-01-11T16:00:00+00:00')
+    pause=t>=PAUSE_DECISION_AT
     for sample in ('overlapping',)+(('utc4h',) if y['nonoverlap'] else ()):
      tbl=tables[sample];label=y['label'];net=bool(y['net_positive'])
      for key in ('all',)+(('hold',) if is_hold else ())+(('pause_hold' if pause else 'nonpause_hold',) if is_hold else ()):
@@ -194,5 +196,5 @@ if __name__=='__main__':
   approval_manifest() if mode=='register' else run()
   if mode=='run':save(ROOT/'performance.json',dict(elapsed=time.perf_counter()-start,peak_rss_kib=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss))
  except BaseException as e:
-  if mode=='run' and not (ROOT/'interruption_v3.json').exists():save(ROOT/'interruption_v3.json',dict(status='incomplete',reason=repr(e),elapsed=time.perf_counter()-start))
+  if mode=='run' and not (ROOT/'interruption_v4.json').exists():save(ROOT/'interruption_v4.json',dict(status='incomplete',reason=repr(e),elapsed=time.perf_counter()-start))
   raise

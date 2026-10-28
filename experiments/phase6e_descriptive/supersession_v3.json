@@ -1,0 +1,14 @@
+{
+  "status": "v3_diagnostic_not_final",
+  "reason": "At 2024-01-11T16:00 original decision classified position limit; state revision362 has 2 trades and pending position, revision363 after settlement has 3. Original decision boundary enters loss pause at 16:15 UTC.",
+  "files": {
+    "experiments/phase6e_descriptive/result_v3_diagnostic.json": "1c1e4fe0ae22f0d3f59d6b31f859e38bd6e307d8fb109e8f53fe87e6d4f254b4",
+    "experiments/phase6e_descriptive/performance_v3.json": "12a369bfbf6118b82ad7e2bab9ce80279108d99a5f74414ae46e0df4056e7822",
+    "experiments/phase6e_descriptive/verification_v3.json": "e231576496c2f419416dcab6937091ed34a524404dd7cffe6a976fc6eb39d4a5",
+    "experiments/phase6e_descriptive/contrast_summary_v3_diagnostic.csv": "48cfbed8ff7428f2bab39fb355db9d80f2642176656e8ab3df285ae350b38a1f",
+    "PHASE6E_DESCRIPTIVE_PATTERN_REPORT_v3_DIAGNOSTIC.md": "567f3807c815fef320e74c5a1c792e811c5ed9aa7b685c84cb8fea43cb136fa2"
+  },
+  "new_orders": 0,
+  "validation_accessed": false,
+  "independent_test_opened": false
+}
