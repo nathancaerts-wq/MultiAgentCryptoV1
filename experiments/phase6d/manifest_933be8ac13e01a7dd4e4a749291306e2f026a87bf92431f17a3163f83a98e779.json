@@ -1,0 +1,175 @@
+{
+  "database_bytes": 15057117184,
+  "database_sha256": "fa2290c6352550186da5dd4750ad35077b4d9cf2cd2684322368eb96b28aadfa",
+  "files": {
+    "crypto/opportunity_measurement.py": "9f9e37674d62b908ee56d2fda458264903806d1dca3dd52a2d0ab749f927f246",
+    "experiments/development_2024/aligned_trend_baseline.json": "80635bf28ab1488e64661362fd694a1e3f1d925ceac2cd166376e87d6762e6a9",
+    "experiments/development_2024/aligned_trend_baseline_access.json": "8468e419d8ece09de958fbd3b17c105bace98a73acef54b3c475b5e553eeeb0c",
+    "experiments/development_2024/aligned_trend_baseline_close_curve.csv.gz": "9be3351a82578862ba53d02eb112e476cb5e0e721b3e5b7e09cccb2779e5ffe6",
+    "experiments/development_2024/aligned_trend_double_costs.json": "7612ba595116bb6a9d3300fffbe93853641132b204582c66c7501bfb657b471e",
+    "experiments/development_2024/aligned_trend_double_costs_access.json": "6859d12ace170c038136d7fcb3743b4967c15434483b62697cbf1ee497ef621d",
+    "experiments/development_2024/aligned_trend_double_costs_close_curve.csv.gz": "555c3533f8d7c88e0571b90c024f93a038abe6998804fec8b4f96711115f26a5",
+    "experiments/development_2024/aligned_trend_slippage_stress.json": "851334de3b4e9766ab163b0290fe9cd1e8564ca946ad924f9a986481af422b20",
+    "experiments/development_2024/aligned_trend_slippage_stress_access.json": "9d95a3740bd6e89541397aceb2bbbaca87ba6e3e988148baf2802d3ef0f0ff80",
+    "experiments/development_2024/aligned_trend_slippage_stress_close_curve.csv.gz": "a0a9772e1660c243650827284774570e2a6f78c19e450e2968389251f1d330a5",
+    "experiments/development_2024/ema_trend_baseline.json": "5e12c541a7c098466f5c809ac41259ddac6c0b7a177ed072f7eb0d6bf3266e80",
+    "experiments/development_2024/ema_trend_baseline_access.json": "97cc0279ec898179a26f65d203ed1d33251f5ffe087e39f90cc6e5a4814476ee",
+    "experiments/development_2024/ema_trend_baseline_close_curve.csv.gz": "f3e0b884b8995417785189cdcfc2b3130138a6ee07291805205773a31a29fd91",
+    "experiments/development_2024/ema_trend_double_costs.json": "e3e465ceb0145afee7ef4212666c7e95054d3a95da6bb366041e70971f9ba26e",
+    "experiments/development_2024/ema_trend_double_costs_access.json": "8c21df72830746251e566c86d3ce06a82c7ab64a339e4e4a0ea2e863077ec4c3",
+    "experiments/development_2024/ema_trend_double_costs_close_curve.csv.gz": "dd3586617b3ed8bf0487e3e0006d547fe50a9aa133f524c9a7defbab007a2978",
+    "experiments/development_2024/ema_trend_slippage_stress.json": "8e5e5322ff59f15cfe106f0b141d14b250fee8b6fcc6b488a4b28f2e3f8e1238",
+    "experiments/development_2024/ema_trend_slippage_stress_access.json": "3fbde5eec454ebe4490bfeab14ac4bd3e011557767962075dd9bcdc91ad19acb",
+    "experiments/development_2024/ema_trend_slippage_stress_close_curve.csv.gz": "2baf1821b14ff01e6a346e18de7aba87c868350e52387a69608e4082781bcac6",
+    "experiments/development_2024/january_checkpoint.json": "3c59cbfb45f2ca0e9d9e0f0cf648f81832f969b9531e9aed5e9d56b6015539de",
+    "experiments/development_2024/january_comparison.json": "77cf8acdbdac1e780b8f8eecade5c4753854a588c1b73380f99cb6d8e30043bc",
+    "experiments/development_2024/manifest.json": "aba38dc2132f9ffc115bc2966208a4fd502a154b3ed64e8aba5e489980b76a62",
+    "experiments/development_2024/preparation.json": "cbbb6e542af92b015872ad1068d9e9c2746487a077b5191c3b20c7818d718623",
+    "experiments/development_2024/protocol.json": "353baa3b050c4f158d49b8ea1397626315717d46f6842095bcd21a7d43668551",
+    "experiments/development_2024/quality.json": "dd1deded15cd794f74ba1aa84dcfd8977ca154c06caea6edb383afba56cd99f3",
+    "experiments/development_2024/verification.json": "3e56f1eb7720d27df5013258893e84e00dd1dde3eafdd654734ad69621816e06",
+    "experiments/development_2024/verification_completed_prefix.json": "82f589e7f4b6f6cd8e5006e706bbaf0a8dc347a2cec6e20ce8f4a75f5c5f15f3",
+    "experiments/phase6c/aligned_trend_baseline_classifications.jsonl.gz": "f39f0c1971e5df04cc5fdf1c0c4ba5877c0b200cc88626a6d9a0475ee72a5058",
+    "experiments/phase6c/diagnostics.json": "823a90b7eeeb1cbbd8b6f854bffe63f2ad5dd75c41542448a4fe554c51420cd4",
+    "experiments/phase6c/ema_trend_baseline_classifications.jsonl.gz": "5ab041eff80f8509104568d2c43d5e792d7181959307a6925acb6c3665ec935d",
+    "experiments/phase6c/manifest.json": "a642806c64927bca437c9ce6010c19080071d5a012203f1b8f5f4d87ddef5ec8",
+    "experiments/phase6d/protocol.json": "e17d916641a466d1c0fe70b18647982734bad2b6251fa97527792ed6ae458d53",
+    "scripts/phase6d_measure.py": "641409ede3c828d64efe2f1bb77296ad2ec669dfc885edc6bf4d76303ae6b168"
+  },
+  "integrity": "Content-addressed exclusive creation, read-only mode and preregistration Git commit; not immutable against an administrator rewriting files/history",
+  "prior_exposures": [
+    {
+      "coins": [
+        "BTCEUR",
+        "ETHEUR",
+        "SOLEUR"
+      ],
+      "period": {
+        "end": "2025-01-01T00:00:00Z",
+        "start": "2024-01-01T00:00:00Z"
+      },
+      "plan": "29f11951679bb753a8367fa100feccc9360f66e14819f3370099cb4d99054d03",
+      "previously_exposed": true,
+      "stage": "development",
+      "viewed_at": "2026-10-28T14:55:30.464386+00:00"
+    },
+    {
+      "coins": [
+        "BTCEUR",
+        "ETHEUR",
+        "SOLEUR"
+      ],
+      "period": {
+        "end": "2025-01-01T00:00:00Z",
+        "start": "2024-01-01T00:00:00Z"
+      },
+      "plan": "738fac617916d53a6471d38d67496d753d14c03c352138f502f894122bda16d8",
+      "previously_exposed": true,
+      "stage": "development",
+      "viewed_at": "2026-10-28T15:16:49.624637+00:00"
+    },
+    {
+      "coins": [
+        "BTCEUR",
+        "ETHEUR",
+        "SOLEUR"
+      ],
+      "period": {
+        "end": "2025-01-01T00:00:00Z",
+        "start": "2024-01-01T00:00:00Z"
+      },
+      "plan": "f9b0c6b8072e478feed5e49d22a24bebb7258746174d902f65070f76f5ea9611",
+      "previously_exposed": true,
+      "stage": "development",
+      "viewed_at": "2026-10-28T15:38:15.775888+00:00"
+    },
+    {
+      "coins": [
+        "BTCEUR",
+        "ETHEUR",
+        "SOLEUR"
+      ],
+      "period": {
+        "end": "2025-01-01T00:00:00Z",
+        "start": "2024-01-01T00:00:00Z"
+      },
+      "plan": "8080fbc22741e5a7a422d069fa103e80cc5272878e668c5ad95927ded160b5e9",
+      "previously_exposed": true,
+      "stage": "development",
+      "viewed_at": "2026-10-28T16:00:45.175146+00:00"
+    },
+    {
+      "coins": [
+        "BTCEUR",
+        "ETHEUR",
+        "SOLEUR"
+      ],
+      "period": {
+        "end": "2025-01-01T00:00:00Z",
+        "start": "2024-01-01T00:00:00Z"
+      },
+      "plan": "f87a2c7cb1b2002e00f7027b5e42b943c937ba4204272c7a27ba0750599a6653",
+      "previously_exposed": true,
+      "stage": "development",
+      "viewed_at": "2026-10-28T16:22:17.528810+00:00"
+    },
+    {
+      "coins": [
+        "BTCEUR",
+        "ETHEUR",
+        "SOLEUR"
+      ],
+      "period": {
+        "end": "2025-01-01T00:00:00Z",
+        "start": "2024-01-01T00:00:00Z"
+      },
+      "plan": "40cb699822484f094b9a50059b219ea91f195af9e0014d35ecfec8744bd79390",
+      "previously_exposed": true,
+      "stage": "development",
+      "viewed_at": "2026-10-28T16:49:01.093684+00:00"
+    }
+  ],
+  "protocol": {
+    "HOLD": "original DecisionAgent action exactly HOLD; separately report all not-selected observations and BUY actions",
+    "alternative": "only count higher known scanner scores from original aligned_trend batch; no future winner selection",
+    "authorization": "User: Fase 6D Missed Opportunity Measurement; explicit 2024 development labels approval in this conversation",
+    "base_commit": "afce39d0c87bff9002a91339514cf99b6b697ff2",
+    "coins": [
+      "BTCEUR",
+      "ETHEUR",
+      "SOLEUR"
+    ],
+    "costs": {
+      "fee": "0.001",
+      "slippage": "0.001",
+      "spread": "0.001"
+    },
+    "data_end_exclusive": "2025-01-01T00:00:00+00:00",
+    "entry": "open at t of next candle after signal candle ending t",
+    "features": "only original report at t; each frame end <= t and aligned, parameters unchanged. Group 1h regime and existing EMA direction. Means of RSI, momentum and ATR/past 15m close by gross-label, with explicit missing counts; no fitted thresholds or significance claims",
+    "first_decision": "2024-01-08T00:00:00+00:00",
+    "gross": "lastclose/firstopen-1; positive >0, negative <0, flat =0, no fitted threshold",
+    "horizon_seconds": 14400,
+    "independent_test_authorized": false,
+    "last_decision": "2024-12-31T19:45:00+00:00",
+    "limits": {
+      "address_space_bytes": 1073741824,
+      "rss_bytes": 805306368,
+      "seconds": 600
+    },
+    "minimum": "min(low of sixteen full 15m candles)/firstopen-1; negative excursion from raw entry, not path-ordered drawdown",
+    "missing": "fail closed before complete result: invalid/missing/duplicate/unclosed/misaligned bars or absent/corrupt known report cause incomplete diagnostic; never fill prices or silently drop labels",
+    "net": "q*(FillCosts.sell_price(lastclose)-FillCosts.buy_price(firstopen))-ceil(entryfee,1e-8)-ceil(exitfee,1e-8); adverse tick, spread/slippage already in prices",
+    "orders": "reuse recorded baseline entry proposals, ex-ante ATR stop/quantity, Risk Engine and fillsimulator outcomes. No new HOLD-to-BUY conversion, risk reset, independent per-candle order portfolio or hypothetical veto override. Incomplete/denied chain means not proven allowable; price diagnosis is not an order simulation.",
+    "primary": "all overlapping quarter-hour observations; never sum P&Ls or treat them as independent trades",
+    "prior_views": "2024 already viewed in phase6B and 6C, all six research_exposures development. New descriptive label study, not an untouched sample, no independent-trade counting or merging exposures. Original registers unchanged.",
+    "quantity_each_coin": "0.001",
+    "quantity_reason": "Fixed decimal reference unit selected without forward outcomes; not EUR-equal weighting or an order satisfying exchange minimums. No crosscoin EUR-P&L ranking.",
+    "secondary": "UTC epoch seconds modulo 14400 equals zero; per-coin windows do not overlap, simultaneous coins remain dependent",
+    "tick": "0.01",
+    "validation_authorized": false,
+    "valuation": "close at t+4h, from last bar opened t+3h45m; hypothetical liquidation mark, not a same-close order",
+    "version": "phase6d-v1"
+  },
+  "version": "phase6d-v1"
+}
