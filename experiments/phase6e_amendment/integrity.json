@@ -1,0 +1,28 @@
+{
+  "base_commit": "c945709b1b682f94f8705c215432142fcf8f0992",
+  "status": "software_and_integrity_passed_method_limitations_reported",
+  "tests_passed": 492,
+  "database_sha256": "fa2290c6352550186da5dd4750ad35077b4d9cf2cd2684322368eb96b28aadfa",
+  "original_artifacts_unchanged": 44,
+  "original_code_protocol_and_hypotheses_unchanged": true,
+  "activated": false,
+  "historical_comparisons": 0,
+  "validation_accessed": false,
+  "independent_test_opened": false,
+  "source_sha256": {
+    "experiments/phase6e_amendment/synthetic_plan.json": "5dcf83abbbd84c7983226580111d7efeb9232f31fa6bb94e970108227433cb06",
+    "experiments/phase6e_amendment/synthetic_results.json": "645ef983f0f2403040019bb4e44feb7ac135d970a568a7952ff947dcbc8f2f27",
+    "scripts/phase6e_hac.py": "56a546c34a16f49e276fc71034a478043aecf1068c5a19a061ac42131cee2523",
+    "scripts/phase6e_amendment_probe.py": "3d30b48d1f7b61d50a267ffa47e59b242dd6dad6d78db91643536a4a85272f8c",
+    "tests/test_phase6e_hac.py": "50a3626b208fadbed9e432934a88f1b9d1e1f26ad0f0e62305adcdf23d2955d0",
+    "PHASE6E_STATISTICAL_AMENDMENT.md": "587d000b85067defe214c531320b769a6f8e0f6dd909a9810ffd62a3f5f7fc48",
+    "PROGRESS.md": "f64bf791d7ff26d3aed9c6956c7435007628e8bb84601d8c84f798fced117ea2",
+    "NEXT_STEPS.md": "292ad8b56f6feaf998604594da9101f56819fde2f234f5ccf1b72a149a2c2411"
+  },
+  "elapsed_seconds": 43.09003037400544,
+  "peak_rss_kib": 12404,
+  "limits": {
+    "seconds": 300,
+    "address_space_bytes": 1073741824
+  }
+}

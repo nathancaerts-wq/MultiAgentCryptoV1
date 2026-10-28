@@ -407,3 +407,17 @@ Technische kern werkt; inferentiële historische vrijgave ontbreekt. Meer replic
 of andere precisie-/budgetkeuzes vereisen aparte goedkeuring; niets geactiveerd.
 Geen nieuwe historische patroonvergelijking, backtest, risicoreset of strategie-
 wijziging. Oude resultaten/audits behouden. Validatie 2025/test 2026 gesloten.
+
+## Fase 6E — statistische amendering voorgesteld, niet actief
+
+Basis c945709. Afzonderlijk PHASE6E_STATISTICAL_AMENDMENT.md behoudt vijf hypotheses
+en 332 contrasten. Vooraf vastgelegde synthetische validatie van ratio-invloedsscore
+met HAC-lag42 versus bestaande bootstrap toont beperkingen bij sterke afhankelijkheid
+en regimebreuken. Geen model/lag achteraf aangepast. Aanbevolen veilig alternatief:
+beschrijvende 2024-analyse met expliciet ontbrekende inferentiële p's, uitsluitend
+na nieuwe goedkeuring. Meer replicaties/CP-Monte-Carlo-grenzen zijn een afzonderlijke,
+niet geactiveerde vervolgrichting; het oude 600s-budget blijft intact.
+Probe37,960s/29,508MiB; 332-HAC-familie4,397s inclusief generatie, reproduceerbaar.
+492 tests geslaagd (480 behouden +12), één bestaande waarschuwing. Oude resultaten,
+auditlogs, strategieën en protocolvoorstellen behouden. Geen historische analyse,
+backtest of order; 2025/2026 gesloten. Stop voor expliciete goedkeuring.

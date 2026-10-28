@@ -1,19 +1,18 @@
-# Na fase 6E — technische controle afgerond, besluit nodig
+# Na statistische amendering fase 6E — wacht op expliciete goedkeuring
 
-Lees PHASE6E_TECHNICAL_READINESS_REPORT.md. De synthetische feature-/statistiekkern
-werkt; 480 tests slagen. Beide bestaande capaciteitsmetingen zijn behouden.
+Lees PHASE6E_STATISTICAL_AMENDMENT.md. De vijf hypotheses en 332 contrasten zijn
+behouden. De aanbevolen amendering is **beschrijvend**, zonder inferentiële p-waarden,
+Holm-verwerpingen of winstclaims op het al bekeken 2024-jaar. Niet geactiveerd.
 
-1. Beoordeel de p-waarderesolutie: 9.999 replicaties is technisch haalbaar, maar
-   geeft onvoldoende precisie voor robuuste claims rond de eerste Holm-grens bij
-   332 toetsen. Kies expliciet beschrijvende analyse of eerst een apart voorstel
-   voor precisie/kalibratie/replicaties en passend budget. Geen keuze geactiveerd.
-2. PHASE6E_ANALYSIS_PROTOCOL_PROPOSAL.md en PHASE6E_HYPOTHESES.md zijn ongewijzigd.
-   Een benodigde methodologische wijziging krijgt een nieuwe versie en goedkeuring.
-   Geen historische uitvoering op grond van alleen een JSON-status of dit rapport.
-3. Voor een goedgekeurde historische studie: test de volledige read-only adapter,
-   valideer bron/parameters en nieuwe features zonder labeljoin, registreer daarna
-   een uitvoeringsmanifest met expliciete toestemming, dataset-, bron- en codehashes.
-   2024 is reeds bekeken en wordt niet onafhankelijk. Geen nieuwe prijslabels.
-4. Bewaar de oude onderzoeksartefacten en databases. Geen backtest, automatische
-   optimalisatie, risicopauzereset, strategieaanpassing of orders. Validatie 2025 en
-   onafhankelijke test 2026 blijven gesloten. Stop en wacht op expliciete goedkeuring.
+1. Beoordeel deze afzonderlijke amendering. De oude bootstrap en het onderzochte
+   HAC-alternatief geven onvoldoende bewijs voor algemene inferentiële geldigheid
+   onder sterke afhankelijkheid/regimebreuken. Numerieke precisie lost dat niet op.
+2. Alleen na expliciete toestemming: maak een nieuw uitvoeringsmanifest en valideer
+   de volledige labelvrije read-only feature-extractie. Houd alle 332 contrasten en
+   alle ontbrekende/onzekere rijen zichtbaar. Geen stille wijziging van oude registers.
+3. Formele inferentie vraagt apart methodologisch werk: aannames/kalibratie en
+   Monte-Carlo-precisie eerst vastleggen en synthetisch toetsen. Geen automatisch
+   verhogen van replicaties/budget of selecteren van gunstige lags/uitkomsten.
+4. Bewaar alle eerdere resultaten en databases. 492 tests slagen. Geen historische
+   patroonanalyse, backtests, orders, strategie-/risicoaanpassingen of automatische
+   promotie. Validatie 2025 en onafhankelijke test 2026 blijven gesloten.

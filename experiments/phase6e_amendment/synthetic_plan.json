@@ -1,0 +1,19 @@
+{
+  "status": "synthetic_only_not_historical_authorization",
+  "base_commit": "c945709b1b682f94f8705c215432142fcf8f0992",
+  "n": 2153,
+  "scenarios": ["ar0", "ar05", "ar09", "ar098", "variance_break", "random_level_break"],
+  "datasets_each": 200,
+  "paired_original_bootstrap_first": 20,
+  "bootstrap_replicates": 9999,
+  "bootstrap_seed": 606,
+  "data_seed": 606100,
+  "burn_in": 2000,
+  "candidate": "ratio influence function, Bartlett Newey-West HAC L=42, asymptotic normal two-sided p",
+  "lag_selected_without_outcomes": 42,
+  "thresholds": [0.05, 0.00015060240963855423],
+  "diagnostic_screen": "upper Wilson 95% bound of marginal null rejection at .05 <= .10; no certification of tiny tails or FWER",
+  "full_family_capacity": 332,
+  "limits": {"seconds": 300, "address_space_bytes": 1073741824, "rss_bytes": 805306368},
+  "fallback": "report failed model assumptions; descriptive-only 2024 recommendation, no retuning"
+}
