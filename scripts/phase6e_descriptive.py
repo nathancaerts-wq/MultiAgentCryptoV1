@@ -34,7 +34,7 @@ def approval_manifest():
     p=Path('/workspace/phase6b_archive_cache')/token
     if not p.exists():raise ValueError('Missing official cached January archive')
     source[str(p)]=sha(p)
- m=dict(version='phase6e-descriptive-v1',approval=APPROVAL,prior_viewed_2024=True,
+ m=dict(version='phase6e-descriptive-v2',supersedes_registration='experiments/phase6e_descriptive/registration.json; initial run stopped before reading outcomes because tuple/list scope comparison failed',approval=APPROVAL,prior_viewed_2024=True,
   original_proposal_status='not_activated',amendment_scope='descriptive_only_this_2024_study',
   contrasts=contrast_family(),coins=COINS,first=FIRST.isoformat(),last=LAST.isoformat(),
   source_sha256=source,database_sha256=old['database_sha256'],database_bytes=DB.stat().st_size,
@@ -44,14 +44,14 @@ def approval_manifest():
  path=ROOT/('manifest_'+h+'.json')
  with path.open('xb') as f:f.write(raw)
  path.chmod(0o444)
- save(ROOT/'registration.json',dict(manifest=str(path),sha256=h,status='approved_descriptive_only_before_comparisons',
+ save(ROOT/'registration_v2.json',dict(manifest=str(path),sha256=h,status='approved_descriptive_only_before_comparisons',
     prior_viewed_2024=True,validation_accessed=False,independent_test_opened=False))
  print('registered',h,flush=True)
 
 def check():
- reg=json.loads((ROOT/'registration.json').read_text());m=json.loads(Path(reg['manifest']).read_text())
+ reg=json.loads((ROOT/'registration_v2.json').read_text());m=json.loads(Path(reg['manifest']).read_text())
  if sha(reg['manifest'])!=reg['sha256'] or reg['status']!='approved_descriptive_only_before_comparisons':raise ValueError('Registration changed')
- if m['approval']!=APPROVAL or m['contrasts']!=contrast_family() or not m['no_inference']:raise ValueError('Wrong scope')
+ if m['approval']!=APPROVAL or m['contrasts']!=[list(k) for k in contrast_family()] or not m['no_inference']:raise ValueError('Wrong scope')
  for p,h in m['source_sha256'].items():
   if sha(p)!=h:raise ValueError('Source changed: '+p)
  if sha(DB)!=m['database_sha256']:raise ValueError('DB changed')

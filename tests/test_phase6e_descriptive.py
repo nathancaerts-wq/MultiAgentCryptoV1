@@ -14,3 +14,8 @@ def test_descriptive_summaries_and_missing_support():
 def test_fixed_family_and_scope():
  assert len(set(contrast_family()))==len(contrast_family())==332
  assert 'beschrijvende' in APPROVAL
+
+
+def test_json_roundtrip_of_fixed_contrast_family():
+ import json
+ assert json.loads(json.dumps(contrast_family()))==[list(k) for k in contrast_family()]
