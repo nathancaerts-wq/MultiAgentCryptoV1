@@ -314,3 +314,19 @@ geverifieerd; 389 tests geslaagd, 0 mislukt. Drie trades zijn onvoldoende bewijs
 Zie PHASE6B_JANUARY_PILOT_REPORT.md en experiments/january_pilot/. Checkpointdatabase
 /workspace/january_pilot.sqlite3 behouden, niet in Git. Geen validatie, onafhankelijke
 test, jaarprobe, benchmarks/stressruns, optimalisatie of echte orders. Stop na pilot.
+
+## Fase 6B — ontwikkeljaar 2024, uitvoering hervat
+
+Alleen BTC/EUR, ETH/EUR en SOL/EUR. Voorbereiding volledig voltooid; 108 officiële
+archieven/138.348 broncandles opnieuw geldig, 694,180 s en 177,113 MiB piek-RSS.
+Januari-checkpoint ongewijzigd geverifieerd; geen veilige verlenging van het
+verzegelde maandplan, daarom afzonderlijke jaarreplay. Financiële januariprefix
+exact gelijk: €197,03206319 en dezelfde drie trades.
+
+Baseline 2024 volledig voltooid, inclusief audit en reconstructie: 1.953 kandidaten,
+zeven entries goedgekeurd, vier fillafwijzingen, drie gesloten verliestrades;
+eindkapitaal €197,03206319. Slippage-stress volledig voltooid: €197,03119966.
+Overige vooraf vastgelegde runs zijn sequentieel in uitvoering, ieder maximaal
+1.800 seconden; statusbestanden/checkpoints blijven bewaard. Geen validatie/test.
+402 automatische tests geslaagd; 389 bestaande behouden plus 13 grens-/metingstests.
+Zie experiments/development_2024/ en PHASE6B_DEVELOPMENT_2024_REPORT.md.

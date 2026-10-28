@@ -1,0 +1,359 @@
+{
+  "status": "complete",
+  "candidate_signals": 1953,
+  "approved_entries": 7,
+  "rejected_buy_proposals": 1946,
+  "rejected_coin_assessments": {
+    "onvolledig vergelijkingsuniversum; geen nieuwe instap": 83832,
+    "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 18590,
+    "centrale positielimiet: \u00e9\u00e9n open positie": 120,
+    "verliesreekspauze": 793,
+    "liquiditeit_15m": 53
+  },
+  "rejection_reasons_by_coin": {
+    "BTCEUR": {
+      "onvolledig vergelijkingsuniversum; geen nieuwe instap": 27944,
+      "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 6270,
+      "centrale positielimiet: \u00e9\u00e9n open positie": 40,
+      "verliesreekspauze": 207,
+      "liquiditeit_15m": 1
+    },
+    "ETHEUR": {
+      "onvolledig vergelijkingsuniversum; geen nieuwe instap": 27944,
+      "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 6297,
+      "centrale positielimiet: \u00e9\u00e9n open positie": 40,
+      "verliesreekspauze": 169,
+      "liquiditeit_15m": 12
+    },
+    "SOLEUR": {
+      "onvolledig vergelijkingsuniversum; geen nieuwe instap": 27944,
+      "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 6023,
+      "centrale positielimiet: \u00e9\u00e9n open positie": 40,
+      "verliesreekspauze": 417,
+      "liquiditeit_15m": 40
+    }
+  },
+  "rejected_executions": {
+    "ongunstige open overschrijdt gereserveerde cash; geen automatische verhoging": 4
+  },
+  "trades": 3,
+  "trade_records": [
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-08T21:30:00+00:00",
+      "entry": "2141.46",
+      "entry_id": "3c2461a2baee09c8f2e6183a5eca6705088dc526e2d323b66ef9b2005974a3fc",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000493500000000",
+        "slippage": "0.0401991000000000",
+        "spread": "0.0200995500000000"
+      },
+      "entry_raw": "2138.25000000",
+      "exit": "2092.72",
+      "exit_id": "ac1f49b44c4fec0420cfb2d59273b7e68f98fb37d6716459851d2db0750fee8f",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0001164660",
+        "slippage": "0.0394023560",
+        "spread": "0.0197011780"
+      },
+      "exit_raw": "2095.87",
+      "exited_at": "2024-01-09T00:45:00+00:00",
+      "fees": "0.07960259",
+      "net": "-0.99591459",
+      "quantity": "0.01880",
+      "reason": "stop",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-10T10:15:00+00:00",
+      "entry": "2216.53",
+      "entry_id": "0bc10a33fc9085aec0dbce299bca064fa61a6e47461d6d39d5d69bb70c8b3695",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000027195000000",
+        "slippage": "0.0325341870000000",
+        "spread": "0.0162670935000000"
+      },
+      "entry_raw": "2213.21000000",
+      "exit": "2153.65",
+      "exit_id": "27f60bcfe54a09580836ab6f4fe98147f5020133569a3eecfa4ed447af748a89",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000685755",
+        "slippage": "0.0317062830",
+        "spread": "0.0158531415"
+      },
+      "exit_raw": "2156.89",
+      "exited_at": "2024-01-10T13:00:00+00:00",
+      "fees": "0.06424166",
+      "net": "-0.98857766",
+      "quantity": "0.01470",
+      "reason": "stop",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-11T12:00:00+00:00",
+      "entry": "95.45",
+      "entry_id": "f83c59e4936b4a9dff5bb2bbad3a4bebb4538fe05914b79c582745fbc5544a26",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0015557235000000",
+        "slippage": "0.0210298510000000",
+        "spread": "0.0105149255000000"
+      },
+      "entry_raw": "95.30000000",
+      "exit": "91.18",
+      "exit_id": "2466a9a68f6908237aac092121d18624bba88e44aaa682125dd5a936415f7b6a",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0006664234",
+        "slippage": "0.0201515844",
+        "spread": "0.0100757922"
+      },
+      "exit_raw": "91.32",
+      "exited_at": "2024-01-11T16:00:00+00:00",
+      "fees": "0.04118366",
+      "net": "-0.98344456",
+      "quantity": "0.22067",
+      "reason": "stop",
+      "symbol": "SOLEUR"
+    }
+  ],
+  "unique_fills": 6,
+  "winrate": "0",
+  "average_win": null,
+  "average_loss": "-0.98931227",
+  "net": "-2.96793681",
+  "net_percent": "-1.48396840500",
+  "expectancy": "-0.98931227",
+  "profit_factor": "0E+8",
+  "fees": "0.18502791",
+  "equity": "197.03206319",
+  "conservative_max_drawdown": "0.01509320075",
+  "close_max_drawdown": "0.01483968405",
+  "average_hold_seconds": "12000.0",
+  "time_exposure": "0.001138433515482695810564663024",
+  "capital_exposure_mean": "0.0001739134655879103544197001265",
+  "capital_exposure_max": "0.2017355441621655066151308245",
+  "capital_exposure_convention": "post-batch holdings marked at preceding 15m close; zero warm-up in denominator",
+  "per_coin": {
+    "BTCEUR": {
+      "trades": 0,
+      "net": "0",
+      "fees": "0",
+      "winrate": null
+    },
+    "ETHEUR": {
+      "trades": 2,
+      "net": "-1.98449225",
+      "fees": "0.14384425",
+      "winrate": "0"
+    },
+    "SOLEUR": {
+      "trades": 1,
+      "net": "-0.98344456",
+      "fees": "0.04118366",
+      "winrate": "0"
+    }
+  },
+  "per_month": {
+    "2024-01": {
+      "start_equity": "200",
+      "end_equity": "197.03206319",
+      "net": "-2.96793681",
+      "trade_summary": {
+        "trades": 3,
+        "net": "-2.96793681",
+        "fees": "0.18502791",
+        "winrate": "0"
+      }
+    },
+    "2024-02": {
+      "start_equity": "197.03206319",
+      "end_equity": "197.03206319",
+      "net": "0E-8",
+      "trade_summary": {
+        "trades": 0,
+        "net": "0",
+        "fees": "0",
+        "winrate": null
+      }
+    },
+    "2024-03": {
+      "start_equity": "197.03206319",
+      "end_equity": "197.03206319",
+      "net": "0E-8",
+      "trade_summary": {
+        "trades": 0,
+        "net": "0",
+        "fees": "0",
+        "winrate": null
+      }
+    },
+    "2024-04": {
+      "start_equity": "197.03206319",
+      "end_equity": "197.03206319",
+      "net": "0E-8",
+      "trade_summary": {
+        "trades": 0,
+        "net": "0",
+        "fees": "0",
+        "winrate": null
+      }
+    },
+    "2024-05": {
+      "start_equity": "197.03206319",
+      "end_equity": "197.03206319",
+      "net": "0E-8",
+      "trade_summary": {
+        "trades": 0,
+        "net": "0",
+        "fees": "0",
+        "winrate": null
+      }
+    },
+    "2024-06": {
+      "start_equity": "197.03206319",
+      "end_equity": "197.03206319",
+      "net": "0E-8",
+      "trade_summary": {
+        "trades": 0,
+        "net": "0",
+        "fees": "0",
+        "winrate": null
+      }
+    },
+    "2024-07": {
+      "start_equity": "197.03206319",
+      "end_equity": "197.03206319",
+      "net": "0E-8",
+      "trade_summary": {
+        "trades": 0,
+        "net": "0",
+        "fees": "0",
+        "winrate": null
+      }
+    },
+    "2024-08": {
+      "start_equity": "197.03206319",
+      "end_equity": "197.03206319",
+      "net": "0E-8",
+      "trade_summary": {
+        "trades": 0,
+        "net": "0",
+        "fees": "0",
+        "winrate": null
+      }
+    },
+    "2024-09": {
+      "start_equity": "197.03206319",
+      "end_equity": "197.03206319",
+      "net": "0E-8",
+      "trade_summary": {
+        "trades": 0,
+        "net": "0",
+        "fees": "0",
+        "winrate": null
+      }
+    },
+    "2024-10": {
+      "start_equity": "197.03206319",
+      "end_equity": "197.03206319",
+      "net": "0E-8",
+      "trade_summary": {
+        "trades": 0,
+        "net": "0",
+        "fees": "0",
+        "winrate": null
+      }
+    },
+    "2024-11": {
+      "start_equity": "197.03206319",
+      "end_equity": "197.03206319",
+      "net": "0E-8",
+      "trade_summary": {
+        "trades": 0,
+        "net": "0",
+        "fees": "0",
+        "winrate": null
+      }
+    },
+    "2024-12": {
+      "start_equity": "197.03206319",
+      "end_equity": "197.03206319",
+      "net": "0E-8",
+      "trade_summary": {
+        "trades": 0,
+        "net": "0",
+        "fees": "0",
+        "winrate": null
+      }
+    }
+  },
+  "loss_streak_pause_from": "2024-01-11T16:00:00+00:00",
+  "pause_until": "2025-01-01 00:00:00+00:00",
+  "outlier_diagnostics": {
+    "without_top_3_winners": "-2.96793681",
+    "without_worst_3_losers": "0E-8",
+    "removed_winners": 0,
+    "removed_losers": 3
+  },
+  "state_hash": "a2dff22a999003e0b144b9702c26a55f9e8796275c92481a0a857c9d445b3735",
+  "last_revision": 34475,
+  "portfolio": {
+    "available_cash": "197.03206319",
+    "average_price": null,
+    "cash": "197.03206319",
+    "cost_basis": "0",
+    "equity": "197.03206319",
+    "exposure": "0E-8",
+    "exposure_fraction": "0",
+    "fees": "0.18502791",
+    "fees_by_coin": {
+      "BTCEUR": "0",
+      "ETHEUR": "0.14384425",
+      "SOLEUR": "0.04118366"
+    },
+    "holdings": {},
+    "liquidation_equity": "197.03206319",
+    "mark": null,
+    "max_open_positions": 1,
+    "mode": "joint_offline_research",
+    "pending": null,
+    "portfolio": "joint:29f11951679bb753a8367fa100feccc9360f66e14819f3370099cb4d99054d03",
+    "realized": "-2.96793681",
+    "realized_by_coin": {
+      "BTCEUR": "0",
+      "ETHEUR": "-1.98449225",
+      "SOLEUR": "-0.98344456"
+    },
+    "reserved_cash": "0",
+    "reserved_exposure": "0",
+    "reserved_quantity": "0",
+    "reserved_risk": "0",
+    "unrealized": "0",
+    "valuation_at": "2025-01-01T00:00:00+00:00"
+  },
+  "curve_sha256": "9be3351a82578862ba53d02eb112e476cb5e0e721b3e5b7e09cccb2779e5ffe6",
+  "independent_test_opened": false,
+  "validation_accessed": false,
+  "elapsed": 1276.8731932730007,
+  "peak_rss_kib": 96692,
+  "checkpoint": "/workspace/development_2024.sqlite3",
+  "checkpoint_reconstruction_equal": true,
+  "processed_boundaries": 34465,
+  "processed_execution_candles": 103392
+}

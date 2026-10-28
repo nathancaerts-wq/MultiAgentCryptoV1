@@ -1,0 +1,47 @@
+{
+  "validated": true,
+  "snapshot": {
+    "available_cash": "197.03206319",
+    "average_price": null,
+    "cash": "197.03206319",
+    "cost_basis": "0",
+    "equity": "197.03206319",
+    "exposure": "0E-8",
+    "exposure_fraction": "0",
+    "fees": "0.18502791",
+    "fees_by_coin": {
+      "BTCEUR": "0",
+      "ETHEUR": "0.14384425",
+      "SOLEUR": "0.04118366"
+    },
+    "holdings": {},
+    "liquidation_equity": "197.03206319",
+    "mark": null,
+    "max_open_positions": 1,
+    "mode": "joint_offline_research",
+    "pending": null,
+    "portfolio": "joint:07089fb4a1523fb2a593ef19c6c1f04903da94e6713d14b1ec766552fd7ab1ba",
+    "realized": "-2.96793681",
+    "realized_by_coin": {
+      "BTCEUR": "0",
+      "ETHEUR": "-1.98449225",
+      "SOLEUR": "-0.98344456"
+    },
+    "reserved_cash": "0",
+    "reserved_exposure": "0",
+    "reserved_quantity": "0",
+    "reserved_risk": "0",
+    "unrealized": "0",
+    "valuation_at": "2024-02-01T00:00:00+00:00"
+  },
+  "state_hash": "3543fbfe33819f3cf317ae38054d805c6f28147db59cc6d6e96867c7ccd749b8",
+  "database_sha256": "6c1e170a294e1db60ce5b9bafae9c2ee97a4297bca6cacd0a24dc5cee1b33d57",
+  "input_seal": {
+    "input_hash": "5710604fa26a7af2b42355a7bc521cad3816d31d74cec56535b70db3a03f46da",
+    "reports": "173d60b0abd6abac475593865f59a3425c8be1fe1c648cf07dbeb59deac99130"
+  },
+  "consecutive_losses": 3,
+  "resumable_within_original_plan": true,
+  "extensible_to_year": false,
+  "reason": "January plan/end, input seal, report bundle and terminal cutoff are frozen; no approved migration"
+}

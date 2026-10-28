@@ -1,0 +1,1020 @@
+{
+  "status": "valid",
+  "start": "2024-01-01T00:00:00+00:00",
+  "end": "2025-01-01T00:00:00+00:00",
+  "datasets": [
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/15m/BTCEUR-15m-2024-01.zip",
+      "sha256": "a3d647abfa9279f69354513d1a93171272419c0259cf1d7463b2378d36f9c194",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/1h/BTCEUR-1h-2024-01.zip",
+      "sha256": "e18c8e7802b0e7653f79d14ba1218ef8e076b3194eb23894ef589719beb224ca",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/4h/BTCEUR-4h-2024-01.zip",
+      "sha256": "844ebb007c8b733715cd02404821feedd959f0a5042e255b3a78945dbfee2b9c",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/15m/BTCEUR-15m-2024-02.zip",
+      "sha256": "e87fe56cb1175ccbc84c6fa0370dfaad594fd39c6400e393a2b830f422227086",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/1h/BTCEUR-1h-2024-02.zip",
+      "sha256": "b5d47296f53f25dc85a00c648ea25332fa2ec2aa81bc996a40071bf51bfc8c83",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/4h/BTCEUR-4h-2024-02.zip",
+      "sha256": "824f3a29ae9b54d45b7a1549341d8fb07f0a80688bda4d37309acfe13a194a16",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/15m/BTCEUR-15m-2024-03.zip",
+      "sha256": "d0a4e9ddab038a5df58ff179587c719e8f40b8e93ccc2b0e4253ee96ad7f0784",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/1h/BTCEUR-1h-2024-03.zip",
+      "sha256": "11448675b6f7367a195f4cb279cb3d2800f85eaee9f31cb9316d26b2296b0b41",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/4h/BTCEUR-4h-2024-03.zip",
+      "sha256": "9b1f3eb5206f3b731fc72db85102d406b2cc2d1c43b8929403e507993167c8f5",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/15m/BTCEUR-15m-2024-04.zip",
+      "sha256": "fac920aef5d4f53f42ade42e758b88d49b3aa800bee2196692a2464e859bf7e1",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/1h/BTCEUR-1h-2024-04.zip",
+      "sha256": "d6f12808533774eda87ef4ff42f569ebe2c889c5c0997935590a8491b69cc2f6",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/4h/BTCEUR-4h-2024-04.zip",
+      "sha256": "35a983208e718df7ac827ac9f36b156d20c5a00af22312654baa96203a48ac8e",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/15m/BTCEUR-15m-2024-05.zip",
+      "sha256": "bef1a01564c494e8fc3da0b0b1031110dbe5de0975c8bbf033a1a82c847b1452",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/1h/BTCEUR-1h-2024-05.zip",
+      "sha256": "4baf7b0a89dcedd50dd7f80f77bf110abcd4d1b314658ff240e039cc2d56aa31",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/4h/BTCEUR-4h-2024-05.zip",
+      "sha256": "1525cc3050a714c430a31298dfdc399c740933b222c84976f68395f274f0c771",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/15m/BTCEUR-15m-2024-06.zip",
+      "sha256": "63008acd32756fab559ad711a7d3e7823fc0b7c72c0906454b09ab5099fbd6a7",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/1h/BTCEUR-1h-2024-06.zip",
+      "sha256": "6e807452dee8c1163f05df841c03bc8a3ee38194383406656f9a32f0c521e91d",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/4h/BTCEUR-4h-2024-06.zip",
+      "sha256": "cfdabc8d2300f65445e26f86d95d7aa8ed7cc3b509cdcd80cf805826e4adf975",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/15m/BTCEUR-15m-2024-07.zip",
+      "sha256": "18b5e0ad0c7411f68a216240a626b18a2bbc35947d0a826009b2585572f1c2d5",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/1h/BTCEUR-1h-2024-07.zip",
+      "sha256": "338f67f4c3f1ac4c63a1ae74c3ec159f2bb92eb01540cb1c8cfcc5bd49d92ba4",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/4h/BTCEUR-4h-2024-07.zip",
+      "sha256": "5dd406f97acb43aeca1a3b0739903a472dd46750bcb153e5c136a00bf87a841d",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/15m/BTCEUR-15m-2024-08.zip",
+      "sha256": "9055eca39d0b734aa83b019265cb772293123670ca562e1778abec35967da312",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/1h/BTCEUR-1h-2024-08.zip",
+      "sha256": "9c866754c9dd1d106f6a7b0f3abada5c0f44efff9eda1af5f70b5dca044dd11c",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/4h/BTCEUR-4h-2024-08.zip",
+      "sha256": "f3c87b8faf2ce569b2f9a137063a8313b314b54b35a3d29f360cb0ff989bedcf",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/15m/BTCEUR-15m-2024-09.zip",
+      "sha256": "f34ca9de484207a998b67057a2252d790a83a416efd5a956af2915e26066719a",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/1h/BTCEUR-1h-2024-09.zip",
+      "sha256": "6c5852d8dcedc2b4d20fc1e94b029a74f7acc484ec31223712c88ca4c4d53ed9",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/4h/BTCEUR-4h-2024-09.zip",
+      "sha256": "6038308e012a199d4b9c175480170e888ac7f161fb49ad7ee91e94b423ef8049",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/15m/BTCEUR-15m-2024-10.zip",
+      "sha256": "9a990b1687b270a0b3b6e5e7bf92cf63eef6b9b07e46db4abf681e54f1f31764",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/1h/BTCEUR-1h-2024-10.zip",
+      "sha256": "9848d6ad774bb3aaf34fb2bfcdcc5efb7693742517985ba8217ea248f0c53872",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/4h/BTCEUR-4h-2024-10.zip",
+      "sha256": "ea0bb7ba8a226b67162339cbb2b1227f74eb58423e945ec6b4a76f8069669356",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/15m/BTCEUR-15m-2024-11.zip",
+      "sha256": "bd9d9a0401888affda0056f88d4d234af5972089bfdb7d52ef7d11309ba83282",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/1h/BTCEUR-1h-2024-11.zip",
+      "sha256": "d2fc7f96768d46ba333eed535ed8a9b5f25b440462525fe308dfa31a5784c6d8",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/4h/BTCEUR-4h-2024-11.zip",
+      "sha256": "8ed82dddd3334505801624cf0d7604cc445e55f790b422f8e98f643a07c40d25",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/15m/BTCEUR-15m-2024-12.zip",
+      "sha256": "f9cd5b8be8c916daa9081efa1b34e5730410c390ec8f501327260ca8a3413587",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/1h/BTCEUR-1h-2024-12.zip",
+      "sha256": "dd876f1fa20fb47f32cb857c3afe76bf94f78b85d5da21f5ccefc2ed3c320b89",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/4h/BTCEUR-4h-2024-12.zip",
+      "sha256": "07df498b6a0fe11b916f984fa96ff5e3fff73eed3f7079e31a52bcdea9400f4d",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/15m/ETHEUR-15m-2024-01.zip",
+      "sha256": "8be035cbbd544754c1c19a9e651eba604b5061a2f0b0994a7326329defa5d4b2",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/1h/ETHEUR-1h-2024-01.zip",
+      "sha256": "d3f52b58a4937ff3f89af25543136b41b0a8b9e945b7a01013ad0460fcf19046",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/4h/ETHEUR-4h-2024-01.zip",
+      "sha256": "422bbbf0afda7918fd203d753010bd3a862c0a0de55d94f3dc07faf143c53ed4",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/15m/ETHEUR-15m-2024-02.zip",
+      "sha256": "9aeb7cf93428a0e06f96c70c592230e155aec6c7cee6b4b621ce81c80df63e7d",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/1h/ETHEUR-1h-2024-02.zip",
+      "sha256": "3d3b89ec2fc2b40c19d521457ae80a0a24e71c52fbc2228df61d57ce17617a2d",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/4h/ETHEUR-4h-2024-02.zip",
+      "sha256": "cdea374c71ac544e8a3111be5c9cf9111ddbdadf0cbfa47464135f282954f253",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/15m/ETHEUR-15m-2024-03.zip",
+      "sha256": "36f60313cfb3aedee0223b6e25a0943e7820da5578ae3ab6c9db3db8d88d7fe2",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/1h/ETHEUR-1h-2024-03.zip",
+      "sha256": "0fdaa44bb26d21956332732c5b7f5245b7c02a02da2658252097bd6838f1be0a",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/4h/ETHEUR-4h-2024-03.zip",
+      "sha256": "00314ef360862511b5b02ff181185a03dbee9b8bf2b83ebd210926f5102e6bda",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/15m/ETHEUR-15m-2024-04.zip",
+      "sha256": "c1cb43eb48af205090c99ecba2e18b04b118f6a96788052ea7ee62c5933b0a1c",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/1h/ETHEUR-1h-2024-04.zip",
+      "sha256": "0e2acc09804e34604a46cbbf81938d460d06b1f01b4f19ca805f9326f64e04dc",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/4h/ETHEUR-4h-2024-04.zip",
+      "sha256": "5d65f233e9ad863aac77e81031970e5843aaf88a071b7355facbf79c80ddd32f",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/15m/ETHEUR-15m-2024-05.zip",
+      "sha256": "e66481df5f06781b6d7bfbcd33a56a0a35352f27c5708c765104d037fe1cad2b",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/1h/ETHEUR-1h-2024-05.zip",
+      "sha256": "2c4ff76585f0c138a7377624df352be13235e8e78599ba6291f1f442da1ef9d3",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/4h/ETHEUR-4h-2024-05.zip",
+      "sha256": "172877b2c451d72f5e6f87781b119e0c2d92e7fe1464bb63dc681ccaddab96d4",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/15m/ETHEUR-15m-2024-06.zip",
+      "sha256": "7711c73f9e901233989b3e0905b48f2c278870e3f53fc1ec63d28375e2702841",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/1h/ETHEUR-1h-2024-06.zip",
+      "sha256": "140c4161f34fe48632a2077c1329a9debf88cebbcd9284861e48a83610a71089",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/4h/ETHEUR-4h-2024-06.zip",
+      "sha256": "813630074aa3c4b10e77c0bfe6158281acabaa612795be0f486600996cbd4bf7",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/15m/ETHEUR-15m-2024-07.zip",
+      "sha256": "c20b5c6a77bce85c4131cd1619151186acc3be5b6f2b3ebda5aae13b679c5742",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/1h/ETHEUR-1h-2024-07.zip",
+      "sha256": "b4b6a3465602498649bb6b798291d3436f35e3980b64235cb9cec1d3fd2c127e",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/4h/ETHEUR-4h-2024-07.zip",
+      "sha256": "ce4fe38aed5d617ccf5d4f8ff4f5f696f365dd25ffb9decf0a21bea30bd242d5",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/15m/ETHEUR-15m-2024-08.zip",
+      "sha256": "3b1007335517defb1121dee6f673bbdc11ee83fb77936f13ceaf7439c31cccbd",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/1h/ETHEUR-1h-2024-08.zip",
+      "sha256": "75a2791d9d57d61c1120c0b88339c4aaa695f15e0f12c06375ecbf91bf0d1c02",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/4h/ETHEUR-4h-2024-08.zip",
+      "sha256": "6f177acd4b990c00c1b1966b0b1b8abb09ce24260c309d437fb39f5c21b02cf6",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/15m/ETHEUR-15m-2024-09.zip",
+      "sha256": "d4118f2d4af5ed40b686b41d42392493d42237f701259d9c398fdc7056df79c8",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/1h/ETHEUR-1h-2024-09.zip",
+      "sha256": "9d462d73726afbd17a52f0a4bd37a624d7584c2461d63d6a0d2544548ad83c0f",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/4h/ETHEUR-4h-2024-09.zip",
+      "sha256": "cebb1935a63e8e093ff102806754e07d006390634afa9bcdf9781f76b8266742",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/15m/ETHEUR-15m-2024-10.zip",
+      "sha256": "1f2aa080d95128fb14af40a00987a4ff9c52a92723b444ce38a6d9aa952e31f3",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/1h/ETHEUR-1h-2024-10.zip",
+      "sha256": "6c8883ca3792d5cb250539fe2945f432e1ed04f6fececa9a54852ab89ef42797",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/4h/ETHEUR-4h-2024-10.zip",
+      "sha256": "daddb1fcfe10ff8a846d566d9689652f8381cf85049e0ee87f3049ea6081fbdf",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/15m/ETHEUR-15m-2024-11.zip",
+      "sha256": "6060e3159036011f88e0a323d4d1de894f18257b80fb87dbca04ef5a8b7abdf5",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/1h/ETHEUR-1h-2024-11.zip",
+      "sha256": "99f40194a9e32967f818c92296dd51a92a95a0028b2ffc2fff852513ea71ace6",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/4h/ETHEUR-4h-2024-11.zip",
+      "sha256": "0ba0de2b94cc0e54caa738d5459c05e34dd3cce36d5d94d191c2c3871dfebf54",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/15m/ETHEUR-15m-2024-12.zip",
+      "sha256": "373d68ce32ef53f818fc64f39ddd14013c0b0409cdb10599e7099b2c7b27d77c",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/1h/ETHEUR-1h-2024-12.zip",
+      "sha256": "62df625186bd1b5bd7541509dc7eb1724ff50a7d3e70515a1ad204b8e34bcbf3",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/4h/ETHEUR-4h-2024-12.zip",
+      "sha256": "8c72a6e119ea257b344e3872dff3090ec64cf74e97dd041124a1257da06f247c",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/15m/SOLEUR-15m-2024-01.zip",
+      "sha256": "82545851176af56188835d523bd4d7b79ab7b56df97d07768098bd7e5ce35704",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/1h/SOLEUR-1h-2024-01.zip",
+      "sha256": "eb640f00e08da72e2a93d1c10305cfa68fbb5d8ab21be3021220d181169bf04a",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/4h/SOLEUR-4h-2024-01.zip",
+      "sha256": "e3278ef3d9509132369447d9580f69be3a6517a1b2fe6e60c32249eaafcfc4f5",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/15m/SOLEUR-15m-2024-02.zip",
+      "sha256": "c434c81fcc9e14eab9d03d8c465f2bae3a2df7ec60db9ae2e2c317eb9004c7eb",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/1h/SOLEUR-1h-2024-02.zip",
+      "sha256": "68f19547496a201c1be7e2df415c6e87be50ff42867b26ba48f69036c69c3435",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/4h/SOLEUR-4h-2024-02.zip",
+      "sha256": "da185b1791674964542e3525f82b0eafa25a75859e8576f1b55d237b8b0a1e43",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/15m/SOLEUR-15m-2024-03.zip",
+      "sha256": "77f36208be0f7305ff4244dedd8e0b6d6c152eb783f4cd8783eacd6696abb3b9",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/1h/SOLEUR-1h-2024-03.zip",
+      "sha256": "7d4df08976738b0605d166db6da803db5a4dadc7b2f8e760f5006cc8dab7b2a2",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/4h/SOLEUR-4h-2024-03.zip",
+      "sha256": "49e7e67f3f0dce0e936569630b77486ca964a86e132b1fd657dd558d42723d46",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/15m/SOLEUR-15m-2024-04.zip",
+      "sha256": "908b56aa3c1b2832bcde8224c8bbb6ba5b18aac7765719254600222e0feb760c",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/1h/SOLEUR-1h-2024-04.zip",
+      "sha256": "1f3659926b971a08dae4e2839c0fe0fe9edbd57e01906751566eaec2647ff075",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/4h/SOLEUR-4h-2024-04.zip",
+      "sha256": "f4fd063d85e1d4f7b5ebf04e6730ef7834e2f0a6e28d098d1e1deac750ca929b",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/15m/SOLEUR-15m-2024-05.zip",
+      "sha256": "28a158d5a0d49e91c4d8152d536db050d736708467e28d2dcab6aebae331f32c",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/1h/SOLEUR-1h-2024-05.zip",
+      "sha256": "0550b40abd8124ed42c6780445a9a21b74bdcfd27aec3aac98c748e48ac96473",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/4h/SOLEUR-4h-2024-05.zip",
+      "sha256": "48f90ceaa34a85ba1353ec8eb78053aa3c30307ab948b5fb1f0209ed66b46c7a",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/15m/SOLEUR-15m-2024-06.zip",
+      "sha256": "c3689e525837dde440b435ba4bddffda7f1fa18690e59b66a63f5f93e914fa8f",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/1h/SOLEUR-1h-2024-06.zip",
+      "sha256": "5a5794bc29a6fb3ebfb88380ad7f9f0210799375951f61ab10e2f989d259b533",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/4h/SOLEUR-4h-2024-06.zip",
+      "sha256": "dde89218b0a3a3a9726946cad6b9ad1debbfc4864d56dfb0a0b45ecfaa821f31",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/15m/SOLEUR-15m-2024-07.zip",
+      "sha256": "48fbc440037a859857e0b3a327bd3eee2f9e15a87528597762b11b1ff6dc7b1e",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/1h/SOLEUR-1h-2024-07.zip",
+      "sha256": "33a8c7303abd296007b07d7ac276885f0935141264d25e95649c76d8d8564889",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/4h/SOLEUR-4h-2024-07.zip",
+      "sha256": "9a5d069ba026f36e6366a0e3b22c92a66cbdf21ec4f0ced7330e2347d9664bee",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/15m/SOLEUR-15m-2024-08.zip",
+      "sha256": "de1ce695ccc3c10531094942bfefe727cb2f5abedb267ca2e67d9680fc33bec5",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/1h/SOLEUR-1h-2024-08.zip",
+      "sha256": "826e74f455b1b71b67e5667d20d486f0cf4b4788506ba1ce3c16f9b43a237197",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/4h/SOLEUR-4h-2024-08.zip",
+      "sha256": "2f8d190a40c7b88a0115bc51e1310ca254ac34d8962217b239d2522f63010e41",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/15m/SOLEUR-15m-2024-09.zip",
+      "sha256": "0e5f44dc6966e584bd983300c3a7341bf823807a011df1bf11f4fba0023caa99",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/1h/SOLEUR-1h-2024-09.zip",
+      "sha256": "622d3358ab6800fd8e5def0cbfd9ba69ace58604205aa501718b8091eff0116c",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/4h/SOLEUR-4h-2024-09.zip",
+      "sha256": "ab84eff56ffdedd8bf888ca29c90bc16664a097a3d5091c3f9a62eb5a41f4efd",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/15m/SOLEUR-15m-2024-10.zip",
+      "sha256": "15083a1b169d687f76531553aae83ad604aa4e54f7a02bf04eff875af299664c",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/1h/SOLEUR-1h-2024-10.zip",
+      "sha256": "bcd1358bf903a09a9bab41917619ab41c46e7f4fbba15703899b81a4abb2dae7",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/4h/SOLEUR-4h-2024-10.zip",
+      "sha256": "6a43c0a961a6f6778a3b3239edf367fafe69e885a26c9582599245b68aa4a0a7",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/15m/SOLEUR-15m-2024-11.zip",
+      "sha256": "c61ea6ca4b980c5d35b627cdfa76abb19dac2b94aa0014169183c4dff7b999f9",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/1h/SOLEUR-1h-2024-11.zip",
+      "sha256": "bdd5fdf771be282a40e4896c24da48a512af50314668883cf87962fd2f589754",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/4h/SOLEUR-4h-2024-11.zip",
+      "sha256": "04e3e20ad6f493a502f6ab0223a60ac098900e9e8859cf7a2acae6377c2d0520",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/15m/SOLEUR-15m-2024-12.zip",
+      "sha256": "87b9f91248ed89d6d500430009a36056fdcdcf7493a9123bf47c3170bd2554f4",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/1h/SOLEUR-1h-2024-12.zip",
+      "sha256": "69815ddbf4414ce305ab0020c2ca354eb7acf2f78239a917896bb78f0ba96dcd",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    },
+    {
+      "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/4h/SOLEUR-4h-2024-12.zip",
+      "sha256": "a83cc8675432459b48b02ba9f6825835ff51b8e4ed0e58872685f8cdb09c4dd7",
+      "validation_status": "official_month_checksum_verified_daily_slices_validated",
+      "derived_daily_checksums": "internal_only"
+    }
+  ],
+  "months": [
+    {
+      "coin": "BTCEUR",
+      "month": "2024-01",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "BTCEUR",
+      "month": "2024-02",
+      "status": "valid",
+      "counts": {
+        "15m": 2784,
+        "1h": 696,
+        "4h": 174
+      }
+    },
+    {
+      "coin": "BTCEUR",
+      "month": "2024-03",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "BTCEUR",
+      "month": "2024-04",
+      "status": "valid",
+      "counts": {
+        "15m": 2880,
+        "1h": 720,
+        "4h": 180
+      }
+    },
+    {
+      "coin": "BTCEUR",
+      "month": "2024-05",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "BTCEUR",
+      "month": "2024-06",
+      "status": "valid",
+      "counts": {
+        "15m": 2880,
+        "1h": 720,
+        "4h": 180
+      }
+    },
+    {
+      "coin": "BTCEUR",
+      "month": "2024-07",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "BTCEUR",
+      "month": "2024-08",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "BTCEUR",
+      "month": "2024-09",
+      "status": "valid",
+      "counts": {
+        "15m": 2880,
+        "1h": 720,
+        "4h": 180
+      }
+    },
+    {
+      "coin": "BTCEUR",
+      "month": "2024-10",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "BTCEUR",
+      "month": "2024-11",
+      "status": "valid",
+      "counts": {
+        "15m": 2880,
+        "1h": 720,
+        "4h": 180
+      }
+    },
+    {
+      "coin": "BTCEUR",
+      "month": "2024-12",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "ETHEUR",
+      "month": "2024-01",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "ETHEUR",
+      "month": "2024-02",
+      "status": "valid",
+      "counts": {
+        "15m": 2784,
+        "1h": 696,
+        "4h": 174
+      }
+    },
+    {
+      "coin": "ETHEUR",
+      "month": "2024-03",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "ETHEUR",
+      "month": "2024-04",
+      "status": "valid",
+      "counts": {
+        "15m": 2880,
+        "1h": 720,
+        "4h": 180
+      }
+    },
+    {
+      "coin": "ETHEUR",
+      "month": "2024-05",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "ETHEUR",
+      "month": "2024-06",
+      "status": "valid",
+      "counts": {
+        "15m": 2880,
+        "1h": 720,
+        "4h": 180
+      }
+    },
+    {
+      "coin": "ETHEUR",
+      "month": "2024-07",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "ETHEUR",
+      "month": "2024-08",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "ETHEUR",
+      "month": "2024-09",
+      "status": "valid",
+      "counts": {
+        "15m": 2880,
+        "1h": 720,
+        "4h": 180
+      }
+    },
+    {
+      "coin": "ETHEUR",
+      "month": "2024-10",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "ETHEUR",
+      "month": "2024-11",
+      "status": "valid",
+      "counts": {
+        "15m": 2880,
+        "1h": 720,
+        "4h": 180
+      }
+    },
+    {
+      "coin": "ETHEUR",
+      "month": "2024-12",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "SOLEUR",
+      "month": "2024-01",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "SOLEUR",
+      "month": "2024-02",
+      "status": "valid",
+      "counts": {
+        "15m": 2784,
+        "1h": 696,
+        "4h": 174
+      }
+    },
+    {
+      "coin": "SOLEUR",
+      "month": "2024-03",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "SOLEUR",
+      "month": "2024-04",
+      "status": "valid",
+      "counts": {
+        "15m": 2880,
+        "1h": 720,
+        "4h": 180
+      }
+    },
+    {
+      "coin": "SOLEUR",
+      "month": "2024-05",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "SOLEUR",
+      "month": "2024-06",
+      "status": "valid",
+      "counts": {
+        "15m": 2880,
+        "1h": 720,
+        "4h": 180
+      }
+    },
+    {
+      "coin": "SOLEUR",
+      "month": "2024-07",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "SOLEUR",
+      "month": "2024-08",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "SOLEUR",
+      "month": "2024-09",
+      "status": "valid",
+      "counts": {
+        "15m": 2880,
+        "1h": 720,
+        "4h": 180
+      }
+    },
+    {
+      "coin": "SOLEUR",
+      "month": "2024-10",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    },
+    {
+      "coin": "SOLEUR",
+      "month": "2024-11",
+      "status": "valid",
+      "counts": {
+        "15m": 2880,
+        "1h": 720,
+        "4h": 180
+      }
+    },
+    {
+      "coin": "SOLEUR",
+      "month": "2024-12",
+      "status": "valid",
+      "counts": {
+        "15m": 2976,
+        "1h": 744,
+        "4h": 186
+      }
+    }
+  ],
+  "performance_computed": false,
+  "requests": 0,
+  "download_bytes": 0
+}

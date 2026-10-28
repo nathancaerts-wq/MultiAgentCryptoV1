@@ -1,0 +1,8 @@
+{
+  "stage": "development",
+  "source": "assumption:development-2024-v1:aligned_trend:slippage_stress",
+  "manifest_sha256": "aba38dc2132f9ffc115bc2966208a4fd502a154b3ed64e8aba5e489980b76a62",
+  "started_utc": "2026-10-28T15:16:35.870456+00:00",
+  "independent_test_opened": false,
+  "validation_accessed": false
+}

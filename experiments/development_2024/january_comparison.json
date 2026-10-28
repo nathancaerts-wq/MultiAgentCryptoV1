@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "at": "2024-02-01T00:00:00+00:00",
+  "cash": "197.03206319",
+  "financial_trades_exact": true,
+  "ignored_fields": [
+    "entry_id",
+    "exit_id"
+  ],
+  "reason": "Different plan identity; full financial trade payload compared",
+  "state_hash": "cc4af7f59e2376a8a93c895fdeadfa7f630e55c7964b76c1c48357b7e488c88a",
+  "consecutive_losses": 3
+}

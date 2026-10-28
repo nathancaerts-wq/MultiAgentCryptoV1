@@ -1,0 +1,116 @@
+{
+  "verified": true,
+  "scope": "completed_studies_only",
+  "incomplete_portfolios": 1,
+  "studies": {
+    "aligned_trend_baseline": {
+      "verified": true,
+      "one_initial_portfolio": true,
+      "all_boundaries": 34465,
+      "unique_fills": 6,
+      "buy_count": 3,
+      "sell_count": 3,
+      "final_cash": "197.03206319",
+      "net": "-2.96793681",
+      "fees": "0.18502791",
+      "audit_actions": {
+        "joint_started": 1,
+        "joint_evaluated": 34465,
+        "rejected": 4,
+        "risk_day_started": 4,
+        "buy": 3,
+        "sell": 3
+      },
+      "pause_events": [],
+      "checkpoint_pause_counts": {
+        "day_paused": 0,
+        "drawdown_paused": 0,
+        "emergency_stopped": 0
+      },
+      "last_state_hash": "a2dff22a999003e0b144b9702c26a55f9e8796275c92481a0a857c9d445b3735",
+      "last_checkpoint_hash": "bc022423862804c5068cb049d52fb5bfe81a6a5aad0246d304ee4a7d28567023"
+    },
+    "aligned_trend_slippage_stress": {
+      "verified": true,
+      "one_initial_portfolio": true,
+      "all_boundaries": 34465,
+      "unique_fills": 6,
+      "buy_count": 3,
+      "sell_count": 3,
+      "final_cash": "197.03119966",
+      "net": "-2.96880034",
+      "fees": "0.17366454",
+      "audit_actions": {
+        "joint_started": 1,
+        "joint_evaluated": 34465,
+        "rejected": 4,
+        "risk_day_started": 4,
+        "buy": 3,
+        "sell": 3
+      },
+      "pause_events": [],
+      "checkpoint_pause_counts": {
+        "day_paused": 0,
+        "drawdown_paused": 0,
+        "emergency_stopped": 0
+      },
+      "last_state_hash": "d517d73adc342686c8bf2c9358d8ce3e1732bb7705f296356fe4c3a840d46e79",
+      "last_checkpoint_hash": "52f40e01f690e922eb108fd944d1663edd58e738afbc5d9dd8f45ac49856fd2c"
+    }
+  },
+  "sqlite_integrity": "ok",
+  "paper_orders": 0,
+  "access_records": [
+    {
+      "plan": "29f11951679bb753a8367fa100feccc9360f66e14819f3370099cb4d99054d03",
+      "coins": [
+        "BTCEUR",
+        "ETHEUR",
+        "SOLEUR"
+      ],
+      "stage": "development",
+      "period": {
+        "start": "2024-01-01T00:00:00Z",
+        "end": "2025-01-01T00:00:00Z"
+      },
+      "viewed_at": "2026-10-28T14:55:30.464386+00:00",
+      "previously_exposed": true
+    },
+    {
+      "plan": "738fac617916d53a6471d38d67496d753d14c03c352138f502f894122bda16d8",
+      "coins": [
+        "BTCEUR",
+        "ETHEUR",
+        "SOLEUR"
+      ],
+      "stage": "development",
+      "period": {
+        "start": "2024-01-01T00:00:00Z",
+        "end": "2025-01-01T00:00:00Z"
+      },
+      "viewed_at": "2026-10-28T15:16:49.624637+00:00",
+      "previously_exposed": true
+    },
+    {
+      "plan": "f9b0c6b8072e478feed5e49d22a24bebb7258746174d902f65070f76f5ea9611",
+      "coins": [
+        "BTCEUR",
+        "ETHEUR",
+        "SOLEUR"
+      ],
+      "stage": "development",
+      "period": {
+        "start": "2024-01-01T00:00:00Z",
+        "end": "2025-01-01T00:00:00Z"
+      },
+      "viewed_at": "2026-10-28T15:38:15.775888+00:00",
+      "previously_exposed": true
+    }
+  ],
+  "validation_accessed": false,
+  "independent_test_opened": false,
+  "database_sha256": null,
+  "database_bytes": 11860484096,
+  "database_hash_note": "Omitted while writer active",
+  "verifier_sha256": "53829ad5cfca62b6aaa028b6eb28bbceeeff3af5f74c189b348b9dbe5f1f4632"
+}
