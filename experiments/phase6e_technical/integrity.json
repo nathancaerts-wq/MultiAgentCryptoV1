@@ -1,0 +1,32 @@
+{
+  "status": "synthetic_checks_passed_inference_resolution_limited",
+  "base_commit": "2f0a021eed1b3102e6f00af9843237d2f5a773de",
+  "source_sha256": {
+    "experiments/phase6e_technical/p_resolution.json": "9ebde949f1ac48ffde65ce3510aa876fb518abe8dfe796510b3ec265f70dfab3",
+    "experiments/phase6e_technical/capacity.json": "dc27ee1f798b240ee4bf6f9eea7b2798421baef9615f5b4f2c6a621b75858d78",
+    "experiments/phase6e_technical/capacity_initial.json": "c2b27aa6b6038634597ca074b5b002d44f15535eb2094099fd9b1b7751ecf47a",
+    "scripts/phase6e_technical.py": "f3c894827d5495aae884b993224d8a80476b8032518bc154bb27556c970aeb58",
+    "scripts/phase6e_capacity.py": "3fc9b4d9e78b70a066a7a1ee1ab565403feb089c096ed4fc7c4466c25d6995de",
+    "scripts/verify_phase6e_technical.py": "e996c3c3c9b31fa009f7732a00b502921fdd0bc83f93af127511daf588bfb003",
+    "tests/test_phase6e_technical.py": "de70e0e2beb4cea2ab5dfa77ca0e759fb96b811d4d45efb0c6780f83b2e4298e",
+    "tests/fixtures/phase6e_indicator_reference.json": "e847d2b16490d3850870b9a405a48f5090fb07451ae07e56a43062ccb67f6888",
+    "PHASE6E_TECHNICAL_READINESS_REPORT.md": "8adc2f0c198e03553777735c11ab76110fd4c2fa6f7417ec5eecb077cd0369da",
+    "PROGRESS.md": "eaf48b57fcadd864fddbc6c25b9f9e4f371c7ed8ad133ecdacbbaf8204fd7af1",
+    "NEXT_STEPS.md": "c23855484a5ff12d99a5cb842aacf0fc4a0e78f751571be8e94fd60f3361222c"
+  },
+  "database_sha256": "fa2290c6352550186da5dd4750ad35077b4d9cf2cd2684322368eb96b28aadfa",
+  "original_artifacts_unchanged": 44,
+  "original_code_and_proposal_unchanged": true,
+  "tests_passed": 480,
+  "new_historical_comparisons": 0,
+  "new_orders": 0,
+  "protocol_changes_activated": false,
+  "validation_accessed": false,
+  "independent_test_opened": false,
+  "elapsed_seconds": 50.18398698000237,
+  "peak_rss_kib": 12520,
+  "limits": {
+    "seconds": 300,
+    "address_space_bytes": 1073741824
+  }
+}

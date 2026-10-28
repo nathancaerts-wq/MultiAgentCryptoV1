@@ -1,0 +1,27 @@
+{
+  "replicates": 9999,
+  "family": 332,
+  "alpha": 0.05,
+  "strictest_holm_threshold": 0.00015060240963855423,
+  "p_resolution": 0.0001,
+  "max_exceedances_passing_first_step": 0,
+  "zero_exceedance_one_sided_95_upper": 0.00029955831112096564,
+  "relative_mc_standard_error_at_threshold": 0.8148413321866189,
+  "proposed_not_activated": [
+    {
+      "replicates": 99999,
+      "p_resolution": 1e-05,
+      "relative_mc_standard_error_at_threshold": 0.25766385836325406,
+      "projected_kernel_seconds": 370.63111325387854
+    },
+    {
+      "replicates": 999999,
+      "p_resolution": 1e-06,
+      "relative_mc_standard_error_at_threshold": 0.08148009965020071,
+      "projected_kernel_seconds": 3706.34448967255
+    }
+  ],
+  "minimum_replicates_for_10_percent_relative_mcse_at_threshold": 663900,
+  "changes_activated": false,
+  "projections_are_not_measurements": true
+}

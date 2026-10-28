@@ -1,0 +1,29 @@
+{
+  "provenance": "Frozen original crypto.indicators.technical from base 2f0a021; synthetic 33 candles, close=100+i%7, high=close+2, low=close-2",
+  "current": {
+    "status": "complete",
+    "direction": "flat",
+    "ema_fast": "102.9032241066218387074798934",
+    "ema_slow": "102.9028699546721886899869631",
+    "ema_gap": "0.000003441613920058967444743",
+    "rsi": "53.79062621576983463274597875",
+    "atr": "4.500978253244363822535736427",
+    "momentum": "0.029702970297029702970297030",
+    "structure": "lower_highs_lows",
+    "conflicts": [],
+    "missing": []
+  },
+  "previous": {
+    "status": "complete",
+    "direction": "flat",
+    "ema_fast": "102.6267345384592367512598755",
+    "ema_slow": "102.6880087802949898097044584",
+    "ema_gap": "-0.0005967029896046742405557563",
+    "rsi": "52.34119640874684880626264781",
+    "atr": "4.527044682224699020949917501",
+    "momentum": "0.03",
+    "structure": "mixed",
+    "conflicts": [],
+    "missing": []
+  }
+}

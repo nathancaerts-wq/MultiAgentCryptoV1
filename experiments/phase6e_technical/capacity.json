@@ -1,0 +1,24 @@
+{
+  "status": "completed_synthetic_only",
+  "contrasts": 332,
+  "replicates_each": 9999,
+  "timegroups": 2153,
+  "coins_per_group": 3,
+  "seed": 606,
+  "block": 42,
+  "elapsed_seconds": 37.059775612011435,
+  "peak_rss_kib": 30192,
+  "output_sha256": "89f816fe2a09f20c8f319f8e4d6f1c983026fa84b6836f356bbb2fc2b26a5019",
+  "source_sha256": {
+    "scripts/phase6e_technical.py": "f3c894827d5495aae884b993224d8a80476b8032518bc154bb27556c970aeb58",
+    "scripts/phase6e_capacity.py": "3fc9b4d9e78b70a066a7a1ee1ab565403feb089c096ed4fc7c4466c25d6995de"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "limits": {
+    "seconds": 600,
+    "address_space_bytes": 1073741824,
+    "rss_bytes": 805306368
+  },
+  "historical_data_read": false,
+  "execution_authorized": false
+}

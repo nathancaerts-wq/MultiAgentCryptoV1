@@ -393,3 +393,17 @@ Geen nieuwe pauze-/EMA-patroonuitkomsten, backtest of optimizerpromotie.
 456 tests geslaagd, 0 mislukt (432 behouden +24), één bestaande waarschuwing.
 Oude resultaten, auditdatabase en risicoregels behouden; integriteitsbewijs onder
 experiments/phase6e/. 2025/2026 gesloten. Wacht op expliciete protocolgoedkeuring.
+
+## Fase 6E — synthetische technische controle
+
+Vanaf 2f0a021: 27 causale features met 33 afgesloten candles per TF, huidige/vorige
+rolling indicatorreproductie en expliciete scanner-snapshottijd getest. Afzonderlijke
+bootstrap-/Holm-kern zonder historische reader of activatiepad. Volledige synthetische
+332-contrast-/9.999-replicatieruns: 37,695 en 37,060 s, circa 29,5 MiB, gelijke
+digest. Alle 480 tests slagen (456 behouden +24), één bestaande waarschuwing.
+PHASE6E_TECHNICAL_READINESS_REPORT.md beschrijft methodologische beperkingen:
+p-resolutie 0,0001 versus eerste Holm-grens 0,0001506, grote Monte-Carlo-onzekerheid.
+Technische kern werkt; inferentiële historische vrijgave ontbreekt. Meer replicaties
+of andere precisie-/budgetkeuzes vereisen aparte goedkeuring; niets geactiveerd.
+Geen nieuwe historische patroonvergelijking, backtest, risicoreset of strategie-
+wijziging. Oude resultaten/audits behouden. Validatie 2025/test 2026 gesloten.
