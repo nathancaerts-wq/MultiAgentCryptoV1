@@ -359,3 +359,21 @@ Nieuwe historische stijgings-/dalings-/netto-/alternatieve-coinlabels niet berek
 meetregistratie ontbreekt; expliciete gebruikersstopregel toegepast. Voorstel
 PHASE6C_MEASUREMENT_PROPOSAL.md wacht op bevestiging. Geen backtest, wijziging van
 strategie/risico, validatie- of testinzage. Zie PHASE6C_DIAGNOSTICS_REPORT.md.
+
+## Fase 6D — vooraf geregistreerde vieruursprijsdiagnose
+
+Expliciete gebruikersgoedkeuring verwerkt in protocol en content-addressed manifest,
+naar main gepusht in 0ba9995 vóór historische labels. Alleen 2024, drie EUR-paren;
+0,001 coin vaste prijsunit, bestaande FillCosts en tick. Alle 103.344 vensters
+volledig; 101.391 oorspronkelijke HOLDs: 52.483 positief, 48.829 negatief, 79 neutraal;
+30.721 netto positief na vaste kosten. UTC4h-steekproef 6.459 coinvensters; per coin
+niet-overlappend, tussen coins afhankelijk. Geen optelling van hypothetische P&L.
+793 expliciete pauzeafwijzingen: 384 later positief, 409 negatief, 247 netto positieve
+units; geen uitvoerbare gemiste winsten. Score-audit bevestigt 60.924 momenten met
+een andere hogere bekende score, zonder toekomstige winnaarselectie.
+Bestaande zeven orderketens hergebruikt (drie fills/vier weigeringen), geen nieuwe
+HOLD-ordersimulatie, risicogoedkeuring of portefeuillebacktest. Prijslabels zijn
+geen tradetoestemming. Oude database/resultaten/audits en risicoregels ongewijzigd.
+432 tests geslaagd (420 behouden + 12), één bestaande waarschuwing. Hoofdrun
+75,503 s, 72,887 MiB RSS, binnen 600 s/1 GiB. Zie PHASE6D_MISSED_OPPORTUNITIES_REPORT.md
+en experiments/phase6d/. Validatie en onafhankelijke test gesloten; stop na fase 6D.

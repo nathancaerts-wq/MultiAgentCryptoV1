@@ -1,0 +1,2178 @@
+{
+  "status": "complete",
+  "labels": 103344,
+  "manifest": "933be8ac13e01a7dd4e4a749291306e2f026a87bf92431f17a3163f83a98e779",
+  "statistics": {
+    "overlapping:all": {
+      "n": 103344,
+      "gross": {
+        "negative": 49811,
+        "positive": 53454,
+        "neutral": 79
+      },
+      "net_positive": 31366,
+      "gross_positive_net_positive": 31366,
+      "minima": {
+        "min": "-0.2503708330080412210164727926",
+        "median": "-0.0068468491971795975898876799",
+        "max": "0"
+      },
+      "gross_values": {
+        "min": "-0.1757946539659394390864352112",
+        "median": "0.000370511757917924043134544",
+        "max": "0.210934393638170974155069583"
+      },
+      "regime": {
+        "uncertain": {
+          "negative": 27789,
+          "positive": 30247,
+          "neutral": 44
+        },
+        "bearish": {
+          "positive": 9748,
+          "negative": 8128,
+          "neutral": 16
+        },
+        "sideways": {
+          "positive": 2743,
+          "negative": 2748,
+          "neutral": 1
+        },
+        "bullish": {
+          "negative": 11146,
+          "positive": 10716,
+          "neutral": 18
+        }
+      },
+      "direction": {
+        "flat": {
+          "negative": 14394,
+          "positive": 14816,
+          "neutral": 14
+        },
+        "down": {
+          "positive": 18696,
+          "negative": 15618,
+          "neutral": 34
+        },
+        "up": {
+          "negative": 19799,
+          "positive": 19942,
+          "neutral": 31
+        }
+      },
+      "features": {
+        "negative": {
+          "n": 49811,
+          "rsi": "51.43208044600302223531309893",
+          "momentum": "0.001782349459604280332158405231",
+          "atr": "0.009927770320901261135189165682"
+        },
+        "positive": {
+          "n": 53454,
+          "rsi": "50.51822284781402400161125624",
+          "momentum": "0.0003610113082673212698454065402",
+          "atr": "0.01019827299125293890549579604"
+        },
+        "neutral": {
+          "n": 79,
+          "rsi": "50.26202537480725033556996559",
+          "momentum": "0.0009533186135997234754194523797",
+          "atr": "0.01175833884799088100421324793"
+        }
+      },
+      "higher_score": 60924,
+      "reasons": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 83781,
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 18590,
+        "centrale Risk Engine akkoord; cash en positieplaats gereserveerd": 7,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 120,
+        "verliesreekspauze": 793,
+        "liquiditeit_15m": 53
+      },
+      "categories": {
+        "not_selected_no_buy": 101391,
+        "blocked_candidate": 1946,
+        "approved_execution_rejected": 4,
+        "executed_entry": 3
+      },
+      "reason_outcomes": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": {
+          "negative": 40300,
+          "net_positive": 25095,
+          "positive": 43416,
+          "neutral": 65
+        },
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": {
+          "positive": 9596,
+          "net_positive": 5976,
+          "negative": 8980,
+          "neutral": 14
+        },
+        "centrale Risk Engine akkoord; cash en positieplaats gereserveerd": {
+          "positive": 3,
+          "net_positive": 3,
+          "negative": 4
+        },
+        "centrale positielimiet: \u00e9\u00e9n open positie": {
+          "negative": 94,
+          "net_positive": 21,
+          "positive": 26
+        },
+        "verliesreekspauze": {
+          "negative": 409,
+          "net_positive": 247,
+          "positive": 384
+        },
+        "liquiditeit_15m": {
+          "negative": 24,
+          "net_positive": 24,
+          "positive": 29
+        }
+      },
+      "category_outcomes": {
+        "not_selected_no_buy": {
+          "negative": 48829,
+          "net_positive": 30721,
+          "positive": 52483,
+          "neutral": 79
+        },
+        "blocked_candidate": {
+          "positive": 968,
+          "net_positive": 642,
+          "negative": 978
+        },
+        "approved_execution_rejected": {
+          "positive": 3,
+          "net_positive": 3,
+          "negative": 1
+        },
+        "executed_entry": {
+          "negative": 3,
+          "net_positive": 0
+        }
+      }
+    },
+    "overlapping:all:BTCEUR": {
+      "n": 34448,
+      "gross": {
+        "negative": 16354,
+        "positive": 18093,
+        "neutral": 1
+      },
+      "net_positive": 8898,
+      "gross_positive_net_positive": 8898,
+      "minima": {
+        "min": "-0.1388175392426667776750805407",
+        "median": "-0.00515285742483739661834441655",
+        "max": "0"
+      },
+      "gross_values": {
+        "min": "-0.1181543637038911267635865518",
+        "median": "0.000396642827655787822416589",
+        "max": "0.110133700613286992320688167"
+      },
+      "regime": {
+        "uncertain": {
+          "negative": 9346,
+          "positive": 10422
+        },
+        "bearish": {
+          "positive": 2856,
+          "negative": 2124
+        },
+        "sideways": {
+          "positive": 1399,
+          "negative": 1469
+        },
+        "bullish": {
+          "negative": 3415,
+          "positive": 3416,
+          "neutral": 1
+        }
+      },
+      "direction": {
+        "flat": {
+          "negative": 6056,
+          "positive": 6204
+        },
+        "down": {
+          "positive": 5637,
+          "negative": 4247
+        },
+        "up": {
+          "negative": 6051,
+          "positive": 6252,
+          "neutral": 1
+        }
+      },
+      "features": {
+        "negative": {
+          "n": 16354,
+          "rsi": "52.02124032821493185454287901",
+          "momentum": "0.001682573617926384080066572415",
+          "atr": "0.007515155513977152291981891335"
+        },
+        "positive": {
+          "n": 18093,
+          "rsi": "50.98797913414984394464675546",
+          "momentum": "0.0005396714593857447202898488950",
+          "atr": "0.007700668075476396598021379954"
+        },
+        "neutral": {
+          "n": 1,
+          "rsi": "66.67919823413865566616781139",
+          "momentum": "0.028270540791094582406133951",
+          "atr": "0.008538913087865592099214698027"
+        }
+      },
+      "higher_score": 6144,
+      "reasons": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 27927,
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 6270,
+        "centrale Risk Engine akkoord; cash en positieplaats gereserveerd": 3,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 40,
+        "verliesreekspauze": 207,
+        "liquiditeit_15m": 1
+      },
+      "categories": {
+        "not_selected_no_buy": 34067,
+        "blocked_candidate": 378,
+        "approved_execution_rejected": 3
+      },
+      "reason_outcomes": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": {
+          "negative": 13222,
+          "net_positive": 7023,
+          "positive": 14705
+        },
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": {
+          "positive": 3279,
+          "net_positive": 1819,
+          "negative": 2990,
+          "neutral": 1
+        },
+        "centrale Risk Engine akkoord; cash en positieplaats gereserveerd": {
+          "positive": 3,
+          "net_positive": 3
+        },
+        "centrale positielimiet: \u00e9\u00e9n open positie": {
+          "negative": 36,
+          "net_positive": 3,
+          "positive": 4
+        },
+        "verliesreekspauze": {
+          "negative": 105,
+          "net_positive": 50,
+          "positive": 102
+        },
+        "liquiditeit_15m": {
+          "negative": 1,
+          "net_positive": 0
+        }
+      },
+      "category_outcomes": {
+        "not_selected_no_buy": {
+          "negative": 16172,
+          "net_positive": 8801,
+          "positive": 17894,
+          "neutral": 1
+        },
+        "blocked_candidate": {
+          "positive": 196,
+          "net_positive": 94,
+          "negative": 182
+        },
+        "approved_execution_rejected": {
+          "positive": 3,
+          "net_positive": 3
+        }
+      }
+    },
+    "overlapping:HOLD": {
+      "n": 101391,
+      "gross": {
+        "negative": 48829,
+        "positive": 52483,
+        "neutral": 79
+      },
+      "net_positive": 30721,
+      "gross_positive_net_positive": 30721,
+      "minima": {
+        "min": "-0.2266430412371134020618556701",
+        "median": "-0.0068041380267999722280080539",
+        "max": "0"
+      },
+      "gross_values": {
+        "min": "-0.1757946539659394390864352112",
+        "median": "0.000378199206651089496277781",
+        "max": "0.210934393638170974155069583"
+      },
+      "regime": {
+        "uncertain": {
+          "negative": 27789,
+          "positive": 30247,
+          "neutral": 44
+        },
+        "bearish": {
+          "positive": 9748,
+          "negative": 8128,
+          "neutral": 16
+        },
+        "sideways": {
+          "positive": 2743,
+          "negative": 2748,
+          "neutral": 1
+        },
+        "bullish": {
+          "negative": 10164,
+          "positive": 9745,
+          "neutral": 18
+        }
+      },
+      "direction": {
+        "flat": {
+          "negative": 14394,
+          "positive": 14816,
+          "neutral": 14
+        },
+        "down": {
+          "positive": 18696,
+          "negative": 15618,
+          "neutral": 34
+        },
+        "up": {
+          "negative": 18817,
+          "positive": 18971,
+          "neutral": 31
+        }
+      },
+      "features": {
+        "negative": {
+          "n": 48829,
+          "rsi": "51.19026214113757767654696060",
+          "momentum": "0.001345852316127121131520073199",
+          "atr": "0.009902322508210162625539840912"
+        },
+        "positive": {
+          "n": 52483,
+          "rsi": "50.28410315929092479350658183",
+          "momentum": "-0.00007498467206539862529215590267",
+          "atr": "0.01018059660627809191807216532"
+        },
+        "neutral": {
+          "n": 79,
+          "rsi": "50.26202537480725033556996559",
+          "momentum": "0.0009533186135997234754194523797",
+          "atr": "0.01175833884799088100421324793"
+        }
+      },
+      "higher_score": 59819,
+      "reasons": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 82698,
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 18590,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 103
+      },
+      "categories": {
+        "not_selected_no_buy": 101391
+      },
+      "reason_outcomes": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": {
+          "negative": 39769,
+          "net_positive": 24727,
+          "positive": 42864,
+          "neutral": 65
+        },
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": {
+          "positive": 9596,
+          "net_positive": 5976,
+          "negative": 8980,
+          "neutral": 14
+        },
+        "centrale positielimiet: \u00e9\u00e9n open positie": {
+          "negative": 80,
+          "net_positive": 18,
+          "positive": 23
+        }
+      },
+      "category_outcomes": {
+        "not_selected_no_buy": {
+          "negative": 48829,
+          "net_positive": 30721,
+          "positive": 52483,
+          "neutral": 79
+        }
+      }
+    },
+    "overlapping:HOLD:BTCEUR": {
+      "n": 34067,
+      "gross": {
+        "negative": 16172,
+        "positive": 17894,
+        "neutral": 1
+      },
+      "net_positive": 8801,
+      "gross_positive_net_positive": 8801,
+      "minima": {
+        "min": "-0.1388175392426667776750805407",
+        "median": "-0.0051430395441676680856264130",
+        "max": "0"
+      },
+      "gross_values": {
+        "min": "-0.1181543637038911267635865518",
+        "median": "0.000396762630551947710266524",
+        "max": "0.110133700613286992320688167"
+      },
+      "regime": {
+        "uncertain": {
+          "negative": 9346,
+          "positive": 10422
+        },
+        "bearish": {
+          "positive": 2856,
+          "negative": 2124
+        },
+        "sideways": {
+          "positive": 1399,
+          "negative": 1469
+        },
+        "bullish": {
+          "negative": 3233,
+          "positive": 3217,
+          "neutral": 1
+        }
+      },
+      "direction": {
+        "flat": {
+          "negative": 6056,
+          "positive": 6204
+        },
+        "down": {
+          "positive": 5637,
+          "negative": 4247
+        },
+        "up": {
+          "negative": 5869,
+          "positive": 6053,
+          "neutral": 1
+        }
+      },
+      "features": {
+        "negative": {
+          "n": 16172,
+          "rsi": "51.88289192605948233902048966",
+          "momentum": "0.001514782272940636831105602924",
+          "atr": "0.007511389045070180561407949536"
+        },
+        "positive": {
+          "n": 17894,
+          "rsi": "50.84586633792628407059654618",
+          "momentum": "0.0003322011911432197773548590767",
+          "atr": "0.007700117980908968344512716939"
+        },
+        "neutral": {
+          "n": 1,
+          "rsi": "66.67919823413865566616781139",
+          "momentum": "0.028270540791094582406133951",
+          "atr": "0.008538913087865592099214698027"
+        }
+      },
+      "higher_score": 6105,
+      "reasons": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 27757,
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 6270,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 40
+      },
+      "categories": {
+        "not_selected_no_buy": 34067
+      },
+      "reason_outcomes": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": {
+          "negative": 13146,
+          "net_positive": 6979,
+          "positive": 14611
+        },
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": {
+          "positive": 3279,
+          "net_positive": 1819,
+          "negative": 2990,
+          "neutral": 1
+        },
+        "centrale positielimiet: \u00e9\u00e9n open positie": {
+          "negative": 36,
+          "net_positive": 3,
+          "positive": 4
+        }
+      },
+      "category_outcomes": {
+        "not_selected_no_buy": {
+          "negative": 16172,
+          "net_positive": 8801,
+          "positive": 17894,
+          "neutral": 1
+        }
+      }
+    },
+    "utc4h:all": {
+      "n": 6459,
+      "gross": {
+        "negative": 3110,
+        "positive": 3344,
+        "neutral": 5
+      },
+      "net_positive": 2013,
+      "gross_positive_net_positive": 2013,
+      "minima": {
+        "min": "-0.2503708330080412210164727926",
+        "median": "-0.0070064680659001425556144362",
+        "max": "0"
+      },
+      "gross_values": {
+        "min": "-0.1701928331641814349285658521",
+        "median": "0.000489677077818951826363155",
+        "max": "0.128658823529411764705882353"
+      },
+      "regime": {
+        "uncertain": {
+          "negative": 1762,
+          "positive": 1873,
+          "neutral": 2
+        },
+        "bearish": {
+          "positive": 628,
+          "negative": 493,
+          "neutral": 1
+        },
+        "bullish": {
+          "positive": 681,
+          "negative": 699,
+          "neutral": 2
+        },
+        "sideways": {
+          "negative": 156,
+          "positive": 162
+        }
+      },
+      "direction": {
+        "flat": {
+          "negative": 902,
+          "positive": 906,
+          "neutral": 1
+        },
+        "down": {
+          "positive": 1185,
+          "negative": 972,
+          "neutral": 2
+        },
+        "up": {
+          "positive": 1253,
+          "negative": 1236,
+          "neutral": 2
+        }
+      },
+      "features": {
+        "negative": {
+          "n": 3110,
+          "rsi": "51.72686046273072468104762759",
+          "momentum": "0.002372058529437952098270105596",
+          "atr": "0.009923156611613443168475819592"
+        },
+        "positive": {
+          "n": 3344,
+          "rsi": "50.23750341565205688011922096",
+          "momentum": "-0.0004650085559315633104878833134",
+          "atr": "0.01018131852319816492386240515"
+        },
+        "neutral": {
+          "n": 5,
+          "rsi": "47.79357181655060179179588526",
+          "momentum": "0.00060863898074783101538255632",
+          "atr": "0.01100349859975528436099665125"
+        }
+      },
+      "higher_score": 3790,
+      "reasons": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 5226,
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 1150,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 9,
+        "verliesreekspauze": 65,
+        "liquiditeit_15m": 8,
+        "centrale Risk Engine akkoord; cash en positieplaats gereserveerd": 1
+      },
+      "categories": {
+        "not_selected_no_buy": 6307,
+        "blocked_candidate": 151,
+        "executed_entry": 1
+      },
+      "reason_outcomes": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": {
+          "negative": 2522,
+          "net_positive": 1592,
+          "positive": 2700,
+          "neutral": 4
+        },
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": {
+          "positive": 602,
+          "net_positive": 396,
+          "negative": 547,
+          "neutral": 1
+        },
+        "centrale positielimiet: \u00e9\u00e9n open positie": {
+          "negative": 5,
+          "net_positive": 2,
+          "positive": 4
+        },
+        "verliesreekspauze": {
+          "negative": 31,
+          "net_positive": 20,
+          "positive": 34
+        },
+        "liquiditeit_15m": {
+          "negative": 4,
+          "net_positive": 3,
+          "positive": 4
+        },
+        "centrale Risk Engine akkoord; cash en positieplaats gereserveerd": {
+          "negative": 1,
+          "net_positive": 0
+        }
+      },
+      "category_outcomes": {
+        "not_selected_no_buy": {
+          "negative": 3041,
+          "net_positive": 1959,
+          "positive": 3261,
+          "neutral": 5
+        },
+        "blocked_candidate": {
+          "negative": 68,
+          "net_positive": 54,
+          "positive": 83
+        },
+        "executed_entry": {
+          "negative": 1,
+          "net_positive": 0
+        }
+      }
+    },
+    "utc4h:all:BTCEUR": {
+      "n": 2153,
+      "gross": {
+        "negative": 1022,
+        "positive": 1131
+      },
+      "net_positive": 571,
+      "gross_positive_net_positive": 571,
+      "minima": {
+        "min": "-0.1388175392426667776750805407",
+        "median": "-0.0051859372412856325594169303",
+        "max": "0"
+      },
+      "gross_values": {
+        "min": "-0.1181543637038911267635865518",
+        "median": "0.000429141953237053061303358",
+        "max": "0.087751709430491972301655392"
+      },
+      "regime": {
+        "uncertain": {
+          "negative": 598,
+          "positive": 643
+        },
+        "bearish": {
+          "positive": 187,
+          "negative": 124
+        },
+        "bullish": {
+          "positive": 213,
+          "negative": 219
+        },
+        "sideways": {
+          "negative": 81,
+          "positive": 88
+        }
+      },
+      "direction": {
+        "flat": {
+          "negative": 379,
+          "positive": 375
+        },
+        "down": {
+          "positive": 361,
+          "negative": 265
+        },
+        "up": {
+          "positive": 395,
+          "negative": 378
+        }
+      },
+      "features": {
+        "negative": {
+          "n": 1022,
+          "rsi": "52.33765441235681477156949954",
+          "momentum": "0.002116241909810326076418796311",
+          "atr": "0.007550671328315589057215300686"
+        },
+        "positive": {
+          "n": 1131,
+          "rsi": "50.73676092160359593618701525",
+          "momentum": "0.000002922708947348979574039722812",
+          "atr": "0.007666519847931296412742984008"
+        }
+      },
+      "higher_score": 373,
+      "reasons": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 1742,
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 385,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 3,
+        "verliesreekspauze": 23
+      },
+      "categories": {
+        "not_selected_no_buy": 2119,
+        "blocked_candidate": 34
+      },
+      "reason_outcomes": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": {
+          "negative": 831,
+          "net_positive": 448,
+          "positive": 911
+        },
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": {
+          "positive": 206,
+          "net_positive": 119,
+          "negative": 179
+        },
+        "centrale positielimiet: \u00e9\u00e9n open positie": {
+          "negative": 3,
+          "net_positive": 0
+        },
+        "verliesreekspauze": {
+          "negative": 9,
+          "net_positive": 4,
+          "positive": 14
+        }
+      },
+      "category_outcomes": {
+        "not_selected_no_buy": {
+          "negative": 1009,
+          "net_positive": 564,
+          "positive": 1110
+        },
+        "blocked_candidate": {
+          "negative": 13,
+          "net_positive": 7,
+          "positive": 21
+        }
+      }
+    },
+    "utc4h:HOLD": {
+      "n": 6307,
+      "gross": {
+        "negative": 3041,
+        "positive": 3261,
+        "neutral": 5
+      },
+      "net_positive": 1959,
+      "gross_positive_net_positive": 1959,
+      "minima": {
+        "min": "-0.1949566709011319777650114492",
+        "median": "-0.0069682113255349378132788932",
+        "max": "0"
+      },
+      "gross_values": {
+        "min": "-0.1400812370032931733406694771",
+        "median": "0.000477232705948844373437429",
+        "max": "0.128658823529411764705882353"
+      },
+      "regime": {
+        "uncertain": {
+          "negative": 1762,
+          "positive": 1873,
+          "neutral": 2
+        },
+        "bearish": {
+          "positive": 628,
+          "negative": 493,
+          "neutral": 1
+        },
+        "bullish": {
+          "positive": 598,
+          "negative": 630,
+          "neutral": 2
+        },
+        "sideways": {
+          "negative": 156,
+          "positive": 162
+        }
+      },
+      "direction": {
+        "flat": {
+          "negative": 902,
+          "positive": 906,
+          "neutral": 1
+        },
+        "down": {
+          "positive": 1185,
+          "negative": 972,
+          "neutral": 2
+        },
+        "up": {
+          "positive": 1170,
+          "negative": 1167,
+          "neutral": 2
+        }
+      },
+      "features": {
+        "negative": {
+          "n": 3041,
+          "rsi": "51.47014510017083368962635429",
+          "momentum": "0.001921406315469289177829385300",
+          "atr": "0.009895623096955262727638465561"
+        },
+        "positive": {
+          "n": 3261,
+          "rsi": "49.90655051927001229773167688",
+          "momentum": "-0.001079467442793895830645049468",
+          "atr": "0.01016667557972779627500942527"
+        },
+        "neutral": {
+          "n": 5,
+          "rsi": "47.79357181655060179179588526",
+          "momentum": "0.00060863898074783101538255632",
+          "atr": "0.01100349859975528436099665125"
+        }
+      },
+      "higher_score": 3702,
+      "reasons": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 5148,
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 1150,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 9
+      },
+      "categories": {
+        "not_selected_no_buy": 6307
+      },
+      "reason_outcomes": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": {
+          "negative": 2489,
+          "net_positive": 1561,
+          "positive": 2655,
+          "neutral": 4
+        },
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": {
+          "positive": 602,
+          "net_positive": 396,
+          "negative": 547,
+          "neutral": 1
+        },
+        "centrale positielimiet: \u00e9\u00e9n open positie": {
+          "negative": 5,
+          "net_positive": 2,
+          "positive": 4
+        }
+      },
+      "category_outcomes": {
+        "not_selected_no_buy": {
+          "negative": 3041,
+          "net_positive": 1959,
+          "positive": 3261,
+          "neutral": 5
+        }
+      }
+    },
+    "utc4h:HOLD:BTCEUR": {
+      "n": 2119,
+      "gross": {
+        "negative": 1009,
+        "positive": 1110
+      },
+      "net_positive": 564,
+      "gross_positive_net_positive": 564,
+      "minima": {
+        "min": "-0.1388175392426667776750805407",
+        "median": "-0.0051546364508261974305147332",
+        "max": "0"
+      },
+      "gross_values": {
+        "min": "-0.1181543637038911267635865518",
+        "median": "0.000389242395226657365345310",
+        "max": "0.087751709430491972301655392"
+      },
+      "regime": {
+        "uncertain": {
+          "negative": 598,
+          "positive": 643
+        },
+        "bearish": {
+          "positive": 187,
+          "negative": 124
+        },
+        "bullish": {
+          "positive": 192,
+          "negative": 206
+        },
+        "sideways": {
+          "negative": 81,
+          "positive": 88
+        }
+      },
+      "direction": {
+        "flat": {
+          "negative": 379,
+          "positive": 375
+        },
+        "down": {
+          "positive": 361,
+          "negative": 265
+        },
+        "up": {
+          "positive": 374,
+          "negative": 365
+        }
+      },
+      "features": {
+        "negative": {
+          "n": 1009,
+          "rsi": "52.16858766974360482533670892",
+          "momentum": "0.001905155574416772174836240050",
+          "atr": "0.007539521769952620730479090294"
+        },
+        "positive": {
+          "n": 1110,
+          "rsi": "50.51100485876702759944363850",
+          "momentum": "-0.0002984441614936185227459969032",
+          "atr": "0.007676725762911923277467902741"
+        }
+      },
+      "higher_score": 369,
+      "reasons": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 1731,
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 385,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 3
+      },
+      "categories": {
+        "not_selected_no_buy": 2119
+      },
+      "reason_outcomes": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": {
+          "negative": 827,
+          "net_positive": 445,
+          "positive": 904
+        },
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": {
+          "positive": 206,
+          "net_positive": 119,
+          "negative": 179
+        },
+        "centrale positielimiet: \u00e9\u00e9n open positie": {
+          "negative": 3,
+          "net_positive": 0
+        }
+      },
+      "category_outcomes": {
+        "not_selected_no_buy": {
+          "negative": 1009,
+          "net_positive": 564,
+          "positive": 1110
+        }
+      }
+    },
+    "overlapping:all:ETHEUR": {
+      "n": 34448,
+      "gross": {
+        "negative": 16686,
+        "positive": 17757,
+        "neutral": 5
+      },
+      "net_positive": 9967,
+      "gross_positive_net_positive": 9967,
+      "minima": {
+        "min": "-0.2122616860907017988345578921",
+        "median": "-0.00636785859737385188864176445",
+        "max": "0"
+      },
+      "gross_values": {
+        "min": "-0.1757946539659394390864352112",
+        "median": "0.000295001501854005971369116",
+        "max": "0.147205697615265622242293996"
+      },
+      "regime": {
+        "bearish": {
+          "negative": 2672,
+          "positive": 3234,
+          "neutral": 2
+        },
+        "uncertain": {
+          "positive": 10214,
+          "negative": 9325,
+          "neutral": 1
+        },
+        "bullish": {
+          "positive": 3395,
+          "negative": 3855,
+          "neutral": 2
+        },
+        "sideways": {
+          "positive": 914,
+          "negative": 834
+        }
+      },
+      "direction": {
+        "down": {
+          "negative": 5077,
+          "positive": 6080,
+          "neutral": 3
+        },
+        "flat": {
+          "positive": 5218,
+          "negative": 4930
+        },
+        "up": {
+          "positive": 6459,
+          "negative": 6679,
+          "neutral": 2
+        }
+      },
+      "features": {
+        "negative": {
+          "n": 16686,
+          "rsi": "51.15127538668994558797223338",
+          "momentum": "0.001208167125457930700153501305",
+          "atr": "0.008925062063342489092148598514"
+        },
+        "positive": {
+          "n": 17757,
+          "rsi": "50.45294928357085645901914051",
+          "momentum": "0.0003340448142886958805033304673",
+          "atr": "0.009246916470793447415137853821"
+        },
+        "neutral": {
+          "n": 5,
+          "rsi": "45.97578143640452450183566416",
+          "momentum": "0.00459643547578768907756375684",
+          "atr": "0.01133956422013108343826933362"
+        }
+      },
+      "higher_score": 24148,
+      "reasons": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 27927,
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 6297,
+        "centrale Risk Engine akkoord; cash en positieplaats gereserveerd": 3,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 40,
+        "verliesreekspauze": 169,
+        "liquiditeit_15m": 12
+      },
+      "categories": {
+        "not_selected_no_buy": 33906,
+        "approved_execution_rejected": 1,
+        "executed_entry": 2,
+        "blocked_candidate": 539
+      },
+      "reason_outcomes": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": {
+          "negative": 13410,
+          "net_positive": 8018,
+          "positive": 14513,
+          "neutral": 4
+        },
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": {
+          "positive": 3172,
+          "net_positive": 1907,
+          "negative": 3124,
+          "neutral": 1
+        },
+        "centrale Risk Engine akkoord; cash en positieplaats gereserveerd": {
+          "negative": 3,
+          "net_positive": 0
+        },
+        "centrale positielimiet: \u00e9\u00e9n open positie": {
+          "negative": 30,
+          "net_positive": 8,
+          "positive": 10
+        },
+        "verliesreekspauze": {
+          "positive": 59,
+          "net_positive": 31,
+          "negative": 110
+        },
+        "liquiditeit_15m": {
+          "positive": 3,
+          "net_positive": 3,
+          "negative": 9
+        }
+      },
+      "category_outcomes": {
+        "not_selected_no_buy": {
+          "negative": 16378,
+          "net_positive": 9820,
+          "positive": 17523,
+          "neutral": 5
+        },
+        "approved_execution_rejected": {
+          "negative": 1,
+          "net_positive": 0
+        },
+        "executed_entry": {
+          "negative": 2,
+          "net_positive": 0
+        },
+        "blocked_candidate": {
+          "negative": 305,
+          "net_positive": 147,
+          "positive": 234
+        }
+      }
+    },
+    "overlapping:HOLD:ETHEUR": {
+      "n": 33906,
+      "gross": {
+        "negative": 16378,
+        "positive": 17523,
+        "neutral": 5
+      },
+      "net_positive": 9820,
+      "gross_positive_net_positive": 9820,
+      "minima": {
+        "min": "-0.2122616860907017988345578921",
+        "median": "-0.00634117874543605932344230085",
+        "max": "0"
+      },
+      "gross_values": {
+        "min": "-0.1757946539659394390864352112",
+        "median": "0.000326997342262587789800998",
+        "max": "0.147205697615265622242293996"
+      },
+      "regime": {
+        "bearish": {
+          "negative": 2672,
+          "positive": 3234,
+          "neutral": 2
+        },
+        "uncertain": {
+          "positive": 10214,
+          "negative": 9325,
+          "neutral": 1
+        },
+        "bullish": {
+          "positive": 3161,
+          "negative": 3547,
+          "neutral": 2
+        },
+        "sideways": {
+          "positive": 914,
+          "negative": 834
+        }
+      },
+      "direction": {
+        "down": {
+          "negative": 5077,
+          "positive": 6080,
+          "neutral": 3
+        },
+        "flat": {
+          "positive": 5218,
+          "negative": 4930
+        },
+        "up": {
+          "positive": 6225,
+          "negative": 6371,
+          "neutral": 2
+        }
+      },
+      "features": {
+        "negative": {
+          "n": 16378,
+          "rsi": "50.92085151366851994269259796",
+          "momentum": "0.0008530862135827005053547889602",
+          "atr": "0.008918601635808668327282356655"
+        },
+        "positive": {
+          "n": 17523,
+          "rsi": "50.27538283997127257050472896",
+          "momentum": "0.00007050106835272210196668649255",
+          "atr": "0.009258459214342285828233814432"
+        },
+        "neutral": {
+          "n": 5,
+          "rsi": "45.97578143640452450183566416",
+          "momentum": "0.00459643547578768907756375684",
+          "atr": "0.01133956422013108343826933362"
+        }
+      },
+      "higher_score": 23949,
+      "reasons": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 27576,
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 6297,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 33
+      },
+      "categories": {
+        "not_selected_no_buy": 33906
+      },
+      "reason_outcomes": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": {
+          "negative": 13228,
+          "net_positive": 7908,
+          "positive": 14344,
+          "neutral": 4
+        },
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": {
+          "positive": 3172,
+          "net_positive": 1907,
+          "negative": 3124,
+          "neutral": 1
+        },
+        "centrale positielimiet: \u00e9\u00e9n open positie": {
+          "negative": 26,
+          "net_positive": 5,
+          "positive": 7
+        }
+      },
+      "category_outcomes": {
+        "not_selected_no_buy": {
+          "negative": 16378,
+          "net_positive": 9820,
+          "positive": 17523,
+          "neutral": 5
+        }
+      }
+    },
+    "utc4h:all:ETHEUR": {
+      "n": 2153,
+      "gross": {
+        "negative": 1048,
+        "positive": 1103,
+        "neutral": 2
+      },
+      "net_positive": 626,
+      "gross_positive_net_positive": 626,
+      "minima": {
+        "min": "-0.1949566709011319777650114492",
+        "median": "-0.0064565134827193315609570832",
+        "max": "0"
+      },
+      "gross_values": {
+        "min": "-0.1400812370032931733406694771",
+        "median": "0.000332583137712021750291414",
+        "max": "0.098809065174787691998458987"
+      },
+      "regime": {
+        "bearish": {
+          "negative": 164,
+          "positive": 192,
+          "neutral": 1
+        },
+        "uncertain": {
+          "positive": 649,
+          "negative": 593
+        },
+        "bullish": {
+          "positive": 218,
+          "negative": 242,
+          "neutral": 1
+        },
+        "sideways": {
+          "positive": 44,
+          "negative": 49
+        }
+      },
+      "direction": {
+        "down": {
+          "negative": 322,
+          "positive": 375,
+          "neutral": 1
+        },
+        "flat": {
+          "positive": 316,
+          "negative": 317
+        },
+        "up": {
+          "positive": 412,
+          "negative": 409,
+          "neutral": 1
+        }
+      },
+      "features": {
+        "negative": {
+          "n": 1048,
+          "rsi": "51.34738474322755284342712393",
+          "momentum": "0.001795287895834443994293552963",
+          "atr": "0.008920309514133806781421656209"
+        },
+        "positive": {
+          "n": 1103,
+          "rsi": "50.21529682319841624003707404",
+          "momentum": "-0.0004439303422482895824300411124",
+          "atr": "0.009224784945370594106850991269"
+        },
+        "neutral": {
+          "n": 2,
+          "rsi": "41.90396488763066794550579722",
+          "momentum": "-0.00865156024757190524023953365",
+          "atr": "0.00864512637336348164321557637"
+        }
+      },
+      "higher_score": 1509,
+      "reasons": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 1742,
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 391,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 3,
+        "verliesreekspauze": 16,
+        "liquiditeit_15m": 1
+      },
+      "categories": {
+        "not_selected_no_buy": 2114,
+        "blocked_candidate": 39
+      },
+      "reason_outcomes": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": {
+          "negative": 848,
+          "net_positive": 495,
+          "positive": 893,
+          "neutral": 1
+        },
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": {
+          "positive": 201,
+          "net_positive": 125,
+          "negative": 189,
+          "neutral": 1
+        },
+        "centrale positielimiet: \u00e9\u00e9n open positie": {
+          "negative": 1,
+          "net_positive": 1,
+          "positive": 2
+        },
+        "verliesreekspauze": {
+          "positive": 7,
+          "net_positive": 5,
+          "negative": 9
+        },
+        "liquiditeit_15m": {
+          "negative": 1,
+          "net_positive": 0
+        }
+      },
+      "category_outcomes": {
+        "not_selected_no_buy": {
+          "negative": 1028,
+          "net_positive": 613,
+          "positive": 1084,
+          "neutral": 2
+        },
+        "blocked_candidate": {
+          "positive": 19,
+          "net_positive": 13,
+          "negative": 20
+        }
+      }
+    },
+    "utc4h:HOLD:ETHEUR": {
+      "n": 2114,
+      "gross": {
+        "negative": 1028,
+        "positive": 1084,
+        "neutral": 2
+      },
+      "net_positive": 613,
+      "gross_positive_net_positive": 613,
+      "minima": {
+        "min": "-0.1949566709011319777650114492",
+        "median": "-0.00646215468608731143829327845",
+        "max": "0"
+      },
+      "gross_values": {
+        "min": "-0.1400812370032931733406694771",
+        "median": "0.0003741817799193580883312675",
+        "max": "0.098809065174787691998458987"
+      },
+      "regime": {
+        "bearish": {
+          "negative": 164,
+          "positive": 192,
+          "neutral": 1
+        },
+        "uncertain": {
+          "positive": 649,
+          "negative": 593
+        },
+        "bullish": {
+          "positive": 199,
+          "negative": 222,
+          "neutral": 1
+        },
+        "sideways": {
+          "positive": 44,
+          "negative": 49
+        }
+      },
+      "direction": {
+        "down": {
+          "negative": 322,
+          "positive": 375,
+          "neutral": 1
+        },
+        "flat": {
+          "positive": 316,
+          "negative": 317
+        },
+        "up": {
+          "positive": 393,
+          "negative": 389,
+          "neutral": 1
+        }
+      },
+      "features": {
+        "negative": {
+          "n": 1028,
+          "rsi": "51.13951442978184725409158284",
+          "momentum": "0.001516122683742290916521067923",
+          "atr": "0.008917990020831737398248626573"
+        },
+        "positive": {
+          "n": 1084,
+          "rsi": "49.97744493350001065245190876",
+          "momentum": "-0.0007692890448641103981542919327",
+          "atr": "0.009246405786859450462538861661"
+        },
+        "neutral": {
+          "n": 2,
+          "rsi": "41.90396488763066794550579722",
+          "momentum": "-0.00865156024757190524023953365",
+          "atr": "0.00864512637336348164321557637"
+        }
+      },
+      "higher_score": 1493,
+      "reasons": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 1720,
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 391,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 3
+      },
+      "categories": {
+        "not_selected_no_buy": 2114
+      },
+      "reason_outcomes": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": {
+          "negative": 838,
+          "net_positive": 487,
+          "positive": 881,
+          "neutral": 1
+        },
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": {
+          "positive": 201,
+          "net_positive": 125,
+          "negative": 189,
+          "neutral": 1
+        },
+        "centrale positielimiet: \u00e9\u00e9n open positie": {
+          "negative": 1,
+          "net_positive": 1,
+          "positive": 2
+        }
+      },
+      "category_outcomes": {
+        "not_selected_no_buy": {
+          "negative": 1028,
+          "net_positive": 613,
+          "positive": 1084,
+          "neutral": 2
+        }
+      }
+    },
+    "overlapping:all:SOLEUR": {
+      "n": 34448,
+      "gross": {
+        "negative": 16771,
+        "positive": 17604,
+        "neutral": 73
+      },
+      "net_positive": 12501,
+      "gross_positive_net_positive": 12501,
+      "minima": {
+        "min": "-0.2503708330080412210164727926",
+        "median": "-0.01003853229534188493732575915",
+        "max": "0"
+      },
+      "gross_values": {
+        "min": "-0.1701928331641814349285658521",
+        "median": "0.000414840237093709051305564",
+        "max": "0.210934393638170974155069583"
+      },
+      "regime": {
+        "bearish": {
+          "negative": 3332,
+          "positive": 3658,
+          "neutral": 14
+        },
+        "uncertain": {
+          "positive": 9611,
+          "negative": 9118,
+          "neutral": 43
+        },
+        "bullish": {
+          "positive": 3905,
+          "negative": 3876,
+          "neutral": 15
+        },
+        "sideways": {
+          "positive": 430,
+          "negative": 445,
+          "neutral": 1
+        }
+      },
+      "direction": {
+        "down": {
+          "negative": 6294,
+          "positive": 6979,
+          "neutral": 31
+        },
+        "flat": {
+          "positive": 3394,
+          "negative": 3408,
+          "neutral": 14
+        },
+        "up": {
+          "positive": 7231,
+          "negative": 7069,
+          "neutral": 28
+        }
+      },
+      "features": {
+        "negative": {
+          "n": 16771,
+          "rsi": "51.13695150354308705104535520",
+          "momentum": "0.002450916661462625407964478867",
+          "atr": "0.01327802328960095383878386250"
+        },
+        "positive": {
+          "n": 17604,
+          "rsi": "50.10125864601851933360778164",
+          "momentum": "0.0002045892405209463294713977474",
+          "atr": "0.01372488077783236235263397979"
+        },
+        "neutral": {
+          "n": 73,
+          "rsi": "50.33071094785769175800933084",
+          "momentum": "0.0003295815384156866680025205863",
+          "atr": "0.01183112376442135054852445507"
+        }
+      },
+      "higher_score": 30632,
+      "reasons": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 27927,
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 6023,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 40,
+        "centrale Risk Engine akkoord; cash en positieplaats gereserveerd": 1,
+        "verliesreekspauze": 417,
+        "liquiditeit_15m": 40
+      },
+      "categories": {
+        "not_selected_no_buy": 33418,
+        "blocked_candidate": 1029,
+        "executed_entry": 1
+      },
+      "reason_outcomes": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": {
+          "negative": 13668,
+          "net_positive": 10054,
+          "positive": 14198,
+          "neutral": 61
+        },
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": {
+          "positive": 3145,
+          "net_positive": 2250,
+          "neutral": 12,
+          "negative": 2866
+        },
+        "centrale positielimiet: \u00e9\u00e9n open positie": {
+          "negative": 28,
+          "net_positive": 10,
+          "positive": 12
+        },
+        "centrale Risk Engine akkoord; cash en positieplaats gereserveerd": {
+          "negative": 1,
+          "net_positive": 0
+        },
+        "verliesreekspauze": {
+          "positive": 223,
+          "net_positive": 166,
+          "negative": 194
+        },
+        "liquiditeit_15m": {
+          "positive": 26,
+          "net_positive": 21,
+          "negative": 14
+        }
+      },
+      "category_outcomes": {
+        "not_selected_no_buy": {
+          "negative": 16279,
+          "net_positive": 12100,
+          "positive": 17066,
+          "neutral": 73
+        },
+        "blocked_candidate": {
+          "negative": 491,
+          "net_positive": 401,
+          "positive": 538
+        },
+        "executed_entry": {
+          "negative": 1,
+          "net_positive": 0
+        }
+      }
+    },
+    "overlapping:HOLD:SOLEUR": {
+      "n": 33418,
+      "gross": {
+        "negative": 16279,
+        "positive": 17066,
+        "neutral": 73
+      },
+      "net_positive": 12100,
+      "gross_positive_net_positive": 12100,
+      "minima": {
+        "min": "-0.2266430412371134020618556701",
+        "median": "-0.01003578907661236025596509975",
+        "max": "0"
+      },
+      "gross_values": {
+        "min": "-0.1396103896103896103896103896",
+        "median": "0.0003929491850324384655380185",
+        "max": "0.210934393638170974155069583"
+      },
+      "regime": {
+        "bearish": {
+          "negative": 3332,
+          "positive": 3658,
+          "neutral": 14
+        },
+        "uncertain": {
+          "positive": 9611,
+          "negative": 9118,
+          "neutral": 43
+        },
+        "bullish": {
+          "positive": 3367,
+          "negative": 3384,
+          "neutral": 15
+        },
+        "sideways": {
+          "positive": 430,
+          "negative": 445,
+          "neutral": 1
+        }
+      },
+      "direction": {
+        "down": {
+          "negative": 6294,
+          "positive": 6979,
+          "neutral": 31
+        },
+        "flat": {
+          "positive": 3394,
+          "negative": 3408,
+          "neutral": 14
+        },
+        "up": {
+          "positive": 6693,
+          "negative": 6577,
+          "neutral": 28
+        }
+      },
+      "features": {
+        "negative": {
+          "n": 16279,
+          "rsi": "50.77323396833403847656813358",
+          "momentum": "0.001673795553788178022093071426",
+          "atr": "0.01326724396616774377659346936"
+        },
+        "positive": {
+          "n": 17066,
+          "rsi": "49.70403845970913333677469234",
+          "momentum": "-0.0006513077979063541626601614122",
+          "atr": "0.01372825264994656885100959573"
+        },
+        "neutral": {
+          "n": 73,
+          "rsi": "50.33071094785769175800933084",
+          "momentum": "0.0003295815384156866680025205863",
+          "atr": "0.01183112376442135054852445507"
+        }
+      },
+      "higher_score": 29765,
+      "reasons": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 27365,
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 6023,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 30
+      },
+      "categories": {
+        "not_selected_no_buy": 33418
+      },
+      "reason_outcomes": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": {
+          "negative": 13395,
+          "net_positive": 9840,
+          "positive": 13909,
+          "neutral": 61
+        },
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": {
+          "positive": 3145,
+          "net_positive": 2250,
+          "neutral": 12,
+          "negative": 2866
+        },
+        "centrale positielimiet: \u00e9\u00e9n open positie": {
+          "negative": 18,
+          "net_positive": 10,
+          "positive": 12
+        }
+      },
+      "category_outcomes": {
+        "not_selected_no_buy": {
+          "negative": 16279,
+          "net_positive": 12100,
+          "positive": 17066,
+          "neutral": 73
+        }
+      }
+    },
+    "utc4h:all:SOLEUR": {
+      "n": 2153,
+      "gross": {
+        "negative": 1040,
+        "positive": 1110,
+        "neutral": 3
+      },
+      "net_positive": 816,
+      "gross_positive_net_positive": 816,
+      "minima": {
+        "min": "-0.2503708330080412210164727926",
+        "median": "-0.0101477899611795954505210107",
+        "max": "0"
+      },
+      "gross_values": {
+        "min": "-0.1701928331641814349285658521",
+        "median": "0.000676418364758603196076773",
+        "max": "0.128658823529411764705882353"
+      },
+      "regime": {
+        "bearish": {
+          "negative": 205,
+          "positive": 249
+        },
+        "uncertain": {
+          "positive": 581,
+          "negative": 571,
+          "neutral": 2
+        },
+        "bullish": {
+          "positive": 250,
+          "negative": 238,
+          "neutral": 1
+        },
+        "sideways": {
+          "positive": 30,
+          "negative": 26
+        }
+      },
+      "direction": {
+        "down": {
+          "negative": 385,
+          "positive": 449,
+          "neutral": 1
+        },
+        "up": {
+          "positive": 446,
+          "negative": 449,
+          "neutral": 1
+        },
+        "flat": {
+          "positive": 215,
+          "negative": 206,
+          "neutral": 1
+        }
+      },
+      "features": {
+        "negative": {
+          "n": 1040,
+          "rsi": "51.50903271034751315538698846",
+          "momentum": "0.003204654884510942759134976030",
+          "atr": "0.01326514095554523724091910193"
+        },
+        "positive": {
+          "n": 1110,
+          "rsi": "49.75086704830536764912636949",
+          "momentum": "-0.0009627378624817441412156625045",
+          "atr": "0.01369419585479333510155578808"
+        },
+        "neutral": {
+          "n": 3,
+          "rsi": "51.71997643583055768932261063",
+          "momentum": "0.0067821051329609885191306163",
+          "atr": "0.01257574675068315283951736784"
+        }
+      },
+      "higher_score": 1908,
+      "reasons": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 1742,
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 374,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 3,
+        "centrale Risk Engine akkoord; cash en positieplaats gereserveerd": 1,
+        "verliesreekspauze": 26,
+        "liquiditeit_15m": 7
+      },
+      "categories": {
+        "not_selected_no_buy": 2074,
+        "executed_entry": 1,
+        "blocked_candidate": 78
+      },
+      "reason_outcomes": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": {
+          "negative": 843,
+          "net_positive": 649,
+          "positive": 896,
+          "neutral": 3
+        },
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": {
+          "positive": 195,
+          "net_positive": 152,
+          "negative": 179
+        },
+        "centrale positielimiet: \u00e9\u00e9n open positie": {
+          "positive": 2,
+          "net_positive": 1,
+          "negative": 1
+        },
+        "centrale Risk Engine akkoord; cash en positieplaats gereserveerd": {
+          "negative": 1,
+          "net_positive": 0
+        },
+        "verliesreekspauze": {
+          "negative": 13,
+          "net_positive": 11,
+          "positive": 13
+        },
+        "liquiditeit_15m": {
+          "positive": 4,
+          "net_positive": 3,
+          "negative": 3
+        }
+      },
+      "category_outcomes": {
+        "not_selected_no_buy": {
+          "negative": 1004,
+          "net_positive": 782,
+          "positive": 1067,
+          "neutral": 3
+        },
+        "executed_entry": {
+          "negative": 1,
+          "net_positive": 0
+        },
+        "blocked_candidate": {
+          "negative": 35,
+          "net_positive": 34,
+          "positive": 43
+        }
+      }
+    },
+    "utc4h:HOLD:SOLEUR": {
+      "n": 2074,
+      "gross": {
+        "negative": 1004,
+        "positive": 1067,
+        "neutral": 3
+      },
+      "net_positive": 782,
+      "gross_positive_net_positive": 782,
+      "minima": {
+        "min": "-0.1523839796567069294342021615",
+        "median": "-0.0101635522669777167089327472",
+        "max": "0"
+      },
+      "gross_values": {
+        "min": "-0.1050858232676414494596312778",
+        "median": "0.000629855195272680408263137",
+        "max": "0.128658823529411764705882353"
+      },
+      "regime": {
+        "bearish": {
+          "negative": 205,
+          "positive": 249
+        },
+        "uncertain": {
+          "positive": 581,
+          "negative": 571,
+          "neutral": 2
+        },
+        "bullish": {
+          "positive": 207,
+          "negative": 202,
+          "neutral": 1
+        },
+        "sideways": {
+          "positive": 30,
+          "negative": 26
+        }
+      },
+      "direction": {
+        "down": {
+          "negative": 385,
+          "positive": 449,
+          "neutral": 1
+        },
+        "up": {
+          "positive": 403,
+          "negative": 413,
+          "neutral": 1
+        },
+        "flat": {
+          "positive": 215,
+          "negative": 206,
+          "neutral": 1
+        }
+      },
+      "features": {
+        "negative": {
+          "n": 1004,
+          "rsi": "51.10675842333911255396698931",
+          "momentum": "0.002352709673175806975284598269",
+          "atr": "0.01326446078739415696443783230"
+        },
+        "positive": {
+          "n": 1067,
+          "rsi": "49.20571278556147883810936546",
+          "momentum": "-0.002207086210928099411327270192",
+          "atr": "0.01369190215155057592635823613"
+        },
+        "neutral": {
+          "n": 3,
+          "rsi": "51.71997643583055768932261063",
+          "momentum": "0.0067821051329609885191306163",
+          "atr": "0.01257574675068315283951736784"
+        }
+      },
+      "higher_score": 1840,
+      "reasons": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": 1697,
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 374,
+        "centrale positielimiet: \u00e9\u00e9n open positie": 3
+      },
+      "categories": {
+        "not_selected_no_buy": 2074
+      },
+      "reason_outcomes": {
+        "onvolledig vergelijkingsuniversum; geen nieuwe instap": {
+          "negative": 824,
+          "net_positive": 629,
+          "positive": 870,
+          "neutral": 3
+        },
+        "Uitsluitend BUY_CANDIDATE wordt beoordeeld": {
+          "positive": 195,
+          "net_positive": 152,
+          "negative": 179
+        },
+        "centrale positielimiet: \u00e9\u00e9n open positie": {
+          "positive": 2,
+          "net_positive": 1,
+          "negative": 1
+        }
+      },
+      "category_outcomes": {
+        "not_selected_no_buy": {
+          "negative": 1004,
+          "net_positive": 782,
+          "positive": 1067,
+          "neutral": 3
+        }
+      }
+    }
+  },
+  "missing_features": 0,
+  "missing_windows": 0,
+  "recorded_order_outcomes": [
+    {
+      "portfolio": "joint:29f11951679bb753a8367fa100feccc9360f66e14819f3370099cb4d99054d03",
+      "batch": "17ba405e87cedbfae0c9a65a2e5d7821eece8987495cbf799afaa1d55571eabd",
+      "coin": "BTCEUR",
+      "side": "buy",
+      "success": false,
+      "reason": "ongunstige open overschrijdt gereserveerde cash; geen automatische verhoging",
+      "kind": "rejected",
+      "cash": "200",
+      "realized": "0",
+      "fees": "0"
+    },
+    {
+      "portfolio": "joint:29f11951679bb753a8367fa100feccc9360f66e14819f3370099cb4d99054d03",
+      "batch": "d4e485b3758c57d826fc42428164ef40ccee8b03f1075f5bc71c1723478d46db",
+      "coin": "BTCEUR",
+      "side": "buy",
+      "success": false,
+      "reason": "ongunstige open overschrijdt gereserveerde cash; geen automatische verhoging",
+      "kind": "rejected",
+      "cash": "200",
+      "realized": "0",
+      "fees": "0"
+    },
+    {
+      "portfolio": "joint:29f11951679bb753a8367fa100feccc9360f66e14819f3370099cb4d99054d03",
+      "batch": "c7e66b5cbf828931e80d8ed2608cee093b969752dab723921391ce8fb56c7d26",
+      "coin": "BTCEUR",
+      "side": "buy",
+      "success": false,
+      "reason": "ongunstige open overschrijdt gereserveerde cash; geen automatische verhoging",
+      "kind": "rejected",
+      "cash": "200",
+      "realized": "0",
+      "fees": "0"
+    },
+    {
+      "portfolio": "joint:29f11951679bb753a8367fa100feccc9360f66e14819f3370099cb4d99054d03",
+      "batch": "cd1e1aeeaae10f252c6db20e0e12ea90ff0b858de1611bb754d006a470642012",
+      "coin": "ETHEUR",
+      "side": "buy",
+      "success": false,
+      "reason": "ongunstige open overschrijdt gereserveerde cash; geen automatische verhoging",
+      "kind": "rejected",
+      "cash": "200",
+      "realized": "0",
+      "fees": "0"
+    },
+    {
+      "portfolio": "joint:29f11951679bb753a8367fa100feccc9360f66e14819f3370099cb4d99054d03",
+      "batch": "3c2461a2baee09c8f2e6183a5eca6705088dc526e2d323b66ef9b2005974a3fc",
+      "coin": "ETHEUR",
+      "side": "buy",
+      "success": true,
+      "reason": "Vaste hypothese; volgende candle-open, onder voorbehoud van Risk Engine",
+      "kind": "fill",
+      "cash": "159.70029255",
+      "realized": "0",
+      "fees": "0.04025945"
+    },
+    {
+      "portfolio": "joint:29f11951679bb753a8367fa100feccc9360f66e14819f3370099cb4d99054d03",
+      "batch": "0bc10a33fc9085aec0dbce299bca064fa61a6e47461d6d39d5d69bb70c8b3695",
+      "coin": "ETHEUR",
+      "side": "buy",
+      "success": true,
+      "reason": "Vaste hypothese; volgende candle-open, onder voorbehoud van Risk Engine",
+      "kind": "fill",
+      "cash": "166.38851141",
+      "realized": "-0.99591459",
+      "fees": "0.11218559"
+    },
+    {
+      "portfolio": "joint:29f11951679bb753a8367fa100feccc9360f66e14819f3370099cb4d99054d03",
+      "batch": "f83c59e4936b4a9dff5bb2bbad3a4bebb4538fe05914b79c582745fbc5544a26",
+      "coin": "SOLEUR",
+      "side": "buy",
+      "success": true,
+      "reason": "Vaste hypothese; volgende candle-open, onder voorbehoud van Risk Engine",
+      "kind": "fill",
+      "cash": "176.93149329",
+      "realized": "-1.98449225",
+      "fees": "0.16490721"
+    }
+  ],
+  "recorded_trades": [
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-08T21:30:00+00:00",
+      "entry": "2141.46",
+      "entry_id": "3c2461a2baee09c8f2e6183a5eca6705088dc526e2d323b66ef9b2005974a3fc",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000493500000000",
+        "slippage": "0.0401991000000000",
+        "spread": "0.0200995500000000"
+      },
+      "entry_raw": "2138.25000000",
+      "exit": "2092.72",
+      "exit_id": "ac1f49b44c4fec0420cfb2d59273b7e68f98fb37d6716459851d2db0750fee8f",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0001164660",
+        "slippage": "0.0394023560",
+        "spread": "0.0197011780"
+      },
+      "exit_raw": "2095.87",
+      "exited_at": "2024-01-09T00:45:00+00:00",
+      "fees": "0.07960259",
+      "net": "-0.99591459",
+      "quantity": "0.01880",
+      "reason": "stop",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-10T10:15:00+00:00",
+      "entry": "2216.53",
+      "entry_id": "0bc10a33fc9085aec0dbce299bca064fa61a6e47461d6d39d5d69bb70c8b3695",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000027195000000",
+        "slippage": "0.0325341870000000",
+        "spread": "0.0162670935000000"
+      },
+      "entry_raw": "2213.21000000",
+      "exit": "2153.65",
+      "exit_id": "27f60bcfe54a09580836ab6f4fe98147f5020133569a3eecfa4ed447af748a89",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000685755",
+        "slippage": "0.0317062830",
+        "spread": "0.0158531415"
+      },
+      "exit_raw": "2156.89",
+      "exited_at": "2024-01-10T13:00:00+00:00",
+      "fees": "0.06424166",
+      "net": "-0.98857766",
+      "quantity": "0.01470",
+      "reason": "stop",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-11T12:00:00+00:00",
+      "entry": "95.45",
+      "entry_id": "f83c59e4936b4a9dff5bb2bbad3a4bebb4538fe05914b79c582745fbc5544a26",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0015557235000000",
+        "slippage": "0.0210298510000000",
+        "spread": "0.0105149255000000"
+      },
+      "entry_raw": "95.30000000",
+      "exit": "91.18",
+      "exit_id": "2466a9a68f6908237aac092121d18624bba88e44aaa682125dd5a936415f7b6a",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0006664234",
+        "slippage": "0.0201515844",
+        "spread": "0.0100757922"
+      },
+      "exit_raw": "91.32",
+      "exited_at": "2024-01-11T16:00:00+00:00",
+      "fees": "0.04118366",
+      "net": "-0.98344456",
+      "quantity": "0.22067",
+      "reason": "stop",
+      "symbol": "SOLEUR"
+    }
+  ],
+  "new_order_simulations": 0,
+  "orders_note": "Existing ex-ante risk and fillsimulator outcomes retained; other labels have no new permission or shadow portfolio",
+  "old_data_and_results_unchanged": true,
+  "labels_sha256": "7babf3ca16c7b8f22818bb4b45d1720a3adb6f8bb439018bdf7dba465ceed5d6",
+  "validation_accessed": false,
+  "independent_test_opened": false
+}

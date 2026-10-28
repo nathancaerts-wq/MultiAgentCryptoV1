@@ -1,0 +1,32 @@
+{
+  "source": "original coin-scoped scanner ranks joined on original decision UTC at each decision t, independent of later DecisionAgent validation",
+  "outcome_data_used": false,
+  "timestamps": 34448,
+  "per_coin": {
+    "BTCEUR": {
+      "observations": 34448,
+      "higher_known_scanner": 6144,
+      "ties_for_top": 5816,
+      "missing_own_score": 0,
+      "comparison_unknown": 0
+    },
+    "ETHEUR": {
+      "observations": 34448,
+      "higher_known_scanner": 24148,
+      "ties_for_top": 5236,
+      "missing_own_score": 0,
+      "comparison_unknown": 0
+    },
+    "SOLEUR": {
+      "observations": 34448,
+      "higher_known_scanner": 30632,
+      "ties_for_top": 2752,
+      "missing_own_score": 0,
+      "comparison_unknown": 0
+    }
+  },
+  "total_with_higher_scanner": 60924,
+  "script_sha256": "3a4232bed2aa3f2c204f15e31e608deb4b98e185245cc80e7f5d33bdbed519df",
+  "elapsed": 5.2578452979942085,
+  "peak_rss_kib": 37152
+}

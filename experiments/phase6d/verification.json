@@ -1,0 +1,15 @@
+{
+  "verified": true,
+  "labels": 103344,
+  "original_decisions_unchanged": true,
+  "cost_arithmetic_exact": true,
+  "counts_reconciled": true,
+  "nonoverlap_observations": 6459,
+  "old_source_files_and_database_unchanged": true,
+  "manifest_sha256": "933be8ac13e01a7dd4e4a749291306e2f026a87bf92431f17a3163f83a98e779",
+  "database_sha256": "fa2290c6352550186da5dd4750ad35077b4d9cf2cd2684322368eb96b28aadfa",
+  "new_portfolio_orders": 0,
+  "validation_accessed": false,
+  "independent_test_opened": false,
+  "verifier_sha256": "77cb45f57d28b200462414a121d10da50be66d5b84ff2832b2bdc86fc9b2ce8a"
+}
