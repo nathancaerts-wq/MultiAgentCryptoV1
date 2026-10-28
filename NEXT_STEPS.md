@@ -1,16 +1,19 @@
-# Vervolg na audit-hashoptimalisatie fase 6B
+# Na de historische januari-pilot
 
-Lees PHASE6B_AUDIT_OPTIMIZATION_REPORT.md. Alle 385 tests slagen. Hashwaarden en
-volledige financiële/auditinhoud blijven gelijk. De hashfunctie is bij 1.000
-synthetische stappen sneller, maar de totale replaytijd verbetert niet aantoonbaar.
+Lees PHASE6B_JANUARY_PILOT_REPORT.md. De geautoriseerde januari-2024-pilot is volledig
+voltooid; drie trades, netto −€2,96793681, vlakke eindportefeuille €197,03206319.
+389 tests slagen. Er is onvoldoende statistisch bewijs voor winstgevendheid.
 
-1. Onderzoek alleen na een nieuwe opdracht de overige analyse-/toelatings-/opslag-
-   kosten. Behoud agentisolatie, risicoregels en financiële Decimal-rekenregels.
-2. De eventcache is maximaal 2 MiB. Boven die limiet geldt terugval met mogelijk
-   herhaalde cache-opbouw; versnelling voor lange histories blijft onbewezen.
-3. Behoud ongecachete volledige herstartverificatie, hashcompatibiliteit, mutatie-,
-   rollback-, audit-insert-crash-, pending-order- en deduplicatietests.
-4. Geen automatische 5.000-run, jaarprobe of historische rendementsbacktest.
-   Jaarcapaciteit en het oorspronkelijke 45-secondenjaarcriterium blijven onbewezen.
-5. Onafhankelijke testperiode gesloten; geen strategiepromotie, parameteroptimalisatie
-   of automatische volgende fase. Stop na deze oplevering.
+1. Bewaar protocol, quality, manifest, result en verification in experiments/january_pilot/.
+   Bewaar de gecontroleerde database /workspace/january_pilot.sqlite3. Niet opnieuw
+   vanaf nul starten; het uitvoeringsscript weigert bestaande runs.
+2. Bestudeer afwijzingen en onzekerheden uitsluitend beschrijvend. Geen parameters,
+   strategieën, risicolimieten of filters afstemmen op dit resultaat.
+3. Historische filters blijven aannames, bronrevisies en selectiebias blijven onzeker.
+   Er is geen bewijs van daadwerkelijke historische Binance-orderuitvoerbaarheid.
+4. Verdere perioden, validatie, benchmarks, kostenstress of een jaarprobe vereisen
+   een afzonderlijke opdracht. De onafhankelijke testperiode blijft gesloten.
+5. Bestaande fixture-runner blijft afgeschermd; de historische route accepteert alleen
+   januari 2024 en de expliciete pilotconfiguratie. Geen automatische vervolgstudie.
+
+Stop na het veiligstellen van deze proef.

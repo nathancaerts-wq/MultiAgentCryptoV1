@@ -1,0 +1,282 @@
+{
+  "protocol": {
+    "version": "january-pilot-v1",
+    "authorization": "User: FIRST HISTORICAL DEVELOPMENT PILOT; January 2024 only",
+    "base_commit": "301f7db61e7d6b4eff93848cbf12da94e966f2d1",
+    "coins": [
+      "BTCEUR",
+      "ETHEUR",
+      "SOLEUR"
+    ],
+    "start": "2024-01-01T00:00:00+00:00",
+    "entries_from": "2024-01-08T00:00:00+00:00",
+    "end": "2024-02-01T00:00:00+00:00",
+    "strategy": "aligned_trend",
+    "policy": "JointPolicy phase6a-v1 / DecisionPolicy phase5-v1 defaults",
+    "filters": "PHASE6B_THREE_COIN_AMENDMENT.md assumed filters, unchanged",
+    "cost_scenario": "baseline: fee .001 each side, full spread .001, slippage .001 each side",
+    "scope": "Single January development pilot; no validation, benchmarks or stress runs",
+    "max_seconds": 600,
+    "address_space_bytes": 1610612736,
+    "early_rss_bytes": 1288490188,
+    "budget_reason": "2305 evaluation boundaries; prior active 1000 steps 91.4s, 5000 empty 291.5s. 600s includes preparation and checkpoint verification; no year-capacity claim.",
+    "restart": "Never restart from zero automatically; retain durable SQLite and diagnostics",
+    "independent_test_opened": false,
+    "year_gate": "Latest explicit January pilot authorization applies only to this bounded study; earlier full-year gate remains unpassed"
+  },
+  "quality": {
+    "status": "valid",
+    "coins": {
+      "BTCEUR": {
+        "counts": {
+          "15m": 2976,
+          "1h": 744,
+          "4h": 186
+        },
+        "status": "valid",
+        "prior_valid_days": 31
+      },
+      "ETHEUR": {
+        "counts": {
+          "15m": 2976,
+          "1h": 744,
+          "4h": 186
+        },
+        "status": "valid",
+        "prior_valid_days": 31
+      },
+      "SOLEUR": {
+        "counts": {
+          "15m": 2976,
+          "1h": 744,
+          "4h": 186
+        },
+        "status": "valid",
+        "prior_valid_days": 31
+      }
+    },
+    "datasets": [
+      {
+        "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/15m/BTCEUR-15m-2024-01.zip",
+        "sha256": "a3d647abfa9279f69354513d1a93171272419c0259cf1d7463b2378d36f9c194",
+        "validation_status": "official_month_checksum_verified_daily_slices_validated",
+        "derived_daily_checksums": "internal_only"
+      },
+      {
+        "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/1h/BTCEUR-1h-2024-01.zip",
+        "sha256": "e18c8e7802b0e7653f79d14ba1218ef8e076b3194eb23894ef589719beb224ca",
+        "validation_status": "official_month_checksum_verified_daily_slices_validated",
+        "derived_daily_checksums": "internal_only"
+      },
+      {
+        "source": "https://data.binance.vision/data/spot/monthly/klines/BTCEUR/4h/BTCEUR-4h-2024-01.zip",
+        "sha256": "844ebb007c8b733715cd02404821feedd959f0a5042e255b3a78945dbfee2b9c",
+        "validation_status": "official_month_checksum_verified_daily_slices_validated",
+        "derived_daily_checksums": "internal_only"
+      },
+      {
+        "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/15m/ETHEUR-15m-2024-01.zip",
+        "sha256": "8be035cbbd544754c1c19a9e651eba604b5061a2f0b0994a7326329defa5d4b2",
+        "validation_status": "official_month_checksum_verified_daily_slices_validated",
+        "derived_daily_checksums": "internal_only"
+      },
+      {
+        "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/1h/ETHEUR-1h-2024-01.zip",
+        "sha256": "d3f52b58a4937ff3f89af25543136b41b0a8b9e945b7a01013ad0460fcf19046",
+        "validation_status": "official_month_checksum_verified_daily_slices_validated",
+        "derived_daily_checksums": "internal_only"
+      },
+      {
+        "source": "https://data.binance.vision/data/spot/monthly/klines/ETHEUR/4h/ETHEUR-4h-2024-01.zip",
+        "sha256": "422bbbf0afda7918fd203d753010bd3a862c0a0de55d94f3dc07faf143c53ed4",
+        "validation_status": "official_month_checksum_verified_daily_slices_validated",
+        "derived_daily_checksums": "internal_only"
+      },
+      {
+        "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/15m/SOLEUR-15m-2024-01.zip",
+        "sha256": "82545851176af56188835d523bd4d7b79ab7b56df97d07768098bd7e5ce35704",
+        "validation_status": "official_month_checksum_verified_daily_slices_validated",
+        "derived_daily_checksums": "internal_only"
+      },
+      {
+        "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/1h/SOLEUR-1h-2024-01.zip",
+        "sha256": "eb640f00e08da72e2a93d1c10305cfa68fbb5d8ab21be3021220d181169bf04a",
+        "validation_status": "official_month_checksum_verified_daily_slices_validated",
+        "derived_daily_checksums": "internal_only"
+      },
+      {
+        "source": "https://data.binance.vision/data/spot/monthly/klines/SOLEUR/4h/SOLEUR-4h-2024-01.zip",
+        "sha256": "e3278ef3d9509132369447d9580f69be3a6517a1b2fe6e60c32249eaafcfc4f5",
+        "validation_status": "official_month_checksum_verified_daily_slices_validated",
+        "derived_daily_checksums": "internal_only"
+      }
+    ],
+    "performance_computed": false,
+    "requests": 0,
+    "download_bytes": 0
+  },
+  "input_seal": {
+    "input_hash": "5710604fa26a7af2b42355a7bc521cad3816d31d74cec56535b70db3a03f46da",
+    "reports": "173d60b0abd6abac475593865f59a3425c8be1fe1c648cf07dbeb59deac99130"
+  },
+  "plan": {
+    "version": "phase4-v1",
+    "coins": [
+      "BTCEUR",
+      "ETHEUR",
+      "SOLEUR"
+    ],
+    "dataset_sha256": "e3c983351ebd9371d6679ccb35496412c9ce50fccba9ac0d2367f51d82146439",
+    "source": "assumption:january-pilot-v1",
+    "report_hashes": [
+      "173d60b0abd6abac475593865f59a3425c8be1fe1c648cf07dbeb59deac99130",
+      "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    ],
+    "development": {
+      "start": "2024-01-01T00:00:00Z",
+      "end": "2024-02-01T00:00:00Z"
+    },
+    "validation": {
+      "start": "2025-02-01T00:00:00Z",
+      "end": "2025-12-31T20:00:00Z"
+    },
+    "independent_test": {
+      "start": "2026-01-01T00:00:00Z",
+      "end": "2026-10-01T00:00:00Z"
+    },
+    "indicators": {
+      "fast": 9,
+      "slow": 21,
+      "rsi": 14,
+      "atr": 14,
+      "momentum": 10,
+      "structure": 5,
+      "sideways": "0.002"
+    },
+    "hypotheses": [
+      "aligned_trend"
+    ],
+    "starting_cash": "200",
+    "planned_risk": "0.005",
+    "fee": "0.001",
+    "slippage": "0.001",
+    "horizon_hours": 4,
+    "stop_atr": 2,
+    "walk_train_days": 7,
+    "walk_validation_days": 2,
+    "minimum_trades": 30,
+    "family_alpha": "0.05",
+    "selection": "net_expectancy_after_costs_then_lower_drawdown",
+    "assumptions": [
+      "next_bar_execution_required",
+      "no_short_no_leverage",
+      "historical_revisions_not_reconstructed",
+      "no_validated_fill_simulator"
+    ]
+  },
+  "policy": {
+    "version": "phase6a-v1",
+    "starting_cash": "200",
+    "max_open_positions": 1,
+    "priority": "scanner_desc_utc_rotating_ties",
+    "decision": {
+      "version": "phase5-v1",
+      "hypothesis": "aligned_trend",
+      "unknown_sentiment": "neutral_unknown",
+      "planned_risk": "0.005",
+      "stop_atr": 2,
+      "horizon_hours": 4,
+      "target": null,
+      "max_consecutive_losses": 3,
+      "costs": {
+        "fee": "0.001",
+        "spread": "0.001",
+        "slippage": "0.001"
+      }
+    }
+  },
+  "filters": {
+    "BTCEUR": {
+      "symbol": "BTCEUR",
+      "source": "assumption:phase6b-three-coin-v1",
+      "status": "assumed",
+      "note": "Hypothetical; historical Binance filters unproven",
+      "known_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "tick": "0.01",
+      "min_price": "0",
+      "max_price": null,
+      "min_qty": "0.00001",
+      "max_qty": "1000000",
+      "step": "0.00001",
+      "market_min_qty": "0.00001",
+      "market_max_qty": "1000000",
+      "market_step": "0.00001",
+      "min_notional": "10",
+      "min_notional_market": true,
+      "notional_min": "10",
+      "notional_max": null,
+      "notional_apply_min_market": true,
+      "notional_apply_max_market": true,
+      "avg_price_mins": 0
+    },
+    "ETHEUR": {
+      "symbol": "ETHEUR",
+      "source": "assumption:phase6b-three-coin-v1",
+      "status": "assumed",
+      "note": "Hypothetical; historical Binance filters unproven",
+      "known_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "tick": "0.01",
+      "min_price": "0",
+      "max_price": null,
+      "min_qty": "0.00001",
+      "max_qty": "1000000",
+      "step": "0.00001",
+      "market_min_qty": "0.00001",
+      "market_max_qty": "1000000",
+      "market_step": "0.00001",
+      "min_notional": "10",
+      "min_notional_market": true,
+      "notional_min": "10",
+      "notional_max": null,
+      "notional_apply_min_market": true,
+      "notional_apply_max_market": true,
+      "avg_price_mins": 0
+    },
+    "SOLEUR": {
+      "symbol": "SOLEUR",
+      "source": "assumption:phase6b-three-coin-v1",
+      "status": "assumed",
+      "note": "Hypothetical; historical Binance filters unproven",
+      "known_at": null,
+      "valid_from": null,
+      "valid_until": null,
+      "tick": "0.01",
+      "min_price": "0",
+      "max_price": null,
+      "min_qty": "0.00001",
+      "max_qty": "1000000",
+      "step": "0.00001",
+      "market_min_qty": "0.00001",
+      "market_max_qty": "1000000",
+      "market_step": "0.00001",
+      "min_notional": "10",
+      "min_notional_market": true,
+      "notional_min": "10",
+      "notional_max": null,
+      "notional_apply_min_market": true,
+      "notional_apply_max_market": true,
+      "avg_price_mins": 0
+    }
+  },
+  "files": {
+    "crypto/january_pilot.py": "b6f278dd3976c632797b1268995b8f313672f1dcbf1f6123541d88a53d0395e2",
+    "scripts/january_pilot.py": "da0750daf9a9db660797bb1c752563d815a0dcb7aa8fff1b05ea2e8fa4c0d042",
+    "crypto/streaming.py": "058598fc9c5f343f2152509f627f41882cbba830e46075340eefa5d1720930fc",
+    "experiments/january_pilot/protocol.json": "01654a59efb1dde5f361fcd45066670d918266cb0bcf3d9027252e6860f8193a"
+  }
+}

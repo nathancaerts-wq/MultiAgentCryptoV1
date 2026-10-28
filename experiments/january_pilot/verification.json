@@ -1,0 +1,516 @@
+{
+  "verified": true,
+  "sqlite_integrity": "ok",
+  "one_portfolio": true,
+  "unique_fills": 6,
+  "rejected_fills": [
+    {
+      "portfolio": "joint:07089fb4a1523fb2a593ef19c6c1f04903da94e6713d14b1ec766552fd7ab1ba",
+      "batch": "d19f1bf63c92e348f056a7a701d476c2fd814e1570d7097400d52e17f4ecc01b",
+      "coin": "BTCEUR",
+      "side": "buy",
+      "success": false,
+      "reason": "ongunstige open overschrijdt gereserveerde cash; geen automatische verhoging",
+      "kind": "rejected",
+      "cash": "200",
+      "realized": "0",
+      "fees": "0"
+    },
+    {
+      "portfolio": "joint:07089fb4a1523fb2a593ef19c6c1f04903da94e6713d14b1ec766552fd7ab1ba",
+      "batch": "6f32deb583d9658277fd5a773076be4294ccf16edb3896f31829480a5fe98614",
+      "coin": "BTCEUR",
+      "side": "buy",
+      "success": false,
+      "reason": "ongunstige open overschrijdt gereserveerde cash; geen automatische verhoging",
+      "kind": "rejected",
+      "cash": "200",
+      "realized": "0",
+      "fees": "0"
+    },
+    {
+      "portfolio": "joint:07089fb4a1523fb2a593ef19c6c1f04903da94e6713d14b1ec766552fd7ab1ba",
+      "batch": "74efab4359c0dcfbcf592d6fb2836ade2faf23479551aeb7889d7ced4d5150c3",
+      "coin": "BTCEUR",
+      "side": "buy",
+      "success": false,
+      "reason": "ongunstige open overschrijdt gereserveerde cash; geen automatische verhoging",
+      "kind": "rejected",
+      "cash": "200",
+      "realized": "0",
+      "fees": "0"
+    },
+    {
+      "portfolio": "joint:07089fb4a1523fb2a593ef19c6c1f04903da94e6713d14b1ec766552fd7ab1ba",
+      "batch": "2d58550f4a998a7b8c7000f58ac456e440e7c3befafe9580d4f905a5c516f420",
+      "coin": "ETHEUR",
+      "side": "buy",
+      "success": false,
+      "reason": "ongunstige open overschrijdt gereserveerde cash; geen automatische verhoging",
+      "kind": "rejected",
+      "cash": "200",
+      "realized": "0",
+      "fees": "0"
+    }
+  ],
+  "trades": [
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-08T21:30:00+00:00",
+      "entry": "2141.46",
+      "entry_id": "eae81bafbfd41ae80c3bff0163e02dc4ec2d8c1fb4ba89d9e62a3ac42fe9f4cb",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000493500000000",
+        "slippage": "0.0401991000000000",
+        "spread": "0.0200995500000000"
+      },
+      "entry_raw": "2138.25000000",
+      "exit": "2092.72",
+      "exit_id": "ec9b135e5f84a4ef1660fa8349e46b83f515571bc7b914f4de4dee9b8c9a0340",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0001164660",
+        "slippage": "0.0394023560",
+        "spread": "0.0197011780"
+      },
+      "exit_raw": "2095.87",
+      "exited_at": "2024-01-09T00:45:00+00:00",
+      "fees": "0.07960259",
+      "net": "-0.99591459",
+      "quantity": "0.01880",
+      "reason": "stop",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-10T10:15:00+00:00",
+      "entry": "2216.53",
+      "entry_id": "59a01f19e09f7fe38062c25f32686d3353f8beff06a8a091c743a654da2ca49d",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000027195000000",
+        "slippage": "0.0325341870000000",
+        "spread": "0.0162670935000000"
+      },
+      "entry_raw": "2213.21000000",
+      "exit": "2153.65",
+      "exit_id": "988d1f8eea7e70998bb0e4cfd5f6c38795ab0693b230429e6cb7251a7f4e18ca",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000685755",
+        "slippage": "0.0317062830",
+        "spread": "0.0158531415"
+      },
+      "exit_raw": "2156.89",
+      "exited_at": "2024-01-10T13:00:00+00:00",
+      "fees": "0.06424166",
+      "net": "-0.98857766",
+      "quantity": "0.01470",
+      "reason": "stop",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-11T12:00:00+00:00",
+      "entry": "95.45",
+      "entry_id": "5f2ea85950a426b93aeb39e932800f46d44ab25ffddd4ff64c5cc6bb9b3ba697",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0015557235000000",
+        "slippage": "0.0210298510000000",
+        "spread": "0.0105149255000000"
+      },
+      "entry_raw": "95.30000000",
+      "exit": "91.18",
+      "exit_id": "d677aafdc9bf9f5f18ab165a16d34f9c768dd8b65cc6303238e67e13ced58b9a",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0006664234",
+        "slippage": "0.0201515844",
+        "spread": "0.0100757922"
+      },
+      "exit_raw": "91.32",
+      "exited_at": "2024-01-11T16:00:00+00:00",
+      "fees": "0.04118366",
+      "net": "-0.98344456",
+      "quantity": "0.22067",
+      "reason": "stop",
+      "symbol": "SOLEUR"
+    }
+  ],
+  "fill_audit": [
+    {
+      "action": "buy",
+      "at": "2024-01-08T21:30:00+00:00",
+      "details": {
+        "costs": {
+          "fee": "0.001",
+          "slippage": "0.001",
+          "spread": "0.001"
+        },
+        "fee": "0.04025945",
+        "impact": {
+          "adverse_tick_rounding": "0.0000493500000000",
+          "slippage": "0.0401991000000000",
+          "spread": "0.0200995500000000"
+        },
+        "metadata": {
+          "avg_price_mins": 0,
+          "known_at": null,
+          "market_max_qty": "1000000",
+          "market_min_qty": "0.00001",
+          "market_step": "0.00001",
+          "max_price": null,
+          "max_qty": "1000000",
+          "min_notional": "10",
+          "min_notional_market": true,
+          "min_price": "0",
+          "min_qty": "0.00001",
+          "note": "Hypothetical; historical Binance filters unproven",
+          "notional_apply_max_market": true,
+          "notional_apply_min_market": true,
+          "notional_max": null,
+          "notional_min": "10",
+          "source": "assumption:phase6b-three-coin-v1",
+          "status": "assumed",
+          "step": "0.00001",
+          "symbol": "ETHEUR",
+          "tick": "0.01",
+          "valid_from": null,
+          "valid_until": null
+        },
+        "order_id": "eae81bafbfd41ae80c3bff0163e02dc4ec2d8c1fb4ba89d9e62a3ac42fe9f4cb",
+        "planned_risk": "0.99591459",
+        "price": "2141.46",
+        "quantity": "0.01880",
+        "raw": "2138.25000000",
+        "snapshot": {
+          "average_price": "2141.46",
+          "cash": "159.70029255",
+          "cost_basis": "40.29970745",
+          "equity": "199.95974055",
+          "fees": "0.04025945",
+          "holdings": {
+            "ETHEUR": "0.01880"
+          },
+          "liquidation_equity": "199.85900563",
+          "mark": "2141.46",
+          "realized": "0",
+          "unrealized": "-0.04025945"
+        }
+      },
+      "hash": "2888a301b379071b0af6bf3051e21dcdfc8f8a11d28709e73dd774e09c0b22ba",
+      "previous": "b4115909cf77df95113e82718927efedf8d42dfc73eda8eacac3cda30128edcb",
+      "sequence": 93
+    },
+    {
+      "action": "sell",
+      "at": "2024-01-09T00:45:00+00:00",
+      "details": {
+        "ambiguous": false,
+        "cost_assumptions": {
+          "fee": "0.001",
+          "slippage": "0.001",
+          "spread": "0.001"
+        },
+        "costs": {
+          "fee": "0.001",
+          "slippage": "0.001",
+          "spread": "0.001"
+        },
+        "entered_at": "2024-01-08T21:30:00+00:00",
+        "entry": "2141.46",
+        "entry_id": "eae81bafbfd41ae80c3bff0163e02dc4ec2d8c1fb4ba89d9e62a3ac42fe9f4cb",
+        "entry_impact": {
+          "adverse_tick_rounding": "0.0000493500000000",
+          "slippage": "0.0401991000000000",
+          "spread": "0.0200995500000000"
+        },
+        "entry_raw": "2138.25000000",
+        "exit": "2092.72",
+        "exit_id": "ec9b135e5f84a4ef1660fa8349e46b83f515571bc7b914f4de4dee9b8c9a0340",
+        "exit_impact": {
+          "adverse_tick_rounding": "0.0001164660",
+          "slippage": "0.0394023560",
+          "spread": "0.0197011780"
+        },
+        "exit_raw": "2095.87",
+        "exited_at": "2024-01-09T00:45:00+00:00",
+        "fees": "0.07960259",
+        "net": "-0.99591459",
+        "quantity": "0.01880",
+        "raw": "2095.87",
+        "reason": "stop",
+        "snapshot": {
+          "average_price": null,
+          "cash": "199.00408541",
+          "cost_basis": "0",
+          "equity": "199.00408541",
+          "fees": "0.07960259",
+          "holdings": {},
+          "liquidation_equity": "199.00408541",
+          "mark": "2092.72",
+          "realized": "-0.99591459",
+          "unrealized": "0"
+        }
+      },
+      "hash": "347eb180a0219a96a783b0b1b72e6342610bb9ffd3d6f04c1c0ca476eb6bc43f",
+      "previous": "58a598106c0798ea34640dbb5db00f08edae9b10264be2f8a27fd0a51998926f",
+      "sequence": 108
+    },
+    {
+      "action": "buy",
+      "at": "2024-01-10T10:15:00+00:00",
+      "details": {
+        "costs": {
+          "fee": "0.001",
+          "slippage": "0.001",
+          "spread": "0.001"
+        },
+        "fee": "0.03258300",
+        "impact": {
+          "adverse_tick_rounding": "0.0000027195000000",
+          "slippage": "0.0325341870000000",
+          "spread": "0.0162670935000000"
+        },
+        "metadata": {
+          "avg_price_mins": 0,
+          "known_at": null,
+          "market_max_qty": "1000000",
+          "market_min_qty": "0.00001",
+          "market_step": "0.00001",
+          "max_price": null,
+          "max_qty": "1000000",
+          "min_notional": "10",
+          "min_notional_market": true,
+          "min_price": "0",
+          "min_qty": "0.00001",
+          "note": "Hypothetical; historical Binance filters unproven",
+          "notional_apply_max_market": true,
+          "notional_apply_min_market": true,
+          "notional_max": null,
+          "notional_min": "10",
+          "source": "assumption:phase6b-three-coin-v1",
+          "status": "assumed",
+          "step": "0.00001",
+          "symbol": "ETHEUR",
+          "tick": "0.01",
+          "valid_from": null,
+          "valid_until": null
+        },
+        "order_id": "59a01f19e09f7fe38062c25f32686d3353f8beff06a8a091c743a654da2ca49d",
+        "planned_risk": "0.98857766",
+        "price": "2216.53",
+        "quantity": "0.01470",
+        "raw": "2213.21000000",
+        "snapshot": {
+          "average_price": "2216.53",
+          "cash": "166.38851141",
+          "cost_basis": "32.61557400",
+          "equity": "198.97150241",
+          "fees": "0.11218559",
+          "holdings": {
+            "ETHEUR": "0.01470"
+          },
+          "liquidation_equity": "198.89001737",
+          "mark": "2216.53",
+          "realized": "-0.99591459",
+          "unrealized": "-0.03258300"
+        }
+      },
+      "hash": "c980fb619eb0c7cb04064836faed863136c4325e3d698c5cc64f569da6458af2",
+      "previous": "41deb0a04194c2738c956ba75a9b400fb2430c8d003225523c25d0e5cdf7e570",
+      "sequence": 244
+    },
+    {
+      "action": "sell",
+      "at": "2024-01-10T13:00:00+00:00",
+      "details": {
+        "ambiguous": false,
+        "cost_assumptions": {
+          "fee": "0.001",
+          "slippage": "0.001",
+          "spread": "0.001"
+        },
+        "costs": {
+          "fee": "0.001",
+          "slippage": "0.001",
+          "spread": "0.001"
+        },
+        "entered_at": "2024-01-10T10:15:00+00:00",
+        "entry": "2216.53",
+        "entry_id": "59a01f19e09f7fe38062c25f32686d3353f8beff06a8a091c743a654da2ca49d",
+        "entry_impact": {
+          "adverse_tick_rounding": "0.0000027195000000",
+          "slippage": "0.0325341870000000",
+          "spread": "0.0162670935000000"
+        },
+        "entry_raw": "2213.21000000",
+        "exit": "2153.65",
+        "exit_id": "988d1f8eea7e70998bb0e4cfd5f6c38795ab0693b230429e6cb7251a7f4e18ca",
+        "exit_impact": {
+          "adverse_tick_rounding": "0.0000685755",
+          "slippage": "0.0317062830",
+          "spread": "0.0158531415"
+        },
+        "exit_raw": "2156.89",
+        "exited_at": "2024-01-10T13:00:00+00:00",
+        "fees": "0.06424166",
+        "net": "-0.98857766",
+        "quantity": "0.01470",
+        "raw": "2156.89",
+        "reason": "stop",
+        "snapshot": {
+          "average_price": null,
+          "cash": "198.01550775",
+          "cost_basis": "0",
+          "equity": "198.01550775",
+          "fees": "0.14384425",
+          "holdings": {},
+          "liquidation_equity": "198.01550775",
+          "mark": "2153.65",
+          "realized": "-1.98449225",
+          "unrealized": "0"
+        }
+      },
+      "hash": "284961140eaad2087b1912916311476af76ed6b1c17a1de5d0876966411f0941",
+      "previous": "7a94f4917a8d1c5f8d2dad76f5c4e3bfc5a97c2e30764773a48e47145d591e2d",
+      "sequence": 256
+    },
+    {
+      "action": "buy",
+      "at": "2024-01-11T12:00:00+00:00",
+      "details": {
+        "costs": {
+          "fee": "0.001",
+          "slippage": "0.001",
+          "spread": "0.001"
+        },
+        "fee": "0.02106296",
+        "impact": {
+          "adverse_tick_rounding": "0.0015557235000000",
+          "slippage": "0.0210298510000000",
+          "spread": "0.0105149255000000"
+        },
+        "metadata": {
+          "avg_price_mins": 0,
+          "known_at": null,
+          "market_max_qty": "1000000",
+          "market_min_qty": "0.00001",
+          "market_step": "0.00001",
+          "max_price": null,
+          "max_qty": "1000000",
+          "min_notional": "10",
+          "min_notional_market": true,
+          "min_price": "0",
+          "min_qty": "0.00001",
+          "note": "Hypothetical; historical Binance filters unproven",
+          "notional_apply_max_market": true,
+          "notional_apply_min_market": true,
+          "notional_max": null,
+          "notional_min": "10",
+          "source": "assumption:phase6b-three-coin-v1",
+          "status": "assumed",
+          "step": "0.00001",
+          "symbol": "SOLEUR",
+          "tick": "0.01",
+          "valid_from": null,
+          "valid_until": null
+        },
+        "order_id": "5f2ea85950a426b93aeb39e932800f46d44ab25ffddd4ff64c5cc6bb9b3ba697",
+        "planned_risk": "0.98344456",
+        "price": "95.45",
+        "quantity": "0.22067",
+        "raw": "95.30000000",
+        "snapshot": {
+          "average_price": "95.45",
+          "cash": "176.93149329",
+          "cost_basis": "21.08401446",
+          "equity": "197.99444479",
+          "fees": "0.16490721",
+          "holdings": {
+            "SOLEUR": "0.22067"
+          },
+          "liquidation_equity": "197.94031443",
+          "mark": "95.45",
+          "realized": "-1.98449225",
+          "unrealized": "-0.02106296"
+        }
+      },
+      "hash": "e12a837e4f2fa254a32bfb59a174d8c399f6a97365d51fae0168cfbefe188264",
+      "previous": "114d95e4a7cb2907239697226208cc9c330df04387a490cd6173097c2de58504",
+      "sequence": 350
+    },
+    {
+      "action": "sell",
+      "at": "2024-01-11T16:00:00+00:00",
+      "details": {
+        "ambiguous": false,
+        "cost_assumptions": {
+          "fee": "0.001",
+          "slippage": "0.001",
+          "spread": "0.001"
+        },
+        "costs": {
+          "fee": "0.001",
+          "slippage": "0.001",
+          "spread": "0.001"
+        },
+        "entered_at": "2024-01-11T12:00:00+00:00",
+        "entry": "95.45",
+        "entry_id": "5f2ea85950a426b93aeb39e932800f46d44ab25ffddd4ff64c5cc6bb9b3ba697",
+        "entry_impact": {
+          "adverse_tick_rounding": "0.0015557235000000",
+          "slippage": "0.0210298510000000",
+          "spread": "0.0105149255000000"
+        },
+        "entry_raw": "95.30000000",
+        "exit": "91.18",
+        "exit_id": "d677aafdc9bf9f5f18ab165a16d34f9c768dd8b65cc6303238e67e13ced58b9a",
+        "exit_impact": {
+          "adverse_tick_rounding": "0.0006664234",
+          "slippage": "0.0201515844",
+          "spread": "0.0100757922"
+        },
+        "exit_raw": "91.32",
+        "exited_at": "2024-01-11T16:00:00+00:00",
+        "fees": "0.04118366",
+        "net": "-0.98344456",
+        "quantity": "0.22067",
+        "raw": "91.32",
+        "reason": "stop",
+        "snapshot": {
+          "average_price": null,
+          "cash": "197.03206319",
+          "cost_basis": "0",
+          "equity": "197.03206319",
+          "fees": "0.18502791",
+          "holdings": {},
+          "liquidation_equity": "197.03206319",
+          "mark": "91.18",
+          "realized": "-2.96793681",
+          "unrealized": "0"
+        }
+      },
+      "hash": "f88b389087482c767f2375e8afa28d7ab6841a8900170ee468c6d6773a0e20e0",
+      "previous": "f0987f43372c96bf81ac6d3a798b8b3e7da19c228775ccfcb18976fa5d0e639d",
+      "sequence": 367
+    }
+  ],
+  "last_revision": 2315,
+  "last_state_hash": "3543fbfe33819f3cf317ae38054d805c6f28147db59cc6d6e96867c7ccd749b8",
+  "last_checkpoint_hash": "8e1cc79c24f5758f9283f76d07a5a526d29649bb39a8a8f7dab51113040682bd",
+  "database_sha256": "6c1e170a294e1db60ce5b9bafae9c2ee97a4297bca6cacd0a24dc5cee1b33d57",
+  "database_bytes": 611958784,
+  "paper_orders": 0
+}

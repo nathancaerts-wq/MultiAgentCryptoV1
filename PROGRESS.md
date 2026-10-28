@@ -296,3 +296,21 @@ totaal 89,977 → 91,382 s. Geen aantoonbare totale versnelling geclaimd.
 385 tests geslaagd (377 behouden plus acht nieuwe), 0 mislukt, één bestaande
 waarschuwing. Geen 5.000-run, jaarprobe, historische rendementen of testvrijgave.
 Zie PHASE6B_AUDIT_OPTIMIZATION_REPORT.md voor beperkingen en metingen.
+
+
+## Fase 6B — historische januari-ontwikkelpilot, 28 oktober 2026
+
+Expliciet geautoriseerde aparte pilot over januari 2024, BTC/EUR, ETH/EUR en SOL/EUR.
+Negen volledige officiële archieven opnieuw op checksum, UTC/OHLCV, dekking en
+15m/1h/4h-consistentie gecontroleerd; 11.718 broncandles geldig. Warm-up 1–7 januari,
+entries vanaf 8 januari. Bestaande aligned_trend en baseline/hypothetische filters.
+
+Pilot volledig afgerond: 2.305 evaluatiegrenzen, 78,706 s, 70,1875 MiB piek-RSS.
+127 BUY-kandidaten, zeven entryreserveringen waarvan vier fillafwijzingen, drie
+gesloten verliestrades. Netto −€2,96793681; eindwaarde €197,03206319, vlak. Gezamenlijke
+verliesreekspauze behouden. Audit, zes unieke fills, cash/fees en checkpointherstel
+geverifieerd; 389 tests geslaagd, 0 mislukt. Drie trades zijn onvoldoende bewijs.
+
+Zie PHASE6B_JANUARY_PILOT_REPORT.md en experiments/january_pilot/. Checkpointdatabase
+/workspace/january_pilot.sqlite3 behouden, niet in Git. Geen validatie, onafhankelijke
+test, jaarprobe, benchmarks/stressruns, optimalisatie of echte orders. Stop na pilot.

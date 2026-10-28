@@ -174,12 +174,15 @@ class StreamingStore(SQLiteStore):
             self.add_reports(reports)
         return reports
 
+    def _accept_source(self, source):
+        return source.startswith('fixture:')
+
     def add_candles(self, kind, rows):
         if kind not in ('bars','history'): raise ValueError('Onbekende invoer')
         with self.transaction():
             for row in rows:
                 c = Candle.model_validate(row.model_dump())
-                if not c.source.startswith('fixture:'): raise ValueError('Alleen synthetische candles')
+                if not self._accept_source(c.source): raise ValueError('Alleen synthetische candles')
                 if c.closed > now() or any(c.opened < b and a < c.closed for a,b in LOCKS):
                     raise ValueError('Gesloten periode of onvolledige candle')
                 self.db.execute('INSERT INTO stream_input VALUES (?,?,?,?,?,?)',
@@ -193,7 +196,7 @@ class StreamingStore(SQLiteStore):
                 at = datetime.fromisoformat(r.data['as_of']); utc(at)
                 if any(a<=at<b for a,b in LOCKS): raise ValueError('Gesloten periode')
                 for frame in r.data['frames'].values():
-                    if any(not s.startswith('fixture:') for s in frame.get('sources',[])):
+                    if any(not self._accept_source(s) for s in frame.get('sources',[])):
                         raise ValueError('Alleen fixtureanalyses')
                 self.db.execute('INSERT INTO stream_input VALUES (?,?,?,?,?,?)',
                     ('report',r.coin,'',at.isoformat(),ordinal,canonical(r.model_dump(mode='json'))))
@@ -292,6 +295,9 @@ class StreamingFixtureRunner(FixtureJointRunner):
     preserves preregistered report hashes without retaining the bundle in memory.
     Checkpoints, history appends, fills and reservations share BEGIN IMMEDIATE.
     """
+    def _accept_plan(self):
+        return self.plan.source.startswith('fixture:')
+
     def __init__(self, *, store, plan, policy, filters, benchmark='aligned_trend'):
         if not isinstance(store,StreamingStore): raise ValueError('StreamingStore vereist')
         self.store=store
@@ -300,7 +306,7 @@ class StreamingFixtureRunner(FixtureJointRunner):
         self.rules={s:SpotFilters.model_validate(f.model_dump()) for s,f in filters.items()}
         self.benchmark=benchmark
         if benchmark not in ('aligned_trend','ema_trend'): raise ValueError('Onbekende benchmark')
-        if not self.plan.source.startswith('fixture:'): raise ValueError('Historische rendementen niet toegestaan')
+        if not self._accept_plan(): raise ValueError('Historische rendementen niet toegestaan')
         if any(self.plan.development.start<b and a<self.plan.development.end for a,b in LOCKS): raise ValueError('Gesloten periode')
         if set(self.rules)!=set(self.plan.coins): raise ValueError('Filters voor gehele watchlist vereist')
         p=self.policy.decision

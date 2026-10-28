@@ -1,0 +1,79 @@
+{
+  "status": "complete",
+  "processed_steps": 2305,
+  "prepared_steps": 2288,
+  "processed_execution_candles": 6912,
+  "candidate_signals": 127,
+  "approved_reservations": 7,
+  "rejected_buy_proposals": 120,
+  "approved_exit_proposals": 3,
+  "total_fees": "0.18502791",
+  "rejected_coin_assessments": 6908,
+  "rejections": {
+    "onvolledig vergelijkingsuniversum; geen nieuwe instap": 5544,
+    "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 1189,
+    "centrale Risk Engine akkoord; cash en positieplaats gereserveerd": 0,
+    "centrale positielimiet: \u00e9\u00e9n open positie": 120,
+    "verliesreekspauze": 49,
+    "liquiditeit_15m": 6
+  },
+  "trades": 3,
+  "winrate": "0",
+  "net": "-2.96793681",
+  "average_win": null,
+  "average_loss": "-0.98931227",
+  "expectancy": "-0.98931227",
+  "max_drawdown": "0.01509320075",
+  "per_coin": {
+    "BTCEUR": {
+      "trades": 0,
+      "net": "0"
+    },
+    "ETHEUR": {
+      "trades": 2,
+      "net": "-1.98449225"
+    },
+    "SOLEUR": {
+      "trades": 1,
+      "net": "-0.98344456"
+    }
+  },
+  "portfolio": {
+    "available_cash": "197.03206319",
+    "average_price": null,
+    "cash": "197.03206319",
+    "cost_basis": "0",
+    "equity": "197.03206319",
+    "exposure": "0E-8",
+    "exposure_fraction": "0",
+    "fees": "0.18502791",
+    "fees_by_coin": {
+      "BTCEUR": "0",
+      "ETHEUR": "0.14384425",
+      "SOLEUR": "0.04118366"
+    },
+    "holdings": {},
+    "liquidation_equity": "197.03206319",
+    "mark": null,
+    "max_open_positions": 1,
+    "mode": "joint_offline_research",
+    "pending": null,
+    "portfolio": "joint:07089fb4a1523fb2a593ef19c6c1f04903da94e6713d14b1ec766552fd7ab1ba",
+    "realized": "-2.96793681",
+    "realized_by_coin": {
+      "BTCEUR": "0",
+      "ETHEUR": "-1.98449225",
+      "SOLEUR": "-0.98344456"
+    },
+    "reserved_cash": "0",
+    "reserved_exposure": "0",
+    "reserved_quantity": "0",
+    "reserved_risk": "0",
+    "unrealized": "0",
+    "valuation_at": "2024-02-01T00:00:00+00:00"
+  },
+  "elapsed": 78.70601804400212,
+  "peak_rss_kib": 71872,
+  "checkpoint": "/workspace/january_pilot.sqlite3",
+  "independent_test_opened": false
+}
