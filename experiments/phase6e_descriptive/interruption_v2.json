@@ -1,0 +1,7 @@
+{
+  "status": "interrupted_before_memory_limit",
+  "reason": "timegroup Python sets scaled toward 768 MiB; explicit SIGINT at approximately 25k-30k rows",
+  "new_result_created": false,
+  "old_results_unchanged": true,
+  "protocol_version": "phase6e-descriptive-v2"
+}

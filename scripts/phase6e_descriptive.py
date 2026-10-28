@@ -34,7 +34,7 @@ def approval_manifest():
     p=Path('/workspace/phase6b_archive_cache')/token
     if not p.exists():raise ValueError('Missing official cached January archive')
     source[str(p)]=sha(p)
- m=dict(version='phase6e-descriptive-v2',supersedes_registration='experiments/phase6e_descriptive/registration.json; initial run stopped before reading outcomes because tuple/list scope comparison failed',approval=APPROVAL,prior_viewed_2024=True,
+ m=dict(version='phase6e-descriptive-v3',supersedes_registration='experiments/phase6e_descriptive/registration_v2.json; v2 stopped without result after observed memory growth from Python timegroup sets',approval=APPROVAL,prior_viewed_2024=True,
   original_proposal_status='not_activated',amendment_scope='descriptive_only_this_2024_study',
   contrasts=contrast_family(),coins=COINS,first=FIRST.isoformat(),last=LAST.isoformat(),
   source_sha256=source,database_sha256=old['database_sha256'],database_bytes=DB.stat().st_size,
@@ -44,12 +44,12 @@ def approval_manifest():
  path=ROOT/('manifest_'+h+'.json')
  with path.open('xb') as f:f.write(raw)
  path.chmod(0o444)
- save(ROOT/'registration_v2.json',dict(manifest=str(path),sha256=h,status='approved_descriptive_only_before_comparisons',
+ save(ROOT/'registration_v3.json',dict(manifest=str(path),sha256=h,status='approved_descriptive_only_before_comparisons',
     prior_viewed_2024=True,validation_accessed=False,independent_test_opened=False))
  print('registered',h,flush=True)
 
 def check():
- reg=json.loads((ROOT/'registration_v2.json').read_text());m=json.loads(Path(reg['manifest']).read_text())
+ reg=json.loads((ROOT/'registration_v3.json').read_text());m=json.loads(Path(reg['manifest']).read_text())
  if sha(reg['manifest'])!=reg['sha256'] or reg['status']!='approved_descriptive_only_before_comparisons':raise ValueError('Registration changed')
  if m['approval']!=APPROVAL or m['contrasts']!=[list(k) for k in contrast_family()] or not m['no_inference']:raise ValueError('Wrong scope')
  for p,h in m['source_sha256'].items():
@@ -71,7 +71,7 @@ def summaries(values,selected,missing,blocks,groups):
 def run():
  reg,m=check()
  if (ROOT/'result.json').exists():raise ValueError('Existing results preserved')
- save(ROOT/'access.json',dict(status='2024_previously_viewed_descriptive_only',manifest=reg['sha256'],
+ save(ROOT/'access_v3.json',dict(status='2024_previously_viewed_descriptive_only',manifest=reg['sha256'],
   validation_accessed=False,independent_test_opened=False,new_orders=0))
  ema=set()
  with gzip.open('experiments/phase6c/ema_trend_baseline_classifications.jsonl.gz','rt') as f:
@@ -80,7 +80,7 @@ def run():
    if x['action']=='BUY_CANDIDATE' and utc(x['at'])<=LAST:ema.add((x['coin'],x['at']))
  db=sqlite3.connect(f'file:{DB}?mode=ro',uri=True);db.execute('PRAGMA cache_size=-8192');db.execute('BEGIN')
  names=contrast_family();data={sample:{k:[array('d'),array('d')] for k in names} for sample in ('utc4h','overlapping')}
- info={sample:{k:[dict(selected=0,missing=0,blocks=set(),times=set()),dict(selected=0,missing=0,blocks=set(),times=set())] for k in names} for sample in data}
+ info={sample:{k:[dict(selected=0,missing=0,blocks=set(),times=0),dict(selected=0,missing=0,blocks=set(),times=0)] for k in names} for sample in data}
  tables={sample:{'all':Counter(),'hold':Counter(),'pause_hold':Counter(),'nonpause_hold':Counter(),
    'coin':{c:Counter() for c in COINS},'regime':{},'ema_candidates':Counter(),
    'aligned_candidates':Counter()} for sample in data}
@@ -88,7 +88,7 @@ def run():
  def add(sample,key,side,value,t):
   z=info[sample][key][side];z['selected']+=1
   if value is None:z['missing']+=1;return
-  data[sample][key][side].append(float(value));z['blocks'].add((t.date()-FIRST.date()).days//7);z['times'].add(t)
+  data[sample][key][side].append(float(value));z['blocks'].add((t.date()-FIRST.date()).days//7);z['times'] |= 1 << int((t-FIRST).total_seconds()//900)
  with gzip.open('experiments/phase6d/labels.jsonl.gz','rt') as source:
   for coin in COINS:
    rows={tf:[] for tf in SECONDS}
@@ -170,7 +170,7 @@ def run():
   for key in names:
    pair=[]
    for j in range(2):
-    z=info[sample][key][j];pair.append(summaries(data[sample][key][j],z['selected'],z['missing'],len(z['blocks']),len(z['times'])))
+    z=info[sample][key][j];pair.append(summaries(data[sample][key][j],z['selected'],z['missing'],len(z['blocks']),z['times'].bit_count()))
    a,b=pair;theta=a['mean']-b['mean'] if a['mean'] is not None and b['mean'] is not None else None
    status='empty_group' if theta is None else 'descriptive' if a['status']==b['status']=='ok' else 'insufficient_support'
    output[':'.join(key)]=dict(left=a,right=b,difference_mean=theta,status=status,
@@ -194,5 +194,5 @@ if __name__=='__main__':
   approval_manifest() if mode=='register' else run()
   if mode=='run':save(ROOT/'performance.json',dict(elapsed=time.perf_counter()-start,peak_rss_kib=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss))
  except BaseException as e:
-  if mode=='run' and not (ROOT/'interruption.json').exists():save(ROOT/'interruption.json',dict(status='incomplete',reason=repr(e),elapsed=time.perf_counter()-start))
+  if mode=='run' and not (ROOT/'interruption_v3.json').exists():save(ROOT/'interruption_v3.json',dict(status='incomplete',reason=repr(e),elapsed=time.perf_counter()-start))
   raise

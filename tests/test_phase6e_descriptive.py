@@ -19,3 +19,9 @@ def test_fixed_family_and_scope():
 def test_json_roundtrip_of_fixed_contrast_family():
  import json
  assert json.loads(json.dumps(contrast_family()))==[list(k) for k in contrast_family()]
+
+
+def test_time_bitmap_counts_distinct_groups():
+ bits=0
+ for i in (0,0,16,16,32):bits |= 1 << i
+ assert bits.bit_count()==3
