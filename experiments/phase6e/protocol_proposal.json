@@ -1,0 +1,32 @@
+{
+  "version": "phase6e-proposal-v1",
+  "status": "proposal_requires_approval",
+  "base_commit": "2a7efedaefd755bcc7ae190102fd0fba015e1725",
+  "source_manifest": "933be8ac13e01a7dd4e4a749291306e2f026a87bf92431f17a3163f83a98e779",
+  "coins": [
+    "BTCEUR",
+    "ETHEUR",
+    "SOLEUR"
+  ],
+  "first_decision": "2024-01-08T00:00:00+00:00",
+  "last_decision": "2024-12-31T19:45:00+00:00",
+  "horizon_seconds": 14400,
+  "quantity": "0.001",
+  "tick": "0.01",
+  "costs": {
+    "fee": "0.001",
+    "spread": "0.001",
+    "slippage": "0.001"
+  },
+  "feature_count": 27,
+  "contrast_family": 332,
+  "bootstrap_replicates": 9999,
+  "block_timegroups": 42,
+  "seed": 606,
+  "multiplicity": "Holm",
+  "alpha": "0.05",
+  "prior_viewed": true,
+  "historical_comparisons_authorized": false,
+  "validation_authorized": false,
+  "independent_test_authorized": false
+}

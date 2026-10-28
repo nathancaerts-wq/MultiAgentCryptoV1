@@ -1,0 +1,22 @@
+{
+  "status": "proposal_only_no_comparisons",
+  "source_manifest": "933be8ac13e01a7dd4e4a749291306e2f026a87bf92431f17a3163f83a98e779",
+  "protocol_sha256": "c0516aa36da15c717406a5e2eee0c3b7e16128ef07269a2b2faec71a49c59033",
+  "analysis_document_sha256": "afca5d209c92a61e6a1951365c533ec97eb1bc82fa08cdef9131e31e01edef23",
+  "proposal_files": {
+    "PHASE6E_ANALYSIS_PROTOCOL_PROPOSAL.md": "afca5d209c92a61e6a1951365c533ec97eb1bc82fa08cdef9131e31e01edef23",
+    "PHASE6E_PATTERN_RESEARCH_REPORT.md": "9eaf30af4461bb096683f0742b9d10a67982fd0b40136ed4a6f573f39f8f7fa6",
+    "PHASE6E_HYPOTHESES.md": "ccc0326916aaa7300a9da9b96b005b68511b4b062a0778829a1e2cf82a8657c1",
+    "scripts/phase6e_protocol.py": "2b76a1d4976eab19ef6bab2b0ff195356c702f9b801d2e07e25bb69f65712b3a",
+    "scripts/verify_phase6e_proposal.py": "c745555a6c4d04acffce06ceba8a019ca713e359061cc080350d27661babdf18",
+    "tests/test_phase6e_protocol.py": "395dd99b46112eea6b364aa142a460acc7842c84dc4675355bdda78ec898a243",
+    "PROGRESS.md": "b5b175916da0426e8b47bc54ad0b1659c04f4700a4d3898728f39903a0f9edbc",
+    "NEXT_STEPS.md": "33b170fef8e79a52aec3eb7d94ed869933859ae2c3061b5bbf063952026f534e",
+    "experiments/phase6e/protocol_proposal.json": "d9170fdda773987e858ddccf8c9fffa3622549f72045184e37e13af6adceba58",
+    "experiments/phase6e/baseline_integrity.json": "e356708a31ceaaf79ac6715dadc2cf252bd0a993d7c0290acd7845bad041a78f"
+  },
+  "authorization_reference": "User Fase 6E: explicit stop before new outcome comparisons when preregistration insufficient; this records a proposal, not execution approval",
+  "prior_viewed": true,
+  "new_outcome_access": false,
+  "requires_separate_approval": true
+}

@@ -377,3 +377,19 @@ geen tradetoestemming. Oude database/resultaten/audits en risicoregels ongewijzi
 432 tests geslaagd (420 behouden + 12), één bestaande waarschuwing. Hoofdrun
 75,503 s, 72,887 MiB RSS, binnen 600 s/1 GiB. Zie PHASE6D_MISSED_OPPORTUNITIES_REPORT.md
 en experiments/phase6d/. Validatie en onafhankelijke test gesloten; stop na fase 6D.
+
+## Fase 6E — protocolvoorstel; nieuwe patroonvergelijkingen geblokkeerd
+
+Basis 2a7efeda. Bestaande registratie dekt nieuwe RSI-/volume-/timeframefeatures,
+pauzegroepen, EMA-selectiecontrasten en multipliciteitscorrectie niet. Expliciete
+gebruikersstopregel toegepast vóór nieuwe historische uitkomstvergelijkingen.
+PHASE6E_ANALYSIS_PROTOCOL_PROPOSAL.md legt het afzonderlijke ontwerp vast:
+27 causale features, 332 contrasten, gezamenlijke UTC4h-tijdsblokken, bootstrap/Holm,
+vaste ontbrekendheids- en minimumdekkingsregels. Voorstel, niet geactiveerd.
+PHASE6E_PATTERN_RESEARCH_REPORT.md herhaalt alleen eerder gepubliceerde cijfers;
+PHASE6E_HYPOTHESES.md bevat vijf toetsbare voorstellen zonder optimalisatie.
+103.344 bestaande labels brongebonden, niet opnieuw berekend/gegroepeerd.
+Geen nieuwe pauze-/EMA-patroonuitkomsten, backtest of optimizerpromotie.
+456 tests geslaagd, 0 mislukt (432 behouden +24), één bestaande waarschuwing.
+Oude resultaten, auditdatabase en risicoregels behouden; integriteitsbewijs onder
+experiments/phase6e/. 2025/2026 gesloten. Wacht op expliciete protocolgoedkeuring.

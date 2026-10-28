@@ -1,0 +1,21 @@
+{
+  "status": "proposal_integrity_verified_comparisons_blocked",
+  "base_commit": "2a7efedaefd755bcc7ae190102fd0fba015e1725",
+  "registration_sha256": "3aa7cce25e33a49df676be85261e2f61fce62406a87460161df57dbfedeb0eeb",
+  "database_sha256": "fa2290c6352550186da5dd4750ad35077b4d9cf2cd2684322368eb96b28aadfa",
+  "database_bytes": 15057117184,
+  "original_artifacts_unchanged": 44,
+  "original_code_unchanged": true,
+  "old_manifest_verified": true,
+  "historical_comparisons_run": 0,
+  "new_price_labels": 0,
+  "new_orders": 0,
+  "validation_accessed": false,
+  "independent_test_opened": false,
+  "elapsed_seconds": 11.787011893000454,
+  "peak_rss_kib": 12484,
+  "limits": {
+    "seconds": 300,
+    "address_space_bytes": 1073741824
+  }
+}
