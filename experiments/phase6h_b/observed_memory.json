@@ -1,0 +1,7 @@
+{
+  "scope": "last observation before original time limit; lower bound for final process peak",
+  "values": {
+    "VmHWM": "88324 kB",
+    "VmRSS": "88324 kB"
+  }
+}

@@ -1,8 +1,24 @@
 {
   "status": "incomplete_diagnostic",
-  "phase": "prepare",
-  "error": "OperationalError",
-  "reason": "unable to open database: file:/workspace/development_2024.sqlite3?mode=ro&immutable=1",
-  "next_boundary": null,
-  "seconds": 23.80092733501806
+  "phase": "replay",
+  "error": "TimeoutError",
+  "reason": "Registered 1800-second limit/interruption",
+  "next_boundary": "2024-12-11 20:00:00+00:00",
+  "seconds": 1800.093440835015,
+  "last_committed": "2024-12-11T19:45:00+00:00",
+  "revision": 32786,
+  "state_hash": "27dd947b3d573efa715edb726a09490d713e68535cb60b2d82f123047a0d82f2",
+  "recovery": {
+    "epoch": 12,
+    "epoch_anchor": 82,
+    "last_close_at": "2024-10-21T03:15:00+00:00",
+    "loss_count": 2,
+    "pause_started_at": null,
+    "pause_until": null,
+    "prefix": "b560c66c7d193b50b6c29f3fa26ef9847d142b9c472ddce474a9b59d3d91c3bb",
+    "processed": 85,
+    "protocol": "phase6g-recovery24h-v1",
+    "resume_at": "2024-10-08T09:30:00+00:00"
+  },
+  "pending": null
 }

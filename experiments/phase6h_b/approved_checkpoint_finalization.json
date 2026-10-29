@@ -1,0 +1,29 @@
+{
+  "status": "verified_incomplete_replay_checkpoint",
+  "execution_manifest_sha256": "16aeac432cb79b0d1a87aa027acef6c20cdf815da6455f27ece7a576c87534b4",
+  "year_complete": false,
+  "stop_reason": "Registered 1800-second replay limit",
+  "last_committed": "2024-12-11T19:45:00+00:00",
+  "next_boundary": "2024-12-11 20:00:00+00:00",
+  "checkpoint_state_hash": "27dd947b3d573efa715edb726a09490d713e68535cb60b2d82f123047a0d82f2",
+  "original_database_unchanged": true,
+  "old_files_unchanged": 392,
+  "tests_passed": 534,
+  "extra_300_second_budget_approved": false,
+  "automatically_resumed": false,
+  "files": {
+    "PHASE6H_B_RISK_RECOVERY_BACKTEST_REPORT.md": "23626d097458e72f7b09d54af118b4530f0b14fb749523413c6f5b435c748bc4",
+    "scripts/verify_phase6h_b_checkpoint.py": "6cf92bbd8aa84699509a958ed8acce7b9d65d83cc3eceed9c2f2185c547c7abe",
+    "experiments/phase6h_b/checkpoint_verification.json": "b1126cdd08af924a579cbfbdeff44f0b96846a99c489729a666aec682e40fc52",
+    "experiments/phase6h_b/checkpoint_verification_output.txt": "b1126cdd08af924a579cbfbdeff44f0b96846a99c489729a666aec682e40fc52",
+    "experiments/phase6h_b/checkpoint_verifier_formatting_v1.txt": "c55f23fd17968c8b2d0170f5ecaa2b2d50b4b4c3b51dfaaf634ee4ea8c2b8c83",
+    "experiments/phase6h_b/baseline_prefix_check.json": "d1ecb2085d1fdac87d010978fc6fd63ca418ab3741351b2eb017eba20c6e81ea",
+    "experiments/phase6h_b/partial_diagnostics.json": "2cda8b79586887db926d0756de0c270b28cbfd21ad5756321b8d01dffc5a9752",
+    "experiments/phase6h_b/observed_memory.json": "4ab86ca1df614a3336f505a53fd6fe8140fb2aed9a5e7bb1fc58e7cf7fb45677",
+    "experiments/phase6h_b/preparation_approved.json": "49eb43cf3a244941e7b650102ae612d3e59490900f83d34714612a93271815f5",
+    "experiments/phase6h_b/progress.json": "936108a8ed0cd332ee5d71122442d2b7ae48663e7125867f5bede83983f88b18",
+    "experiments/phase6h_b/interruption_approved.json": "0d837dd306e2652edd854cd0d42b22155fa75b2b8823a66641a18e1b76ba79b8",
+    "experiments/phase6h_b/execution_registration.json": "82112833e6f32e5b0431f22889978a00c583d13aa2f7370011b38bbe181ce5b3"
+  },
+  "note": "All financial/audit checkpoint controls passed; annual comparison incomplete. Full new DB retained locally, not in Git."
+}

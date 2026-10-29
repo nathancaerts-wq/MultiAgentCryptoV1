@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/tmp/verify_phase6h_b_checkpoint.py", line 43, in <module>
+    s.close()
+
+  File "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py", line 254, in snapshot
+    state,_ = self._read()
+              ^^^^^^^^^^^^
+  File "/workspace/MultiAgentCryptoV1/crypto/streaming.py", line 434, in _read
+    self._frozen()
+  File "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py", line 137, in _frozen
+    if self._manifest()!=self.manifest or self._get('joint_protocols',self.key)!=self.manifest:
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/MultiAgentCryptoV1/crypto/joint_portfolio.py", line 93, in _get
+    row = self.store.db.execute(f'SELECT payload FROM {table} WHERE id=?',(key,)).fetchone()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.ProgrammingError: Cannot operate on a closed database.

@@ -1,0 +1,26 @@
+{
+  "status": "incomplete_diagnostic_not_annual_comparison",
+  "through": "2024-12-11T19:45:00+00:00",
+  "counts": {
+    "buy_candidates": 1890,
+    "selected_entries": 161,
+    "blocked_buy_candidates": 1729
+  },
+  "assessment_reasons": {
+    "onvolledig vergelijkingsuniversum; geen nieuwe instap": 78060,
+    "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 15104,
+    "centrale positielimiet: één open positie": 4083,
+    "positieplaats en cash gereserveerd voor hoger gerangschikte kandidaat": 15,
+    "liquiditeit_15m": 16,
+    "verliesreekspauze": 58,
+    "drawdownpauze": 87
+  },
+  "rejected_executions": {
+    "ongunstige open overschrijdt gereserveerde cash; geen automatische verhoging": 76
+  },
+  "risk_events": {
+    "cooldown_started": 12,
+    "cooldown_expired": 12,
+    "drawdown_pause": 1
+  }
+}

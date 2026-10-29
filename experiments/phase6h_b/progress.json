@@ -1,0 +1,20 @@
+{
+  "at": "2024-12-06 08:00:00+00:00",
+  "revision": 32259,
+  "state_hash": "7fa83177c9b2f494247976317ff1900daeefedce04fb324e136127afc2aadc69",
+  "recovery": {
+    "epoch": 12,
+    "epoch_anchor": 82,
+    "last_close_at": "2024-10-21T03:15:00+00:00",
+    "loss_count": 2,
+    "pause_started_at": null,
+    "pause_until": null,
+    "prefix": "b560c66c7d193b50b6c29f3fa26ef9847d142b9c472ddce474a9b59d3d91c3bb",
+    "processed": 85,
+    "protocol": "phase6g-recovery24h-v1",
+    "resume_at": "2024-10-08T09:30:00+00:00"
+  },
+  "cash": "179.92423059",
+  "fees": "6.99473531",
+  "seconds": 1756.6318445110228
+}
