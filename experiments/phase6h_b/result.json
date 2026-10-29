@@ -1,0 +1,2989 @@
+{
+  "status": "complete",
+  "candidate_signals": 1953,
+  "approved_entries": 161,
+  "rejected_buy_proposals": 1792,
+  "rejected_coin_assessments": {
+    "onvolledig vergelijkingsuniversum; geen nieuwe instap": 82827,
+    "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 16124,
+    "centrale positielimiet: \u00e9\u00e9n open positie": 4083,
+    "positieplaats en cash gereserveerd voor hoger gerangschikte kandidaat": 15,
+    "liquiditeit_15m": 16,
+    "verliesreekspauze": 58,
+    "drawdownpauze": 111
+  },
+  "rejection_reasons_by_coin": {
+    "BTCEUR": {
+      "onvolledig vergelijkingsuniversum; geen nieuwe instap": 27609,
+      "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 5380,
+      "centrale positielimiet: \u00e9\u00e9n open positie": 1361,
+      "positieplaats en cash gereserveerd voor hoger gerangschikte kandidaat": 3,
+      "verliesreekspauze": 22,
+      "drawdownpauze": 35
+    },
+    "ETHEUR": {
+      "onvolledig vergelijkingsuniversum; geen nieuwe instap": 27609,
+      "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 5420,
+      "centrale positielimiet: \u00e9\u00e9n open positie": 1361,
+      "liquiditeit_15m": 4,
+      "verliesreekspauze": 13,
+      "positieplaats en cash gereserveerd voor hoger gerangschikte kandidaat": 6,
+      "drawdownpauze": 17
+    },
+    "SOLEUR": {
+      "onvolledig vergelijkingsuniversum; geen nieuwe instap": 27609,
+      "Uitsluitend BUY_CANDIDATE wordt beoordeeld": 5324,
+      "centrale positielimiet: \u00e9\u00e9n open positie": 1361,
+      "liquiditeit_15m": 12,
+      "positieplaats en cash gereserveerd voor hoger gerangschikte kandidaat": 6,
+      "verliesreekspauze": 23,
+      "drawdownpauze": 59
+    }
+  },
+  "rejected_executions": {
+    "ongunstige open overschrijdt gereserveerde cash; geen automatische verhoging": 76
+  },
+  "trades": 85,
+  "trade_records": [
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-08T21:30:00+00:00",
+      "entry": "2141.46",
+      "entry_id": "069e16c10aa29fafdf91cc01dd981aa536cb24c1cda33732f7375606598f2453",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000493500000000",
+        "slippage": "0.0401991000000000",
+        "spread": "0.0200995500000000"
+      },
+      "entry_raw": "2138.25000000",
+      "exit": "2092.72",
+      "exit_id": "07ef7c317af47129828d715f6ea7cb8382e66357df15cb0e575197b2fd82b294",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0001164660",
+        "slippage": "0.0394023560",
+        "spread": "0.0197011780"
+      },
+      "exit_raw": "2095.87",
+      "exited_at": "2024-01-09T00:45:00+00:00",
+      "fees": "0.07960259",
+      "net": "-0.99591459",
+      "quantity": "0.01880",
+      "reason": "stop",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-10T10:15:00+00:00",
+      "entry": "2216.53",
+      "entry_id": "dde2fc49cbb2ea770c3ecfda9089016169243067a6d6b5d14917310a8f06b68b",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000027195000000",
+        "slippage": "0.0325341870000000",
+        "spread": "0.0162670935000000"
+      },
+      "entry_raw": "2213.21000000",
+      "exit": "2153.65",
+      "exit_id": "62b688a436081ff109058c5fde71e4f6bd879a5cfe8582fbbf42b14a2ca603bd",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000685755",
+        "slippage": "0.0317062830",
+        "spread": "0.0158531415"
+      },
+      "exit_raw": "2156.89",
+      "exited_at": "2024-01-10T13:00:00+00:00",
+      "fees": "0.06424166",
+      "net": "-0.98857766",
+      "quantity": "0.01470",
+      "reason": "stop",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-11T12:00:00+00:00",
+      "entry": "95.45",
+      "entry_id": "1f07203dffa161e409a0b6455152fb854efe385fcab919d53c3b867a6b177176",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0015557235000000",
+        "slippage": "0.0210298510000000",
+        "spread": "0.0105149255000000"
+      },
+      "entry_raw": "95.30000000",
+      "exit": "91.18",
+      "exit_id": "f0b9d9adb0e9427a25a7dfad8ec419b6fbe30cf383dba418e2d26fbba2a31cac",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0006664234",
+        "slippage": "0.0201515844",
+        "spread": "0.0100757922"
+      },
+      "exit_raw": "91.32",
+      "exited_at": "2024-01-11T16:00:00+00:00",
+      "fees": "0.04118366",
+      "net": "-0.98344456",
+      "quantity": "0.22067",
+      "reason": "stop",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-16T21:30:00+00:00",
+      "entry": "90.16",
+      "entry_id": "972168fcf5dbadbd0bf2806409a1707e299adc0544489a1c4eb3da6574a1d982",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0019215511000000",
+        "slippage": "0.0348044326000000",
+        "spread": "0.0174022163000000"
+      },
+      "entry_raw": "90.02000000",
+      "exit": "92.19",
+      "exit_id": "56469d39b02dfe0b139a7142c46c322748b01f90acd924f8cf01d414c579b31d",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0005818781500000",
+        "slippage": "0.0356975479000000",
+        "spread": "0.0178487739500000"
+      },
+      "exit_raw": "92.33000000",
+      "exited_at": "2024-01-17T01:45:00+00:00",
+      "fees": "0.07050199",
+      "net": "0.71435691",
+      "quantity": "0.38663",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-26T13:30:00+00:00",
+      "entry": "83.88",
+      "entry_id": "c50f0babb068293540b400e6b972eb6ad40476fe45f456e895780d6e6091d52b",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0014993562500000",
+        "slippage": "0.0287019625000000",
+        "spread": "0.0143509812500000"
+      },
+      "entry_raw": "83.75000000",
+      "exit": "85.12",
+      "exit_id": "4f27558ab696904ff1a7c37381281891aad251745aae727ecbc0cc1ca36a96d1",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0007282587500000",
+        "slippage": "0.0292160275000000",
+        "spread": "0.0146080137500000"
+      },
+      "exit_raw": "85.25000000",
+      "exited_at": "2024-01-26T17:45:00+00:00",
+      "fees": "0.05791800",
+      "net": "0.36704240",
+      "quantity": "0.34271",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-26T18:30:00+00:00",
+      "entry": "85.86",
+      "entry_id": "813ccc8be2ed5e33e1d49863b96549e68f2de6309be57c57fe8c3d54628336a1",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0004767727000000",
+        "slippage": "0.0290916182000000",
+        "spread": "0.0145458091000000"
+      },
+      "entry_raw": "85.73000000",
+      "exit": "85.17",
+      "exit_id": "f5fa1143ebcb0701c9abc8e9b31a2bb5dab94b806fed26575cc4d18eac18cb53",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0006956470000000",
+        "slippage": "0.0289457020000000",
+        "spread": "0.0144728510000000"
+      },
+      "exit_raw": "85.30000000",
+      "exited_at": "2024-01-26T22:45:00+00:00",
+      "fees": "0.05803733",
+      "net": "-0.29218193",
+      "quantity": "0.33934",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-27T16:45:00+00:00",
+      "entry": "85.87",
+      "entry_id": "40802ad4470850e5cdafe7a71f16a96d46e623235790e9628bde9389e80f5934",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0006547317000000",
+        "slippage": "0.0403861122000000",
+        "spread": "0.0201930561000000"
+      },
+      "entry_raw": "85.74000000",
+      "exit": "85.98",
+      "exit_id": "02fa0699f9be5687a27898eebc74051ab49d69a04dc5e64e56836cebb66c5f08",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0003933100500000",
+        "slippage": "0.0405603933000000",
+        "spread": "0.0202801966500000"
+      },
+      "exit_raw": "86.11000000",
+      "exited_at": "2024-01-27T21:00:00+00:00",
+      "fees": "0.08094651",
+      "net": "-0.02913321",
+      "quantity": "0.47103",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-27T23:30:00+00:00",
+      "entry": "86.94",
+      "entry_id": "bd2bf967a8dd5caa4798434e367b5b9a72297db272487ab9fd82cd2ca8abca5b",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0054074440000000",
+        "slippage": "0.0478945040000000",
+        "spread": "0.0239472520000000"
+      },
+      "entry_raw": "86.80000000",
+      "exit": "87.45",
+      "exit_id": "a3bb94c15c08ab746d96d6e3d6fecc64b2cc9c12eb5bb30e25ae3d1f941fcfc9",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0047535847000000",
+        "slippage": "0.0483304102000000",
+        "spread": "0.0241652051000000"
+      },
+      "exit_raw": "87.59000000",
+      "exited_at": "2024-01-28T03:45:00+00:00",
+      "fees": "0.09622493",
+      "net": "0.18518287",
+      "quantity": "0.55178",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-28T06:00:00+00:00",
+      "entry": "2117.72",
+      "entry_id": "3442c2b88c0203ab5b0db0a44e9738abae6d3aaffcb88548b3bde0b45ea099df",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0002719899000000",
+        "slippage": "0.0702238734000000",
+        "spread": "0.0351119367000000"
+      },
+      "entry_raw": "2114.54000000",
+      "exit": "2116.28",
+      "exit_id": "5faed1c9d46b8e60ff20bd0a56d7c33a39293d3f843e16d7519cc6105eb6e47f",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000269001000000",
+        "slippage": "0.0703872666000000",
+        "spread": "0.0351936333000000"
+      },
+      "exit_raw": "2119.46000000",
+      "exited_at": "2024-01-28T10:15:00+00:00",
+      "fees": "0.14061115",
+      "net": "-0.18843355",
+      "quantity": "0.03321",
+      "reason": "tijdslimiet",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-29T20:45:00+00:00",
+      "entry": "93.56",
+      "entry_id": "f51255955be64278253b5d20478a0b0927651e50ff90785a242395aac530894e",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0029857642500000",
+        "slippage": "0.0282144905000000",
+        "spread": "0.0141072452500000"
+      },
+      "entry_raw": "93.41000000",
+      "exit": "93.34",
+      "exit_id": "84617fbefc6c4265fd1c1d5b2d43f35eaa3453652c473ef48bbb602a6324d2ef",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0029495182500000",
+        "slippage": "0.0282386545000000",
+        "spread": "0.0141193272500000"
+      },
+      "exit_raw": "93.49000000",
+      "exited_at": "2024-01-30T01:00:00+00:00",
+      "fees": "0.05645315",
+      "net": "-0.12290415",
+      "quantity": "0.30205",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-01-30T02:45:00+00:00",
+      "entry": "2150.83",
+      "entry_id": "5408066b35397e8b08fe5e7027072897ca6ca6ad0ce3b506b69d8f8f55acfaf8",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0002168920000000",
+        "slippage": "0.0541624720000000",
+        "spread": "0.0270812360000000"
+      },
+      "entry_raw": "2147.60000000",
+      "exit": "2126.49",
+      "exit_id": "88add47456fb2cd74fd96c6a7e6b9311f912027558fccbc3bf3ad7af290ab965",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0001378273000000",
+        "slippage": "0.0537107818000000",
+        "spread": "0.0268553909000000"
+      },
+      "exit_raw": "2129.69000000",
+      "exited_at": "2024-01-30T07:00:00+00:00",
+      "fees": "0.10787402",
+      "net": "-0.72172882",
+      "quantity": "0.02522",
+      "reason": "tijdslimiet",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-02-05T12:30:00+00:00",
+      "entry": "2163.26",
+      "entry_id": "4f6af308baaa212eef9429cd42d3c35bca405a42d91a2489bf582af8b8e19473",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0003142279500000",
+        "slippage": "0.0679755147000000",
+        "spread": "0.0339877573500000"
+      },
+      "entry_raw": "2160.01000000",
+      "exit": "2136.58",
+      "exit_id": "a515977a62228fad7590670d1ac16bf37495b971c1736398fa2e92c45c244d9b",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.00000991305",
+        "slippage": "0.0673391913",
+        "spread": "0.03366959565"
+      },
+      "exit_raw": "2139.79",
+      "exited_at": "2024-02-05T16:00:00+00:00",
+      "fees": "0.13531598",
+      "net": "-0.97493558",
+      "quantity": "0.03147",
+      "reason": "stop",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-02-09T06:00:00+00:00",
+      "entry": "2279.63",
+      "entry_id": "1246093800f80231eb281f78c7345b84973297fd4da754a9ab7f71139494cc36",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0001534950000000",
+        "slippage": "0.0614576700000000",
+        "spread": "0.0307288350000000"
+      },
+      "entry_raw": "2276.21000000",
+      "exit": "2289.22",
+      "exit_id": "7ee115adedaf2d99715a59aea57b46a1321a19ac28417d34e41786c2c0c81294",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000272700000000",
+        "slippage": "0.0619018200000000",
+        "spread": "0.0309509100000000"
+      },
+      "exit_raw": "2292.66000000",
+      "exited_at": "2024-02-09T10:15:00+00:00",
+      "fees": "0.12335895",
+      "net": "0.13557105",
+      "quantity": "0.02700",
+      "reason": "tijdslimiet",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-02-09T10:45:00+00:00",
+      "entry": "2294.48",
+      "entry_id": "2cd4c32f248595c1482dfbab9395bb9339de8e9484d05087918936ffbe28d4e4",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000919856000000",
+        "slippage": "0.0612624096000000",
+        "spread": "0.0306312048000000"
+      },
+      "entry_raw": "2291.04000000",
+      "exit": "2319.15",
+      "exit_id": "ad7a2ec3481de0d13d70ebc12abeb168668bec0ec7b9ce5522f3500aa8e8710f",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0001615096000000",
+        "slippage": "0.0621073936000000",
+        "spread": "0.0310536968000000"
+      },
+      "exit_raw": "2322.64000000",
+      "exited_at": "2024-02-09T15:00:00+00:00",
+      "fees": "0.12336848",
+      "net": "0.53630732",
+      "quantity": "0.02674",
+      "reason": "tijdslimiet",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-02-12T19:00:00+00:00",
+      "entry": "101.79",
+      "entry_id": "dff33b520561b305b053da4c41adf4d757eac14e2d01de99a83b5d9bf50081da",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0025430130000000",
+        "slippage": "0.0342086580000000",
+        "spread": "0.0171043290000000"
+      },
+      "entry_raw": "101.63000000",
+      "exit": "103.25",
+      "exit_id": "d9c2301dd3adc3a8304e80e674a4af9efcb9a5ee60062c6635082f05e673e352",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0016442910000000",
+        "slippage": "0.0348078060000000",
+        "spread": "0.0174039030000000"
+      },
+      "exit_raw": "103.41000000",
+      "exited_at": "2024-02-12T23:15:00+00:00",
+      "fees": "0.06901647",
+      "net": "0.42241953",
+      "quantity": "0.33660",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-02-14T11:00:00+00:00",
+      "entry": "108.04",
+      "entry_id": "377da43657bbf81f7a74ca9fad8d10b74bc627ed8937744c5708e4803b65912b",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0025770816500000",
+        "slippage": "0.0339218789000000",
+        "spread": "0.0169609394500000"
+      },
+      "entry_raw": "107.87000000",
+      "exit": "110.00",
+      "exit_id": "ae9b319e8fb77decad7c5ce41a3e654fa8a1658af6b2d50734697ad97ae56cdb",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0014921601500000",
+        "slippage": "0.0346451599000000",
+        "spread": "0.0173225799500000"
+      },
+      "exit_raw": "110.17000000",
+      "exited_at": "2024-02-14T15:15:00+00:00",
+      "fees": "0.06856704",
+      "net": "0.54779416",
+      "quantity": "0.31447",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-02-14T15:30:00+00:00",
+      "entry": "109.84",
+      "entry_id": "c0003bbe231565d920a13a61db9773d7b55d92998efab95ed7cfa01d8cc4167f",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0016078919500000",
+        "slippage": "0.0320905387000000",
+        "spread": "0.0160452693500000"
+      },
+      "entry_raw": "109.67000000",
+      "exit": "107.95",
+      "exit_id": "2f83d1cb210bc176188d9dbb54ed2d98fa3d85bd8d09343b8f274d057663ca79",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0022882102000000",
+        "slippage": "0.0316369932000000",
+        "spread": "0.0158184966000000"
+      },
+      "exit_raw": "108.12000000",
+      "exited_at": "2024-02-14T19:45:00+00:00",
+      "fees": "0.06372754",
+      "net": "-0.61676044",
+      "quantity": "0.29261",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-02-22T10:30:00+00:00",
+      "entry": "2780.62",
+      "entry_id": "221843960e4450273546b652857e68521cdfa36bcffc40da2d1ad514a9811467",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000750292500000",
+        "slippage": "0.0391201805000000",
+        "spread": "0.0195600902500000"
+      },
+      "entry_raw": "2776.45000000",
+      "exit": "2716.52",
+      "exit_id": "e7c3c8a5b46ce3f831924e068a7f7c14887ec3a420ae6179779af135a39e198e",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.00012800765",
+        "slippage": "0.0383333949",
+        "spread": "0.01916669745"
+      },
+      "exit_raw": "2720.61",
+      "exited_at": "2024-02-22T13:30:00+00:00",
+      "fees": "0.07745471",
+      "net": "-0.98062371",
+      "quantity": "0.01409",
+      "reason": "stop",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-02-28T12:00:00+00:00",
+      "entry": "103.27",
+      "entry_id": "35b4e23b84a9d9b05eee000f5f7aa2b85b322c64f2d7c2ea66cc9e189e8819a0",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0014310070500000",
+        "slippage": "0.0276571953000000",
+        "spread": "0.0138285976500000"
+      },
+      "entry_raw": "103.11000000",
+      "exit": "104.23",
+      "exit_id": "0319a574c1829ded5534f868d640eb8d065650fe6b974e1efbe3146d2d87cdc8",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0009160054500000",
+        "slippage": "0.0280005297000000",
+        "spread": "0.0140002648500000"
+      },
+      "exit_raw": "104.39000000",
+      "exited_at": "2024-02-28T16:15:00+00:00",
+      "fees": "0.05565774",
+      "net": "0.20184306",
+      "quantity": "0.26823",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-02-28T17:30:00+00:00",
+      "entry": "104.04",
+      "entry_id": "4563cafd882d34636f23fbadca02313fd9c3ddad503b9cf547c869e2815e309a",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0009617344000000",
+        "slippage": "0.0239007104000000",
+        "spread": "0.0119503552000000"
+      },
+      "entry_raw": "103.88000000",
+      "exit": "99.98",
+      "exit_id": "c3a0fecfc5d7b3c13c2ac1c3425a2e8873a7cf1ab76efa740b264158974302b8",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0022524832",
+        "slippage": "0.0230402112",
+        "spread": "0.0115201056"
+      },
+      "exit_raw": "100.14",
+      "exited_at": "2024-02-28T17:45:00+00:00",
+      "fees": "0.04694093",
+      "net": "-0.98106573",
+      "quantity": "0.23008",
+      "reason": "stop",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-03T20:30:00+00:00",
+      "entry": "3206.84",
+      "entry_id": "a1cdc659cf476f97d753eb3e82152f2bde3abafb5cc253b8b46453b10e949f2a",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0001219907000000",
+        "slippage": "0.0561636062000000",
+        "spread": "0.0280818031000000"
+      },
+      "entry_raw": "3202.03000000",
+      "exit": "3245.30",
+      "exit_id": "afb77ae2fe9d6c579c0157e197e6fb1da6b0defb5620354df46f167bc82b7eb0",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000829642000000",
+        "slippage": "0.0570081572000000",
+        "spread": "0.0285040786000000"
+      },
+      "exit_raw": "3250.18000000",
+      "exited_at": "2024-03-04T00:45:00+00:00",
+      "fees": "0.11317055",
+      "net": "0.56141785",
+      "quantity": "0.01754",
+      "reason": "tijdslimiet",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-04T10:00:00+00:00",
+      "entry": "3254.38",
+      "entry_id": "2ff8cebb9735dd5c1b0a682039faca972dd8aec02e8ae9f801e898ac7ca2673b",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000799250000000",
+        "slippage": "0.0451680500000000",
+        "spread": "0.0225840250000000"
+      },
+      "entry_raw": "3249.50000000",
+      "exit": "3216.24",
+      "exit_id": "2ab5a0f2047944de833c5f6cae1b23c33ebb0bc47c426b167c5a35f21892e9ba",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0001164820000000",
+        "slippage": "0.0447730120000000",
+        "spread": "0.0223865060000000"
+      },
+      "exit_raw": "3221.08000000",
+      "exited_at": "2024-03-04T14:15:00+00:00",
+      "fees": "0.08994163",
+      "net": "-0.62008763",
+      "quantity": "0.01390",
+      "reason": "tijdslimiet",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-05T00:00:00+00:00",
+      "entry": "122.97",
+      "entry_id": "e2336ffaf5738a5af308ec133289b3e8705577d8d91e4a5713a62488005581b6",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0012837660000000",
+        "slippage": "0.0270361560000000",
+        "spread": "0.0135180780000000"
+      },
+      "entry_raw": "122.78000000",
+      "exit": "119.73",
+      "exit_id": "2bc1d03513740314a08d3a49848ba4bdbf57eb3236d28a8bba544ca91acd6bf8",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000297270000000",
+        "slippage": "0.0264041820000000",
+        "spread": "0.0132020910000000"
+      },
+      "exit_raw": "119.91000000",
+      "exited_at": "2024-03-05T04:15:00+00:00",
+      "fees": "0.05344255",
+      "net": "-0.76689055",
+      "quantity": "0.22020",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-05T15:00:00+00:00",
+      "entry": "63456.33",
+      "entry_id": "456dcebe3f1ca0c26e8d5706288f9de386e5bc9e0fd72e3ab0f3e4d972f92b44",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000035552000000",
+        "slippage": "0.0278789632000000",
+        "spread": "0.0139394816000000"
+      },
+      "entry_raw": "63361.28000000",
+      "exit": "61441.76",
+      "exit_id": "7aedf7661efbdab42b6502e0a127d743731178e6862ae376cd3e696b3b87b9ba",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000039138",
+        "slippage": "0.0270749908",
+        "spread": "0.0135374954"
+      },
+      "exit_raw": "61534.07",
+      "exited_at": "2024-03-05T15:45:00+00:00",
+      "fees": "0.05495517",
+      "net": "-0.94136597",
+      "quantity": "0.00044",
+      "reason": "stop",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-08T12:00:00+00:00",
+      "entry": "62170.61",
+      "entry_id": "3f08efee5fde41df24dd14469737ab5841311124f8fd992bacb5276ea55ce3bb",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000031626000000",
+        "slippage": "0.0521450916000000",
+        "spread": "0.0260725458000000"
+      },
+      "entry_raw": "62077.49000000",
+      "exit": "61738.97",
+      "exit_id": "a2bfbe93a54c5d98e4f6e7321151abd762a879ee89adeab158890b3161485c0d",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000020328000000",
+        "slippage": "0.0519386448000000",
+        "spread": "0.0259693224000000"
+      },
+      "exit_raw": "61831.72000000",
+      "exited_at": "2024-03-08T16:15:00+00:00",
+      "fees": "0.10408406",
+      "net": "-0.46666166",
+      "quantity": "0.00084",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-10T08:30:00+00:00",
+      "entry": "135.43",
+      "entry_id": "57b7d1c600c3edff7d41cfb4f5f7426532394ec31ea665bcad09a8e576b4f311",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0021703590000000",
+        "slippage": "0.0409310940000000",
+        "spread": "0.0204655470000000"
+      },
+      "entry_raw": "135.22000000",
+      "exit": "132.51",
+      "exit_id": "c263fdb3c00501ccfe9f6c7b1ed1db6c8fc2c5974cb2cb2b91ba98f22f43d947",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0002830245",
+        "slippage": "0.0401713170",
+        "spread": "0.0200856585"
+      },
+      "exit_raw": "132.71",
+      "exited_at": "2024-03-10T11:45:00+00:00",
+      "fees": "0.08110545",
+      "net": "-0.96498945",
+      "quantity": "0.30270",
+      "reason": "stop",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-11T10:30:00+00:00",
+      "entry": "135.52",
+      "entry_id": "22d0f43a52c44038f9069a60f0c6f0135492b3150b2ecd234871e5a35767a37a",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0013358761500000",
+        "slippage": "0.0256940159000000",
+        "spread": "0.0128470079500000"
+      },
+      "entry_raw": "135.31000000",
+      "exit": "136.52",
+      "exit_id": "78c26e2e86e3ee5da667e513198e6d2851dd3185228d894a66c6cd9d315e865a",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0009314104500000",
+        "slippage": "0.0259636597000000",
+        "spread": "0.0129818298500000"
+      },
+      "exit_raw": "136.73000000",
+      "exited_at": "2024-03-11T14:45:00+00:00",
+      "fees": "0.05165769",
+      "net": "0.13823231",
+      "quantity": "0.18989",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-11T15:00:00+00:00",
+      "entry": "3699.37",
+      "entry_id": "ae85b0911002acb46db38c07ef73f4b99c6088131ff5430a5c33fee716a62226",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000928854000000",
+        "slippage": "0.0370120764000000",
+        "spread": "0.0185060382000000"
+      },
+      "entry_raw": "3693.82000000",
+      "exit": "3686.96",
+      "exit_id": "d8ddbc68bd15669ac69b2c9d370d52808f764cf27f1aa0c8ccc51d9b2a564fe4",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000125250000000",
+        "slippage": "0.0369988500000000",
+        "spread": "0.0184994250000000"
+      },
+      "exit_raw": "3692.50000000",
+      "exited_at": "2024-03-11T19:15:00+00:00",
+      "fees": "0.07401103",
+      "net": "-0.19835923",
+      "quantity": "0.01002",
+      "reason": "tijdslimiet",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-12T11:00:00+00:00",
+      "entry": "65732.39",
+      "entry_id": "406b3fc8b16d1a5f1e7262704ef5602542a17748a2c096b21391f3221405c4c2",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000051898500000",
+        "slippage": "0.0374113401000000",
+        "spread": "0.0187056700500000"
+      },
+      "entry_raw": "65633.93000000",
+      "exit": "65371.01",
+      "exit_id": "20d35e056efbb4a7718b7b2f791d95375b75d3f4257ed6d21d57e64d319ebd75",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000035169000000",
+        "slippage": "0.0373174554000000",
+        "spread": "0.0186587277000000"
+      },
+      "exit_raw": "65469.22000000",
+      "exited_at": "2024-03-12T15:15:00+00:00",
+      "fees": "0.07472895",
+      "net": "-0.28071555",
+      "quantity": "0.00057",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-13T06:00:00+00:00",
+      "entry": "66122.56",
+      "entry_id": "6ca9cae9fe7d932f7d96a03a98b30a04dae4390f165d6fcf53cde865642f25a3",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000029264000000",
+        "slippage": "0.0409345824000000",
+        "spread": "0.0204672912000000"
+      },
+      "entry_raw": "66023.52000000",
+      "exit": "66819.38",
+      "exit_id": "89810d02bc56fd47dc28a7d8286288b1897f196c378baf68b864fee02330a022",
+      "exit_impact": {
+        "adverse_tick_rounding": "2.232000000E-7",
+        "slippage": "0.0414902512000000",
+        "spread": "0.0207451256000000"
+      },
+      "exit_raw": "66919.76000000",
+      "exited_at": "2024-03-13T10:15:00+00:00",
+      "fees": "0.08242401",
+      "net": "0.34960439",
+      "quantity": "0.00062",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-13T10:30:00+00:00",
+      "entry": "66992.47",
+      "entry_id": "868caecf043ff4d9c854fcf1913f75accac6d1ec6d4fad59467ba5dc29b191ea",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000011191000000",
+        "slippage": "0.0414731206000000",
+        "spread": "0.0207365603000000"
+      },
+      "entry_raw": "66892.13000000",
+      "exit": "65583.74",
+      "exit_id": "76d6280f12f0aa8f8e6d5343483e74d9dc0805c0bf5625c9e5b0f4d5a5a2b615",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000040889",
+        "slippage": "0.0407230074",
+        "spread": "0.0203615037"
+      },
+      "exit_raw": "65682.27",
+      "exited_at": "2024-03-13T14:00:00+00:00",
+      "fees": "0.08219726",
+      "net": "-0.95560986",
+      "quantity": "0.00062",
+      "reason": "stop",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-14T07:15:00+00:00",
+      "entry": "67291.40",
+      "entry_id": "d3656800690fc5cc968cd86ec0c9d93c93f19998ccfaa7f609f525b9334aa994",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000030637500000",
+        "slippage": "0.0503929575000000",
+        "spread": "0.0251964787500000"
+      },
+      "entry_raw": "67190.61000000",
+      "exit": "66450.19",
+      "exit_id": "1ce6b92e8f0e96ac889b1636d5461abe5c63635ddd3bb8f8ec4166009a3c4e76",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000037275000000",
+        "slippage": "0.0499125150000000",
+        "spread": "0.0249562575000000"
+      },
+      "exit_raw": "66550.02000000",
+      "exited_at": "2024-03-14T11:30:00+00:00",
+      "fees": "0.10030620",
+      "net": "-0.73121370",
+      "quantity": "0.00075",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-17T19:15:00+00:00",
+      "entry": "181.07",
+      "entry_id": "aceadeb5d2fcae3fa92537e6645088c25ed01432ff6ea08bb3c6b5f6404bf9bb",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0008353975500000",
+        "slippage": "0.0171334683000000",
+        "spread": "0.0085667341500000"
+      },
+      "entry_raw": "180.79000000",
+      "exit": "185.31",
+      "exit_id": "5cf5599194b6681183d1d2fe9715c87e9a3dd3b34b521599185433c996c1ee24",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0001530535500000",
+        "slippage": "0.0175883643000000",
+        "spread": "0.0087941821500000"
+      },
+      "exit_raw": "185.59000000",
+      "exited_at": "2024-03-17T23:30:00+00:00",
+      "fees": "0.03472184",
+      "net": "0.36710296",
+      "quantity": "0.09477",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-24T23:45:00+00:00",
+      "entry": "62363.34",
+      "entry_id": "0e31cd5d5487143fbed4101e77ae2c3984b6e0c5469de5b06301cd130b8310ee",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000036756000000",
+        "slippage": "0.0448343496000000",
+        "spread": "0.0224171748000000"
+      },
+      "entry_raw": "62269.93000000",
+      "exit": "61935.21",
+      "exit_id": "936713c732c40a66b650ffaf9de1f58791c42c22e8fe7bb0cfd1dd2ad1ccfc10",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000054792000000",
+        "slippage": "0.0446603472000000",
+        "spread": "0.0223301736000000"
+      },
+      "exit_raw": "62028.26000000",
+      "exited_at": "2024-03-25T04:00:00+00:00",
+      "fees": "0.08949497",
+      "net": "-0.39774857",
+      "quantity": "0.00072",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-25T06:00:00+00:00",
+      "entry": "172.06",
+      "entry_id": "c182698f54005ba1f2c06d39cfbeb7ca9a8f125d9ddf0baefe7fab59995f9e01",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0004242120000000",
+        "slippage": "0.0316867920000000",
+        "spread": "0.0158433960000000"
+      },
+      "entry_raw": "171.80000000",
+      "exit": "175.00",
+      "exit_id": "35066ae457da4a71f57ef33d5b6c23dabf92ca8636a2c7e9d90713f00c6bc00b",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0013086018000000",
+        "slippage": "0.0323267988000000",
+        "spread": "0.0161633994000000"
+      },
+      "exit_raw": "175.27000000",
+      "exited_at": "2024-03-25T10:15:00+00:00",
+      "fees": "0.06401175",
+      "net": "0.47824185",
+      "quantity": "0.18444",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-26T08:15:00+00:00",
+      "entry": "3372.74",
+      "entry_id": "e4df14b95ae2fdc0425575c05fd7e31d5b7c7bf6e745f1fd2f275dc60a618e8c",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0001059152000000",
+        "slippage": "0.0420623232000000",
+        "spread": "0.0210311616000000"
+      },
+      "entry_raw": "3367.68000000",
+      "exit": "3349.94",
+      "exit_id": "f621350dfb36c2657e6d988f980cb1c400b1e7b3c72c726d2750c258dcd7032a",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000940497000000",
+        "slippage": "0.0419037002000000",
+        "spread": "0.0209518501000000"
+      },
+      "exit_raw": "3354.98000000",
+      "exited_at": "2024-03-26T12:30:00+00:00",
+      "fees": "0.08396629",
+      "net": "-0.36873829",
+      "quantity": "0.01249",
+      "reason": "tijdslimiet",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-28T11:00:00+00:00",
+      "entry": "65719.08",
+      "entry_id": "1d5229d57f8e76bbf1b9a23b38b7bded332bef62587d2fccd2148926a79eb6c0",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000061472000000",
+        "slippage": "0.0446220352000000",
+        "spread": "0.0223110176000000"
+      },
+      "entry_raw": "65620.64000000",
+      "exit": "66155.99",
+      "exit_id": "9a8d0af0cf210a71f0b8140fdf1c9846badcc8766a23c1ebbfb71a127ffdef1b",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000047124000000",
+        "slippage": "0.0450536584000000",
+        "spread": "0.0225268292000000"
+      },
+      "exit_raw": "66255.38000000",
+      "exited_at": "2024-03-28T15:15:00+00:00",
+      "fees": "0.08967506",
+      "net": "0.20742374",
+      "quantity": "0.00068",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-03-31T20:30:00+00:00",
+      "entry": "184.98",
+      "entry_id": "967912087cbe8649d232b0519bfefaa9a7b451d805db72e885f00f697512e889",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0006864355000000",
+        "slippage": "0.0429778430000000",
+        "spread": "0.0214889215000000"
+      },
+      "entry_raw": "184.70000000",
+      "exit": "186.78",
+      "exit_id": "c504386feb9856733215446af12587b8e1015b601803cc57749b0b908e0502f1",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0021861225500000",
+        "slippage": "0.0435293183000000",
+        "spread": "0.0217646591500000"
+      },
+      "exit_raw": "187.07000000",
+      "exited_at": "2024-04-01T00:45:00+00:00",
+      "fees": "0.08650484",
+      "net": "0.33233716",
+      "quantity": "0.23269",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-04-07T03:00:00+00:00",
+      "entry": "64132.68",
+      "entry_id": "56cc843d1352af2da91d1e7ba16f3818b24cf0acbbed1c172dad42228fa802b3",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000046644000000",
+        "slippage": "0.0589136904000000",
+        "spread": "0.0294568452000000"
+      },
+      "entry_raw": "64036.62000000",
+      "exit": "63922.34",
+      "exit_id": "fad4e1982ae07e93cc6184fc9d3af1da8d25c9f83aa96e6550d888a61b67363a",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000022494000000",
+        "slippage": "0.0588969004000000",
+        "spread": "0.0294484502000000"
+      },
+      "exit_raw": "64018.37000000",
+      "exited_at": "2024-04-07T07:15:00+00:00",
+      "fees": "0.11781063",
+      "net": "-0.31132343",
+      "quantity": "0.00092",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-04-11T00:15:00+00:00",
+      "entry": "65284.07",
+      "entry_id": "7d2b546a2fa2e8ac8bf5401b2575d167b2129c9ceb8ca54eba3dfc8c71fac5a7",
+      "entry_impact": {
+        "adverse_tick_rounding": "3.729000000E-7",
+        "slippage": "0.0430229514000000",
+        "spread": "0.0215114757000000"
+      },
+      "entry_raw": "65186.29000000",
+      "exit": "65225.95",
+      "exit_id": "ebdb403b483179720a838c34419500392714dbe5d29630f2584aeee26089aca2",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000026994000000",
+        "slippage": "0.0431138004000000",
+        "spread": "0.0215569002000000"
+      },
+      "exit_raw": "65323.94000000",
+      "exited_at": "2024-04-11T04:30:00+00:00",
+      "fees": "0.08613662",
+      "net": "-0.12449582",
+      "quantity": "0.00066",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-04-11T08:15:00+00:00",
+      "entry": "3337.66",
+      "entry_id": "619d7814ec59339d16cb05e57246a9ae7fc4f6f72787049c9340eaf88a103817",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000126250000000",
+        "slippage": "0.0416582500000000",
+        "spread": "0.0208291250000000"
+      },
+      "entry_raw": "3332.66000000",
+      "exit": "3268.47",
+      "exit_id": "0f876d2b8f93eed2fba767e5a726b20a0a012242c645cb0a019cc994bfa614e4",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0001239375",
+        "slippage": "0.0409173750",
+        "spread": "0.0204586875"
+      },
+      "exit_raw": "3273.39",
+      "exited_at": "2024-04-11T12:00:00+00:00",
+      "fees": "0.08257663",
+      "net": "-0.94745163",
+      "quantity": "0.01250",
+      "reason": "stop",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-04-19T12:45:00+00:00",
+      "entry": "135.91",
+      "entry_id": "08d8a5c6f8313bd0569a19290760c20764f870fd9457a149c61a1cba8e9db39e",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0008415960000000",
+        "slippage": "0.0177061360000000",
+        "spread": "0.0088530680000000"
+      },
+      "entry_raw": "135.70000000",
+      "exit": "136.62",
+      "exit_id": "6844043c7e0985a789dca3a05fbb09cac013e9b6d8a9f42e098677c8dc43184b",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0006204324000000",
+        "slippage": "0.0178535784000000",
+        "spread": "0.0089267892000000"
+      },
+      "exit_raw": "136.83000000",
+      "exited_at": "2024-04-19T17:00:00+00:00",
+      "fees": "0.03555972",
+      "net": "0.05708108",
+      "quantity": "0.13048",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-04-20T18:30:00+00:00",
+      "entry": "61280.09",
+      "entry_id": "8971f2d339db2470d52bfe8d1afaa195f2e7e842c525c1b1c4ee13a10340c7d7",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000055115000000",
+        "slippage": "0.0446674590000000",
+        "spread": "0.0223337295000000"
+      },
+      "entry_raw": "61188.30000000",
+      "exit": "60863.58",
+      "exit_id": "427bac0561c99426462c770f9acae988c96c498a6d651854fc0e6ed499fd3989",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000054531000000",
+        "slippage": "0.0444971646000000",
+        "spread": "0.0222485823000000"
+      },
+      "exit_raw": "60955.02000000",
+      "exited_at": "2024-04-20T22:45:00+00:00",
+      "fees": "0.08916489",
+      "net": "-0.39321719",
+      "quantity": "0.00073",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-04-22T08:00:00+00:00",
+      "entry": "62054.51",
+      "entry_id": "f63cff2b74839492defda28bd63a134abc2d6047fa4c3f321f94aac00c406424",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000060514000000",
+        "slippage": "0.0489496324000000",
+        "spread": "0.0244748162000000"
+      },
+      "entry_raw": "61961.56000000",
+      "exit": "61938.16",
+      "exit_id": "b58132a153c79722af0c7005af64a3b26b3283967065d6c4206102827ada1ebc",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000025161500000",
+        "slippage": "0.0490046559000000",
+        "spread": "0.0245023279500000"
+      },
+      "exit_raw": "62031.21000000",
+      "exited_at": "2024-04-22T12:15:00+00:00",
+      "fees": "0.09795422",
+      "net": "-0.18987072",
+      "quantity": "0.00079",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-05-03T03:15:00+00:00",
+      "entry": "131.58",
+      "entry_id": "b65202bcf86ce2b9e827cb03bffebecdad4c5b314247a8495e70c3718f61b89e",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0005443354000000",
+        "slippage": "0.0244077764000000",
+        "spread": "0.0122038882000000"
+      },
+      "entry_raw": "131.38000000",
+      "exit": "129.43",
+      "exit_id": "37e6519538a814a3e8b49bade8e31548c81a5f5e7e0de0f7b84c636c4a9ff14b",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0010320079000000",
+        "slippage": "0.0240826614000000",
+        "spread": "0.0120413307000000"
+      },
+      "exit_raw": "129.63000000",
+      "exited_at": "2024-05-03T07:30:00+00:00",
+      "fees": "0.04849045",
+      "net": "-0.44791745",
+      "quantity": "0.18578",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-05-04T12:15:00+00:00",
+      "entry": "59520.87",
+      "entry_id": "5c9d441710cf94b96e2ea956bedce4844799055c698c7e6429d96fc0fe599355",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000016940000000",
+        "slippage": "0.0416022040000000",
+        "spread": "0.0208011020000000"
+      },
+      "entry_raw": "59431.72000000",
+      "exit": "59008.17",
+      "exit_id": "3a47443c187b953806564bfebbde1b8876127b1af94dd2e59e51bba0324f02e8",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000033390000000",
+        "slippage": "0.0413677740000000",
+        "spread": "0.0206838870000000"
+      },
+      "exit_raw": "59096.82000000",
+      "exited_at": "2024-05-04T16:30:00+00:00",
+      "fees": "0.08297033",
+      "net": "-0.44186033",
+      "quantity": "0.00070",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-05-17T12:00:00+00:00",
+      "entry": "61147.15",
+      "entry_id": "ab115a86342d3e155528cff7ad1b6af510f5cdcbee3756099a748a5fc03cce2d",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000059274000000",
+        "slippage": "0.0543394484000000",
+        "spread": "0.0271697242000000"
+      },
+      "entry_raw": "61055.56000000",
+      "exit": "61656.93",
+      "exit_id": "d67e07af6a397bc1531fb87414eff7665ae30809f3dc1039cd596a0e29c7d6b4",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000050374000000",
+        "slippage": "0.0549571084000000",
+        "spread": "0.0274785542000000"
+      },
+      "exit_raw": "61749.56000000",
+      "exited_at": "2024-05-17T16:15:00+00:00",
+      "fees": "0.10929564",
+      "net": "0.34440856",
+      "quantity": "0.00089",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-05-26T12:00:00+00:00",
+      "entry": "3520.34",
+      "entry_id": "6582d10d00cd1c8ec2f2bb65b0442dec24fa5ac8b7d7617ad498dba221038778",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0001252290000000",
+        "slippage": "0.0594045140000000",
+        "spread": "0.0297022570000000"
+      },
+      "entry_raw": "3515.06000000",
+      "exit": "3527.12",
+      "exit_id": "b2c2659dd8f692c14a11133cb11711aa94d8ed6816f6073f34b91c9e41b1a58b",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000231530000000",
+        "slippage": "0.0596978980000000",
+        "spread": "0.0298489490000000"
+      },
+      "exit_raw": "3532.42000000",
+      "exited_at": "2024-05-26T16:15:00+00:00",
+      "fees": "0.11910208",
+      "net": "-0.00452008",
+      "quantity": "0.01690",
+      "reason": "tijdslimiet",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-06-16T23:15:00+00:00",
+      "entry": "3389.11",
+      "entry_id": "b16d957bc30bfbe522e3898639f5eb9c0fc52d14826a3d3a43754d96c845d6b2",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000731279500000",
+        "slippage": "0.0625707147000000",
+        "spread": "0.0312853573500000"
+      },
+      "entry_raw": "3384.03000000",
+      "exit": "3346.39",
+      "exit_id": "f0cc8f51658922a341fbc6cb0de1feeb907fd9cb126cfa43247e38bbe861e507",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000530663",
+        "slippage": "0.0619677558",
+        "spread": "0.0309838779"
+      },
+      "exit_raw": "3351.42",
+      "exited_at": "2024-06-17T02:30:00+00:00",
+      "fees": "0.12453941",
+      "net": "-0.91443221",
+      "quantity": "0.01849",
+      "reason": "stop",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-06-25T14:15:00+00:00",
+      "entry": "128.46",
+      "entry_id": "da86bfdbcd8f1187c12e4dfd81a7be32e2cab928b8d11ff0a369c6dcc1051198",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0015994698000000",
+        "slippage": "0.0269576868000000",
+        "spread": "0.0134788434000000"
+      },
+      "entry_raw": "128.26000000",
+      "exit": "127.99",
+      "exit_id": "7d94781cb21c5503927de348250228ed0b690f24d03329f553e7107bb30e864b",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0016215387000000",
+        "slippage": "0.0269429742000000",
+        "spread": "0.0134714871000000"
+      },
+      "exit_raw": "128.19000000",
+      "exited_at": "2024-06-25T18:30:00+00:00",
+      "fees": "0.05390067",
+      "net": "-0.15268527",
+      "quantity": "0.21018",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-06-30T20:15:00+00:00",
+      "entry": "135.30",
+      "entry_id": "ead1822ad3628625dff04d6a1462d86edae73e4cdcca3f8ea9043bbaedd16a64",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0025026270000000",
+        "slippage": "0.0459035820000000",
+        "spread": "0.0229517910000000"
+      },
+      "entry_raw": "135.09000000",
+      "exit": "135.83",
+      "exit_id": "69ee83733a1687beb8bef1f36fa782bfb2891e6f5ba7afcd800d3dad3f08d2f6",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0020184120000000",
+        "slippage": "0.0462263920000000",
+        "spread": "0.0231131960000000"
+      },
+      "exit_raw": "136.04000000",
+      "exited_at": "2024-07-01T00:30:00+00:00",
+      "fees": "0.09212998",
+      "net": "0.08796402",
+      "quantity": "0.33980",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-07-01T00:45:00+00:00",
+      "entry": "137.73",
+      "entry_id": "87a02ad5357f2f73b28843e87ec01f13aeedbe513c0705f8564006acd17c511c",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0011539068000000",
+        "slippage": "0.0426573288000000",
+        "spread": "0.0213286644000000"
+      },
+      "entry_raw": "137.52000000",
+      "exit": "136.84",
+      "exit_id": "600d6e8e11d6f5225e28fb7a8d6e6f7f971a27ea039d2c45324e53e66bbcc229",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0013725907500000",
+        "slippage": "0.0425115395000000",
+        "spread": "0.0212557697500000"
+      },
+      "exit_raw": "137.05000000",
+      "exited_at": "2024-07-01T05:00:00+00:00",
+      "fees": "0.08516887",
+      "net": "-0.36123797",
+      "quantity": "0.31019",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-07-01T19:30:00+00:00",
+      "entry": "59150.51",
+      "entry_id": "13677641b812d509dc3caacb22d40dfce32599cbf04f77fdc9a031f738a70ccb",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000067782500000",
+        "slippage": "0.0561088145000000",
+        "spread": "0.0280544072500000"
+      },
+      "entry_raw": "59061.91000000",
+      "exit": "58442.59",
+      "exit_id": "055dd827f5e712c25f0961a94e58640c9ce86ba6a3e003456553a547671c4c42",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000041942500000",
+        "slippage": "0.0556038705000000",
+        "spread": "0.0278019352500000"
+      },
+      "exit_raw": "58530.39000000",
+      "exited_at": "2024-07-01T23:45:00+00:00",
+      "fees": "0.11171346",
+      "net": "-0.78423746",
+      "quantity": "0.00095",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-07-02T13:15:00+00:00",
+      "entry": "140.71",
+      "entry_id": "a64dcd40d970f91d2c04b630a5d4a3fdfad9b5849140f876ad646ea836b728b6",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0026827734000000",
+        "slippage": "0.0406802844000000",
+        "spread": "0.0203401422000000"
+      },
+      "entry_raw": "140.49000000",
+      "exit": "137.77",
+      "exit_id": "c2febcbac87cd61c852176e6d7e4b2398991e118c44947fa43281f6b52f7af56",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0008773668",
+        "slippage": "0.0399534888",
+        "spread": "0.0199767444"
+      },
+      "exit_raw": "137.98",
+      "exited_at": "2024-07-02T14:15:00+00:00",
+      "fees": "0.08063668",
+      "net": "-0.93194308",
+      "quantity": "0.28956",
+      "reason": "stop",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-07-09T01:15:00+00:00",
+      "entry": "129.99",
+      "entry_id": "356ec37486b34334df2932508d7f3e384fd387944ba3c1b0caf0b83fd6f53653",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0009135422000000",
+        "slippage": "0.0223083052000000",
+        "spread": "0.0111541526000000"
+      },
+      "entry_raw": "129.79000000",
+      "exit": "130.26",
+      "exit_id": "5c4db6e17d21acfecf360adc21fc96d6bbe03d62972023f1dbeb76307d2d7001",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0007408028000000",
+        "slippage": "0.0224234648000000",
+        "spread": "0.0112117324000000"
+      },
+      "exit_raw": "130.46000000",
+      "exited_at": "2024-07-09T05:30:00+00:00",
+      "fees": "0.04473178",
+      "net": "0.00167582",
+      "quantity": "0.17188",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-07-09T08:00:00+00:00",
+      "entry": "131.52",
+      "entry_id": "6e0b3711a594ad5676f78d794b3e92bc77f57f3ca5a3ccc726428edd98dd6d9e",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0005397646000000",
+        "slippage": "0.0234708236000000",
+        "spread": "0.0117354118000000"
+      },
+      "entry_raw": "131.32000000",
+      "exit": "131.30",
+      "exit_id": "7afa2b6986a7a454a9ef6133142804ab213adc7c5e811daa177eb632db01fe76",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0004915075000000",
+        "slippage": "0.0235029950000000",
+        "spread": "0.0117514975000000"
+      },
+      "exit_raw": "131.50000000",
+      "exited_at": "2024-07-09T12:15:00+00:00",
+      "fees": "0.04697382",
+      "net": "-0.08629442",
+      "quantity": "0.17873",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-07-10T07:15:00+00:00",
+      "entry": "54741.28",
+      "entry_id": "01bb67bd838fb018af9dbfa90e5ecde9e4ef487bbdff08e73be1d63f8537c8d6",
+      "entry_impact": {
+        "adverse_tick_rounding": "7.774500000E-7",
+        "slippage": "0.0399012817000000",
+        "spread": "0.0199506408500000"
+      },
+      "entry_raw": "54659.29000000",
+      "exit": "54136.39",
+      "exit_id": "11685cc0161ba118c6ad806f5e26d6253677dc98faf31fe3ea0b4ab0189c56de",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000024966000000",
+        "slippage": "0.0395789356000000",
+        "spread": "0.0197894678000000"
+      },
+      "exit_raw": "54217.72000000",
+      "exited_at": "2024-07-10T11:30:00+00:00",
+      "fees": "0.07948071",
+      "net": "-0.52105041",
+      "quantity": "0.00073",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-07-13T11:00:00+00:00",
+      "entry": "2904.30",
+      "entry_id": "91a94540d18910d3e40f5b07816eb25c77d936969925fbc7eada1df7ea10411f",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000014040000000",
+        "slippage": "0.0542870640000000",
+        "spread": "0.0271435320000000"
+      },
+      "entry_raw": "2899.95000000",
+      "exit": "2890.43",
+      "exit_id": "f28b714357683ca697a1792bfb9cf56f17e7d40121c2fc417eab8a98b129675f",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0001465776000000",
+        "slippage": "0.0541902816000000",
+        "spread": "0.0270951408000000"
+      },
+      "exit_raw": "2894.78000000",
+      "exited_at": "2024-07-13T15:15:00+00:00",
+      "fees": "0.10847735",
+      "net": "-0.36812375",
+      "quantity": "0.01872",
+      "reason": "tijdslimiet",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-07-14T21:15:00+00:00",
+      "entry": "134.43",
+      "entry_id": "fa5a562df43334e3849548a1cf52ed545db861de99b4557c73a515d8a282fd85",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0025913763000000",
+        "slippage": "0.0401170158000000",
+        "spread": "0.0200585079000000"
+      },
+      "entry_raw": "134.22000000",
+      "exit": "137.88",
+      "exit_id": "7ff2c51e43d945f33b9f20240f7e3c640b6dbe6127d041e6e715aded4beb285e",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0008563198500000",
+        "slippage": "0.0412737201000000",
+        "spread": "0.0206368600500000"
+      },
+      "exit_raw": "138.09000000",
+      "exited_at": "2024-07-15T01:30:00+00:00",
+      "fees": "0.08139075",
+      "net": "0.94977975",
+      "quantity": "0.29889",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-07-15T17:00:00+00:00",
+      "entry": "141.35",
+      "entry_id": "0796950e6093b8b310e1b47e51130f5eea428ff48de5b87cf2df9b5ef86d2352",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0022127842000000",
+        "slippage": "0.0376026772000000",
+        "spread": "0.0188013386000000"
+      },
+      "entry_raw": "141.13000000",
+      "exit": "143.72",
+      "exit_id": "dee5f38b891c9f130a472a3a689aed1d995e44d3f936350cf34c46ebe595244b",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0010897396000000",
+        "slippage": "0.0383513736000000",
+        "spread": "0.0191756868000000"
+      },
+      "exit_raw": "143.94000000",
+      "exited_at": "2024-07-15T21:15:00+00:00",
+      "fees": "0.07595406",
+      "net": "0.55550874",
+      "quantity": "0.26644",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-07-16T16:30:00+00:00",
+      "entry": "59342.88",
+      "entry_id": "49ed9399c81e618dc4876f2a574b3cb51eeaf2194a44f3ab1565da796b1c7d75",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000054991500000",
+        "slippage": "0.0361449339000000",
+        "spread": "0.0180724669500000"
+      },
+      "entry_raw": "59253.99000000",
+      "exit": "59526.40",
+      "exit_id": "517c6347ee6c4cfcc7b70be91d8b760b9c402490504b0b735d753cf870b90a0c",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000038155500000",
+        "slippage": "0.0363656563000000",
+        "spread": "0.0181828281500000"
+      },
+      "exit_raw": "59615.83000000",
+      "exited_at": "2024-07-16T20:45:00+00:00",
+      "fees": "0.07251027",
+      "net": "0.03943693",
+      "quantity": "0.00061",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-07-19T18:30:00+00:00",
+      "entry": "3219.24",
+      "entry_id": "ebf85a8ebaf57d5e5d142610b3980b6ef1f595965c5e7b1762e6fca3b7ea0e91",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0001142037000000",
+        "slippage": "0.0437802642000000",
+        "spread": "0.0218901321000000"
+      },
+      "entry_raw": "3214.41000000",
+      "exit": "3223.85",
+      "exit_id": "2a064d5abf0899894c5a4f2ff79e7d11a8eed573c27b66429b8fe04166ffc032",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000946590000000",
+        "slippage": "0.0439748940000000",
+        "spread": "0.0219874470000000"
+      },
+      "exit_raw": "3228.70000000",
+      "exited_at": "2024-07-19T22:45:00+00:00",
+      "fees": "0.08775489",
+      "net": "-0.02496669",
+      "quantity": "0.01362",
+      "reason": "tijdslimiet",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-07-27T10:15:00+00:00",
+      "entry": "171.85",
+      "entry_id": "1e3ce9b97607f332e9b5eaeff7f577531bf6611d93450655139817de3bd03b06",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0006300319500000",
+        "slippage": "0.0413411787000000",
+        "spread": "0.0206705893500000"
+      },
+      "entry_raw": "171.59000000",
+      "exit": "171.59",
+      "exit_id": "0fbaefefa48cf50795c0e8fab8a64cf74f18bbb30f81c0d2f7874d2aa6782499",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0005360692500000",
+        "slippage": "0.0414038205000000",
+        "spread": "0.0207019102500000"
+      },
+      "exit_raw": "171.85000000",
+      "exited_at": "2024-07-27T14:30:00+00:00",
+      "fees": "0.08274501",
+      "net": "-0.14538681",
+      "quantity": "0.24093",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-07-27T15:30:00+00:00",
+      "entry": "63414.98",
+      "entry_id": "4ba1cee92ae99eb5711d012510e2d742bc40eea0146838bf69e1d35b1f130ed0",
+      "entry_impact": {
+        "adverse_tick_rounding": "0E-16",
+        "slippage": "0.0595208000000000",
+        "spread": "0.0297604000000000"
+      },
+      "entry_raw": "63320.00000000",
+      "exit": "63030.06",
+      "exit_id": "f6916b9c82cb49751c52a2be0f0cdaeab22a7918c287fd41f13f6b25f2d3ebe5",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000027025000000",
+        "slippage": "0.0593372650000000",
+        "spread": "0.0296686325000000"
+      },
+      "exit_raw": "63124.75000000",
+      "exited_at": "2024-07-27T19:45:00+00:00",
+      "fees": "0.11885835",
+      "net": "-0.48068315",
+      "quantity": "0.00094",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-07-29T04:00:00+00:00",
+      "entry": "63898.38",
+      "entry_id": "bdf5a4f1c180ddca1724c04311925f39454762973b7560d96d64f21b169a58fe",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000049159000000",
+        "slippage": "0.0523181894000000",
+        "spread": "0.0261590947000000"
+      },
+      "entry_raw": "63802.67000000",
+      "exit": "64031.30",
+      "exit_id": "799a78706a07cb92aa227f415ed981cb8e714e649ee0a9c32086329ea08600f4",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000071750000000",
+        "slippage": "0.0525845500000000",
+        "spread": "0.0262922750000000"
+      },
+      "exit_raw": "64127.50000000",
+      "exited_at": "2024-07-29T08:15:00+00:00",
+      "fees": "0.10490235",
+      "net": "0.00409205",
+      "quantity": "0.00082",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-08-07T10:00:00+00:00",
+      "entry": "140.51",
+      "entry_id": "f3aa7d7a361459ec2b9023df80a83dbc4c03121231cb08e45eee9efaacbb26d1",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0013756383000000",
+        "slippage": "0.0201765078000000",
+        "spread": "0.0100882539000000"
+      },
+      "entry_raw": "140.29000000",
+      "exit": "139.29",
+      "exit_id": "3586da43f77a039031c237bf4bd57d9766639526d011ac8176592e3694a10ac7",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0001078650000000",
+        "slippage": "0.0200628900000000",
+        "spread": "0.0100314450000000"
+      },
+      "exit_raw": "139.50000000",
+      "exited_at": "2024-08-07T14:15:00+00:00",
+      "fees": "0.04024084",
+      "net": "-0.21570124",
+      "quantity": "0.14382",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-08-08T14:30:00+00:00",
+      "entry": "145.60",
+      "entry_id": "086b9d4f3661d07a96a96175c2720734b9d75ca04c1e00f9c833187c06586a81",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0002721686000000",
+        "slippage": "0.0205014876000000",
+        "spread": "0.0102507438000000"
+      },
+      "entry_raw": "145.38000000",
+      "exit": "143.96",
+      "exit_id": "8dda6bc9fc4c2c6367ef4526e1172c2c43d83efa8501dfb5b5b345304babfd60",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0005260046000000",
+        "slippage": "0.0203322636000000",
+        "spread": "0.0101661318000000"
+      },
+      "exit_raw": "144.18000000",
+      "exited_at": "2024-08-08T18:45:00+00:00",
+      "fees": "0.04083376",
+      "net": "-0.27210656",
+      "quantity": "0.14102",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-08-08T20:45:00+00:00",
+      "entry": "54725.85",
+      "entry_id": "5c6e89abee84dc771a07946b53fb60371b859d9498be7195bed26fdcc53705e5",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000023826000000",
+        "slippage": "0.0311470116000000",
+        "spread": "0.0155735058000000"
+      },
+      "entry_raw": "54643.88000000",
+      "exit": "56205.53",
+      "exit_id": "ba425bbb49b08c98b65cf25b7d5459f5ef35211a97a4981ab53f5349d1c0c7ae",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000028756500000",
+        "slippage": "0.0320852829000000",
+        "spread": "0.0160426414500000"
+      },
+      "exit_raw": "56289.97000000",
+      "exited_at": "2024-08-09T01:00:00+00:00",
+      "fees": "0.06323090",
+      "net": "0.78018670",
+      "quantity": "0.00057",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-08-11T08:00:00+00:00",
+      "entry": "144.07",
+      "entry_id": "7a6c8aa7966b6a14a4d865aaa6f9e8a08b421c9ffceae7cf42a2efde073c6e50",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0012879912500000",
+        "slippage": "0.0438526725000000",
+        "spread": "0.0219263362500000"
+      },
+      "entry_raw": "143.85000000",
+      "exit": "141.31",
+      "exit_id": "c49127a36380099f6bc0b51ca18202cfc067e919e824a62ff05c575ad75974eb",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.00234886925",
+        "slippage": "0.0431454205",
+        "spread": "0.02157271025"
+      },
+      "exit_raw": "141.53",
+      "exited_at": "2024-08-11T11:30:00+00:00",
+      "fees": "0.08699810",
+      "net": "-0.92838410",
+      "quantity": "0.30485",
+      "reason": "stop",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-08-20T04:30:00+00:00",
+      "entry": "132.05",
+      "entry_id": "7f50e2aed3bdee0054e017098e7e3f2ea14de7daeec98de125a76525edd2d4e1",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0005837510000000",
+        "slippage": "0.0345921660000000",
+        "spread": "0.0172960830000000"
+      },
+      "entry_raw": "131.85000000",
+      "exit": "132.29",
+      "exit_id": "cbe0b34673cdce99df15397a75f4956022ccee53f20438a59863a84950a64037",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0003318854000000",
+        "slippage": "0.0347600764000000",
+        "spread": "0.0173800382000000"
+      },
+      "exit_raw": "132.49000000",
+      "exited_at": "2024-08-20T08:45:00+00:00",
+      "fees": "0.06935225",
+      "net": "-0.00638585",
+      "quantity": "0.26236",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-08-22T12:15:00+00:00",
+      "entry": "55094.43",
+      "entry_id": "3585fb19ccb99ab2aff1090a8f90950b744ec27efb23724bbe63ca0391306b60",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000017934000000",
+        "slippage": "0.0462100044000000",
+        "spread": "0.0231050022000000"
+      },
+      "entry_raw": "55011.91000000",
+      "exit": "54115.87",
+      "exit_id": "2af5aca2a15f2a0c042b732456b8dac15164a7dfba5fff42ada4ea21903da670",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000035658",
+        "slippage": "0.0455256228",
+        "spread": "0.0227628114"
+      },
+      "exit_raw": "54197.17",
+      "exited_at": "2024-08-22T16:00:00+00:00",
+      "fees": "0.09173667",
+      "net": "-0.91372707",
+      "quantity": "0.00084",
+      "reason": "stop",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-09-09T21:45:00+00:00",
+      "entry": "122.24",
+      "entry_id": "b4e6fdf255822b87b87f5cb4b3fb0a0ebdeba1679e202ba21cae6b358adeec9c",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0018127572500000",
+        "slippage": "0.0319490285000000",
+        "spread": "0.0159745142500000"
+      },
+      "entry_raw": "122.05000000",
+      "exit": "120.52",
+      "exit_id": "4a53a95f2ae2a34b92c02a4b391e826ea21a0807e739f2daaba2d83504bfca89",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0023389149500000",
+        "slippage": "0.0315982567000000",
+        "spread": "0.0157991283500000"
+      },
+      "exit_raw": "120.71000000",
+      "exited_at": "2024-09-10T02:00:00+00:00",
+      "fees": "0.06354730",
+      "net": "-0.51379170",
+      "quantity": "0.26177",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-09-10T12:30:00+00:00",
+      "entry": "122.50",
+      "entry_id": "50307d44e57f65f39041caf9894578790892988065d4a6504087575fc71f214c",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0020151979500000",
+        "slippage": "0.0377167347000000",
+        "spread": "0.0188583673500000"
+      },
+      "entry_raw": "122.31000000",
+      "exit": "121.48",
+      "exit_id": "31ddd94ae7e229ac866b0c49f748b7a2658dc6259cd14ab1d9fe5cc4d3984585",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0023112331500000",
+        "slippage": "0.0375193779000000",
+        "spread": "0.0187596889500000"
+      },
+      "exit_raw": "121.67000000",
+      "exited_at": "2024-09-10T16:45:00+00:00",
+      "fees": "0.07523612",
+      "net": "-0.38977352",
+      "quantity": "0.30837",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-09-10T20:00:00+00:00",
+      "entry": "52672.52",
+      "entry_id": "2815735ad3c671cde6232d54bb3e8d00e29efc96fd54b69530e495301f13bf61",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000072732000000",
+        "slippage": "0.0399711512000000",
+        "spread": "0.0199855756000000"
+      },
+      "entry_raw": "52593.62000000",
+      "exit": "52247.76",
+      "exit_id": "1f12f6b6135f9788dd6eeb97707fa79816ccf66990705ccc3cdb7accac2a05a6",
+      "exit_impact": {
+        "adverse_tick_rounding": "4.750000000E-7",
+        "slippage": "0.0397679500000000",
+        "spread": "0.0198839750000000"
+      },
+      "exit_raw": "52326.25000000",
+      "exited_at": "2024-09-11T00:15:00+00:00",
+      "fees": "0.07973942",
+      "net": "-0.40255702",
+      "quantity": "0.00076",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-09-12T04:15:00+00:00",
+      "entry": "53071.62",
+      "entry_id": "b1746b764610966a6a1ce2c194073873c1da880345872824f26ae0a6aa9321f7",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000014259500000",
+        "slippage": "0.0418637827000000",
+        "spread": "0.0209318913500000"
+      },
+      "entry_raw": "52992.13000000",
+      "exit": "52830.52",
+      "exit_id": "2f40d7dd4026cc97cc9cd3231ce3b9d253a3d1ad626ec1e5d11df89f2e018351",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000040803500000",
+        "slippage": "0.0417988131000000",
+        "spread": "0.0208994065500000"
+      },
+      "exit_raw": "52909.89000000",
+      "exited_at": "2024-09-12T08:30:00+00:00",
+      "fees": "0.08366270",
+      "net": "-0.27413170",
+      "quantity": "0.00079",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-09-13T19:00:00+00:00",
+      "entry": "53985.90",
+      "entry_id": "aac5dbbc918027c06583416ba9c4f4e63c6c44cf235afb0c281c32b7b6c7040a",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000019764000000",
+        "slippage": "0.0436630824000000",
+        "spread": "0.0218315412000000"
+      },
+      "entry_raw": "53905.04000000",
+      "exit": "54655.82",
+      "exit_id": "10ccd1bd0c9f72774338f4b704d13c34e88e983fcf976fd2e5e381d05399b02c",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000025150500000",
+        "slippage": "0.0443377233000000",
+        "spread": "0.0221688616500000"
+      },
+      "exit_raw": "54737.93000000",
+      "exited_at": "2024-09-13T23:15:00+00:00",
+      "fees": "0.08799980",
+      "net": "0.45463540",
+      "quantity": "0.00081",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-09-14T01:45:00+00:00",
+      "entry": "126.17",
+      "entry_id": "47c2e3da5afbc098a1c5aa94205fcfaf35574f8bef343b8996830066c7b6174b",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0003446689000000",
+        "slippage": "0.0421566874000000",
+        "spread": "0.0210783437000000"
+      },
+      "entry_raw": "125.98000000",
+      "exit": "125.01",
+      "exit_id": "c905aff2698f45109c8096aef8bbe0deb7e5ad36cc84d64b9af12f50dced9e61",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0007361860000000",
+        "slippage": "0.0418956760000000",
+        "spread": "0.0209478380000000"
+      },
+      "exit_raw": "125.20000000",
+      "exited_at": "2024-09-14T06:00:00+00:00",
+      "fees": "0.08405237",
+      "net": "-0.47222317",
+      "quantity": "0.33463",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-09-19T15:15:00+00:00",
+      "entry": "56799.85",
+      "entry_id": "4dcc83b7350ed9e3700747cbfc8568b9d6ed541f50a0073241ee195474b492df",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000057268500000",
+        "slippage": "0.0414017821000000",
+        "spread": "0.0207008910500000"
+      },
+      "entry_raw": "56714.77000000",
+      "exit": "56772.90",
+      "exit_id": "5bc2c0b711862bfc27d3d8e7442ae4a7e5fe946408c2dc6ad91dd67088c71121",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000019819500000",
+        "slippage": "0.0415064787000000",
+        "spread": "0.0207532393500000"
+      },
+      "exit_raw": "56858.19000000",
+      "exited_at": "2024-09-19T19:30:00+00:00",
+      "fees": "0.08290812",
+      "net": "-0.10258162",
+      "quantity": "0.00073",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-09-26T11:30:00+00:00",
+      "entry": "137.08",
+      "entry_id": "65d7e6bf8e99db0839573964cc2023a9b3551f028fc0e6968a2d119507562fae",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0014292049500000",
+        "slippage": "0.0416645967000000",
+        "spread": "0.0208322983500000"
+      },
+      "entry_raw": "136.87000000",
+      "exit": "139.40",
+      "exit_id": "e98b9e0c95397cbef95543531571600276d466425436cf56700c2f80b79b9bcb",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0001780798500000",
+        "slippage": "0.0424986801000000",
+        "spread": "0.0212493400500000"
+      },
+      "exit_raw": "139.61000000",
+      "exited_at": "2024-09-26T15:45:00+00:00",
+      "fees": "0.08416329",
+      "net": "0.62206791",
+      "quantity": "0.30441",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-09-27T09:30:00+00:00",
+      "entry": "2388.18",
+      "entry_id": "af8cd83de947747ad5c34c68e100a36da3b6a0828ace5a3f24b111b3f3c9c6ae",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000636430000000",
+        "slippage": "0.0489558380000000",
+        "spread": "0.0244779190000000"
+      },
+      "entry_raw": "2384.60000000",
+      "exit": "2370.25",
+      "exit_id": "fcb21f2f12d536b7fdcbc24775b3977ffc7bc2461fd64c9233d239128249f782",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0001903131000000",
+        "slippage": "0.0487345246000000",
+        "spread": "0.0243672623000000"
+      },
+      "exit_raw": "2373.82000000",
+      "exited_at": "2024-09-27T13:45:00+00:00",
+      "fees": "0.09769058",
+      "net": "-0.46579348",
+      "quantity": "0.02053",
+      "reason": "tijdslimiet",
+      "symbol": "ETHEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-10-06T16:15:00+00:00",
+      "entry": "133.23",
+      "entry_id": "06d8e9cc20b62a00111d1787f7b3bae4aef07e8273eda693aff9bc49b0f3a396",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0001746472000000",
+        "slippage": "0.0510622352000000",
+        "spread": "0.0255311176000000"
+      },
+      "entry_raw": "133.03000000",
+      "exit": "132.38",
+      "exit_id": "bda15788971bdd54f3fdf88b0891c733875231ea0b2900383d0625b741a3ca26",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0004337392000000",
+        "slippage": "0.0508895072000000",
+        "spread": "0.0254447536000000"
+      },
+      "exit_raw": "132.58000000",
+      "exited_at": "2024-10-06T20:30:00+00:00",
+      "fees": "0.10195175",
+      "net": "-0.42821575",
+      "quantity": "0.38384",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-10-07T05:15:00+00:00",
+      "entry": "136.94",
+      "entry_id": "6f969df69b8e68d3543e0b849464999327590e8a2341b4c6395b4b17aa400bfa",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0015215310000000",
+        "slippage": "0.0424136460000000",
+        "spread": "0.0212068230000000"
+      },
+      "entry_raw": "136.73000000",
+      "exit": "134.63",
+      "exit_id": "14676b7d000b6a78041d41dfd666bf9022ab1e2d139186ebe74121f32b8da31c",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0024009480000000",
+        "slippage": "0.0418273680000000",
+        "spread": "0.0209136840000000"
+      },
+      "exit_raw": "134.84000000",
+      "exited_at": "2024-10-07T09:30:00+00:00",
+      "fees": "0.08424102",
+      "net": "-0.80080302",
+      "quantity": "0.31020",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-10-14T08:45:00+00:00",
+      "entry": "58958.32",
+      "entry_id": "90cba6d26a61ecd05247ca92c58354c14b67756bf3b7a1d447160e0d58be122c",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000040877000000",
+        "slippage": "0.0482734082000000",
+        "spread": "0.0241367041000000"
+      },
+      "entry_raw": "58870.01000000",
+      "exit": "59294.34",
+      "exit_id": "ec07ddb494b439e7fea37a52f9ccf3d6bb7471ebeec1366e811f338bf7cd8117",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000039934000000",
+        "slippage": "0.0486944044000000",
+        "spread": "0.0243472022000000"
+      },
+      "exit_raw": "59383.42000000",
+      "exited_at": "2024-10-14T13:00:00+00:00",
+      "fees": "0.09696719",
+      "net": "0.17856921",
+      "quantity": "0.00082",
+      "reason": "tijdslimiet",
+      "symbol": "BTCEUR"
+    },
+    {
+      "ambiguous": false,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-10-18T19:00:00+00:00",
+      "entry": "143.81",
+      "entry_id": "d477e260e406a63807107301353106cfd6f36df01b078eb281dee4c490a4354b",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0013172594500000",
+        "slippage": "0.0409848937000000",
+        "spread": "0.0204924468500000"
+      },
+      "entry_raw": "143.59000000",
+      "exit": "141.76",
+      "exit_id": "253430472a98e143a651db7c430e72cd21710c4a1cd0668ddf491fe70d91248f",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0020065729000000",
+        "slippage": "0.0405253514000000",
+        "spread": "0.0202626757000000"
+      },
+      "exit_raw": "141.98000000",
+      "exited_at": "2024-10-18T23:15:00+00:00",
+      "fees": "0.08151025",
+      "net": "-0.66664175",
+      "quantity": "0.28543",
+      "reason": "tijdslimiet",
+      "symbol": "SOLEUR"
+    },
+    {
+      "ambiguous": true,
+      "cost_assumptions": {
+        "fee": "0.001",
+        "slippage": "0.001",
+        "spread": "0.001"
+      },
+      "entered_at": "2024-10-21T00:00:00+00:00",
+      "entry": "63375.73",
+      "entry_id": "1a1592db184de0d8ad84913cec1a1978ad3d029997722372a7a69270402daef4",
+      "entry_impact": {
+        "adverse_tick_rounding": "0.0000104720000000",
+        "slippage": "0.0753041520000000",
+        "spread": "0.0376520760000000"
+      },
+      "entry_raw": "63280.80000000",
+      "exit": "62961.35",
+      "exit_id": "cd568e7e0516e357199bec3de2b9d1e7b3053f6ca4ea72a28ec1239ec135e794",
+      "exit_impact": {
+        "adverse_tick_rounding": "0.0000072471000000",
+        "slippage": "0.0750365686000000",
+        "spread": "0.0375182843000000"
+      },
+      "exit_raw": "63055.94000000",
+      "exited_at": "2024-10-21T03:15:00+00:00",
+      "fees": "0.15034113",
+      "net": "-0.64345333",
+      "quantity": "0.00119",
+      "reason": "portefeuillelimiet: ongunstigste candleprijs",
+      "symbol": "BTCEUR"
+    }
+  ],
+  "unique_fills": 170,
+  "winrate": "0.3176470588235294117647058824",
+  "average_win": "0.3563068048148148148148148148",
+  "average_loss": "-0.5120009162068965517241379310",
+  "net": "-20.07576941",
+  "net_percent": "-10.03788470500",
+  "expectancy": "-0.2361855224705882352941176471",
+  "profit_factor": "0.3239583282211219803871889219",
+  "fees": "6.99473531",
+  "equity": "179.92423059",
+  "conservative_max_drawdown": "0.10037884705",
+  "close_max_drawdown": "0.10037884705",
+  "average_hold_seconds": "14410.58823529411764705882353",
+  "time_exposure": "0.03873520036429872495446265938",
+  "capital_exposure_mean": "0.008462722263046132432854049713",
+  "capital_exposure_max": "0.4194827678585053077183396127",
+  "capital_exposure_convention": "post-batch holdings marked at preceding 15m close; zero warm-up in denominator",
+  "per_coin": {
+    "BTCEUR": {
+      "trades": 27,
+      "net": "-6.99814758",
+      "fees": "2.48524908",
+      "winrate": "0.2962962962962962962962962963"
+    },
+    "ETHEUR": {
+      "trades": 18,
+      "net": "-7.52939068",
+      "fees": "1.83305798",
+      "winrate": "0.1666666666666666666666666667"
+    },
+    "SOLEUR": {
+      "trades": 40,
+      "net": "-5.54823115",
+      "fees": "2.67642825",
+      "winrate": "0.4"
+    }
+  },
+  "per_month": {
+    "2024-01": {
+      "start_equity": "200",
+      "end_equity": "196.94426371",
+      "net": "-3.05573629",
+      "trade_summary": {
+        "trades": 11,
+        "net": "-3.05573629",
+        "fees": "0.85359499",
+        "winrate": "0.2727272727272727272727272727"
+      }
+    },
+    "2024-02": {
+      "start_equity": "196.94426371",
+      "end_equity": "195.23481337",
+      "net": "-1.70945034",
+      "trade_summary": {
+        "trades": 9,
+        "net": "-1.70945034",
+        "fees": "0.76340784",
+        "winrate": "0.5555555555555555555555555556"
+      }
+    },
+    "2024-03": {
+      "start_equity": "195.23481337",
+      "end_equity": "191.16275901",
+      "net": "-4.07205436",
+      "trade_summary": {
+        "trades": 17,
+        "net": "-4.59035736",
+        "fees": "1.32389446",
+        "winrate": "0.3529411764705882352941176471"
+      }
+    },
+    "2024-04": {
+      "start_equity": "191.16275901",
+      "end_equity": "189.06751546",
+      "net": "-2.09524355",
+      "trade_summary": {
+        "trades": 7,
+        "net": "-1.57694055",
+        "fees": "0.59570755",
+        "winrate": "0.2857142857142857142857142857"
+      }
+    },
+    "2024-05": {
+      "start_equity": "189.06751546",
+      "end_equity": "188.51762616",
+      "net": "-0.54988930",
+      "trade_summary": {
+        "trades": 4,
+        "net": "-0.54988930",
+        "fees": "0.35985850",
+        "winrate": "0.25"
+      }
+    },
+    "2024-06": {
+      "start_equity": "188.51762616",
+      "end_equity": "187.75572723",
+      "net": "-0.76189893",
+      "trade_summary": {
+        "trades": 2,
+        "net": "-1.06711748",
+        "fees": "0.17844008",
+        "winrate": "0"
+      }
+    },
+    "2024-07": {
+      "start_equity": "187.75572723",
+      "end_equity": "185.38504225",
+      "net": "-2.37068498",
+      "trade_summary": {
+        "trades": 15,
+        "net": "-2.06546643",
+        "fees": "1.27342833",
+        "winrate": "0.4"
+      }
+    },
+    "2024-08": {
+      "start_equity": "185.38504225",
+      "end_equity": "183.82892413",
+      "net": "-1.55611812",
+      "trade_summary": {
+        "trades": 6,
+        "net": "-1.55611812",
+        "fees": "0.39239252",
+        "winrate": "0.1666666666666666666666666667"
+      }
+    },
+    "2024-09": {
+      "start_equity": "183.82892413",
+      "end_equity": "182.28477523",
+      "net": "-1.54414890",
+      "trade_summary": {
+        "trades": 9,
+        "net": "-1.54414890",
+        "fees": "0.73899970",
+        "winrate": "0.2222222222222222222222222222"
+      }
+    },
+    "2024-10": {
+      "start_equity": "182.28477523",
+      "end_equity": "179.92423059",
+      "net": "-2.36054464",
+      "trade_summary": {
+        "trades": 5,
+        "net": "-2.36054464",
+        "fees": "0.51501134",
+        "winrate": "0.2"
+      }
+    },
+    "2024-11": {
+      "start_equity": "179.92423059",
+      "end_equity": "179.92423059",
+      "net": "0E-8",
+      "trade_summary": {
+        "trades": 0,
+        "net": "0",
+        "fees": "0",
+        "winrate": null
+      }
+    },
+    "2024-12": {
+      "start_equity": "179.92423059",
+      "end_equity": "179.92423059",
+      "net": "0E-8",
+      "trade_summary": {
+        "trades": 0,
+        "net": "0",
+        "fees": "0",
+        "winrate": null
+      }
+    }
+  },
+  "loss_streak_pause_from": null,
+  "pause_until": null,
+  "outlier_diagnostics": {
+    "without_top_3_winners": "-22.52009277",
+    "without_worst_3_losers": "-17.10783260",
+    "removed_winners": 3,
+    "removed_losers": 3
+  },
+  "state_hash": "3fd6dfe77b614ef850622476494a67c6f776c06170a1732d95f3c45b946d4300",
+  "last_revision": 34723,
+  "portfolio": {
+    "available_cash": "179.92423059",
+    "average_price": null,
+    "cash": "179.92423059",
+    "cost_basis": "0",
+    "equity": "179.92423059",
+    "exposure": "0E-8",
+    "exposure_fraction": "0",
+    "fees": "6.99473531",
+    "fees_by_coin": {
+      "BTCEUR": "2.48524908",
+      "ETHEUR": "1.83305798",
+      "SOLEUR": "2.67642825"
+    },
+    "holdings": {},
+    "liquidation_equity": "179.92423059",
+    "mark": null,
+    "max_open_positions": 1,
+    "mode": "joint_offline_research",
+    "pending": null,
+    "portfolio": "historical-recovery:5b6b0a8f0729aa78272e17e46f72b41afe4dc5845c1a61619fe068be11864b9b",
+    "realized": "-20.07576941",
+    "realized_by_coin": {
+      "BTCEUR": "-6.99814758",
+      "ETHEUR": "-7.52939068",
+      "SOLEUR": "-5.54823115"
+    },
+    "reserved_cash": "0",
+    "reserved_exposure": "0",
+    "reserved_quantity": "0",
+    "reserved_risk": "0",
+    "unrealized": "0",
+    "valuation_at": "2025-01-01T00:00:00+00:00"
+  },
+  "curve_sha256": "ca6cf947f185952a7638d1ace3f66b3e4d366cb218751c8b781bbbed8923e3f9",
+  "independent_test_opened": false,
+  "validation_accessed": false,
+  "recovery": {
+    "epoch": 12,
+    "epoch_anchor": 82,
+    "last_close_at": "2024-10-21T03:15:00+00:00",
+    "loss_count": 2,
+    "pause_started_at": null,
+    "pause_until": null,
+    "prefix": "b560c66c7d193b50b6c29f3fa26ef9847d142b9c472ddce474a9b59d3d91c3bb",
+    "processed": 85,
+    "protocol": "phase6g-recovery24h-v1",
+    "resume_at": "2024-10-08T09:30:00+00:00"
+  },
+  "cooldown_intervals": [
+    {
+      "start": "2024-01-11T16:00:00+00:00",
+      "until": "2024-01-12T16:00:00+00:00",
+      "epoch": 0
+    },
+    {
+      "start": "2024-01-30T07:00:00+00:00",
+      "until": "2024-01-31T07:00:00+00:00",
+      "epoch": 1
+    },
+    {
+      "start": "2024-03-05T15:45:00+00:00",
+      "until": "2024-03-06T15:45:00+00:00",
+      "epoch": 2
+    },
+    {
+      "start": "2024-04-11T12:00:00+00:00",
+      "until": "2024-04-12T12:00:00+00:00",
+      "epoch": 3
+    },
+    {
+      "start": "2024-05-03T07:30:00+00:00",
+      "until": "2024-05-04T07:30:00+00:00",
+      "epoch": 4
+    },
+    {
+      "start": "2024-06-25T18:30:00+00:00",
+      "until": "2024-06-26T18:30:00+00:00",
+      "epoch": 5
+    },
+    {
+      "start": "2024-07-02T14:15:00+00:00",
+      "until": "2024-07-03T14:15:00+00:00",
+      "epoch": 6
+    },
+    {
+      "start": "2024-07-13T15:15:00+00:00",
+      "until": "2024-07-14T15:15:00+00:00",
+      "epoch": 7
+    },
+    {
+      "start": "2024-07-27T19:45:00+00:00",
+      "until": "2024-07-28T19:45:00+00:00",
+      "epoch": 8
+    },
+    {
+      "start": "2024-08-22T16:00:00+00:00",
+      "until": "2024-08-23T16:00:00+00:00",
+      "epoch": 9
+    },
+    {
+      "start": "2024-09-11T00:15:00+00:00",
+      "until": "2024-09-12T00:15:00+00:00",
+      "epoch": 10
+    },
+    {
+      "start": "2024-10-07T09:30:00+00:00",
+      "until": "2024-10-08T09:30:00+00:00",
+      "epoch": 11
+    }
+  ],
+  "cooldown_count": 12,
+  "cooldown_expiries": 12,
+  "cooldown_seconds": 1036800.0,
+  "risk_events": {
+    "daily_loss_pause": 0,
+    "drawdown_pause": 1,
+    "joint_emergency_stop": 0
+  },
+  "elapsed_seconds": 209.53457435200107,
+  "peak_rss_kib": 47712,
+  "hypothetical_filters_unproven": true,
+  "checkpoint_reconstruction_equal": true,
+  "resume_processed_boundaries": 1937
+}

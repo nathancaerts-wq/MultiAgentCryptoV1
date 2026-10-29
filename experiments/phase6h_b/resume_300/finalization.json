@@ -1,0 +1,32 @@
+{
+  "status": "verified_complete_2024_comparison",
+  "single_extra_attempt": true,
+  "resume_seconds": 209.53773320300388,
+  "resume_processed": 1937,
+  "remaining_boundaries": 0,
+  "all_year_boundaries": 34465,
+  "old_baseline_replayed": false,
+  "old_audit_database_unchanged": true,
+  "previous_report_preserved": true,
+  "tests_passed": 536,
+  "bot_variant_activated": false,
+  "validation_2025_open": false,
+  "independent_test_2026_open": false,
+  "files": {
+    "PHASE6H_B_RISK_RECOVERY_BACKTEST_REPORT.md": "ef9cdd8f407cbad6e028e8999293044987498af44bbcf460c49be677ed3b5752",
+    "scripts/verify_phase6h_b_result.py": "ae08b834181ecf5e537e33cdc91507cef0025545ccf2b1e51695e1e769b0a488",
+    "experiments/phase6h_b/result.json": "fdaf18b6beebe471ee9b08c8cfb401677a5b90771d216d3911da7b3018e08819",
+    "experiments/phase6h_b/comparison.json": "cc0108c6ab99a458ecc49cfda85d0c74f5d8face4be9c3551b8c1c58692f0997",
+    "experiments/phase6h_b/verification_approved.json": "03a8bd2a201d4bc52bcb1ad29e0f3ad0d801c0070de36ff59300060c18a45054",
+    "experiments/phase6h_b/recovery24h_close_curve.csv.gz": "ca6cf947f185952a7638d1ace3f66b3e4d366cb218751c8b781bbbed8923e3f9",
+    "experiments/phase6h_b/resume_300/final_verification_output.txt": "03a8bd2a201d4bc52bcb1ad29e0f3ad0d801c0070de36ff59300060c18a45054",
+    "experiments/phase6h_b/resume_300/attempt.json": "6c2a3158d1dd2acbb19edc846f36598a35b348d92d14441f85b7024826d933e9",
+    "experiments/phase6h_b/resume_300/PREVIOUS_CHECKPOINT_REPORT.md": "23626d097458e72f7b09d54af118b4530f0b14fb749523413c6f5b435c748bc4",
+    "experiments/phase6h_b/resume_300/preflight_output.txt": "20dabf0c04a6484cd5df6e92d66995463e72fae3e873167186847497d0e2fd50",
+    "experiments/phase6h_b/resume_300/manifest_93d571082e54d2cbfe8d819668f67f48f91ab20e4a16a56efd78f2eed8daced5.json": "93d571082e54d2cbfe8d819668f67f48f91ab20e4a16a56efd78f2eed8daced5",
+    "experiments/phase6h_b/resume_300/tests.txt": "71455b7567f43654cab71fb0bfef27392fd4dccb4b066c3c5557c93754f991a9",
+    "experiments/phase6h_b/resume_300/completion.json": "888fac0348d522dd9ee7072a4356a14de64d9efc1db66cb05cb192165315b586",
+    "experiments/phase6h_b/resume_300/preflight.json": "20dabf0c04a6484cd5df6e92d66995463e72fae3e873167186847497d0e2fd50",
+    "experiments/phase6h_b/resume_300/registration.json": "3ae6e371d6a5d3b268cf45b37fbadca72bd477e7493f676f8fffaf222b0f49d4"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "status": "verified_complete_hypothetical_comparison",
+  "baseline_replayed": false,
+  "baseline_source": "experiments/development_2024/aligned_trend_baseline.json",
+  "recovery_source": "experiments/phase6h_b/result.json",
+  "net_return_difference_percentage_points": "-8.55391630000",
+  "baseline_cost_components": {
+    "spread": "0.0925116807000000",
+    "slippage": "0.1850233614000000",
+    "adverse_tick_rounding": "0.0024592579000000",
+    "fees": "0.18502791",
+    "total": "0.4650222100000000"
+  },
+  "recovery_cost_components": {
+    "spread": "3.4973604835000000",
+    "slippage": "6.9947209670000000",
+    "adverse_tick_rounding": "0.1117190495000000",
+    "fees": "6.99473531",
+    "total": "17.5985358100000000"
+  },
+  "baseline_permanent_pause_seconds": 30700800.0,
+  "existing_risk_events": {
+    "daily_loss_pause": 0,
+    "drawdown_pause": 1,
+    "joint_emergency_stop": 0
+  },
+  "execution_manifest": {
+    "manifest": "experiments/phase6h_b/execution_manifest_16aeac432cb79b0d1a87aa027acef6c20cdf815da6455f27ece7a576c87534b4.json",
+    "sha256": "16aeac432cb79b0d1a87aa027acef6c20cdf815da6455f27ece7a576c87534b4",
+    "status": "approved_before_historical_replay",
+    "tests_passed": 534
+  },
+  "validation_accessed": false,
+  "independent_test_opened": false
+}

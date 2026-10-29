@@ -1,0 +1,16 @@
+{
+  "verified": true,
+  "scope": "single_recovery24h_baseline_costs_2024_only",
+  "revisions": 34724,
+  "unique_trades": 85,
+  "expiry_transitions_verified": 12,
+  "ledger_reconciles": true,
+  "full_audit_and_checkpoint_chains_verified": true,
+  "original_files_unchanged": 392,
+  "original_database_sha256": "fa2290c6352550186da5dd4750ad35077b4d9cf2cd2684322368eb96b28aadfa",
+  "validation_accessed": false,
+  "independent_test_opened": false,
+  "baseline_replayed": false,
+  "elapsed_seconds": 72.74775919297826,
+  "peak_rss_kib": 47764
+}
