@@ -81,3 +81,15 @@ def test_historical_store_rejects_other_dates(tmp_path):
     try:
         with pytest.raises(ValueError):st.add_candles('bars',[bar()])
     finally:st.close()
+
+def test_readonly_copy_sealed_input_identical(tmp_path):
+    import sqlite3
+    from crypto.historical_recovery import copy_inputs
+    source,kw,r=prepare(tmp_path);path=source.db.execute('PRAGMA database_list').fetchone()[2];seal=source.verify_inputs();source.close()
+    ro=sqlite3.connect('file:'+path+'?mode=ro&immutable=1',uri=True);ro.execute('PRAGMA query_only=ON')
+    dest=StreamingStore(tmp_path/'copy.sqlite3')
+    try:
+        copy_inputs(ro,dest);assert dest.verify_inputs()==seal
+        with pytest.raises(ValueError):copy_inputs(ro,dest)
+        with pytest.raises(sqlite3.OperationalError):ro.execute('DELETE FROM stream_input')
+    finally:ro.close();dest.close()

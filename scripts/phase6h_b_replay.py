@@ -4,7 +4,7 @@ from collections import Counter
 from datetime import timedelta
 from pathlib import Path
 from decimal import Decimal as D
-from crypto.historical_recovery import HistoricalRecoveryRunner,RecoveryStore,SOURCE
+from crypto.historical_recovery import HistoricalRecoveryRunner,RecoveryStore,SOURCE,copy_inputs
 from crypto.development_2024 import START,ENTRY,END,COINS,policy,filters
 from crypto.protocol import ResearchPlan
 from crypto.sim_execution import canonical,digest
@@ -48,11 +48,10 @@ def main():
             if DB.exists():raise ValueError('Existing preparation preserved; no automatic restart')
             if sha(ORIGINAL)!=m['original_database_sha256']:raise ValueError('Original database changed')
             store=RecoveryStore(DB)
-            store.db.execute("ATTACH DATABASE ? AS original",('file:'+str(ORIGINAL)+'?mode=ro&immutable=1',))
-            with store.transaction():
-                store.db.execute('INSERT INTO stream_input SELECT * FROM original.stream_input')
-                store.db.execute('INSERT INTO stream_seal SELECT * FROM original.stream_seal')
-            store.db.execute('DETACH DATABASE original')
+            source_db=sqlite3.connect('file:'+str(ORIGINAL)+'?mode=ro&immutable=1',uri=True)
+            source_db.execute('PRAGMA query_only=ON')
+            try:copy_inputs(source_db,store)
+            finally:source_db.close()
             check();seal=store.verify_inputs()
             if seal!=m['input_seal']:raise ValueError('Copied input seal differs')
             write('preparation_approved.json',dict(status='complete',input_seal=seal,seconds=time.monotonic()-began,peak_rss_kib=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss))

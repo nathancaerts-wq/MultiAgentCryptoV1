@@ -1,0 +1,8 @@
+{
+  "status": "incomplete_diagnostic",
+  "phase": "prepare",
+  "error": "OperationalError",
+  "reason": "unable to open database: file:/workspace/development_2024.sqlite3?mode=ro&immutable=1",
+  "next_boundary": null,
+  "seconds": 23.80092733501806
+}

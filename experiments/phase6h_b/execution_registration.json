@@ -1,6 +1,6 @@
 {
-  "manifest": "experiments/phase6h_b/execution_manifest_df29ac8260fd1c6a260ec2de0f50091283364a4be2b68d3d4b341d07360118ff.json",
-  "sha256": "df29ac8260fd1c6a260ec2de0f50091283364a4be2b68d3d4b341d07360118ff",
+  "manifest": "experiments/phase6h_b/execution_manifest_16aeac432cb79b0d1a87aa027acef6c20cdf815da6455f27ece7a576c87534b4.json",
+  "sha256": "16aeac432cb79b0d1a87aa027acef6c20cdf815da6455f27ece7a576c87534b4",
   "status": "approved_before_historical_replay",
-  "tests_passed": 533
+  "tests_passed": 534
 }

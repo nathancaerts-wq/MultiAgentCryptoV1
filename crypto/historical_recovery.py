@@ -111,3 +111,18 @@ class HistoricalRecoveryRunner(StreamingFixtureRunner):
                     ledger.audit('cooldown_expired',at,protocol=PROTOCOL,epoch=r['epoch'])
                     self._save(before,state,ledger,'cooldown_expired')
         return await super().evaluate(at)
+
+
+def copy_inputs(readonly_connection, target):
+    """Bounded raw copy from an explicitly query-only source connection."""
+    if readonly_connection.execute('PRAGMA query_only').fetchone()[0]!=1:
+        raise ValueError('Query-only source required')
+    if target.db.execute('SELECT count(*) FROM stream_input').fetchone()[0]:
+        raise ValueError('Existing destination input preserved')
+    with target.transaction():
+        rows=readonly_connection.execute('SELECT kind,coin,tf,at,ordinal,payload FROM stream_input')
+        while True:
+            block=rows.fetchmany(256)
+            if not block:break
+            target.db.executemany('INSERT INTO stream_input VALUES (?,?,?,?,?,?)',block)
+        target.db.executemany('INSERT INTO stream_seal VALUES (?,?)',readonly_connection.execute('SELECT * FROM stream_seal'))
