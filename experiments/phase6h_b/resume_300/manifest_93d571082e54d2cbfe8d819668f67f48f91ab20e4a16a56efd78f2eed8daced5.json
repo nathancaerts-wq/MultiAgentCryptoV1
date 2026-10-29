@@ -1,0 +1,23 @@
+{
+  "address_space_bytes": 1610612736,
+  "approval": "User: gecontroleerde hervatting from commit 807e9b8, exactly one additional attempt max300s, only remaining1937 2024 boundaries, no new variants/costs/parameters/2025/2026 or bot activation",
+  "base_commit": "807e9b8b6c5330f533c4a1cf28961d1064eb1acf",
+  "checkpoint_hash": "27dd947b3d573efa715edb726a09490d713e68535cb60b2d82f123047a0d82f2",
+  "files": {
+    "experiments/phase6h_b/checkpoint_verification.json": "b1126cdd08af924a579cbfbdeff44f0b96846a99c489729a666aec682e40fc52",
+    "experiments/phase6h_b/execution_registration.json": "82112833e6f32e5b0431f22889978a00c583d13aa2f7370011b38bbe181ce5b3",
+    "experiments/phase6h_b/resume_300/preflight.json": "20dabf0c04a6484cd5df6e92d66995463e72fae3e873167186847497d0e2fd50",
+    "experiments/phase6h_b/resume_300/tests.txt": "71455b7567f43654cab71fb0bfef27392fd4dccb4b066c3c5557c93754f991a9",
+    "scripts/phase6h_b_resume300.py": "9f3b1bc16a82a6d2e9608deeecb34c96217d8638b788b4ca548d6b1a6fad9ab7",
+    "tests/test_resume300.py": "d4f26a5b46a71b01b0d49edbd1372b960043aec1f87e5597b16550e8cfba4101"
+  },
+  "integrity": "Read-only content-addressed manifest and versioned Git; not external immutable storage",
+  "last_committed": "2024-12-11T19:45:00+00:00",
+  "maximum_attempts": 1,
+  "maximum_seconds": 300,
+  "next_boundary": "2024-12-11T20:00:00+00:00",
+  "original_execution_manifest_sha256": "16aeac432cb79b0d1a87aa027acef6c20cdf815da6455f27ece7a576c87534b4",
+  "remaining_boundaries": 1937,
+  "rss_stop_bytes": 1288490188,
+  "version": "phase6h-b-single-resume-300-v1"
+}
