@@ -1,0 +1,65 @@
+{
+  "version": "phase6g-design-registration-v1",
+  "status": "design_only_awaiting_explicit_approval",
+  "base_commit": "fed7ec29f13d0fe3742f811399a19a19ab5ac4c8",
+  "authorization": "User: MultiAgentCryptoV1 Fase 6G Research Protocol Design; documentation and checks only; stop before implementation or variant tests",
+  "implementation_authorized": false,
+  "variant_tests_authorized": false,
+  "execution_authorized": false,
+  "comparison_C_authorized": false,
+  "universe": [
+    "BTCEUR",
+    "ETHEUR",
+    "SOLEUR"
+  ],
+  "development_design_period": [
+    "2024-01-01T00:00:00Z",
+    "2025-01-01T00:00:00Z"
+  ],
+  "prior_viewed_2024": true,
+  "validation_2025_open": false,
+  "independent_test_2026_open": false,
+  "protocol_ids": [
+    "phase6g-recovery24h-v1",
+    "phase6g-atr-cost-v1",
+    "phase6g-design-v1"
+  ],
+  "changes_from_phase6f": {
+    "A": "Repeated 24h cycles with epoch loss-count reset, replacing single probation trade design; old history never deleted",
+    "B": "Same fixed 6F S2 cost proxy; explicit ATR seed, ratio > 1 and Decimal evaluation order"
+  },
+  "configuration_source_sha256": {
+    "crypto/research_execution.py": "e5dbe8c1339d4e64f2c648449da69c3372bc47df181d464453bc2edffabb8156",
+    "crypto/indicators.py": "479843e7dfdc1d0c4867e3d9700f8605c6f3f39c7876aae1d74a79bfa29f6030",
+    "crypto/trade_agents.py": "8a349260be32835cd71a5e8af1499b703bab420a946a44462f4adf8a1cace2bc",
+    "crypto/sim_execution.py": "4f11f2379009a3981a21a4b87d2bf8fe58156b2a03c5a9a3394a5053800f7f4c",
+    "crypto/models.py": "fe0f324a60fb941069bf378edf2462e416c7f351cc65402b9960b0d3d1f8fe5a",
+    "crypto/development_2024.py": "4ce157a21cecfa1b100f7d517ff8fd1f24c9b2172075df4305a6443a06b0965d",
+    "experiments/development_2024/protocol.json": "353baa3b050c4f158d49b8ea1397626315717d46f6842095bcd21a7d43668551"
+  },
+  "source_database_sha256": "fa2290c6352550186da5dd4750ad35077b4d9cf2cd2684322368eb96b28aadfa",
+  "tests": {
+    "passed": 497,
+    "failed": 0,
+    "warnings": 1,
+    "seconds": 20.88,
+    "added": 0
+  },
+  "document_review": [
+    "Timer starts at definitive third loss settlement; expiry does not reset other risk states",
+    "Net zero breaks streak as baseline; first negative after reset counts 1",
+    "ATR14 on rolling 32 hourly candles; known baseline fee/spread/slippage; strict ratio > 1",
+    "A and B separate; combination C requires later approval",
+    "Metrics, missingness, resource limits, technical/risk stops and preregistration gates explicit",
+    "No new machine-executable interface or historical comparison"
+  ],
+  "files": {
+    "PHASE6G_RISK_RECOVERY_PROTOCOL.md": "e97e80318480371c30438d596f9fe28c267169e45855e6501643fe4631947aae",
+    "PHASE6G_ATR_COST_PROTOCOL.md": "9c0fff0ec185346d777c3feae7f64b368c740f18334f989966eb3a8b178dbbe8",
+    "PHASE6G_EXPERIMENT_PLAN.md": "0edd14f921dfd37b683097edda8d7464180b8b9400030cbef0d98bb389b4e38c",
+    "experiments/phase6g/baseline.json": "d68908bf5e3a4cf8a941766fe11676f18a1eba3995bde088127f7a572f6a331b",
+    "experiments/phase6g/verification.json": "c9914ca382606a21f175d0c963a3935df379d7adc0990b1e76aecd8997589f94",
+    "experiments/phase6g/tests.txt": "91a5d094bb046b21bd640be6bf2ddcf1e4e24cddaefa6ce07badcd102b754b17"
+  },
+  "integrity_statement": "Versioned Git and SHA-256 binding, not immutable external storage; future implementation/input seal/approval required before execution"
+}

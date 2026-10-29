@@ -1,0 +1,22 @@
+{
+  "mode": "verification",
+  "base_commit": "fed7ec29f13d0fe3742f811399a19a19ab5ac4c8",
+  "database_sha256": "fa2290c6352550186da5dd4750ad35077b4d9cf2cd2684322368eb96b28aadfa",
+  "wal_bytes": 0,
+  "prior_registrations_verified": true,
+  "limits": {
+    "seconds": 180,
+    "address_space_bytes": 1073741824
+  },
+  "elapsed_seconds": 12.612141302990494,
+  "peak_rss_kib": 12488,
+  "all_old_files_unchanged": true,
+  "database_unchanged": true,
+  "old_file_count": 377,
+  "new_historical_outcomes": 0,
+  "new_orders": 0,
+  "validation_2025_accessed": false,
+  "test_2026_accessed": false,
+  "variants_implemented": false,
+  "variants_activated": false
+}
