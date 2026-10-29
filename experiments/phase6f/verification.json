@@ -1,0 +1,29 @@
+{
+  "status": "verified_proposals_only",
+  "base_commit": "4f3e9a2675cca3ce6015609145380f3c161d4cc9",
+  "old_tracked_files_unchanged": 370,
+  "database_before_sha256": "fa2290c6352550186da5dd4750ad35077b4d9cf2cd2684322368eb96b28aadfa",
+  "database_after_sha256": "fa2290c6352550186da5dd4750ad35077b4d9cf2cd2684322368eb96b28aadfa",
+  "wal_bytes": 0,
+  "tests": {
+    "passed": 497,
+    "failed": 0,
+    "warnings": 1,
+    "seconds": 18.73,
+    "added": 0,
+    "reason_no_new_tests": "No new research interfaces or production code"
+  },
+  "limits": {
+    "seconds": 180,
+    "address_space_bytes": 1073741824
+  },
+  "elapsed_seconds": 42.26685134001309,
+  "peak_rss_kib": 12540,
+  "new_historical_comparisons": 0,
+  "new_historical_backtests": 0,
+  "new_orders": 0,
+  "validation_opened": false,
+  "independent_test_opened": false,
+  "all_proposals_inactive": true,
+  "known_export_limitation": "Preserved phase6E CSV has 576 rows with 34 fields versus 33 headers; proposals use existing JSON/report, no correction activated"
+}

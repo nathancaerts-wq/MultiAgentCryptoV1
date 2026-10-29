@@ -1,0 +1,36 @@
+{
+  "version": "phase6f-proposals-v1",
+  "status": "awaiting_explicit_approval_for_variant_implementation_and_tests",
+  "authorization": "User: Fase 6F Risk Recovery & Strategy Research and resume instruction; research preparation only, preserve existing rules/results, commit and push after checks; stop for approval",
+  "base_commit": "4f3e9a2675cca3ce6015609145380f3c161d4cc9",
+  "scope": {
+    "coins": [
+      "BTCEUR",
+      "ETHEUR",
+      "SOLEUR"
+    ],
+    "evidence": "Existing descriptive 2024 phase6E v4 only; no new outcome calculations",
+    "recovery": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "strategy": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "activation": false,
+    "period_authorizations": []
+  },
+  "source_manifest": "0d606b4adabd4ef611f855934baa0ae175560777138f93935edf730caab28dd2",
+  "files": {
+    "PHASE6F_RISK_RECOVERY_PROPOSAL.md": "3c7def36ddf08a7e2ee3c8c0d0e4c78ba8477e9b18a9fd015fe6ce85f4f5c9ba",
+    "PHASE6F_STRATEGY_CANDIDATES.md": "86a30e92313e107153d46a097d2c30e725a4a206975546f03fe99d30ffff1ec3",
+    "PHASE6F_RESEARCH_PLAN.md": "12c8f9445c348361525604a848afc851a8265c72eb8fcd7545d0341d2fe4ccaf",
+    "experiments/phase6f/baseline_integrity.json": "5ccefca4097b9a76e6d41e90adcdc4b0c9197eecb920c6e292859015da1fe35b",
+    "experiments/phase6f/tests.txt": "9cbaa28c67c6867a1e99e39386dfcfecb4d078fea1e6526d73949f405a07e2f5",
+    "experiments/phase6f/verification.json": "73219bcadee87359b8042521393a65934736662bc195cd5ec3c58d7e057f2aaa"
+  },
+  "immutability": "Git version and SHA-256 integrity binding; not WORM and not historical execution authorization"
+}
