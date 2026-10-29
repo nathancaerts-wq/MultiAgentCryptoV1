@@ -1,0 +1,33 @@
+{
+  "status": "blocked_before_adapter_and_replay",
+  "old_tracked_files": 392,
+  "all_registered_sources_verified": true,
+  "database_sha256": "fa2290c6352550186da5dd4750ad35077b4d9cf2cd2684322368eb96b28aadfa",
+  "wal_bytes": 0,
+  "historical_filter_status": {
+    "BTCEUR": {
+      "status": "assumed",
+      "known_at": null,
+      "valid_from": null,
+      "valid_until": null
+    },
+    "ETHEUR": {
+      "status": "assumed",
+      "known_at": null,
+      "valid_from": null,
+      "valid_until": null
+    },
+    "SOLEUR": {
+      "status": "assumed",
+      "known_at": null,
+      "valid_from": null,
+      "valid_until": null
+    }
+  },
+  "baseline_artifact_verified": true,
+  "baseline_replayed": false,
+  "variant_results": null,
+  "new_historical_outcomes": 0,
+  "seconds": 41.30332176000229,
+  "peak_rss_kib": 28400
+}

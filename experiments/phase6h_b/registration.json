@@ -1,0 +1,7 @@
+{
+  "manifest": "experiments/phase6h_b/manifest_467af4eded2a10f0d788d997c4f8a16deb1e234ad319a9c2399cc982313c7ccf.json",
+  "sha256": "467af4eded2a10f0d788d997c4f8a16deb1e234ad319a9c2399cc982313c7ccf",
+  "status": "blocked_before_adapter_and_replay",
+  "execution_started": false,
+  "approval_recorded": true
+}
