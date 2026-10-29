@@ -1,0 +1,33 @@
+{
+  "mode": "verification",
+  "base_commit": "baa1cb77d87be9b1f2569dcc6e15e2d4af00a512",
+  "database_sha256": "fa2290c6352550186da5dd4750ad35077b4d9cf2cd2684322368eb96b28aadfa",
+  "wal_bytes": 0,
+  "prior_registrations_verified": true,
+  "limits": {
+    "seconds": 180,
+    "address_space_bytes": 1073741824
+  },
+  "elapsed_seconds": 12.23946134300786,
+  "peak_rss_kib": 12488,
+  "all_old_files_unchanged": true,
+  "database_unchanged": true,
+  "old_file_count": 384,
+  "new_historical_outcomes": 0,
+  "new_orders": 0,
+  "validation_2025_accessed": false,
+  "test_2026_accessed": false,
+  "variants_implemented": true,
+  "variants_activated": false,
+  "implementation_scope": "Separate synthetic-only offline research class, opt-in; no existing bot activation",
+  "synthetic_tests_executed": true,
+  "new_orders_scope": "External or automatic paper orders; synthetic fills in temporary fixture databases are covered by tests",
+  "tests": {
+    "passed": 527,
+    "failed": 0,
+    "new": 30,
+    "existing_retained": 497,
+    "seconds": 19.88,
+    "warnings": 1
+  }
+}

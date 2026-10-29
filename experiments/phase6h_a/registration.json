@@ -1,0 +1,23 @@
+{
+  "version": "phase6h-a-implementation-v1",
+  "base_commit": "baa1cb77d87be9b1f2569dcc6e15e2d4af00a512",
+  "protocol": "phase6g-recovery24h-v1",
+  "protocol_sha256": "e97e80318480371c30438d596f9fe28c267169e45855e6501643fe4631947aae",
+  "authorization": "User: Fase 6H-A Risk Recovery Implementation; separate offline implementation and synthetic tests only; commit/push after checks; wait for 6H-B permission",
+  "synthetic_implementation_authorized": true,
+  "synthetic_tests_authorized": true,
+  "historical_execution_authorized": false,
+  "bot_activation": false,
+  "validation_2025_open": false,
+  "independent_test_2026_open": false,
+  "files": {
+    "PHASE6H_A_RISK_RECOVERY_IMPLEMENTATION_REPORT.md": "696caace27ff946cdca885f895e12259591f38b36f698e1d7e037b46c54c2f0f",
+    "crypto/recovery_research.py": "effe23770fd3a8ff6ee50e46a7a515c854a0607c71efa4ef3dbde852633cff3b",
+    "tests/test_recovery_research.py": "8c13127805847a8ae14cef02326dbddfbb4e8ffea8437c14e7bb5204ab588842",
+    "experiments/phase6h_a/baseline.json": "09325df8560fc24da403bc092809be82050e43414d377eed11ea594ba991f71e",
+    "experiments/phase6h_a/verification.json": "9cf83df7abea68993a1bdef68e79f15fb798fcc92e73d59de7458444cbf5b6b3",
+    "experiments/phase6h_a/targeted.txt": "19f235a5233157c8d5076a12501c133085e34b98902467fdc98a1b51ec8f8169",
+    "experiments/phase6h_a/tests.txt": "7c84e235bce5a2f1085a7b7853da119ee3b2871b35481995c8cbc0029fffb9c6"
+  },
+  "integrity": "Git-versioned SHA-256 evidence, not immutable external storage"
+}
